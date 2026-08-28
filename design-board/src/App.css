@@ -1,0 +1,255 @@
+:root {
+  --olive: #4a5240;
+  --black: #0a0a0a;
+  --charcoal: #2a2a2a;
+  --cream: #d6cfb5;
+  --gold: #d4af37;
+  --red: #c41e3a;
+  --bg: #1a1a18;
+  --surface: #242420;
+  --border: #3a3a34;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--cream);
+  line-height: 1.5;
+}
+
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.hex-logo {
+  width: 36px;
+  height: 36px;
+  background: var(--cream);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: var(--olive);
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--cream);
+}
+
+.subtitle {
+  color: #9a9588;
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.swatch {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.swatch span:first-child {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.mockup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.mockup-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.mockup-card:hover {
+  border-color: var(--gold);
+}
+
+.mockup-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  background: var(--charcoal);
+}
+
+.mockup-card.tall img {
+  aspect-ratio: 3 / 4;
+}
+
+.mockup-card.square img {
+  aspect-ratio: 1;
+}
+
+.mockup-info {
+  padding: 0.75rem 1rem;
+}
+
+.mockup-type {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+}
+
+.mockup-info h3 {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.collection-block {
+  margin-bottom: 2rem;
+}
+
+.collection-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.collection-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--cream);
+}
+
+.collection-theme {
+  font-size: 1.5rem;
+  color: var(--red);
+  font-weight: 300;
+}
+
+.kanji-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.kanji-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.kanji-char {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--red);
+  margin-bottom: 0.25rem;
+}
+
+.kanji-meta {
+  font-size: 0.8rem;
+  color: #9a9588;
+}
+
+.kanji-meta strong {
+  color: var(--cream);
+}
+
+.docs-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.docs-links a {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.docs-links a:hover {
+  border-color: var(--gold);
+}
+
+.recommendations {
+  background: var(--surface);
+  border: 1px solid var(--gold);
+  border-radius: 6px;
+  padding: 1.25rem;
+}
+
+.recommendations ol {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.recommendations li {
+  margin-bottom: 0.5rem;
+}
+
+.recommendations strong {
+  color: var(--gold);
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: #666;
+}
