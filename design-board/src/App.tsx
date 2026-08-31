@@ -236,8 +236,8 @@ function App() {
           <section>
             <h2>Running shirts &amp; tanks</h2>
             <p className="lede">
-              Back is the poster. Front is hex C only. Lightweight fabric. 走 is the only kanji on this line — Wave
-              only. Women Bloom / Dusk have no kanji.
+              v2 art direction (approve first): all-over dye-sub, blue-hour gradient, no embroidery patches. 走 is
+              printed in the dye. v1 charcoal tees below are superseded.
             </p>
             <MockGrid items={cultureMockups} />
           </section>
