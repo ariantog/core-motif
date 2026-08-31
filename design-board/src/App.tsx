@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import { LogoMark } from './components/LogoMark'
 import { collections, mockups, referenceSamples } from './data/kanji'
@@ -34,23 +35,27 @@ const logoConcepts = [
 ]
 
 function App() {
+  const [tab, setTab] = useState<Tab>('brand')
+
   return (
-    <div className="app">
+    <div className={`app theme-${tab}`}>
       <header>
         <div className="brand-mark">
           <LogoMark className="brand-logo" title="Corenation" />
           <div>
-            <h1>Corenation Men — Kanji Design Board</h1>
-            <p className="subtitle">Internal reference · @corenationmen · shopee.co.id/corenation</p>
+            <h1>Corenation Design Studio</h1>
+            <p className="subtitle">
+              Internal · @corenationactive · @corenationmen · @corenationhijab · shopee.co.id/corenation
+            </p>
           </div>
         </div>
-        <div className="palette">
-          <div className="swatch"><span style={{ background: '#4a5240' }} />Olive #4A5240</div>
-          <div className="swatch"><span style={{ background: '#0a0a0a' }} />Black</div>
-          <div className="swatch"><span style={{ background: '#d6cfb5' }} />Cream #D6CFB5</div>
-          <div className="swatch"><span style={{ background: '#d4af37' }} />Gold #D4AF37</div>
-          <div className="swatch"><span style={{ background: '#c41e3a' }} />Red #C41E3A</div>
-        </div>
+        <nav className="tabs" aria-label="Lines">
+          {TABS.map((t) => (
+            <button key={t.id} className={tab === t.id ? 'active' : ''} onClick={() => setTab(t.id)} type="button">
+              {t.label}
+            </button>
+          ))}
+        </nav>
       </header>
 
       <section>
@@ -105,80 +110,161 @@ function App() {
                 <div className="mockup-type">{m.type}</div>
                 <h3>{m.title}</h3>
               </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <h2>Reference Samples</h2>
-        <div className="mockup-grid">
-          {referenceSamples.map((r) => (
-            <article key={r.src} className="mockup-card">
-              <img src={r.src} alt={r.title} loading="lazy" />
-              <div className="mockup-info">
-                <h3>{r.title}</h3>
+              <div>
+                <h3>Use</h3>
+                <p>performance · training · built to move · quality fabric · everyday athlete</p>
               </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <h2>Kanji Collection</h2>
-        {collections.map((col) => (
-          <div key={col.name} className="collection-block">
-            <div className="collection-header">
-              <h3>{col.name}</h3>
-              <span className="collection-theme">{col.theme}</span>
             </div>
-            <div className="kanji-grid">
-              {col.items.map((k) => (
-                <article key={k.char} className="kanji-card">
-                  <div className="kanji-char">{k.char}</div>
-                  <div className="kanji-meta">
-                    <strong>{k.romanization}</strong> — {k.meaning}
-                    <br />
-                    Accent: {k.accent}
-                    <br />
-                    {k.applications}
-                  </div>
+          </section>
+          <section>
+            <h2>Channels</h2>
+            <ol className="channel-list">
+              <li>
+                <strong>Shopee</strong> — accs first (belts, gloves, straps, knee, bags). Apparel is image 4+ unless the
+                SKU is apparel.
+              </li>
+              <li>
+                <strong>Dept stores</strong> — apparel walks. Separate bays for men / women / hijab (Central GI, Muku
+                Pakuwon, Cilandak).
+              </li>
+              <li>
+                <strong>HQ padel</strong> — clubs pick fabric; hex C stays. Club name is secondary only.
+              </li>
+            </ol>
+          </section>
+          <section>
+            <h2>Playbook v2.0 — what staff got</h2>
+            <p className="lede">
+              v1.0 was men-kanji only. v2.0 adds brand direction, owners, women / hijab / Culture Run / padel, and
+              channel playbooks. Full ticks live in <code>docs/branding-checklist.md</code>.
+            </p>
+          </section>
+        </>
+      )}
+
+      {tab === 'men' && (
+        <>
+          <section>
+            <h2>Men kanji — product mockups</h2>
+            <Swatches
+              items={[
+                { hex: '#4a5240', name: 'Olive #4A5240' },
+                { hex: '#0a0a0a', name: 'Black' },
+                { hex: '#d6cfb5', name: 'Cream' },
+                { hex: '#d4af37', name: 'Gold' },
+                { hex: '#c41e3a', name: 'Red' },
+              ]}
+            />
+            <MockGrid items={menMockups} />
+          </section>
+          <section>
+            <h2>Your 龍 samples</h2>
+            <MockGrid items={referenceSamples} />
+          </section>
+          <section>
+            <h2>Kanji library (25 + 走)</h2>
+            {collections.map((col) => (
+              <div key={col.name} className="collection-block">
+                <div className="collection-header">
+                  <h3>{col.name}</h3>
+                  <span className="collection-theme">{col.theme}</span>
+                </div>
+                <div className="kanji-grid">
+                  {col.items.map((k) => (
+                    <article key={k.char} className="kanji-card">
+                      <div className="kanji-char">{k.char}</div>
+                      <div className="kanji-meta">
+                        <strong>{k.romanization}</strong> — {k.meaning}
+                        <br />
+                        Accent: {k.accent}
+                        <br />
+                        {k.applications}
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </section>
+        </>
+      )}
+
+      {tab === 'women' && (
+        <>
+          <section>
+            <h2>Theme lock</h2>
+            <div className="rule-grid">
+              {floralRules.map((r) => (
+                <article key={r.lock}>
+                  <h3>{r.lock}</h3>
+                  <p>{r.flower}</p>
                 </article>
               ))}
             </div>
-          </div>
-        ))}
-      </section>
+            <Swatches
+              items={[
+                { hex: '#e8a4b4', name: 'Sakura #E8A4B4' },
+                { hex: '#c45b78', name: 'Deep rose' },
+                { hex: '#c5b4d8', name: 'Lilac #C5B4D8' },
+                { hex: '#8b6fa8', name: 'Lavender' },
+                { hex: '#5c4a72', name: 'Dusk' },
+              ]}
+            />
+          </section>
+          <section>
+            <h2>Sakura (pink) + Lavender (lilac)</h2>
+            <MockGrid items={floralMockups} />
+          </section>
+        </>
+      )}
 
-      <section>
-        <h2>Recommended Next Drop</h2>
-        <div className="recommendations">
-          <p>Top 3 kanji for next production run (continuity from 龍 hero):</p>
-          <ol>
-            <li><strong>力 (Chikara — Power)</strong> — Universal lifting symbol; pairs with existing belt format; highest Shopee search intent for gym accessories.</li>
-            <li><strong>勝 (Shō — Victory)</strong> — Competition/PR narrative; natural shorts patch companion to 龍 dragon line.</li>
-            <li><strong>道 (Dō — The Way)</strong> — Brand philosophy piece; gold-on-olive belt colorway expands assortment without new palette.</li>
-          </ol>
-        </div>
-      </section>
+      {tab === 'culture' && (
+        <>
+          <section>
+            <h2>Running shirts &amp; tanks</h2>
+            <p className="lede">
+              v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
+              heatmap, suminagashi, watercolor wash. 走 is printed in the dye. Each drop is a folder under{' '}
+              <code>assets/culture-run/</code>.
+            </p>
+            <MockGrid items={cultureMockups} />
+          </section>
+          <section>
+            <h2>Print placements (send to factory)</h2>
+            <MockGrid items={culturePrints} />
+          </section>
+        </>
+      )}
 
-      <section>
-        <h2>Documentation</h2>
-        <div className="docs-links">
-          <a href="https://github.com" onClick={(e) => e.preventDefault()} title="See repo docs/kanji-design-collection.md">
-            kanji-design-collection.md
-          </a>
-          <a href="https://github.com" onClick={(e) => e.preventDefault()} title="See repo docs/branding-checklist.md">
-            branding-checklist.md
-          </a>
-        </div>
-        <p style={{ fontSize: '0.85rem', color: '#888', marginTop: '0.75rem' }}>
-          Full specs live in <code>/workspace/docs/</code> at repo root.
-        </p>
-      </section>
+      {tab === 'marks' && (
+        <>
+          <section>
+            <h2>Kanji cards + patches</h2>
+            <p className="lede">Correct Japanese forms for print / embroidery. Do not redraw from a phone screenshot.</p>
+            <div className="mark-grid">
+              {kanjiMarks.map((slug) => (
+                <article key={slug} className="mark-pair">
+                  <img src={`/assets/men-kanji/marks/card-${slug}.png`} alt={`Card ${slug}`} loading="lazy" />
+                  <img src={`/assets/men-kanji/marks/patch-${slug}.png`} alt={`Patch ${slug}`} loading="lazy" />
+                  <h3>{slug}</h3>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Floral sheets</h2>
+            <MockGrid
+              items={[
+                { src: '/assets/women-floral/marks/sakura-branch-sheet.png', title: 'Sakura branch — pink SKUs' },
+                { src: '/assets/women-floral/marks/lavender-spray-sheet.png', title: 'Lavender spray — lilac SKUs' },
+              ]}
+            />
+          </section>
+        </>
+      )}
 
       <footer>
-        Corenation Active · Men's Kanji Line · Internal design board v1.0
+        Corenation Active · Design studio v2.1 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )

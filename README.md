@@ -1,31 +1,42 @@
-# Corenation Men's Kanji Line — Design Deliverables
+# Corenation Design Studio
 
-Design and branding deliverables for **Corenation** (Indonesia) men's kanji sportswear and gym accessories.
+Brand direction, staff checklists, and design files for **Corenation Active** (Surabaya) — men kanji, women floral, Culture Run, hijab, and HQ / padel.
 
-## Deliverables
+## Positioning
 
-| Deliverable | Path |
-|-------------|------|
-| Kanji design collection (16 concepts) | [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) |
-| Staff branding checklist | [`docs/branding-checklist.md`](docs/branding-checklist.md) |
-| Product mockups (6 images) | [`assets/designs/`](assets/designs/) |
-| Internal design board (Vite) | [`design-board/`](design-board/) |
+Preferable performance (Adidas energy) — same fabric class as Nike / Adidas / Lululemon, not Alo Yoga luxury.
 
-## Design board (preview)
+## Docs (hand these to staff)
+
+| File | What it is |
+|------|------------|
+| [`docs/branding-checklist.md`](docs/branding-checklist.md) | **v2.0 playbook** — owners, language, line walls, Shopee / store / HQ ticks |
+| [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) | 25 men's kanji + 走 for running |
+| [`docs/floral-design-collection.md`](docs/floral-design-collection.md) | Sakura = pink · Lavender = lilac |
+| [`docs/culture-run-collection.md`](docs/culture-run-collection.md) | Culture Run v2 — gradient / brush / marble |
+| [`assets/README.md`](assets/README.md) | Folder map |
+
+## Visuals
+
+See [`assets/README.md`](assets/README.md). Short version:
+
+| Path | Contents |
+|------|----------|
+| `assets/culture-run/<drop>/` | Each running drop: garment + print |
+| `assets/men-kanji/` | Belts, apparel, accs, kanji marks |
+| `assets/women-floral/` | Sakura / lavender + flower sheets |
+| `assets/references/` | Original 龍 shorts + belt |
+
+## Design board
 
 ```bash
 cd design-board && npm install && npm run dev
 ```
 
-→ **http://localhost:5177**
+Open **http://localhost:5177** — tabs: Brand · Men Kanji · Women Floral · Culture Run · Production marks.
 
-## Brand channels
+## Channels
 
-- Instagram: [@corenationmen](https://instagram.com/corenationmen)
-- Shopee: [shopee.co.id/corenation](https://shopee.co.id/corenation)
-
-## Reference samples
-
-Original hero designs (龍 dragon) in `assets/`:
-- Athletic shorts mockup
-- Lifting belt mockup
+- [@corenationactive](https://instagram.com/corenationactive) · [@corenationmen](https://instagram.com/corenationmen) · [@corenationhijab](https://instagram.com/corenationhijab)
+- [shopee.co.id/corenation](https://shopee.co.id/corenation)
+- Offline: Central Grand Indonesia · Muku Pakuwon Surabaya · Cilandak Town Square
