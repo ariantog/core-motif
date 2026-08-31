@@ -237,7 +237,8 @@ function App() {
             <h2>Running shirts &amp; tanks</h2>
             <p className="lede">
               v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
-              heatmap, suminagashi. 走 is printed in the dye. Each drop is a folder under <code>assets/culture-run/</code>.
+              heatmap, suminagashi, watercolor wash. 走 is printed in the dye. Each drop is a folder under{' '}
+              <code>assets/culture-run/</code>.
             </p>
             <MockGrid items={cultureMockups} />
           </section>
@@ -276,7 +277,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.0 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.1 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )
