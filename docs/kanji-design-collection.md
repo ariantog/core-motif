@@ -413,8 +413,8 @@
 
 ### Production files
 
-Print-ready marks: `assets/marks/kanji/`  
-Product mockups: `assets/designs/`
+Print-ready marks: `assets/men-kanji/marks/`  
+Product mockups: `assets/men-kanji/belts/` · `apparel/` · `accessories/`
 
 ---
 

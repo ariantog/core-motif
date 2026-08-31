@@ -103,8 +103,8 @@ Do not launch Sakura Session and Lavender Dusk in the same week on the same grid
 - One color story per frame.
 - Training context. Sweat OK.
 
-Production marks: `assets/marks/floral/`  
-Mockups: `assets/designs/` (filenames `*-sakura-*` / `*-lavender-*`)
+Production marks: `assets/women-floral/marks/`  
+Mockups: `assets/women-floral/sakura/` and `assets/women-floral/lavender/`
 
 ---
 
