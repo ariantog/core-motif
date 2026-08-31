@@ -2,6 +2,37 @@ import './App.css'
 import { LogoMark } from './components/LogoMark'
 import { collections, mockups, referenceSamples } from './data/kanji'
 
+const logoConcepts = [
+  {
+    id: '01',
+    variant: 'core-cut' as const,
+    name: 'Core Cut',
+    description: 'A bold hexagonal C with a clean side cut. The N sits independently inside for maximum legibility.',
+    note: 'Best all-rounder',
+  },
+  {
+    id: '02',
+    variant: 'interlock' as const,
+    name: 'Interlock',
+    description: 'The C is built from three locked plates while the N bridges its open side. More technical and engineered.',
+    note: 'Best for equipment',
+  },
+  {
+    id: '03',
+    variant: 'velocity' as const,
+    name: 'Velocity',
+    description: 'A forward-leaning C and N with a compact athletic stance. Designed for apparel and performance products.',
+    note: 'Best for sportswear',
+  },
+  {
+    id: '04',
+    variant: 'core-block' as const,
+    name: 'Core Block',
+    description: 'A wide, stable C with a heavy inset N. The simplest option for embroidery, rubber patches, and small sizes.',
+    note: 'Best for production',
+  },
+]
+
 function App() {
   return (
     <div className="app">
@@ -23,44 +54,41 @@ function App() {
       </header>
 
       <section>
-        <h2>CN Logo — Hexagonal C + N</h2>
+        <h2>CN Monogram — New Directions</h2>
         <p className="section-lead">
-          The outer frame opens on the right so the mark reads as a stylized <strong>C</strong> wrapping the existing <strong>N</strong>.
+          Four rebuilt concepts using solid, intentional geometry. Each mark combines a clearly readable
+          <strong> C</strong> with an angular <strong>N</strong>—without looking like a damaged hexagon.
         </p>
-        <div className="logo-showcase">
-          <article className="logo-card">
-            <div className="logo-card-label">Before — closed hexagon</div>
-            <img src="/reference-original-hexagon.jpg" alt="Original Corenation hexagon logo with N inside" />
-          </article>
-          <article className="logo-card logo-card--new">
-            <div className="logo-card-label">After — hexagonal C + N</div>
-            <div className="logo-preview logo-preview--fabric">
-              <LogoMark className="logo-preview-mark" title="Corenation" />
-            </div>
-            <div className="logo-variant-row">
-              <div className="logo-variant">
-                <span>Cream on black</span>
-                <div className="logo-preview logo-preview--black">
-                  <LogoMark className="logo-preview-mark logo-preview-mark--cream" title="Corenation" />
+        <div className="concept-grid">
+          {logoConcepts.map((concept) => (
+            <article className="concept-card" key={concept.variant}>
+              <div className="concept-preview">
+                <span className="concept-number">{concept.id}</span>
+                <LogoMark
+                  className="concept-mark"
+                  title="Corenation"
+                  variant={concept.variant}
+                />
+              </div>
+              <div className="concept-copy">
+                <div className="concept-heading">
+                  <h3>{concept.name}</h3>
+                  <span>{concept.note}</span>
+                </div>
+                <p>{concept.description}</p>
+                <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
+                  <LogoMark title="Corenation" variant={concept.variant} />
+                  <LogoMark title="Corenation" variant={concept.variant} />
+                  <LogoMark title="Corenation" variant={concept.variant} />
+                  <strong>Small-size test</strong>
                 </div>
               </div>
-              <div className="logo-variant">
-                <span>White on olive</span>
-                <div className="logo-preview logo-preview--olive">
-                  <LogoMark className="logo-preview-mark logo-preview-mark--white" title="Corenation" />
-                </div>
-              </div>
-              <div className="logo-variant">
-                <span>Black on cream</span>
-                <div className="logo-preview logo-preview--cream">
-                  <LogoMark className="logo-preview-mark logo-preview-mark--black" title="Corenation" />
-                </div>
-              </div>
-            </div>
-          </article>
+            </article>
+          ))}
         </div>
         <p className="logo-note">
-          Vector files: <code>assets/logo/corenation-cn-logo.svg</code> (currentColor) plus cream, white, and black variants.
+          All four concepts are production-ready SVGs in <code>assets/logo/concepts/</code>.
+          Concept 01 is also exported as the current master in <code>assets/logo/corenation-cn-logo.svg</code>.
         </p>
       </section>
 

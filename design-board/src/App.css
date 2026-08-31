@@ -58,107 +58,115 @@ header {
   color: var(--cream);
 }
 
-.logo-showcase {
+.concept-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.25rem;
 }
 
-.logo-card {
+.concept-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 10px;
   overflow: hidden;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.logo-card--new {
+.concept-card:hover {
   border-color: var(--gold);
+  transform: translateY(-2px);
 }
 
-.logo-card-label {
-  padding: 0.65rem 1rem;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--gold);
+.concept-preview {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 330px;
+  color: var(--cream);
+  background:
+    radial-gradient(circle at 50% 42%, rgba(214, 207, 181, 0.08), transparent 34%),
+    linear-gradient(145deg, #171715 0%, #090909 100%);
   border-bottom: 1px solid var(--border);
 }
 
-.logo-card img {
-  width: 100%;
-  display: block;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+.concept-number {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font: 600 0.68rem/1 'Segoe UI', sans-serif;
+  letter-spacing: 0.14em;
+  color: #69685f;
 }
 
-.logo-preview {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 200px;
-  padding: 2rem;
-}
-
-.logo-preview--fabric {
-  background:
-    radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.08), transparent 45%),
-    linear-gradient(145deg, #1f1f1f 0%, #0a0a0a 55%, #151515 100%);
-}
-
-.logo-preview--black {
-  background: var(--black);
-}
-
-.logo-preview--olive {
-  background: var(--olive);
-}
-
-.logo-preview--cream {
-  background: var(--cream);
-}
-
-.logo-preview-mark {
-  width: min(160px, 55vw);
+.concept-mark {
+  width: min(210px, 62%);
   height: auto;
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.38));
 }
 
-.logo-preview-mark--cream {
+.concept-copy {
+  padding: 1rem 1.1rem 1.1rem;
+}
+
+.concept-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.concept-heading h3 {
+  margin: 0;
+  color: var(--cream);
+  font-size: 1.08rem;
+  letter-spacing: 0.04em;
+}
+
+.concept-heading span {
+  flex-shrink: 0;
+  color: var(--gold);
+  font-size: 0.63rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.concept-copy p {
+  min-height: 3.6em;
+  margin: 0.6rem 0 1rem;
+  color: #9a9588;
+  font-size: 0.82rem;
+}
+
+.concept-small-scale {
+  display: flex;
+  align-items: end;
+  gap: 0.75rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
   color: var(--cream);
 }
 
-.logo-preview-mark--white {
-  color: #fff;
+.concept-small-scale svg:nth-child(1) {
+  width: 42px;
 }
 
-.logo-preview-mark--black {
-  color: var(--black);
+.concept-small-scale svg:nth-child(2) {
+  width: 30px;
 }
 
-.logo-variant-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.75rem;
-  padding: 0 1rem 1rem;
+.concept-small-scale svg:nth-child(3) {
+  width: 20px;
 }
 
-.logo-variant span {
-  display: block;
-  font-size: 0.65rem;
-  text-transform: uppercase;
+.concept-small-scale strong {
+  margin-left: auto;
+  color: #69685f;
+  font-size: 0.6rem;
+  font-weight: 500;
   letter-spacing: 0.08em;
-  color: #888;
-  margin-bottom: 0.35rem;
-}
-
-.logo-variant .logo-preview {
-  min-height: 110px;
-  padding: 1rem;
-  border-radius: 4px;
-  border: 1px solid var(--border);
-}
-
-.logo-variant .logo-preview-mark {
-  width: 72px;
+  text-transform: uppercase;
 }
 
 .logo-note {
@@ -172,8 +180,12 @@ header {
 }
 
 @media (max-width: 720px) {
-  .logo-variant-row {
+  .concept-grid {
     grid-template-columns: 1fr;
+  }
+
+  .concept-preview {
+    min-height: 260px;
   }
 }
 

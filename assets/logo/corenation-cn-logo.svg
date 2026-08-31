@@ -1,18 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="Corenation CN logo">
-  <!-- Hexagonal C frame: open on the right so the mark reads as C + N -->
-  <path
-    d="M 82 24 L 35 15 L 15 60 L 35 105 L 82 96"
-    stroke="currentColor"
-    stroke-width="10"
-    stroke-linecap="square"
-    stroke-linejoin="miter"
-  />
-  <!-- Stylized N (unchanged character; sits inside the C) -->
-  <path
-    d="M 40 32 L 40 88 M 40 32 L 72 88 M 72 32 L 72 88"
-    stroke="currentColor"
-    stroke-width="8"
-    stroke-linecap="square"
-    stroke-linejoin="miter"
-  />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">Corenation CN logo</title>
+  <g fill="currentColor">
+    <path d="M143 40 88 8 25 39 12 80l13 41 63 31 55-32-13-22-43 25-38-19-6-24 6-24 38-19 43 25Z"/>
+    <path d="M58 106V54h18l28 39V54h18v52h-18L76 67v39Z"/>
+  </g>
 </svg>
