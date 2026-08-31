@@ -71,25 +71,25 @@ export const collections: { name: string; theme: string; items: Concept[] }[] = 
 ]
 
 export const menMockups: Mockup[] = [
-  { src: '/assets/designs/belt-kanji-chikara-power.png', title: 'Lifting Belt — 力 Power', type: 'Belt', line: 'men' },
-  { src: '/assets/designs/belt-kanji-dō-path.png', title: 'Lifting Belt — 道 The Way', type: 'Belt', line: 'men' },
-  { src: '/assets/designs/belt-kanji-kyoku-extreme.png', title: 'Lifting Belt — 極 Extreme', type: 'Belt', line: 'men' },
-  { src: '/assets/designs/belt-kanji-tamashii-soul.png', title: 'Lifting Belt — 魂 Soul', type: 'Belt', line: 'men' },
-  { src: '/assets/designs/shorts-kanji-shō-victory.png', title: 'Training Shorts — 勝 Victory', type: 'Apparel', line: 'men' },
-  { src: '/assets/designs/shorts-kanji-tan-forge.png', title: 'Training Shorts — 鍛 Forge', type: 'Apparel', line: 'men' },
-  { src: '/assets/designs/tee-kanji-bu-warrior.png', title: 'Performance Tee — 武 Warrior', type: 'Apparel', line: 'men' },
-  { src: '/assets/designs/tee-kanji-to-fight.png', title: 'Performance Tee — 闘 Fight', type: 'Apparel', line: 'men' },
-  { src: '/assets/designs/tank-kanji-ki-energy.png', title: 'Training Tank — 気 Energy', type: 'Apparel', line: 'men' },
-  { src: '/assets/designs/gloves-kanji-rai-thunder.png', title: 'Training Gloves — 雷 Thunder', type: 'Accessory', line: 'men' },
-  { src: '/assets/designs/gloves-kanji-ken-fist.png', title: 'Training Gloves — 拳 Fist', type: 'Accessory', line: 'men' },
-  { src: '/assets/designs/knee-support-kanji-fū-wind.png', title: 'Knee Support — 風 Wind', type: 'Accessory', line: 'men' },
-  { src: '/assets/designs/bag-hyrox-kanji-kyoku.png', title: 'Hyrox Bag — 極 Extreme', type: 'Accessory', line: 'men' },
-  { src: '/assets/designs/straps-kanji-hagane-steel.png', title: 'Lifting Straps — 鋼 Steel', type: 'Accessory', line: 'men' },
+  { src: '/assets/men-kanji/belts/belt-kanji-chikara-power.png', title: 'Lifting Belt — 力 Power', type: 'Belt', line: 'men' },
+  { src: '/assets/men-kanji/belts/belt-kanji-do-path.png', title: 'Lifting Belt — 道 The Way', type: 'Belt', line: 'men' },
+  { src: '/assets/men-kanji/belts/belt-kanji-kyoku-extreme.png', title: 'Lifting Belt — 極 Extreme', type: 'Belt', line: 'men' },
+  { src: '/assets/men-kanji/belts/belt-kanji-tamashii-soul.png', title: 'Lifting Belt — 魂 Soul', type: 'Belt', line: 'men' },
+  { src: '/assets/men-kanji/apparel/shorts-kanji-sho-victory.png', title: 'Training Shorts — 勝 Victory', type: 'Apparel', line: 'men' },
+  { src: '/assets/men-kanji/apparel/shorts-kanji-tan-forge.png', title: 'Training Shorts — 鍛 Forge', type: 'Apparel', line: 'men' },
+  { src: '/assets/men-kanji/apparel/tee-kanji-bu-warrior.png', title: 'Performance Tee — 武 Warrior', type: 'Apparel', line: 'men' },
+  { src: '/assets/men-kanji/apparel/tee-kanji-to-fight.png', title: 'Performance Tee — 闘 Fight', type: 'Apparel', line: 'men' },
+  { src: '/assets/men-kanji/apparel/tank-kanji-ki-energy.png', title: 'Training Tank — 気 Energy', type: 'Apparel', line: 'men' },
+  { src: '/assets/men-kanji/accessories/gloves-kanji-rai-thunder.png', title: 'Training Gloves — 雷 Thunder', type: 'Accessory', line: 'men' },
+  { src: '/assets/men-kanji/accessories/gloves-kanji-ken-fist.png', title: 'Training Gloves — 拳 Fist', type: 'Accessory', line: 'men' },
+  { src: '/assets/men-kanji/accessories/knee-support-kanji-fu-wind.png', title: 'Knee Support — 風 Wind', type: 'Accessory', line: 'men' },
+  { src: '/assets/men-kanji/accessories/bag-hyrox-kanji-kyoku.png', title: 'Hyrox Bag — 極 Extreme', type: 'Accessory', line: 'men' },
+  { src: '/assets/men-kanji/accessories/straps-kanji-hagane-steel.png', title: 'Lifting Straps — 鋼 Steel', type: 'Accessory', line: 'men' },
 ]
 
 export const referenceSamples: Mockup[] = [
-  { src: '/assets/7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg', title: 'Reference — Dragon Shorts (龍)', type: 'Reference', line: 'ref' },
-  { src: '/assets/79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg', title: 'Reference — Dragon Belt (龍)', type: 'Reference', line: 'ref' },
+  { src: '/assets/references/dragon-shorts-ryu.jpg', title: 'Reference — Dragon Shorts (龍)', type: 'Reference', line: 'ref' },
+  { src: '/assets/references/dragon-belt-ryu.jpg', title: 'Reference — Dragon Belt (龍)', type: 'Reference', line: 'ref' },
 ]
 
 export const kanjiMarks = [

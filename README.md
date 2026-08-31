@@ -13,17 +13,19 @@ Preferable performance (Adidas energy) — same fabric class as Nike / Adidas / 
 | [`docs/branding-checklist.md`](docs/branding-checklist.md) | **v2.0 playbook** — owners, language, line walls, Shopee / store / HQ ticks |
 | [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) | 25 men's kanji + 走 for running |
 | [`docs/floral-design-collection.md`](docs/floral-design-collection.md) | Sakura = pink · Lavender = lilac |
-| [`docs/culture-run-collection.md`](docs/culture-run-collection.md) | Wave / Summit / Bloom Path / Dusk / Home Soil |
+| [`docs/culture-run-collection.md`](docs/culture-run-collection.md) | Culture Run v2 — gradient / brush / marble |
+| [`assets/README.md`](assets/README.md) | Folder map |
 
 ## Visuals
 
+See [`assets/README.md`](assets/README.md). Short version:
+
 | Path | Contents |
 |------|----------|
-| `assets/designs/` | Product mockups (belts, shorts, tees, tanks, gloves, bags, Culture Run) |
-| `assets/marks/kanji/` | Print-ready cards + patches (correct Japanese forms) |
-| `assets/marks/floral/` | Sakura branch + lavender spray sheets |
-| `assets/marks/culture/` | Back-print placements |
-| `assets/*.jpg` | Your original 龍 shorts + belt samples |
+| `assets/culture-run/<drop>/` | Each running drop: garment + print |
+| `assets/men-kanji/` | Belts, apparel, accs, kanji marks |
+| `assets/women-floral/` | Sakura / lavender + flower sheets |
+| `assets/references/` | Original 龍 shorts + belt |
 
 ## Design board
 

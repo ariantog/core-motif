@@ -236,8 +236,8 @@ function App() {
           <section>
             <h2>Running shirts &amp; tanks</h2>
             <p className="lede">
-              v2 art direction (approve first): all-over dye-sub, blue-hour gradient, no embroidery patches. 走 is
-              printed in the dye. v1 charcoal tees below are superseded.
+              v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
+              heatmap, suminagashi. 走 is printed in the dye. Each drop is a folder under <code>assets/culture-run/</code>.
             </p>
             <MockGrid items={cultureMockups} />
           </section>
@@ -256,8 +256,8 @@ function App() {
             <div className="mark-grid">
               {kanjiMarks.map((slug) => (
                 <article key={slug} className="mark-pair">
-                  <img src={`/assets/marks/kanji/card-${slug}.png`} alt={`Card ${slug}`} loading="lazy" />
-                  <img src={`/assets/marks/kanji/patch-${slug}.png`} alt={`Patch ${slug}`} loading="lazy" />
+                  <img src={`/assets/men-kanji/marks/card-${slug}.png`} alt={`Card ${slug}`} loading="lazy" />
+                  <img src={`/assets/men-kanji/marks/patch-${slug}.png`} alt={`Patch ${slug}`} loading="lazy" />
                   <h3>{slug}</h3>
                 </article>
               ))}
@@ -267,8 +267,8 @@ function App() {
             <h2>Floral sheets</h2>
             <MockGrid
               items={[
-                { src: '/assets/marks/floral/sakura-branch-sheet.png', title: 'Sakura branch — pink SKUs' },
-                { src: '/assets/marks/floral/lavender-spray-sheet.png', title: 'Lavender spray — lilac SKUs' },
+                { src: '/assets/women-floral/marks/sakura-branch-sheet.png', title: 'Sakura branch — pink SKUs' },
+                { src: '/assets/women-floral/marks/lavender-spray-sheet.png', title: 'Lavender spray — lilac SKUs' },
               ]}
             />
           </section>

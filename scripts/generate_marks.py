@@ -9,10 +9,9 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path("/workspace")
-MARKS = ROOT / "assets" / "marks"
-KANJI_DIR = MARKS / "kanji"
-FLORAL_DIR = MARKS / "floral"
-CULTURE_DIR = MARKS / "culture"
+KANJI_DIR = ROOT / "assets" / "men-kanji" / "marks"
+FLORAL_DIR = ROOT / "assets" / "women-floral" / "marks"
+CULTURE_DIR = ROOT / "assets" / "culture-run" / "_generated"
 
 OLIVE = (74, 82, 64)
 BLACK = (10, 10, 10)
