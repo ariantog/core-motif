@@ -10,4 +10,4 @@ npm run dev
 
 **http://localhost:5177**
 
-Assets are served from `public/assets` → `/workspace/assets`.
+Assets are served from `public/assets` → `/workspace/assets` (see `assets/README.md` for the folder map).
