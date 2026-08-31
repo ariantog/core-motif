@@ -312,9 +312,11 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 - [ ] Copy is pace, session, community run. Use: *run the city, keep the line, dawn club.* Not *conquer nations*, not luxury marathon.
 - [ ] Fabric looks **light** in photos (mesh, singlet, split hem). If it photographs like a lifting tee, recut or relight.
 - [ ] Graphic is one idea: Wave (走), Summit, Bloom Path (women), Dusk Lilac (women), Home Soil.
-- [ ] Placement: back is the poster; front is hex C + short wordmark only. No second hero on the chest.
-- [ ] Men Culture Run may use 走. Women Culture Run may use blossom/lavender **as the graphic**, still no kanji patch.
-- [ ] Palette: charcoal / ink / cream / red for men; sakura or lilac grounds for women. Olive only as a small trim.
+- [ ] **No embroidery patches** on running SKUs. Hex C + 走 + waves are **print / dye-sub** only (raised heat-transfer is OK if it looks printed, not a sewn badge).
+- [ ] **Gradation required** on v2 pieces (Nedao Vortex / Aurora / Blue Hour energy). Do not ship a solid charcoal tee with a sticker graphic.
+- [ ] Placement: all-over color; 走 or the culture graphic lives in the dye on the back. Front stays quiet (printed hex C + wordmark).
+- [ ] Men Culture Run may use 走. Women Culture Run may use blossom/lavender **as printed color**, still no kanji patch.
+- [ ] Olive tactical stays on the lifting line.
 
 ### Shot list
 
