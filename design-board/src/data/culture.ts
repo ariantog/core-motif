@@ -13,6 +13,10 @@ export const cultureMockups: Mockup[] = [
   { src: '/assets/culture-run/moss-current/tee.png', title: 'Moss Current', type: 'Men tee · mineral marble', line: 'culture' },
   { src: '/assets/culture-run/sandstone-sumi/tank.png', title: 'Sandstone Sumi', type: 'Men tank · earth suminagashi', line: 'culture' },
   { src: '/assets/culture-run/cacao-route/tank.png', title: 'Cacao Route', type: 'Women tank · earth route marble', line: 'culture' },
+  { src: '/assets/culture-run/bumi-watercolor/singlet.png', title: 'Bumi Watercolor', type: 'Unisex singlet · earth wash', line: 'culture' },
+  { src: '/assets/culture-run/moss-watercolor/tee.png', title: 'Moss Watercolor', type: 'Men tee · current wash', line: 'culture' },
+  { src: '/assets/culture-run/sand-wave-watercolor/tank.png', title: 'Sand Wave Watercolor', type: 'Men tank · wave wash', line: 'culture' },
+  { src: '/assets/culture-run/cacao-watercolor/tank.png', title: 'Cacao Watercolor Route', type: 'Women tank · route wash', line: 'culture' },
 ]
 
 export const culturePrints = [
@@ -28,4 +32,8 @@ export const culturePrints = [
   { src: '/assets/culture-run/moss-current/print.png', title: 'Print — Moss Current' },
   { src: '/assets/culture-run/sandstone-sumi/print.png', title: 'Print — Sandstone Sumi' },
   { src: '/assets/culture-run/cacao-route/print.png', title: 'Print — Cacao Route' },
+  { src: '/assets/culture-run/bumi-watercolor/print.png', title: 'Print — Bumi Watercolor' },
+  { src: '/assets/culture-run/moss-watercolor/print.png', title: 'Print — Moss Watercolor' },
+  { src: '/assets/culture-run/sand-wave-watercolor/print.png', title: 'Print — Sand Wave Watercolor' },
+  { src: '/assets/culture-run/cacao-watercolor/print.png', title: 'Print — Cacao Watercolor Route' },
 ]
