@@ -13,24 +13,15 @@
 
 v1.0 was a strong **men's kanji** ops list. It did not give the company a brand direction, or checklists the other teams can run. Revisions:
 
-1. **Brand direction added at the top** — "preferable, not premium" (Adidas energy, not Alo Yoga). This was the stated weakness; v1.0 jumped straight into kanji rules.
-2. **Language bank** — banned words (`premium`, `luxury`, `exclusive`, `elevated`) and replacements. Website/about copy still says *premium lokal*; marketing must stop repeating it.
-3. **Owners on every section** — so you can hand a page to one person. If two names are listed, both must sign.
-4. **Women's floral checklist added** — sakura = pink SKUs, lavender = lilac SKUs. v1.0 only said "create later."
-5. **Hijab / modest checklist added** — @corenationhijab is a real channel; it had zero rules.
-6. **Culture Run checklist added** — running shirts/tanks with cultural graphics (not lifting patches).
-7. **HQ / padel brand guardrails added** — clubs pick fabrics; they do **not** rewrite the brand.
-8. **Channel playbooks** — marketplace (accs), dept store (apparel), HQ (custom). Different photos, titles, and restock rules.
-9. **Kanji form lock** — Japanese forms only (`龍` not Chinese simplified `龙`). Native-speaker check stays mandatory.
-10. **Three Instagram accounts** — what each posts, when to cross-tag, what never to mix.
-
-Design specs live in:
-
-| Line | Spec doc |
-|------|----------|
-| Men kanji | `docs/kanji-design-collection.md` |
-| Women floral | `docs/floral-design-collection.md` |
-| Culture Run | `docs/culture-run-collection.md` |
+### Visual Rules
+- [ ] Base colors: olive `#4A5240`, black, charcoal grey — max 3 structural colors per piece.
+- [ ] Accent colors: cream `#D6CFB5`, gold `#D4AF37`, red `#C41E3A` — **one hero accent** per product face.
+- [ ] Hexagonal **CN** logo (C frame + N inside) present on belts and primary apparel (waistband or hem).
+- [ ] Kanji on apparel uses **black rectangular patch** (shorts/tees) or **gold/cream on dark overlay** (belts).
+- [ ] Kanji stroke style: bold brush on belts; clean bold strokes on small patches (legibility at 3m).
+- [ ] Wordmark: `CORENATION` or `CORE NATION` — all caps, wide sans-serif only.
+- [ ] No more than **one hero kanji** per visible product panel.
+- [ ] Mesh panels stay **kanji-free** (charcoal strip + black mesh at hem only).
 
 ---
 

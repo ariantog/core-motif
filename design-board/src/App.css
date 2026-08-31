@@ -58,18 +58,152 @@ header {
   margin-bottom: 1rem;
 }
 
-.hex-logo {
-  width: 36px;
-  height: 36px;
-  background: var(--cream);
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  color: var(--olive);
-  font-size: 1.1rem;
+.brand-logo {
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
+  color: var(--cream);
+}
+
+.section-lead {
+  margin: -0.25rem 0 1.25rem;
+  color: #9a9588;
+  max-width: 52rem;
+}
+
+.section-lead strong {
+  color: var(--cream);
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.concept-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.concept-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.concept-preview {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 330px;
+  color: var(--cream);
+  background:
+    radial-gradient(circle at 50% 42%, rgba(214, 207, 181, 0.08), transparent 34%),
+    linear-gradient(145deg, #171715 0%, #090909 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.concept-number {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font: 600 0.68rem/1 'Segoe UI', sans-serif;
+  letter-spacing: 0.14em;
+  color: #69685f;
+}
+
+.concept-mark {
+  width: min(210px, 62%);
+  height: auto;
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.38));
+}
+
+.concept-copy {
+  padding: 1rem 1.1rem 1.1rem;
+}
+
+.concept-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.concept-heading h3 {
+  margin: 0;
+  color: var(--cream);
+  font-size: 1.08rem;
+  letter-spacing: 0.04em;
+}
+
+.concept-heading span {
+  flex-shrink: 0;
+  color: var(--gold);
+  font-size: 0.63rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.concept-copy p {
+  min-height: 3.6em;
+  margin: 0.6rem 0 1rem;
+  color: #9a9588;
+  font-size: 0.82rem;
+}
+
+.concept-small-scale {
+  display: flex;
+  align-items: end;
+  gap: 0.75rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border);
+  color: var(--cream);
+}
+
+.concept-small-scale svg:nth-child(1) {
+  width: 42px;
+}
+
+.concept-small-scale svg:nth-child(2) {
+  width: 30px;
+}
+
+.concept-small-scale svg:nth-child(3) {
+  width: 20px;
+}
+
+.concept-small-scale strong {
+  margin-left: auto;
+  color: #69685f;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.logo-note {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.logo-note code {
+  color: var(--cream);
+}
+
+@media (max-width: 720px) {
+  .concept-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .concept-preview {
+    min-height: 260px;
+  }
 }
 
 h1 {

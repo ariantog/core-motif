@@ -1,56 +1,38 @@
 import { useState } from 'react'
 import './App.css'
-import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
-import { floralMockups, floralRules } from './data/floral'
-import { cultureMockups, culturePrints } from './data/culture'
+import { LogoMark } from './components/LogoMark'
+import { collections, mockups, referenceSamples } from './data/kanji'
 
-type Tab = 'brand' | 'men' | 'women' | 'culture' | 'marks'
-
-const TABS: { id: Tab; label: string }[] = [
-  { id: 'brand', label: 'Brand' },
-  { id: 'men', label: 'Men Kanji' },
-  { id: 'women', label: 'Women Floral' },
-  { id: 'culture', label: 'Culture Run' },
-  { id: 'marks', label: 'Production marks' },
+const logoConcepts = [
+  {
+    id: '01',
+    variant: 'core-cut' as const,
+    name: 'Core Cut',
+    description: 'A bold hexagonal C with a clean side cut. The N sits independently inside for maximum legibility.',
+    note: 'Best all-rounder',
+  },
+  {
+    id: '02',
+    variant: 'interlock' as const,
+    name: 'Interlock',
+    description: 'The C is built from three locked plates while the N bridges its open side. More technical and engineered.',
+    note: 'Best for equipment',
+  },
+  {
+    id: '03',
+    variant: 'velocity' as const,
+    name: 'Velocity',
+    description: 'A forward-leaning C and N with a compact athletic stance. Designed for apparel and performance products.',
+    note: 'Best for sportswear',
+  },
+  {
+    id: '04',
+    variant: 'core-block' as const,
+    name: 'Core Block',
+    description: 'A wide, stable C with a heavy inset N. The simplest option for embroidery, rubber patches, and small sizes.',
+    note: 'Best for production',
+  },
 ]
-
-function Swatches({ items }: { items: { hex: string; name: string }[] }) {
-  return (
-    <div className="palette">
-      {items.map((s) => (
-        <div className="swatch" key={s.name}>
-          <span style={{ background: s.hex }} />
-          {s.name}
-        </div>
-      ))}
-    </div>
-  )
-}
-
-function MockGrid({
-  items,
-  tallHint,
-}: {
-  items: { src: string; title: string; type?: string }[]
-  tallHint?: boolean
-}) {
-  return (
-    <div className="mockup-grid">
-      {items.map((m) => (
-        <article
-          key={m.src}
-          className={`mockup-card${tallHint && (m.title.includes('Tee') || m.title.includes('Tank')) ? ' tall' : ''}`}
-        >
-          <img src={m.src} alt={m.title} loading="lazy" />
-          <div className="mockup-info">
-            {m.type ? <div className="mockup-type">{m.type}</div> : null}
-            <h3>{m.title}</h3>
-          </div>
-        </article>
-      ))}
-    </div>
-  )
-}
 
 function App() {
   const [tab, setTab] = useState<Tab>('brand')
@@ -59,7 +41,7 @@ function App() {
     <div className={`app theme-${tab}`}>
       <header>
         <div className="brand-mark">
-          <div className="hex-logo">C</div>
+          <LogoMark className="brand-logo" title="Corenation" />
           <div>
             <h1>Corenation Design Studio</h1>
             <p className="subtitle">
@@ -76,52 +58,57 @@ function App() {
         </nav>
       </header>
 
-      {tab === 'brand' && (
-        <>
-          <section>
-            <h2>Preferable, not premium</h2>
-            <p className="lede">
-              Same class of fabric as Nike / Adidas / Lululemon. Priced so people buy it twice. Styled like Adidas —
-              locker room, not marble spa. Never Alo Yoga luxury language.
-            </p>
-            <Swatches
-              items={[
-                { hex: '#4a5240', name: 'Olive men' },
-                { hex: '#d6cfb5', name: 'Cream' },
-                { hex: '#d4af37', name: 'Gold' },
-                { hex: '#c41e3a', name: 'Red' },
-                { hex: '#e8a4b4', name: 'Sakura pink' },
-                { hex: '#c5b4d8', name: 'Lilac' },
-              ]}
-            />
-          </section>
-          <section>
-            <h2>Line walls</h2>
-            <div className="rule-grid">
-              <article>
-                <h3>Men · @corenationmen</h3>
-                <p>One Japanese kanji. Olive / black. No flowers, no simplified 龙.</p>
-              </article>
-              <article>
-                <h3>Women · @corenationactive</h3>
-                <p>Pink = sakura. Lilac = lavender. No kanji patches.</p>
-              </article>
-              <article>
-                <h3>Hijab · @corenationhijab</h3>
-                <p>Modest coverage. Floral or clean. No warrior copy.</p>
-              </article>
-              <article>
-                <h3>Culture Run</h3>
-                <p>Back graphic on a running shirt. Wave / Summit / Bloom / Dusk / Home Soil.</p>
-              </article>
-            </div>
-          </section>
-          <section>
-            <h2>Words</h2>
-            <div className="two-col">
-              <div>
-                <h3>Never</h3>
-                <p>premium · luxury · exclusive · elevated · atelier · couture</p>
+      <section>
+        <h2>CN Monogram — New Directions</h2>
+        <p className="section-lead">
+          Four rebuilt concepts using solid, intentional geometry. Each mark combines a clearly readable
+          <strong> C</strong> with an angular <strong>N</strong>—without looking like a damaged hexagon.
+        </p>
+        <div className="concept-grid">
+          {logoConcepts.map((concept) => (
+            <article className="concept-card" key={concept.variant}>
+              <div className="concept-preview">
+                <span className="concept-number">{concept.id}</span>
+                <LogoMark
+                  className="concept-mark"
+                  title="Corenation"
+                  variant={concept.variant}
+                />
+              </div>
+              <div className="concept-copy">
+                <div className="concept-heading">
+                  <h3>{concept.name}</h3>
+                  <span>{concept.note}</span>
+                </div>
+                <p>{concept.description}</p>
+                <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
+                  <LogoMark title="Corenation" variant={concept.variant} />
+                  <LogoMark title="Corenation" variant={concept.variant} />
+                  <LogoMark title="Corenation" variant={concept.variant} />
+                  <strong>Small-size test</strong>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+        <p className="logo-note">
+          All four concepts are production-ready SVGs in <code>assets/logo/concepts/</code>.
+          Concept 01 is also exported as the current master in <code>assets/logo/corenation-cn-logo.svg</code>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Design Mockups</h2>
+        <div className="mockup-grid">
+          {mockups.map((m) => (
+            <article
+              key={m.src}
+              className={`mockup-card${m.type === 'Apparel' && m.title.includes('Tee') ? ' tall' : m.type === 'Accessory' ? ' square' : ''}`}
+            >
+              <img src={m.src} alt={m.title} loading="lazy" />
+              <div className="mockup-info">
+                <div className="mockup-type">{m.type}</div>
+                <h3>{m.title}</h3>
               </div>
               <div>
                 <h3>Use</h3>
