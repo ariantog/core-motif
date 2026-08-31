@@ -9,6 +9,10 @@ export const cultureMockups: Mockup[] = [
   { src: '/assets/culture-run/home-soil-dawn/singlet.png', title: 'Home Soil Dawn', type: 'Unisex singlet · brushed', line: 'culture' },
   { src: '/assets/culture-run/heatmap-marble/singlet.png', title: 'Heatmap Marble', type: 'Men singlet · marble', line: 'culture' },
   { src: '/assets/culture-run/ink-marble/singlet.png', title: 'Ink Marble', type: 'Men singlet · suminagashi', line: 'culture' },
+  { src: '/assets/culture-run/bumi-strata/singlet.png', title: 'Bumi Strata', type: 'Unisex singlet · earth brushed', line: 'culture' },
+  { src: '/assets/culture-run/moss-current/tee.png', title: 'Moss Current', type: 'Men tee · mineral marble', line: 'culture' },
+  { src: '/assets/culture-run/sandstone-sumi/tank.png', title: 'Sandstone Sumi', type: 'Men tank · earth suminagashi', line: 'culture' },
+  { src: '/assets/culture-run/cacao-route/tank.png', title: 'Cacao Route', type: 'Women tank · earth route marble', line: 'culture' },
 ]
 
 export const culturePrints = [
@@ -20,4 +24,8 @@ export const culturePrints = [
   { src: '/assets/culture-run/home-soil-dawn/print.png', title: 'Print — Home Soil Dawn' },
   { src: '/assets/culture-run/heatmap-marble/print.png', title: 'Print — Heatmap Marble' },
   { src: '/assets/culture-run/ink-marble/print.png', title: 'Print — Ink Marble' },
+  { src: '/assets/culture-run/bumi-strata/print.png', title: 'Print — Bumi Strata' },
+  { src: '/assets/culture-run/moss-current/print.png', title: 'Print — Moss Current' },
+  { src: '/assets/culture-run/sandstone-sumi/print.png', title: 'Print — Sandstone Sumi' },
+  { src: '/assets/culture-run/cacao-route/print.png', title: 'Print — Cacao Route' },
 ]

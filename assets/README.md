@@ -31,3 +31,7 @@ Culture Run drops (v2 — print + gradient, no embroidery patch):
 | `home-soil-dawn` | Brushed sunrise | Unisex singlet |
 | `heatmap-marble` | Heatmap / lava marble | Men singlet |
 | `ink-marble` | Suminagashi ink marble | Men singlet |
+| `bumi-strata` | Terracotta / sandstone brushed strata | Unisex singlet |
+| `moss-current` | Moss / river-stone mineral marble | Men tee |
+| `sandstone-sumi` | Espresso / sandstone ink marble | Men tank |
+| `cacao-route` | Cacao / clay topographic marble | Women tank |
