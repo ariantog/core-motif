@@ -26,7 +26,7 @@
 ### Typography & Logo
 
 - **Wordmark:** `CORENATION` or `CORE NATION` — wide, bold, all-caps sans-serif. Belts: cream on dark overlay. Shorts waistband: tonal embossed black-on-black.
-- **Logo mark:** White hexagon enclosing stylized **C** — use on waistband center patch, lower leg hem, belt near buckle.
+- **Logo mark:** Hexagonal **C** wrapping stylized **N** (CN monogram) — open frame on the right reads as C; use on waistband center patch, lower leg hem, belt near buckle. See `docs/cn-logo-spec.md`.
 - **Japanese vertical text:** Small cream/red vertical kana or kanji beside logo — decorative, not primary messaging. Keep legible at 8–12mm print height.
 
 ### Kanji Application Rules

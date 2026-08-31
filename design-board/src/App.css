@@ -41,17 +41,140 @@ header {
   margin-bottom: 0.5rem;
 }
 
-.hex-logo {
-  width: 36px;
-  height: 36px;
-  background: var(--cream);
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: var(--cream);
+}
+
+.section-lead {
+  margin: -0.25rem 0 1.25rem;
+  color: #9a9588;
+  max-width: 52rem;
+}
+
+.section-lead strong {
+  color: var(--cream);
+}
+
+.logo-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.logo-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.logo-card--new {
+  border-color: var(--gold);
+}
+
+.logo-card-label {
+  padding: 0.65rem 1rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  border-bottom: 1px solid var(--border);
+}
+
+.logo-card img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.logo-preview {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
-  color: var(--olive);
-  font-size: 1.1rem;
+  min-height: 200px;
+  padding: 2rem;
+}
+
+.logo-preview--fabric {
+  background:
+    radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.08), transparent 45%),
+    linear-gradient(145deg, #1f1f1f 0%, #0a0a0a 55%, #151515 100%);
+}
+
+.logo-preview--black {
+  background: var(--black);
+}
+
+.logo-preview--olive {
+  background: var(--olive);
+}
+
+.logo-preview--cream {
+  background: var(--cream);
+}
+
+.logo-preview-mark {
+  width: min(160px, 55vw);
+  height: auto;
+}
+
+.logo-preview-mark--cream {
+  color: var(--cream);
+}
+
+.logo-preview-mark--white {
+  color: #fff;
+}
+
+.logo-preview-mark--black {
+  color: var(--black);
+}
+
+.logo-variant-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  padding: 0 1rem 1rem;
+}
+
+.logo-variant span {
+  display: block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin-bottom: 0.35rem;
+}
+
+.logo-variant .logo-preview {
+  min-height: 110px;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.logo-variant .logo-preview-mark {
+  width: 72px;
+}
+
+.logo-note {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.logo-note code {
+  color: var(--cream);
+}
+
+@media (max-width: 720px) {
+  .logo-variant-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 h1 {

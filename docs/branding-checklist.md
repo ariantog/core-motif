@@ -16,7 +16,7 @@
 ### Visual Rules
 - [ ] Base colors: olive `#4A5240`, black, charcoal grey — max 3 structural colors per piece.
 - [ ] Accent colors: cream `#D6CFB5`, gold `#D4AF37`, red `#C41E3A` — **one hero accent** per product face.
-- [ ] Hexagon **C** logo present on belts and primary apparel (waistband or hem).
+- [ ] Hexagonal **CN** logo (C frame + N inside) present on belts and primary apparel (waistband or hem).
 - [ ] Kanji on apparel uses **black rectangular patch** (shorts/tees) or **gold/cream on dark overlay** (belts).
 - [ ] Kanji stroke style: bold brush on belts; clean bold strokes on small patches (legibility at 3m).
 - [ ] Wordmark: `CORENATION` or `CORE NATION` — all caps, wide sans-serif only.
