@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:48:48Z",
+  "generatedAt": "2026-09-01T02:43:04Z",
   "root": [
     {
       "type": "dir",
@@ -8,38 +8,337 @@
       "children": [
         {
           "type": "dir",
-          "name": "designs",
-          "path": "assets/designs",
+          "name": "culture-run",
+          "path": "assets/culture-run",
           "children": [
             {
-              "type": "image",
-              "name": "belt-kanji-chikara-power.png",
-              "path": "assets/designs/belt-kanji-chikara-power.png"
+              "type": "dir",
+              "name": "_archive-v1",
+              "path": "assets/culture-run/_archive-v1",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print-bloom-path.png",
+                  "path": "assets/culture-run/_archive-v1/print-bloom-path.png"
+                },
+                {
+                  "type": "image",
+                  "name": "print-dusk.png",
+                  "path": "assets/culture-run/_archive-v1/print-dusk.png"
+                },
+                {
+                  "type": "image",
+                  "name": "print-home-soil.png",
+                  "path": "assets/culture-run/_archive-v1/print-home-soil.png"
+                },
+                {
+                  "type": "image",
+                  "name": "print-summit.png",
+                  "path": "assets/culture-run/_archive-v1/print-summit.png"
+                },
+                {
+                  "type": "image",
+                  "name": "print-wave-so-run.png",
+                  "path": "assets/culture-run/_archive-v1/print-wave-so-run.png"
+                },
+                {
+                  "type": "image",
+                  "name": "singlet-culture-home-soil.png",
+                  "path": "assets/culture-run/_archive-v1/singlet-culture-home-soil.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank-culture-bloom-path.png",
+                  "path": "assets/culture-run/_archive-v1/tank-culture-bloom-path.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank-culture-summit.png",
+                  "path": "assets/culture-run/_archive-v1/tank-culture-summit.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee-culture-dusk.png",
+                  "path": "assets/culture-run/_archive-v1/tee-culture-dusk.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee-culture-wave.png",
+                  "path": "assets/culture-run/_archive-v1/tee-culture-wave.png"
+                }
+              ]
             },
             {
-              "type": "image",
-              "name": "belt-kanji-d\u014d-path.png",
-              "path": "assets/designs/belt-kanji-d\u014d-path.png"
+              "type": "dir",
+              "name": "bloom-marble",
+              "path": "assets/culture-run/bloom-marble",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/bloom-marble/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank.png",
+                  "path": "assets/culture-run/bloom-marble/tank.png"
+                }
+              ]
             },
             {
-              "type": "image",
-              "name": "gloves-kanji-rai-thunder.png",
-              "path": "assets/designs/gloves-kanji-rai-thunder.png"
+              "type": "dir",
+              "name": "blue-hour-wave",
+              "path": "assets/culture-run/blue-hour-wave",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/blue-hour-wave/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "singlet.png",
+                  "path": "assets/culture-run/blue-hour-wave/singlet.png"
+                }
+              ]
             },
             {
-              "type": "image",
-              "name": "knee-support-kanji-f\u016b-wind.png",
-              "path": "assets/designs/knee-support-kanji-f\u016b-wind.png"
+              "type": "dir",
+              "name": "bumi-strata",
+              "path": "assets/culture-run/bumi-strata",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/bumi-strata/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "singlet.png",
+                  "path": "assets/culture-run/bumi-strata/singlet.png"
+                }
+              ]
             },
             {
-              "type": "image",
-              "name": "shorts-kanji-sh\u014d-victory.png",
-              "path": "assets/designs/shorts-kanji-sh\u014d-victory.png"
+              "type": "dir",
+              "name": "bumi-watercolor",
+              "path": "assets/culture-run/bumi-watercolor",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/bumi-watercolor/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "singlet.png",
+                  "path": "assets/culture-run/bumi-watercolor/singlet.png"
+                }
+              ]
             },
             {
-              "type": "image",
-              "name": "tee-kanji-bu-warrior.png",
-              "path": "assets/designs/tee-kanji-bu-warrior.png"
+              "type": "dir",
+              "name": "cacao-route",
+              "path": "assets/culture-run/cacao-route",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/cacao-route/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank.png",
+                  "path": "assets/culture-run/cacao-route/tank.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "cacao-watercolor",
+              "path": "assets/culture-run/cacao-watercolor",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/cacao-watercolor/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank.png",
+                  "path": "assets/culture-run/cacao-watercolor/tank.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "dusk-marble",
+              "path": "assets/culture-run/dusk-marble",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/dusk-marble/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee.png",
+                  "path": "assets/culture-run/dusk-marble/tee.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "heatmap-marble",
+              "path": "assets/culture-run/heatmap-marble",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/heatmap-marble/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "singlet.png",
+                  "path": "assets/culture-run/heatmap-marble/singlet.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "home-soil-dawn",
+              "path": "assets/culture-run/home-soil-dawn",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/home-soil-dawn/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "singlet.png",
+                  "path": "assets/culture-run/home-soil-dawn/singlet.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "ink-marble",
+              "path": "assets/culture-run/ink-marble",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/ink-marble/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "singlet.png",
+                  "path": "assets/culture-run/ink-marble/singlet.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "moss-current",
+              "path": "assets/culture-run/moss-current",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/moss-current/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee.png",
+                  "path": "assets/culture-run/moss-current/tee.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "moss-watercolor",
+              "path": "assets/culture-run/moss-watercolor",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/moss-watercolor/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee.png",
+                  "path": "assets/culture-run/moss-watercolor/tee.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "sand-wave-watercolor",
+              "path": "assets/culture-run/sand-wave-watercolor",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/sand-wave-watercolor/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank.png",
+                  "path": "assets/culture-run/sand-wave-watercolor/tank.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "sandstone-sumi",
+              "path": "assets/culture-run/sandstone-sumi",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/sandstone-sumi/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank.png",
+                  "path": "assets/culture-run/sandstone-sumi/tank.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "summit-brushed",
+              "path": "assets/culture-run/summit-brushed",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/summit-brushed/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank.png",
+                  "path": "assets/culture-run/summit-brushed/tank.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "wave-brushed-tide",
+              "path": "assets/culture-run/wave-brushed-tide",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "print.png",
+                  "path": "assets/culture-run/wave-brushed-tide/print.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee.png",
+                  "path": "assets/culture-run/wave-brushed-tide/tee.png"
+                }
+              ]
             }
           ]
         },
@@ -103,14 +402,474 @@
           ]
         },
         {
-          "type": "image",
-          "name": "79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg",
-          "path": "assets/79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg"
+          "type": "dir",
+          "name": "men-kanji",
+          "path": "assets/men-kanji",
+          "children": [
+            {
+              "type": "dir",
+              "name": "accessories",
+              "path": "assets/men-kanji/accessories",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "bag-hyrox-kanji-kyoku.png",
+                  "path": "assets/men-kanji/accessories/bag-hyrox-kanji-kyoku.png"
+                },
+                {
+                  "type": "image",
+                  "name": "gloves-kanji-ken-fist.png",
+                  "path": "assets/men-kanji/accessories/gloves-kanji-ken-fist.png"
+                },
+                {
+                  "type": "image",
+                  "name": "gloves-kanji-rai-thunder.png",
+                  "path": "assets/men-kanji/accessories/gloves-kanji-rai-thunder.png"
+                },
+                {
+                  "type": "image",
+                  "name": "knee-support-kanji-fu-wind.png",
+                  "path": "assets/men-kanji/accessories/knee-support-kanji-fu-wind.png"
+                },
+                {
+                  "type": "image",
+                  "name": "straps-kanji-hagane-steel.png",
+                  "path": "assets/men-kanji/accessories/straps-kanji-hagane-steel.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "apparel",
+              "path": "assets/men-kanji/apparel",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "shorts-kanji-sho-victory.png",
+                  "path": "assets/men-kanji/apparel/shorts-kanji-sho-victory.png"
+                },
+                {
+                  "type": "image",
+                  "name": "shorts-kanji-tan-forge.png",
+                  "path": "assets/men-kanji/apparel/shorts-kanji-tan-forge.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank-kanji-ki-energy.png",
+                  "path": "assets/men-kanji/apparel/tank-kanji-ki-energy.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee-kanji-bu-warrior.png",
+                  "path": "assets/men-kanji/apparel/tee-kanji-bu-warrior.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee-kanji-to-fight.png",
+                  "path": "assets/men-kanji/apparel/tee-kanji-to-fight.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "belts",
+              "path": "assets/men-kanji/belts",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "belt-kanji-chikara-power.png",
+                  "path": "assets/men-kanji/belts/belt-kanji-chikara-power.png"
+                },
+                {
+                  "type": "image",
+                  "name": "belt-kanji-do-path.png",
+                  "path": "assets/men-kanji/belts/belt-kanji-do-path.png"
+                },
+                {
+                  "type": "image",
+                  "name": "belt-kanji-kyoku-extreme.png",
+                  "path": "assets/men-kanji/belts/belt-kanji-kyoku-extreme.png"
+                },
+                {
+                  "type": "image",
+                  "name": "belt-kanji-tamashii-soul.png",
+                  "path": "assets/men-kanji/belts/belt-kanji-tamashii-soul.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "marks",
+              "path": "assets/men-kanji/marks",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "card-\u525b-go.png",
+                  "path": "assets/men-kanji/marks/card-\u525b-go.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u529b-chikara.png",
+                  "path": "assets/men-kanji/marks/card-\u529b-chikara.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u52dd-sho.png",
+                  "path": "assets/men-kanji/marks/card-\u52dd-sho.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u5c71-san.png",
+                  "path": "assets/men-kanji/marks/card-\u5c71-san.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u5cf0-mine.png",
+                  "path": "assets/men-kanji/marks/card-\u5cf0-mine.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u5fc3-kokoro.png",
+                  "path": "assets/men-kanji/marks/card-\u5fc3-kokoro.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u5fcd-nin.png",
+                  "path": "assets/men-kanji/marks/card-\u5fcd-nin.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u62f3-ken.png",
+                  "path": "assets/men-kanji/marks/card-\u62f3-ken.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u6975-kyoku.png",
+                  "path": "assets/men-kanji/marks/card-\u6975-kyoku.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u6b66-bu.png",
+                  "path": "assets/men-kanji/marks/card-\u6b66-bu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u6c17-ki.png",
+                  "path": "assets/men-kanji/marks/card-\u6c17-ki.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u6d41-ryu.png",
+                  "path": "assets/men-kanji/marks/card-\u6d41-ryu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u706b-ka.png",
+                  "path": "assets/men-kanji/marks/card-\u706b-ka.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u75be-shitsu.png",
+                  "path": "assets/men-kanji/marks/card-\u75be-shitsu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u7834-ha.png",
+                  "path": "assets/men-kanji/marks/card-\u7834-ha.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u8d70-so.png",
+                  "path": "assets/men-kanji/marks/card-\u8d70-so.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u9053-do.png",
+                  "path": "assets/men-kanji/marks/card-\u9053-do.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u9244-tetsu.png",
+                  "path": "assets/men-kanji/marks/card-\u9244-tetsu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u92fc-hagane.png",
+                  "path": "assets/men-kanji/marks/card-\u92fc-hagane.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u935b-tan.png",
+                  "path": "assets/men-kanji/marks/card-\u935b-tan.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u95d8-to.png",
+                  "path": "assets/men-kanji/marks/card-\u95d8-to.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u96f7-rai.png",
+                  "path": "assets/men-kanji/marks/card-\u96f7-rai.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u9759-sei.png",
+                  "path": "assets/men-kanji/marks/card-\u9759-sei.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u98a8-fu.png",
+                  "path": "assets/men-kanji/marks/card-\u98a8-fu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u9b42-tamashii.png",
+                  "path": "assets/men-kanji/marks/card-\u9b42-tamashii.png"
+                },
+                {
+                  "type": "image",
+                  "name": "card-\u9f8d-ryu.png",
+                  "path": "assets/men-kanji/marks/card-\u9f8d-ryu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u525b-go.png",
+                  "path": "assets/men-kanji/marks/patch-\u525b-go.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u529b-chikara.png",
+                  "path": "assets/men-kanji/marks/patch-\u529b-chikara.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u52dd-sho.png",
+                  "path": "assets/men-kanji/marks/patch-\u52dd-sho.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u5c71-san.png",
+                  "path": "assets/men-kanji/marks/patch-\u5c71-san.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u5cf0-mine.png",
+                  "path": "assets/men-kanji/marks/patch-\u5cf0-mine.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u5fc3-kokoro.png",
+                  "path": "assets/men-kanji/marks/patch-\u5fc3-kokoro.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u5fcd-nin.png",
+                  "path": "assets/men-kanji/marks/patch-\u5fcd-nin.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u62f3-ken.png",
+                  "path": "assets/men-kanji/marks/patch-\u62f3-ken.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u6975-kyoku.png",
+                  "path": "assets/men-kanji/marks/patch-\u6975-kyoku.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u6b66-bu.png",
+                  "path": "assets/men-kanji/marks/patch-\u6b66-bu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u6c17-ki.png",
+                  "path": "assets/men-kanji/marks/patch-\u6c17-ki.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u6d41-ryu.png",
+                  "path": "assets/men-kanji/marks/patch-\u6d41-ryu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u706b-ka.png",
+                  "path": "assets/men-kanji/marks/patch-\u706b-ka.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u75be-shitsu.png",
+                  "path": "assets/men-kanji/marks/patch-\u75be-shitsu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u7834-ha.png",
+                  "path": "assets/men-kanji/marks/patch-\u7834-ha.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u8d70-so.png",
+                  "path": "assets/men-kanji/marks/patch-\u8d70-so.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u9053-do.png",
+                  "path": "assets/men-kanji/marks/patch-\u9053-do.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u9244-tetsu.png",
+                  "path": "assets/men-kanji/marks/patch-\u9244-tetsu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u92fc-hagane.png",
+                  "path": "assets/men-kanji/marks/patch-\u92fc-hagane.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u935b-tan.png",
+                  "path": "assets/men-kanji/marks/patch-\u935b-tan.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u95d8-to.png",
+                  "path": "assets/men-kanji/marks/patch-\u95d8-to.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u96f7-rai.png",
+                  "path": "assets/men-kanji/marks/patch-\u96f7-rai.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u9759-sei.png",
+                  "path": "assets/men-kanji/marks/patch-\u9759-sei.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u98a8-fu.png",
+                  "path": "assets/men-kanji/marks/patch-\u98a8-fu.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u9b42-tamashii.png",
+                  "path": "assets/men-kanji/marks/patch-\u9b42-tamashii.png"
+                },
+                {
+                  "type": "image",
+                  "name": "patch-\u9f8d-ryu.png",
+                  "path": "assets/men-kanji/marks/patch-\u9f8d-ryu.png"
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "image",
-          "name": "7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg",
-          "path": "assets/7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg"
+          "type": "dir",
+          "name": "references",
+          "path": "assets/references",
+          "children": [
+            {
+              "type": "image",
+              "name": "dragon-belt-ryu.jpg",
+              "path": "assets/references/dragon-belt-ryu.jpg"
+            },
+            {
+              "type": "image",
+              "name": "dragon-shorts-ryu.jpg",
+              "path": "assets/references/dragon-shorts-ryu.jpg"
+            }
+          ]
+        },
+        {
+          "type": "dir",
+          "name": "women-floral",
+          "path": "assets/women-floral",
+          "children": [
+            {
+              "type": "dir",
+              "name": "lavender",
+              "path": "assets/women-floral/lavender",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "belt-lavender-lilac.png",
+                  "path": "assets/women-floral/lavender/belt-lavender-lilac.png"
+                },
+                {
+                  "type": "image",
+                  "name": "gloves-lavender-lilac.png",
+                  "path": "assets/women-floral/lavender/gloves-lavender-lilac.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tank-lavender-lilac.png",
+                  "path": "assets/women-floral/lavender/tank-lavender-lilac.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "marks",
+              "path": "assets/women-floral/marks",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "lavender-spray-sheet.png",
+                  "path": "assets/women-floral/marks/lavender-spray-sheet.png"
+                },
+                {
+                  "type": "image",
+                  "name": "sakura-blossom.png",
+                  "path": "assets/women-floral/marks/sakura-blossom.png"
+                },
+                {
+                  "type": "image",
+                  "name": "sakura-branch-sheet.png",
+                  "path": "assets/women-floral/marks/sakura-branch-sheet.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "sakura",
+              "path": "assets/women-floral/sakura",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "belt-sakura-pink.png",
+                  "path": "assets/women-floral/sakura/belt-sakura-pink.png"
+                },
+                {
+                  "type": "image",
+                  "name": "gloves-sakura-pink.png",
+                  "path": "assets/women-floral/sakura/gloves-sakura-pink.png"
+                },
+                {
+                  "type": "image",
+                  "name": "knee-sakura-pink.png",
+                  "path": "assets/women-floral/sakura/knee-sakura-pink.png"
+                },
+                {
+                  "type": "image",
+                  "name": "shorts-sakura-pink.png",
+                  "path": "assets/women-floral/sakura/shorts-sakura-pink.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tee-sakura-pink.png",
+                  "path": "assets/women-floral/sakura/tee-sakura-pink.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "markdown",
+          "name": "README.md",
+          "path": "assets/README.md"
         }
       ]
     },
@@ -131,38 +890,337 @@
               "children": [
                 {
                   "type": "dir",
-                  "name": "designs",
-                  "path": "design-board/public/assets/designs",
+                  "name": "culture-run",
+                  "path": "design-board/public/assets/culture-run",
                   "children": [
                     {
-                      "type": "image",
-                      "name": "belt-kanji-chikara-power.png",
-                      "path": "design-board/public/assets/designs/belt-kanji-chikara-power.png"
+                      "type": "dir",
+                      "name": "_archive-v1",
+                      "path": "design-board/public/assets/culture-run/_archive-v1",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print-bloom-path.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/print-bloom-path.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "print-dusk.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/print-dusk.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "print-home-soil.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/print-home-soil.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "print-summit.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/print-summit.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "print-wave-so-run.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/print-wave-so-run.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "singlet-culture-home-soil.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/singlet-culture-home-soil.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank-culture-bloom-path.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/tank-culture-bloom-path.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank-culture-summit.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/tank-culture-summit.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee-culture-dusk.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/tee-culture-dusk.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee-culture-wave.png",
+                          "path": "design-board/public/assets/culture-run/_archive-v1/tee-culture-wave.png"
+                        }
+                      ]
                     },
                     {
-                      "type": "image",
-                      "name": "belt-kanji-d\u014d-path.png",
-                      "path": "design-board/public/assets/designs/belt-kanji-d\u014d-path.png"
+                      "type": "dir",
+                      "name": "bloom-marble",
+                      "path": "design-board/public/assets/culture-run/bloom-marble",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/bloom-marble/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank.png",
+                          "path": "design-board/public/assets/culture-run/bloom-marble/tank.png"
+                        }
+                      ]
                     },
                     {
-                      "type": "image",
-                      "name": "gloves-kanji-rai-thunder.png",
-                      "path": "design-board/public/assets/designs/gloves-kanji-rai-thunder.png"
+                      "type": "dir",
+                      "name": "blue-hour-wave",
+                      "path": "design-board/public/assets/culture-run/blue-hour-wave",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/blue-hour-wave/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "singlet.png",
+                          "path": "design-board/public/assets/culture-run/blue-hour-wave/singlet.png"
+                        }
+                      ]
                     },
                     {
-                      "type": "image",
-                      "name": "knee-support-kanji-f\u016b-wind.png",
-                      "path": "design-board/public/assets/designs/knee-support-kanji-f\u016b-wind.png"
+                      "type": "dir",
+                      "name": "bumi-strata",
+                      "path": "design-board/public/assets/culture-run/bumi-strata",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/bumi-strata/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "singlet.png",
+                          "path": "design-board/public/assets/culture-run/bumi-strata/singlet.png"
+                        }
+                      ]
                     },
                     {
-                      "type": "image",
-                      "name": "shorts-kanji-sh\u014d-victory.png",
-                      "path": "design-board/public/assets/designs/shorts-kanji-sh\u014d-victory.png"
+                      "type": "dir",
+                      "name": "bumi-watercolor",
+                      "path": "design-board/public/assets/culture-run/bumi-watercolor",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/bumi-watercolor/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "singlet.png",
+                          "path": "design-board/public/assets/culture-run/bumi-watercolor/singlet.png"
+                        }
+                      ]
                     },
                     {
-                      "type": "image",
-                      "name": "tee-kanji-bu-warrior.png",
-                      "path": "design-board/public/assets/designs/tee-kanji-bu-warrior.png"
+                      "type": "dir",
+                      "name": "cacao-route",
+                      "path": "design-board/public/assets/culture-run/cacao-route",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/cacao-route/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank.png",
+                          "path": "design-board/public/assets/culture-run/cacao-route/tank.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "cacao-watercolor",
+                      "path": "design-board/public/assets/culture-run/cacao-watercolor",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/cacao-watercolor/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank.png",
+                          "path": "design-board/public/assets/culture-run/cacao-watercolor/tank.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "dusk-marble",
+                      "path": "design-board/public/assets/culture-run/dusk-marble",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/dusk-marble/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee.png",
+                          "path": "design-board/public/assets/culture-run/dusk-marble/tee.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "heatmap-marble",
+                      "path": "design-board/public/assets/culture-run/heatmap-marble",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/heatmap-marble/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "singlet.png",
+                          "path": "design-board/public/assets/culture-run/heatmap-marble/singlet.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "home-soil-dawn",
+                      "path": "design-board/public/assets/culture-run/home-soil-dawn",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/home-soil-dawn/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "singlet.png",
+                          "path": "design-board/public/assets/culture-run/home-soil-dawn/singlet.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "ink-marble",
+                      "path": "design-board/public/assets/culture-run/ink-marble",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/ink-marble/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "singlet.png",
+                          "path": "design-board/public/assets/culture-run/ink-marble/singlet.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "moss-current",
+                      "path": "design-board/public/assets/culture-run/moss-current",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/moss-current/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee.png",
+                          "path": "design-board/public/assets/culture-run/moss-current/tee.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "moss-watercolor",
+                      "path": "design-board/public/assets/culture-run/moss-watercolor",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/moss-watercolor/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee.png",
+                          "path": "design-board/public/assets/culture-run/moss-watercolor/tee.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "sand-wave-watercolor",
+                      "path": "design-board/public/assets/culture-run/sand-wave-watercolor",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/sand-wave-watercolor/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank.png",
+                          "path": "design-board/public/assets/culture-run/sand-wave-watercolor/tank.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "sandstone-sumi",
+                      "path": "design-board/public/assets/culture-run/sandstone-sumi",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/sandstone-sumi/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank.png",
+                          "path": "design-board/public/assets/culture-run/sandstone-sumi/tank.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "summit-brushed",
+                      "path": "design-board/public/assets/culture-run/summit-brushed",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/summit-brushed/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank.png",
+                          "path": "design-board/public/assets/culture-run/summit-brushed/tank.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "wave-brushed-tide",
+                      "path": "design-board/public/assets/culture-run/wave-brushed-tide",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "print.png",
+                          "path": "design-board/public/assets/culture-run/wave-brushed-tide/print.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee.png",
+                          "path": "design-board/public/assets/culture-run/wave-brushed-tide/tee.png"
+                        }
+                      ]
                     }
                   ]
                 },
@@ -226,14 +1284,474 @@
                   ]
                 },
                 {
-                  "type": "image",
-                  "name": "79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg",
-                  "path": "design-board/public/assets/79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg"
+                  "type": "dir",
+                  "name": "men-kanji",
+                  "path": "design-board/public/assets/men-kanji",
+                  "children": [
+                    {
+                      "type": "dir",
+                      "name": "accessories",
+                      "path": "design-board/public/assets/men-kanji/accessories",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "bag-hyrox-kanji-kyoku.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/bag-hyrox-kanji-kyoku.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "gloves-kanji-ken-fist.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/gloves-kanji-ken-fist.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "gloves-kanji-rai-thunder.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/gloves-kanji-rai-thunder.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "knee-support-kanji-fu-wind.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/knee-support-kanji-fu-wind.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "straps-kanji-hagane-steel.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/straps-kanji-hagane-steel.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "apparel",
+                      "path": "design-board/public/assets/men-kanji/apparel",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "shorts-kanji-sho-victory.png",
+                          "path": "design-board/public/assets/men-kanji/apparel/shorts-kanji-sho-victory.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "shorts-kanji-tan-forge.png",
+                          "path": "design-board/public/assets/men-kanji/apparel/shorts-kanji-tan-forge.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank-kanji-ki-energy.png",
+                          "path": "design-board/public/assets/men-kanji/apparel/tank-kanji-ki-energy.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee-kanji-bu-warrior.png",
+                          "path": "design-board/public/assets/men-kanji/apparel/tee-kanji-bu-warrior.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee-kanji-to-fight.png",
+                          "path": "design-board/public/assets/men-kanji/apparel/tee-kanji-to-fight.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "belts",
+                      "path": "design-board/public/assets/men-kanji/belts",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "belt-kanji-chikara-power.png",
+                          "path": "design-board/public/assets/men-kanji/belts/belt-kanji-chikara-power.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "belt-kanji-do-path.png",
+                          "path": "design-board/public/assets/men-kanji/belts/belt-kanji-do-path.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "belt-kanji-kyoku-extreme.png",
+                          "path": "design-board/public/assets/men-kanji/belts/belt-kanji-kyoku-extreme.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "belt-kanji-tamashii-soul.png",
+                          "path": "design-board/public/assets/men-kanji/belts/belt-kanji-tamashii-soul.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "marks",
+                      "path": "design-board/public/assets/men-kanji/marks",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "card-\u525b-go.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u525b-go.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u529b-chikara.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u529b-chikara.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u52dd-sho.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u52dd-sho.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u5c71-san.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u5c71-san.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u5cf0-mine.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u5cf0-mine.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u5fc3-kokoro.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u5fc3-kokoro.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u5fcd-nin.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u5fcd-nin.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u62f3-ken.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u62f3-ken.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u6975-kyoku.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u6975-kyoku.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u6b66-bu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u6b66-bu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u6c17-ki.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u6c17-ki.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u6d41-ryu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u6d41-ryu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u706b-ka.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u706b-ka.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u75be-shitsu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u75be-shitsu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u7834-ha.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u7834-ha.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u8d70-so.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u8d70-so.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u9053-do.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u9053-do.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u9244-tetsu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u9244-tetsu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u92fc-hagane.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u92fc-hagane.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u935b-tan.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u935b-tan.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u95d8-to.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u95d8-to.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u96f7-rai.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u96f7-rai.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u9759-sei.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u9759-sei.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u98a8-fu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u98a8-fu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u9b42-tamashii.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u9b42-tamashii.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "card-\u9f8d-ryu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/card-\u9f8d-ryu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u525b-go.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u525b-go.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u529b-chikara.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u529b-chikara.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u52dd-sho.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u52dd-sho.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u5c71-san.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u5c71-san.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u5cf0-mine.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u5cf0-mine.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u5fc3-kokoro.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u5fc3-kokoro.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u5fcd-nin.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u5fcd-nin.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u62f3-ken.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u62f3-ken.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u6975-kyoku.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u6975-kyoku.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u6b66-bu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u6b66-bu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u6c17-ki.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u6c17-ki.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u6d41-ryu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u6d41-ryu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u706b-ka.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u706b-ka.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u75be-shitsu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u75be-shitsu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u7834-ha.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u7834-ha.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u8d70-so.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u8d70-so.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u9053-do.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u9053-do.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u9244-tetsu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u9244-tetsu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u92fc-hagane.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u92fc-hagane.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u935b-tan.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u935b-tan.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u95d8-to.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u95d8-to.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u96f7-rai.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u96f7-rai.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u9759-sei.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u9759-sei.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u98a8-fu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u98a8-fu.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u9b42-tamashii.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u9b42-tamashii.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "patch-\u9f8d-ryu.png",
+                          "path": "design-board/public/assets/men-kanji/marks/patch-\u9f8d-ryu.png"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
-                  "type": "image",
-                  "name": "7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg",
-                  "path": "design-board/public/assets/7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg"
+                  "type": "dir",
+                  "name": "references",
+                  "path": "design-board/public/assets/references",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "dragon-belt-ryu.jpg",
+                      "path": "design-board/public/assets/references/dragon-belt-ryu.jpg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "dragon-shorts-ryu.jpg",
+                      "path": "design-board/public/assets/references/dragon-shorts-ryu.jpg"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "women-floral",
+                  "path": "design-board/public/assets/women-floral",
+                  "children": [
+                    {
+                      "type": "dir",
+                      "name": "lavender",
+                      "path": "design-board/public/assets/women-floral/lavender",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "belt-lavender-lilac.png",
+                          "path": "design-board/public/assets/women-floral/lavender/belt-lavender-lilac.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "gloves-lavender-lilac.png",
+                          "path": "design-board/public/assets/women-floral/lavender/gloves-lavender-lilac.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tank-lavender-lilac.png",
+                          "path": "design-board/public/assets/women-floral/lavender/tank-lavender-lilac.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "marks",
+                      "path": "design-board/public/assets/women-floral/marks",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "lavender-spray-sheet.png",
+                          "path": "design-board/public/assets/women-floral/marks/lavender-spray-sheet.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "sakura-blossom.png",
+                          "path": "design-board/public/assets/women-floral/marks/sakura-blossom.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "sakura-branch-sheet.png",
+                          "path": "design-board/public/assets/women-floral/marks/sakura-branch-sheet.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "sakura",
+                      "path": "design-board/public/assets/women-floral/sakura",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "belt-sakura-pink.png",
+                          "path": "design-board/public/assets/women-floral/sakura/belt-sakura-pink.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "gloves-sakura-pink.png",
+                          "path": "design-board/public/assets/women-floral/sakura/gloves-sakura-pink.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "knee-sakura-pink.png",
+                          "path": "design-board/public/assets/women-floral/sakura/knee-sakura-pink.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "shorts-sakura-pink.png",
+                          "path": "design-board/public/assets/women-floral/sakura/shorts-sakura-pink.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tee-sakura-pink.png",
+                          "path": "design-board/public/assets/women-floral/sakura/tee-sakura-pink.png"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "markdown",
+                  "name": "README.md",
+                  "path": "design-board/public/assets/README.md"
                 }
               ]
             },
@@ -305,8 +1823,30 @@
               "children": [
                 {
                   "type": "file",
+                  "name": "culture.ts",
+                  "path": "design-board/src/data/culture.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "floral.ts",
+                  "path": "design-board/src/data/floral.ts"
+                },
+                {
+                  "type": "file",
                   "name": "kanji.ts",
                   "path": "design-board/src/data/kanji.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "lib",
+              "path": "design-board/src/lib",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "assets.ts",
+                  "path": "design-board/src/lib/assets.ts"
                 }
               ]
             },
@@ -391,8 +1931,18 @@
         },
         {
           "type": "markdown",
+          "name": "culture-run-collection.md",
+          "path": "docs/culture-run-collection.md"
+        },
+        {
+          "type": "markdown",
           "name": "deploy.md",
           "path": "docs/deploy.md"
+        },
+        {
+          "type": "markdown",
+          "name": "floral-design-collection.md",
+          "path": "docs/floral-design-collection.md"
         },
         {
           "type": "markdown",
@@ -415,6 +1965,11 @@
           "type": "file",
           "name": "generate-manifest.sh",
           "path": "scripts/generate-manifest.sh"
+        },
+        {
+          "type": "file",
+          "name": "generate_marks.py",
+          "path": "scripts/generate_marks.py"
         }
       ]
     },

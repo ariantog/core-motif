@@ -11,25 +11,26 @@ const logos = [
   { title: 'Original reference', note: 'Closed hexagon', path: 'assets/logo/reference-original-hexagon.jpg' },
 ]
 
-const designs = [
-  { title: 'Belt — 力 Power', path: 'assets/designs/belt-kanji-chikara-power.png' },
-  { title: 'Belt — 道 Path', path: 'assets/designs/belt-kanji-dō-path.png' },
-  { title: 'Gloves — 雷 Thunder', path: 'assets/designs/gloves-kanji-rai-thunder.png' },
-  { title: 'Knee — 風 Wind', path: 'assets/designs/knee-support-kanji-fū-wind.png' },
-  { title: 'Shorts — 勝 Victory', path: 'assets/designs/shorts-kanji-shō-victory.png' },
-  { title: 'Tee — 武 Warrior', path: 'assets/designs/tee-kanji-bu-warrior.png' },
-  { title: 'Hero sample — shorts', path: 'assets/79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg' },
-  { title: 'Hero sample — belt', path: 'assets/7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg' },
+const designFilters = [
+  { id: 'all', label: 'All assets' },
+  { id: 'men-kanji', label: 'Men kanji' },
+  { id: 'women-floral', label: 'Women floral' },
+  { id: 'culture-run', label: 'Culture run' },
+  { id: 'references', label: 'References' },
 ]
 
 const docs = [
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
   { title: 'Branding checklist', path: 'docs/branding-checklist.md' },
   { title: 'CN logo spec', path: 'docs/cn-logo-spec.md' },
-  { title: 'README', path: 'README.md' },
+  { title: 'Assets map', path: 'assets/README.md' },
   { title: 'Deploy guide', path: 'docs/deploy.md' },
+  { title: 'README', path: 'README.md' },
   { title: 'Design board README', path: 'design-board/README.md' },
 ]
+
+let manifestImages = []
+let activeDesignFilter = 'all'
 
 function showView(name) {
   views.forEach((view) => view.classList.toggle('active', view.id === `view-${name}`))
@@ -37,22 +38,82 @@ function showView(name) {
   history.replaceState(null, '', `#${name}`)
 }
 
+function assetUrl(path) {
+  return encodeURI(path).replace(/#/g, '%23')
+}
+
+function humanizeFilename(path) {
+  const name = path.split('/').pop() || path
+  return name.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ')
+}
+
+function collectImages(entries) {
+  const images = []
+  for (const entry of entries) {
+    if (entry.type === 'dir') {
+      images.push(...collectImages(entry.children || []))
+    } else if (entry.type === 'image' && entry.path.startsWith('assets/')) {
+      images.push({
+        path: entry.path,
+        title: humanizeFilename(entry.path),
+        group: entry.path.split('/')[1] || 'assets',
+      })
+    }
+  }
+  return images
+}
+
 function renderGallery(containerId, items) {
   const container = document.getElementById(containerId)
+  if (!items.length) {
+    container.innerHTML = '<p class="muted">No images found for this section.</p>'
+    return
+  }
+
   container.innerHTML = items
-    .map(
-      (item) => `
+    .map((item) => {
+      const url = assetUrl(item.path)
+      return `
       <figure class="gallery-item">
-        <img src="${item.path}" alt="${item.title}" loading="lazy" />
+        <img src="${url}" alt="${item.title}" loading="lazy" />
         <figcaption>
           <strong>${item.title}</strong>
           ${item.note ? `<span>${item.note}</span><br />` : ''}
-          <a href="${item.path}" download>Download</a>
+          <span>${item.path}</span><br />
+          <a href="${url}" download>Download</a>
         </figcaption>
       </figure>
-    `,
+    `
+    })
+    .join('')
+}
+
+function renderDesignFilters() {
+  const container = document.getElementById('design-filters')
+  if (!container) return
+
+  container.innerHTML = designFilters
+    .map(
+      (filter) =>
+        `<button type="button" class="filter-btn${filter.id === activeDesignFilter ? ' active' : ''}" data-filter="${filter.id}">${filter.label}</button>`,
     )
     .join('')
+
+  container.querySelectorAll('[data-filter]').forEach((button) => {
+    button.addEventListener('click', () => {
+      activeDesignFilter = button.dataset.filter
+      renderDesignFilters()
+      renderDesignGallery()
+    })
+  })
+}
+
+function renderDesignGallery() {
+  const items =
+    activeDesignFilter === 'all'
+      ? manifestImages
+      : manifestImages.filter((item) => item.group === activeDesignFilter)
+  renderGallery('design-grid', items)
 }
 
 async function loadDoc(path, button) {
@@ -74,10 +135,7 @@ async function loadDoc(path, button) {
 function renderDocs() {
   const list = document.getElementById('doc-list')
   list.innerHTML = docs
-    .map(
-      (doc, index) =>
-        `<button type="button" data-path="${doc.path}">${doc.title}</button>`,
-    )
+    .map((doc) => `<button type="button" data-path="${doc.path}">${doc.title}</button>`)
     .join('')
 
   list.querySelectorAll('button').forEach((button, index) => {
@@ -109,7 +167,7 @@ function renderTree(entries, depth = 0) {
 
 async function previewFile(path, kind) {
   const target = document.getElementById('file-preview')
-  const url = encodeURI(path)
+  const url = assetUrl(path)
 
   if (kind === 'image') {
     target.innerHTML = `
@@ -151,14 +209,17 @@ async function loadManifest() {
   try {
     const res = await fetch('browser/manifest.json')
     const manifest = await res.json()
+    manifestImages = collectImages(manifest.root)
     tree.innerHTML = renderTree(manifest.root)
     tree.querySelectorAll('button[data-path]').forEach((button) => {
       button.addEventListener('click', () =>
         previewFile(button.dataset.path, button.dataset.kind),
       )
     })
+    renderDesignGallery()
   } catch (err) {
     tree.innerHTML = `<p class="muted">Could not load manifest: ${err.message}</p>`
+    renderGallery('design-grid', [])
   }
 }
 
@@ -171,7 +232,7 @@ jumpCards.forEach((card) => {
 })
 
 renderGallery('logo-grid', logos)
-renderGallery('design-grid', designs)
+renderDesignFilters()
 renderDocs()
 loadManifest()
 
