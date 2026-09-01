@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T03:03:22Z",
+  "generatedAt": "2026-09-01T03:15:30Z",
   "root": [
     {
       "type": "dir",
@@ -406,8 +406,18 @@
               "children": [
                 {
                   "type": "image",
+                  "name": "01-core-cut.png",
+                  "path": "assets/logo/concepts/01-core-cut.png"
+                },
+                {
+                  "type": "image",
                   "name": "01-core-cut.svg",
                   "path": "assets/logo/concepts/01-core-cut.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-interlock.png",
+                  "path": "assets/logo/concepts/02-interlock.png"
                 },
                 {
                   "type": "image",
@@ -416,13 +426,83 @@
                 },
                 {
                   "type": "image",
+                  "name": "03-velocity.png",
+                  "path": "assets/logo/concepts/03-velocity.png"
+                },
+                {
+                  "type": "image",
                   "name": "03-velocity.svg",
                   "path": "assets/logo/concepts/03-velocity.svg"
                 },
                 {
                   "type": "image",
+                  "name": "04-core-block.png",
+                  "path": "assets/logo/concepts/04-core-block.png"
+                },
+                {
+                  "type": "image",
                   "name": "04-core-block.svg",
                   "path": "assets/logo/concepts/04-core-block.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-seal.png",
+                  "path": "assets/logo/concepts/05-seal.png"
+                },
+                {
+                  "type": "image",
+                  "name": "05-seal.svg",
+                  "path": "assets/logo/concepts/05-seal.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-shield.png",
+                  "path": "assets/logo/concepts/06-shield.png"
+                },
+                {
+                  "type": "image",
+                  "name": "06-shield.svg",
+                  "path": "assets/logo/concepts/06-shield.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "07-lockbar.png",
+                  "path": "assets/logo/concepts/07-lockbar.png"
+                },
+                {
+                  "type": "image",
+                  "name": "07-lockbar.svg",
+                  "path": "assets/logo/concepts/07-lockbar.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "08-stamp.png",
+                  "path": "assets/logo/concepts/08-stamp.png"
+                },
+                {
+                  "type": "image",
+                  "name": "08-stamp.svg",
+                  "path": "assets/logo/concepts/08-stamp.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "09-orbit.png",
+                  "path": "assets/logo/concepts/09-orbit.png"
+                },
+                {
+                  "type": "image",
+                  "name": "09-orbit.svg",
+                  "path": "assets/logo/concepts/09-orbit.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "10-wedge.png",
+                  "path": "assets/logo/concepts/10-wedge.png"
+                },
+                {
+                  "type": "image",
+                  "name": "10-wedge.svg",
+                  "path": "assets/logo/concepts/10-wedge.svg"
                 }
               ]
             },
@@ -430,6 +510,11 @@
               "type": "image",
               "name": "corenation-cn-logo-black.svg",
               "path": "assets/logo/corenation-cn-logo-black.svg"
+            },
+            {
+              "type": "image",
+              "name": "corenation-cn-logo-cream.png",
+              "path": "assets/logo/corenation-cn-logo-cream.png"
             },
             {
               "type": "image",
@@ -1340,8 +1425,18 @@
                       "children": [
                         {
                           "type": "image",
+                          "name": "01-core-cut.png",
+                          "path": "design-board/public/assets/logo/concepts/01-core-cut.png"
+                        },
+                        {
+                          "type": "image",
                           "name": "01-core-cut.svg",
                           "path": "design-board/public/assets/logo/concepts/01-core-cut.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-interlock.png",
+                          "path": "design-board/public/assets/logo/concepts/02-interlock.png"
                         },
                         {
                           "type": "image",
@@ -1350,13 +1445,83 @@
                         },
                         {
                           "type": "image",
+                          "name": "03-velocity.png",
+                          "path": "design-board/public/assets/logo/concepts/03-velocity.png"
+                        },
+                        {
+                          "type": "image",
                           "name": "03-velocity.svg",
                           "path": "design-board/public/assets/logo/concepts/03-velocity.svg"
                         },
                         {
                           "type": "image",
+                          "name": "04-core-block.png",
+                          "path": "design-board/public/assets/logo/concepts/04-core-block.png"
+                        },
+                        {
+                          "type": "image",
                           "name": "04-core-block.svg",
                           "path": "design-board/public/assets/logo/concepts/04-core-block.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-seal.png",
+                          "path": "design-board/public/assets/logo/concepts/05-seal.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-seal.svg",
+                          "path": "design-board/public/assets/logo/concepts/05-seal.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-shield.png",
+                          "path": "design-board/public/assets/logo/concepts/06-shield.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-shield.svg",
+                          "path": "design-board/public/assets/logo/concepts/06-shield.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "07-lockbar.png",
+                          "path": "design-board/public/assets/logo/concepts/07-lockbar.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "07-lockbar.svg",
+                          "path": "design-board/public/assets/logo/concepts/07-lockbar.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "08-stamp.png",
+                          "path": "design-board/public/assets/logo/concepts/08-stamp.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "08-stamp.svg",
+                          "path": "design-board/public/assets/logo/concepts/08-stamp.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "09-orbit.png",
+                          "path": "design-board/public/assets/logo/concepts/09-orbit.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "09-orbit.svg",
+                          "path": "design-board/public/assets/logo/concepts/09-orbit.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "10-wedge.png",
+                          "path": "design-board/public/assets/logo/concepts/10-wedge.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "10-wedge.svg",
+                          "path": "design-board/public/assets/logo/concepts/10-wedge.svg"
                         }
                       ]
                     },
@@ -1364,6 +1529,11 @@
                       "type": "image",
                       "name": "corenation-cn-logo-black.svg",
                       "path": "design-board/public/assets/logo/corenation-cn-logo-black.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "corenation-cn-logo-cream.png",
+                      "path": "design-board/public/assets/logo/corenation-cn-logo-cream.png"
                     },
                     {
                       "type": "image",
@@ -2074,6 +2244,11 @@
           "type": "file",
           "name": "generate_marks.py",
           "path": "scripts/generate_marks.py"
+        },
+        {
+          "type": "file",
+          "name": "render-logo-pngs.py",
+          "path": "scripts/render-logo-pngs.py"
         }
       ]
     },

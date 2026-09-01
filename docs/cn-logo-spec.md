@@ -20,10 +20,17 @@ The original mark used a closed hexagon around an N. These directions rebuild th
 
 | File | Use |
 |------|-----|
-| `concepts/01-core-cut.svg` | Core Cut concept |
-| `concepts/02-interlock.svg` | Interlock concept |
-| `concepts/03-velocity.svg` | Velocity concept |
-| `concepts/04-core-block.svg` | Core Block concept |
+| `concepts/01-core-cut.png` | Core Cut — best all-rounder |
+| `concepts/02-interlock.png` | Interlock — equipment |
+| `concepts/03-velocity.png` | Velocity — sportswear |
+| `concepts/04-core-block.png` | Core Block — production |
+| `concepts/05-seal.png` | Seal — most readable C |
+| `concepts/06-shield.png` | Shield — patches |
+| `concepts/07-lockbar.png` | Lockbar — shared spine |
+| `concepts/08-stamp.png` | Stamp — hanko / chop |
+| `concepts/09-orbit.png` | Orbit — ring + core |
+| `concepts/10-wedge.png` | Wedge — aggressive cut |
+| `corenation-cn-logo-cream.png` | Cream preview for the hub and favicon |
 | `corenation-cn-logo.svg` | Current master (Concept 01) — `currentColor` for CSS/theming |
 | `corenation-cn-logo-cream.svg` | Cream `#D6CFB5` on dark apparel |
 | `corenation-cn-logo-white.svg` | White on olive/black |
