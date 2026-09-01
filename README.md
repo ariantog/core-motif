@@ -1,8 +1,8 @@
-# Corenation Men's Kanji Line — Design Deliverables
+# Corenation Design Studio
 
-Design and branding deliverables for **Corenation** (Indonesia) men's kanji sportswear and gym accessories.
+Brand direction, staff checklists, and design files for **Corenation Active** (Surabaya) — men kanji, women floral, Culture Run, hijab, and HQ / padel.
 
-## Deliverables
+## Positioning
 
 | Deliverable | Path |
 |-------------|------|
@@ -30,15 +30,10 @@ Point your web server at the repo root and open your domain. The hub includes lo
 cd design-board && npm install && npm run dev
 ```
 
-→ **http://localhost:5177**
+Open **http://localhost:5177** — tabs: Brand · Men Kanji · Women Floral · Culture Run · Production marks.
 
-## Brand channels
+## Channels
 
-- Instagram: [@corenationmen](https://instagram.com/corenationmen)
-- Shopee: [shopee.co.id/corenation](https://shopee.co.id/corenation)
-
-## Reference samples
-
-Original hero designs (龍 dragon) in `assets/`:
-- Athletic shorts mockup
-- Lifting belt mockup
+- [@corenationactive](https://instagram.com/corenationactive) · [@corenationmen](https://instagram.com/corenationmen) · [@corenationhijab](https://instagram.com/corenationhijab)
+- [shopee.co.id/corenation](https://shopee.co.id/corenation)
+- Offline: Central Grand Indonesia · Muku Pakuwon Surabaya · Cilandak Town Square

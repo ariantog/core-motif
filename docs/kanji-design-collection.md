@@ -257,6 +257,124 @@
 
 ---
 
+### Collection E — Spirit / Forge (精)
+
+*Drop narrative:* Inner fire made physical — forging, fighting spirit, peak. Use after Dragon Legacy so the line does not stall on 龍 / 力 only. Still olive + black structure; gold for "spirit," red for "forge/fight."
+
+#### 極 — Extreme / The Peak
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Kyoku* / *Goku* (極) |
+| **Meaning** | Extreme, utmost, the far edge |
+| **Why Corenation** | Hyrox, meet day, "go to the edge" — natural hero for competition bags and belts. Strong single character, high shelf pop. |
+| **Accent color** | **Gold** on belt; **Red** on black bag / shorts patch |
+| **Applications** | Hyrox bag front, competition belt, meet tee |
+| **Pairings** | 破, 勝, 峰 |
+| **Vertical phrase** | 限界を超えろ (*Genkai o koero* — surpass the limit) |
+
+#### 魂 — Soul / Spirit
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Tamashii* / *Kon* (魂) |
+| **Meaning** | Soul, fighting spirit |
+| **Why Corenation** | Emotional pair to 力 — power needs spirit. Strong for gloves and a second belt colorway. |
+| **Accent color** | **Gold** brush on belt; **Cream** on olive tee |
+| **Applications** | Lifting belt alt, glove backhand, hoodie |
+| **Pairings** | 心, 気, 武 |
+| **Vertical phrase** | 魂を燃やせ (*Tamashii o moyase* — ignite the soul) |
+
+#### 鍛 — Forge / Temper
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Tan* (鍛) |
+| **Meaning** | To forge, temper, train hard |
+| **Why Corenation** | The verb of the gym — you are the metal. Perfect shorts-patch companion to 鉄 (iron). |
+| **Accent color** | **Red** on black shorts patch; **Gold** on straps |
+| **Applications** | Training shorts, lifting straps, forge tee |
+| **Pairings** | 鉄, 鋼, 剛 |
+| **Vertical phrase** | 日々鍛えよ (*Hibi kitae yo* — forge daily) |
+
+#### 闘 — Fight / Struggle
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Tō* (闘) |
+| **Meaning** | Fight, struggle, bout |
+| **Why Corenation** | MMA / padel / Hyrox crossover — combat energy without a cartoon tiger. Tee and fight-short hero. |
+| **Accent color** | **Red** on black chest patch; **Gold** on belt |
+| **Applications** | Performance tee, hybrid fight short, hand wrap tag |
+| **Pairings** | 武, 拳, 勝 |
+| **Vertical phrase** | 闘い続ける (*Tatakai tsuzukeru* — keep fighting) |
+
+#### 気 — Energy / Spirit
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Ki* (気) |
+| **Meaning** | Energy, spirit, atmosphere (as in 元気, 気力) |
+| **Why Corenation** | Clean, famous, reads even to non-Japanese shoppers. Best **tank** mark — open armholes, one chest patch. |
+| **Accent color** | **Cream** on olive tank; **Red** intensity variant |
+| **Applications** | Training tank, warm-up, tote stamp |
+| **Pairings** | 魂, 心, 静 |
+| **Vertical phrase** | 気を整えよ (*Ki o totonoe yo* — set your spirit) |
+
+#### 拳 — Fist
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Ken* / *Kobushi* (拳) |
+| **Meaning** | Fist |
+| **Why Corenation** | Built for **gloves** — the mark sits on the backhand where a fist graphic belongs. Boxing + lifting glove SKU. |
+| **Accent color** | **Gold** embroidery on black backhand |
+| **Applications** | Training gloves, wrap kit, bag tag |
+| **Pairings** | 闘, 武, 剛 |
+| **Vertical phrase** | 拳に込めろ (*Kobushi ni komero* — put it in the fist) |
+
+#### 鋼 — Steel
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Hagane* / *Kō* (鋼) |
+| **Meaning** | Steel |
+| **Why Corenation** | Step up from 鉄 (iron) — refined toughness. Straps, belts, "steel session" copy. |
+| **Accent color** | **Gold** + cream; avoid red (keep 鋼 cooler than 破) |
+| **Applications** | Wrist straps, belt alt, chalk bag |
+| **Pairings** | 鉄, 鍛, 剛 |
+| **Vertical phrase** | 鋼の意志 (*Hagane no ishi* — will of steel) |
+
+#### 峰 — Peak
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Mine* / *Hō* (峰) |
+| **Meaning** | Peak, summit |
+| **Why Corenation** | Pairs with 山 and with Culture Run Summit — leg day + trail + PR peak. |
+| **Accent color** | **Cream** on olive; **Gold** on belt |
+| **Applications** | Squat tee, hiking-gym short, duffel |
+| **Pairings** | 山, 極, 道 |
+| **Vertical phrase** | 頂を目指せ (*Itadaki o mezase* — aim for the summit) |
+
+### Collection F — Run mark (shared with Culture Run)
+
+*Only 走 is approved as a **running** kanji. Do not put 走 on a lifting belt. Full Culture Run graphics live in `docs/culture-run-collection.md`.*
+
+#### 走 — Run
+
+| Field | Detail |
+|-------|--------|
+| **Romanization** | *Sō* / *Hashiru* (走) |
+| **Meaning** | Run, rush |
+| **Why Corenation** | The one kanji that belongs on a running shirt, not a power belt. Hero of Culture Run Wave. |
+| **Accent color** | **Cream** or **red** on charcoal / ink (not olive tactical) |
+| **Applications** | Running tee back, singlet, tank |
+| **Pairings** | 疾, 風, 山 |
+| **Vertical phrase** | 前へ走れ (*Mae e hashire* — run forward) |
+
+---
+
 ## Collection Drop Pairing Matrix
 
 | Drop name | Hero kanji | Supporting kanji | Product focus |
@@ -267,6 +385,11 @@
 | **Breakthrough** | 破 | 勝, 雷 | PR tee, belt, knee sleeve |
 | **Elemental Force** | 雷 | 火, 風 | HIIT apparel, gloves |
 | **Still Power** | 静 | 心, 山 | Recovery/lifestyle crossover |
+| **Forge Week** | 鍛 | 鉄, 鋼 | Shorts, straps, tee |
+| **Spirit Belt** | 魂 | 気, 心 | Belt alt, gloves |
+| **Edge / Hyrox** | 極 | 勝, 峰 | Hyrox bag, meet belt |
+| **Fight Hour** | 闘 | 拳, 武 | Tee, gloves, wraps |
+| **Culture Wave** | 走 | 疾, 風 | Running tee / tank only |
 
 ---
 
@@ -279,8 +402,20 @@
 | Performance tee | Cream or red | Olive body or black chest block |
 | Gloves / straps | Gold embroidery | Black knuckle/cuff zone |
 | Knee support | Red or gold | Black sleeve with olive trim |
-| Gym bag | Cream | Olive panel or black front pocket |
+| Gym / Hyrox bag | Cream or red | Olive or black front panel |
+| Running tee (走 only) | Cream / red | Charcoal body — see Culture Run spec |
+
+### Form lock
+
+- Use **Japanese** character forms. 龍 (dragon) not simplified Chinese 龙. 気 not 气. 闘 is preferred over 斗 for "fight."
+- One hero kanji per panel. Compounds (一心, 限界) are **copy only**, not belt heroes, unless brand lead approves a two-character patch at ≥ 80mm wide.
+- Vertical phrases must be real Japanese that matches the hero. Do not generate decorative kana.
+
+### Production files
+
+Print-ready marks: `assets/men-kanji/marks/`  
+Product mockups: `assets/men-kanji/belts/` · `apparel/` · `accessories/`
 
 ---
 
-*Document version: 1.0 — Internal design/production use. Update when new hero kanji (e.g. 龍 variants) are approved for production.*
+*Document version: 2.0 — Added Collection E (Spirit / Forge) and 走 for Culture Run. Internal design/production use.*
