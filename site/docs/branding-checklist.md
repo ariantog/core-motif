@@ -90,6 +90,8 @@ Corenation is the training brand you actually wear to train — same class of fa
 
 **Women lavender (lilac SKUs):** lilac `#C5B4D8` · lavender `#8B6FA8` · dusk purple `#5C4A72` · cream `#F3EEF6` · charcoal (structure only)
 
+**Women Culture Run (pastel):** powder `#B8D4E8` · seafoam `#9ED4C4` · apricot `#E8A888` · mint `#C8E4D4` · sakura `#E8A4B4` · lilac `#C5B4D8` · charcoal (marks only)
+
 **Hijab:** either floral palette **or** neutrals (black, cream, olive, navy). No gold-foil luxury script.
 
 ---
@@ -303,7 +305,7 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 - [ ] Copy is pace, session, community run. Use: *run the city, keep the line, dawn club.* Not *conquer nations*, not luxury marathon.
 - [ ] Fabric looks **light** in photos (mesh, singlet, split hem). If it photographs like a lifting tee, recut or relight.
-- [ ] Graphic is one idea: Wave (走), Summit, Bloom Path (women), Dusk Lilac (women), Home Soil.
+- [ ] Graphic is one idea: Wave (走), Summit, Bloom Path (women), Dusk Lilac (women), Home Soil, or one pastel story (Mist Wave / Apricot Brush / Mint Marble / Blush / Lilac).
 - [ ] **No embroidery patches** on running SKUs. Hex C + 走 + waves are **print / dye-sub** only (raised heat-transfer is OK if it looks printed, not a sewn badge).
 - [ ] **Gradation required** on v2 pieces (Nedao Vortex / Aurora / Blue Hour energy). Do not ship a solid charcoal tee with a sticker graphic.
 - [ ] Placement: all-over color; 走 or the culture graphic lives in the dye on the back. Front stays quiet (printed hex C + wordmark).
@@ -319,7 +321,7 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 ### Shopee title
 
-`Corenation Culture Run [Tee|Tank|Singlet] — [Wave|Summit|Bloom Path|Dusk|Home Soil]`
+`Corenation Culture Run [Tee|Tank|Singlet] — [Wave|Summit|Bloom Path|Dusk|Home Soil|Mist Wave|Apricot Brush|Mint Marble|Blush Watercolor|Lilac Watercolor]`
 
 ### Store VM
 

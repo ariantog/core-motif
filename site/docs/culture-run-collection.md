@@ -25,6 +25,10 @@ All-over dye-sub. No sewn embroidery patches. Hex C is flat print. 走 (if used)
 | Earth sumi | Espresso / sandstone ink marble | Sandstone Sumi |
 | Route marble | Cacao / clay trail-map lines | Cacao Route |
 | Watercolor wash | Controlled translucent pigment + contour lines | Earth-tone capsule |
+| Pastel wave | Powder / seafoam aurora + woodblock crests | Women Mist Wave |
+| Pastel brush | Apricot / cream wet-brush tide | Women Apricot Brush |
+| Pastel marble | Mint / pistachio liquid marble | Women Mint Marble |
+| Pastel watercolor | Blush sakura wash or lilac wash | Women Blush / Lilac |
 
 ---
 
@@ -32,7 +36,7 @@ All-over dye-sub. No sewn embroidery patches. Hex C is flat print. 走 (if used)
 
 Drops are grouped by texture so the file browser is easier to scan:
 
-`assets/culture-run/01-wave/` · `02-brushed/` · `03-marble/` · `04-earth/` · `05-watercolor/`
+`assets/culture-run/01-wave/` · `02-brushed/` · `03-marble/` · `04-earth/` · `05-watercolor/` · `06-pastel/`
 
 Each drop folder has garment mockup + `print.png` (locked) + `background-clean.png` (texture only).
 
@@ -41,7 +45,7 @@ Each drop folder has garment mockup + `print.png` (locked) + `background-clean.p
 | File | What it is |
 |------|------------|
 | `…/<drop>/print.png` | Locked design — leave this alone |
-| `…/<drop>/background-clean.png` | Same drop without logo, kanji, or slogans |
+| `…/<drop>/background-clean.png` | Texture only — no logo, kanji, slogans, flowers, or figurative artifacts |
 | `assets/culture-run/layers/kanji/so-run-*.png` | Transparent 走 |
 | `assets/culture-run/layers/kanji/san-mountain-*.png` | Transparent 山 |
 | `assets/culture-run/layers/logos/hex-c-*.png` | Transparent classic hex C |
@@ -67,6 +71,13 @@ Place a layer on `background-clean.png` in any editor. Do not overwrite `print.p
 | `05-watercolor` | `moss-watercolor` | Moss / stone river pigment wash | Men tee | 走 |
 | `05-watercolor` | `sand-wave-watercolor` | Sand / umber watercolor wave | Men tank | 走 |
 | `05-watercolor` | `cacao-watercolor` | Cacao / clay watercolor route | Women tank | No |
+| `06-pastel` | `mist-wave` | Powder / seafoam aurora wave | Women singlet | No |
+| `06-pastel` | `apricot-brush` | Apricot / cream wet-brush tide | Women tee | No |
+| `06-pastel` | `mint-marble` | Mint / pistachio liquid marble | Women tank | No |
+| `06-pastel` | `blush-watercolor` | Sakura path on blush watercolor | Women tank | No |
+| `06-pastel` | `lilac-watercolor` | Lilac watercolor wash | Women tee | No |
+
+`06-pastel` is the women's pastel run wall. Clean plates stay texture-only — no lavender sprigs, no sakura, no runners.
 
 `_archive-v1/` = flat charcoal pieces. Do not send those to factory.
 
@@ -94,15 +105,20 @@ Not batik costume, not a temple tourist print, not a flag.
 - **Sandstone Sumi:** espresso `#2C2420` + umber `#6D4234` + sandstone `#CCAA75` + smoke `#61554C` + cream `#E5D7BC`
 - **Cacao Route:** cacao `#4C2E26` + clay `#A65B45` + dusty rose `#B27C73` + oatmeal `#E3D3B5` + sage `#74806B`
 - **Watercolor capsule:** pigment edges should look transparent and layered—not paper texture, not an oil painting, and not a washed-out pastel.
+- **Mist Wave:** pearl `#F4F0EA` → powder `#B8D4E8` → seafoam `#9ED4C4`
+- **Apricot Brush:** cream `#F8EDE4` + apricot `#E8A888` + peach sand `#F0C4B0`
+- **Mint Marble:** jade cream `#E8F0E4` + mint `#C8E4D4` + pistachio `#B4D4A8`
+- **Blush Watercolor:** blossom cream `#FFF7F8` + blush `#F2C8C8` + sakura `#E8A4B4` + rose `#C45B78` (sakura path on the garment / print only)
+- **Lilac Watercolor:** mist `#F3EEF6` + lilac `#C5B4D8` + lavender `#8B6FA8` (lavender spikes on the garment only — never on `background-clean.png`)
 
 ---
 
 ## Shopee & floor
 
-Title: `Corenation Culture Run [Tee|Tank|Singlet] — [Blue Hour Wave|Brushed Tide|Summit Brushed|Bloom Marble|Dusk Marble|Home Soil Dawn|Heatmap Marble|Ink Marble|Bumi Strata|Moss Current|Sandstone Sumi|Cacao Route|Bumi Watercolor|Moss Watercolor|Sand Wave Watercolor|Cacao Watercolor Route]`
+Title: `Corenation Culture Run [Tee|Tank|Singlet] — [Blue Hour Wave|Brushed Tide|Summit Brushed|Bloom Marble|Dusk Marble|Home Soil Dawn|Heatmap Marble|Ink Marble|Bumi Strata|Moss Current|Sandstone Sumi|Cacao Route|Bumi Watercolor|Moss Watercolor|Sand Wave Watercolor|Cacao Watercolor Route|Mist Wave|Apricot Brush|Mint Marble|Blush Watercolor|Lilac Watercolor]`
 
 Hang so the **back** shows. Do not merch next to the 龍 lifting short without a fixture break.
 
 ---
 
-*Document version: 3.4 — Clean plates are `background-clean.png`. Drops grouped into `01-wave` … `05-watercolor`. Loose marks live in `layers/kanji` and `layers/logos`.*
+*Document version: 3.5 — Women's pastel capsule in `06-pastel`. Clean plates stay texture-only (no flowers or figurative artifacts). Loose marks live in `layers/kanji` and `layers/logos`.*
