@@ -16,7 +16,7 @@ v1.0 was a strong **men's kanji** ops list. It did not give the company a brand 
 ### Visual Rules
 - [ ] Base colors: olive `#4A5240`, black, charcoal grey — max 3 structural colors per piece.
 - [ ] Accent colors: cream `#D6CFB5`, gold `#D4AF37`, red `#C41E3A` — **one hero accent** per product face.
-- [ ] Brand mark on new POs follows [`logo-transition.md`](logo-transition.md): wordmark first unless Method B (heritage) is circled; no unselected studio marks on shop SKUs.
+- [ ] Brand mark on new POs is the readable wordmark in [`readable-wordmark.md`](readable-wordmark.md). Default: `01-slash-track`. No hex, no coin.
 - [ ] Kanji on apparel uses **black rectangular patch** (shorts/tees) or **gold/cream on dark overlay** (belts).
 - [ ] Kanji stroke style: bold brush on belts; clean bold strokes on small patches (legibility at 3m).
 - [ ] Wordmark: `CORENATION` or `CORE NATION` — all caps, wide sans-serif only.
@@ -77,7 +77,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 ### Shared brand marks (every line)
 
 - [ ] Wordmark is `CORENATION` or `CORE NATION` — all caps, wide sans-serif only. Letter **A** may use the diagonal-cut custom A from the belt samples — do not invent a third A.
-- [ ] Logo mark on **new** work is the word `CORENATION` plus the locked direction when that phase is on (see [`logo-transition.md`](logo-transition.md)). Do not reprint the original closed hex. White/cream on dark; charcoal on light pink/lilac.
+- [ ] Logo mark on **new** work is the readable `CORENATION` wordmark ([`readable-wordmark.md`](readable-wordmark.md)). Do not reprint the hex or coin. White/cream on dark; charcoal on light pink/lilac.
 - [ ] Max **one hero motif** per visible panel (one kanji, or one flower cluster, or one culture graphic).
 - [ ] No competing line motifs on the same SKU (no sakura + 龍, no lavender + kanji patch).
 - [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN / PDL). Wrong line code = reject.
@@ -403,16 +403,14 @@ Do not launch three line stories in the same week on the same account.
 
 ## 12. Logo transition (read before the next PO)
 
-The original closed hexagon is leaving new work unless Method B (heritage) is circled. New work uses the **wordmark first**; a locked mark arrives only on new items. Full methods: [`logo-transition.md`](logo-transition.md).
+Path locked: **drop hex and coin → readable wordmark → new mark later.** Spec: [`readable-wordmark.md`](readable-wordmark.md).
 
-Default if brand lead has not circled another method: **Method A — Wordmark Bridge**. No public master is locked yet.
-
-- [ ] Next PO tech packs have **no** original closed hexagon (unless Method B is circled).
-- [ ] Unsold hex inventory sells through — do not scrap, do not reprint the original hex on a restock.
-- [ ] One public mark locked before Phase 2 (a new system **or** one heritage hex). Studio explorations stay off shop SKUs.
-- [ ] Original hex and a new/heritage mark never share one product face.
+- [ ] Next PO tech packs use `01-slash-track` (or a named lockup from the spec). No hex. No coin.
+- [ ] Unsold hex / coin inventory sells through — do not scrap, do not reprint those badges on a restock.
+- [ ] New-system marks (Continuum and the rest) stay in the studio until the introduce-later phase.
+- [ ] Hex or coin never share a product face with the readable wordmark.
 - [ ] No “rebrand / new logo / new era” copy on Shopee or IG. Show the product.
-- [ ] Shopee shop mark + IG avatars match the current phase (word only, or word + small mark).
+- [ ] Shopee shop mark + IG avatars use the track wordmark or the slashed C.
 
 ---
 

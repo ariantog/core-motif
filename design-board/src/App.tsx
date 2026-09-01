@@ -147,6 +147,65 @@ const logoConcepts = [
   },
 ]
 
+const readableWordmarks = [
+  {
+    id: 'W1',
+    name: 'Slash Track',
+    tag: 'Primary',
+    file: '01-slash-track.png',
+    svg: '01-slash-track.svg',
+    description: 'One-line CORENATION. Slashed C, circular O, separated R, clipped A. Default for Shopee, IG, hangtag, and belt.',
+  },
+  {
+    id: 'W2',
+    name: 'Slash Active',
+    tag: 'Hangtag',
+    file: '02-slash-active.png',
+    svg: '02-slash-active.svg',
+    description: 'Track plus a wide ACTIVEWEAR line. Hangtags, store cards, lookbook.',
+  },
+  {
+    id: 'W3',
+    name: 'Slash Stack',
+    tag: 'Square',
+    file: '03-slash-stack.png',
+    svg: '03-slash-stack.svg',
+    description: 'CORE over NATION, same width. Avatars, hem labels, bags.',
+  },
+  {
+    id: 'W4',
+    name: 'Stack Active',
+    tag: 'Packaging',
+    file: '04-slash-stack-active.png',
+    svg: '04-slash-stack-active.svg',
+    description: 'Stack plus ACTIVEWEAR. Packaging and lookbook covers.',
+  },
+  {
+    id: 'W5',
+    name: 'Core Lead',
+    tag: 'Apparel',
+    file: '05-core-lead.png',
+    svg: '05-core-lead.svg',
+    description: 'Heavy CORE over a lighter NATION. Chest or back when CORE should lead.',
+  },
+  {
+    id: 'W6',
+    name: 'Core Block',
+    tag: 'Graphic',
+    file: '06-core-block.png',
+    svg: '06-core-block.svg',
+    description: 'CO / RE / NATION. Graphic tee and tote only. Not below 24mm.',
+  },
+]
+
+const readableRefs = [
+  { id: 'A', name: 'Track + Active', file: 'a-track-active.png' },
+  { id: 'B', name: 'Track', file: 'b-track.png' },
+  { id: 'C', name: 'Stack + Active', file: 'c-stack-active.png' },
+  { id: 'D', name: 'Core lead', file: 'd-core-lead.png' },
+  { id: 'E', name: 'Core block', file: 'e-core-block.png' },
+]
+
 const hexagonVariations = [
   {
     id: 'H1',
@@ -196,6 +255,31 @@ const hexagonVariations = [
 ]
 
 type Concept = (typeof logoConcepts)[number] | (typeof hexagonVariations)[number]
+
+function WordmarkCard({
+  mark,
+}: {
+  mark: (typeof readableWordmarks)[number]
+}) {
+  return (
+    <article className={`wordmark-card${mark.id === 'W1' ? ' recommended' : ''}`}>
+      <div className="wordmark-preview">
+        <span className="concept-number">{mark.id}</span>
+        <img src={asset(`assets/logo/readable/${mark.file}`)} alt={mark.name} />
+      </div>
+      <div className="concept-copy">
+        <div className="concept-heading">
+          <h3>{mark.name}</h3>
+          <span>{mark.tag}</span>
+        </div>
+        <p>{mark.description}</p>
+        <a className="concept-download" href={asset(`assets/logo/readable/${mark.svg}`)} download>
+          Download SVG
+        </a>
+      </div>
+    </article>
+  )
+}
 
 function ConceptCard({ concept, folder }: { concept: Concept; folder: string }) {
   return (
@@ -270,7 +354,11 @@ function App() {
     <div className={`app theme-${tab}`}>
       <header>
         <div className="brand-mark">
-          <LogoMark className="brand-logo" title="Corenation" />
+          <img
+            className="brand-logo"
+            src={asset('assets/logo/readable/slash-c.png')}
+            alt="Corenation slashed C"
+          />
           <div>
             <h1>Corenation Design Studio</h1>
             <p className="subtitle">
@@ -295,7 +383,53 @@ function App() {
       {tab === 'brand' && (
         <>
           <section>
-            <h2>Logo Exploration — Two New Systems</h2>
+            <h2>Readable wordmarks — locked for new work</h2>
+            <p className="section-lead">
+              Path: <strong>drop hex and coin</strong> → use a readable <strong>CORENATION</strong> → introduce a
+              new mark later, on new items only. Default lockup is Slash Track. Letter DNA from the uploaded A–E
+              boards: slashed C, circular O, separated R. Spec:{' '}
+              <code>docs/readable-wordmark.md</code>.
+            </p>
+            <div className="wordmark-grid">
+              {readableWordmarks.map((mark) => (
+                <WordmarkCard key={mark.id} mark={mark} />
+              ))}
+            </div>
+            <p className="logo-note">
+              Vectors in <code>assets/logo/readable/</code>. Favicon and small avatar use{' '}
+              <code>slash-c</code> — a letter, not a coin.
+            </p>
+          </section>
+
+          <section>
+            <h2>Your uploaded references (A–E)</h2>
+            <p className="section-lead">
+              Source PDFs at the repo root of <code>assets/</code>. Cropped here for side-by-side. Factory files
+              are the production lockups above, not these boards.
+            </p>
+            <div className="wordmark-grid">
+              {readableRefs.map((item) => (
+                <article className="wordmark-card" key={item.id}>
+                  <div className="wordmark-preview ref">
+                    <span className="concept-number">{item.id}</span>
+                    <img
+                      src={asset(`assets/logo/readable/reference/${item.file}`)}
+                      alt={`Reference ${item.id} ${item.name}`}
+                    />
+                  </div>
+                  <div className="concept-copy">
+                    <div className="concept-heading">
+                      <h3>{item.name}</h3>
+                      <span>Uploaded</span>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <h2>Later — new systems (studio only)</h2>
             <p className="section-lead">
               A clean break from the enclosed badge family. Directions 01–03 abstract <strong>CN</strong> as a
               ligature; 04–06 translate <strong>core musculature</strong> into a symbol. No hexagons, shields, or
@@ -307,18 +441,14 @@ function App() {
               ))}
             </div>
             <p className="logo-note">
-              All six are monochrome working vectors in <code>assets/logo/concepts/</code>. They are presented as
-              parallel explorations; no direction is designated as the final master yet. How a chosen mark enters
-              product: <code>docs/logo-transition.md</code>.
+              Studio only this season. Do not put these on a shop SKU until the introduce-later phase.
             </p>
           </section>
 
           <section>
-            <h2>Hexagon Heritage — Original Badge Variations</h2>
+            <h2>Retired — hexagon and coin</h2>
             <p className="section-lead">
-              Five variations built directly on the original closed-hexagon badge
-              (<code>assets/logo/reference-original-hexagon.jpg</code>). The silhouette stays closed; only the
-              outline treatment, stance, and N construction change.
+              Closed hexagon and coin marks are off new POs. Sell through existing stock. Do not reprint.
             </p>
             <div className="concept-grid">
               {hexagonVariations.map((concept) => (
@@ -326,38 +456,36 @@ function App() {
               ))}
             </div>
             <p className="logo-note">
-              Working vectors live in <code>assets/logo/hexagon/</code> with matching cream-on-black PNG previews.
-              Heritage is Method B if you stay with the badge instead of a new system.
+              Archive only. Path is readable word now, not a heritage hex.
             </p>
           </section>
 
           <section>
-            <h2>Logo transition — pick one method</h2>
+            <h2>Logo transition — path locked</h2>
             <p className="section-lead">
-              Working plan: take the original hex off new work, live on the word <strong>CORENATION</strong>, then
-              introduce one locked mark only on new items. That is method A. A + D + G is the recommended stack
-              once a direction is selected. Do not mix two methods on one SKU.
+              Chosen path: drop hex and coin, use the readable word, introduce a new mark later. That is method A
+              with the slash-track family as the word. Do not mix two methods on one SKU.
             </p>
-            <div className="phase-row" aria-label="Recommended sequence">
+            <div className="phase-row" aria-label="Locked sequence">
               <article>
                 <span>Now</span>
-                <strong>Hex off</strong>
+                <strong>Hex + coin off</strong>
                 <p>New POs and files. Sell through old stock.</p>
               </article>
               <article>
                 <span>This season</span>
-                <strong>Word only</strong>
-                <p>CORENATION holds the brand. No new badge yet.</p>
-              </article>
-              <article>
-                <span>New items</span>
-                <strong>Small CN</strong>
-                <p>Hangtag, then hem / nape / buckle-back.</p>
+                <strong>Readable word</strong>
+                <p>Slash Track holds the brand. No new badge yet.</p>
               </article>
               <article>
                 <span>Later</span>
-                <strong>Split or seat</strong>
-                <p>CN stays a stamp, or takes the old hex seat.</p>
+                <strong>New mark</strong>
+                <p>One studio direction, on new items only.</p>
+              </article>
+              <article>
+                <span>Keep</span>
+                <strong>Split system</strong>
+                <p>Word is the face. Any later mark is a stamp.</p>
               </article>
             </div>
             <div className="method-grid">
@@ -403,7 +531,7 @@ function App() {
                 Pakuwon, Cilandak).
               </li>
               <li>
-                <strong>HQ padel</strong> — clubs pick fabric; hex C stays. Club name is secondary only.
+                <strong>HQ padel</strong> — clubs pick fabric; readable wordmark stays. Club name is secondary only.
               </li>
             </ol>
           </section>

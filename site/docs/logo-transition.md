@@ -1,8 +1,8 @@
 # Corenation Logo Transition
 
 **Brand:** Corenation Active — Surabaya, est. 2014  
-**Use:** Brand lead + design. Pick **one** method before the next PO.  
-**Related:** [`cn-logo-spec.md`](cn-logo-spec.md) · [`branding-checklist.md`](branding-checklist.md)
+**Use:** Brand lead + design. Path is locked.  
+**Related:** [`readable-wordmark.md`](readable-wordmark.md) · [`cn-logo-spec.md`](cn-logo-spec.md) · [`branding-checklist.md`](branding-checklist.md)
 
 ---
 
@@ -10,15 +10,13 @@
 
 The old mark is the **closed hexagon around an N**. Regulars have seen it on belts, hems, hangtags, Shopee thumbnails, and store fixtures since the brand started.
 
-The studio now has two families and **no locked master**: six new systems (CN abstraction + core anatomy) and five hexagon heritage variations. Do not put the whole board on product. Lock one shape, then change how it *appears*.
+**Path locked:** drop the hex and the coin → use the readable wordmark → introduce a new mark later, on new items only.
 
-Your working plan is already a real method:
+1. **Hex and coin are off new work.** Sell through existing stock. Do not reprint either badge.
+2. **The face is `CORENATION`.** Use the slash-track family in [`readable-wordmark.md`](readable-wordmark.md). Default lockup: `01-slash-track`.
+3. **A new mark comes later**, only on new items, after the word is doing the work.
 
-1. **Take the old hex off new work.** Do not reprint it.
-2. **Live on the word `CORENATION`** so the name — not a drawing — holds the brand.
-3. **Put the new CN only on new items**, small at first, then in the old hex slot once it feels familiar.
-
-That is **Method A (Wordmark Bridge)**. The methods below are different ways to run the same change. Pick one. Mixing two methods on one SKU looks like a factory error.
+That is **Method A (Wordmark Bridge)**, with the readable family as the word. Do not mix a hex or coin onto a readable SKU.
 
 ---
 
@@ -27,12 +25,13 @@ That is **Method A (Wordmark Bridge)**. The methods below are different ways to 
 | Lock | Rule |
 |------|------|
 | Name | `CORENATION` or `CORE NATION` — all caps, wide sans. Letter A may use the diagonal-cut A from the belt samples. |
-| New mark | One locked direction after selection — a new system **or** one heritage hex. Cream / white / black only. |
-| Old mark | Sell through existing stock. Do not reprint the original closed hex on a restock. |
-| One face | Never the original hex + a new/heritage mark on the same product panel. |
+| Face now | Readable wordmark (`01-slash-track` unless another lockup is named). Cream / white / black only. |
+| Later mark | One new-system direction, introduced only after the word is established. Not this PO. |
+| Old mark | Sell through existing stock. Do not reprint the hex or coin on a restock. |
+| One face | Never hex or coin next to the readable word on the same product panel. |
 | Voice | Do not say *rebrand, reborn, luxury refresh, new era*. Say the product name. The logo change is not the campaign. |
 | Inventory | Dept-store apparel and unsold accs keep whatever mark they shipped with. |
-| Clubs | Padel kits already cut keep the hex. New club POs follow the method you pick. |
+| Clubs | Padel kits already cut keep the hex. New club POs use the readable wordmark. |
 
 ---
 
@@ -211,7 +210,7 @@ Run **A + D + G**, in that order, once a new-system mark is locked. Do not run B
 | **This season** | New CN only on hangtags / care labels, then on **one** new drop, in a **new** seat, 8–12mm. | Do not put CN on a restock of a hex SKU. Do not ship two CN concepts. |
 | **Next season** | CN may sit in the old hex seat if the small stamp already feels normal. Or keep the split system (word = face, CN = stamp). | Do not grow the CN into an all-over monogram. |
 
-**Do not lock a public mark yet.** Continuum is only the temporary hub icon. Circle one direction (a new system **or** one heritage hex) before Phase 2. Studio explorations stay off shop SKUs.
+**Public face is locked:** Slash Track (`assets/logo/readable/01-slash-track.svg`). The slashed C is the small letter, not a coin. Studio systems stay off shop SKUs until the introduce-later phase.
 
 ---
 
@@ -261,9 +260,9 @@ hardware → small CN (or CN on buckle-back) → vertical JP → `CORENATION` �
 ## Staff ticks (owner: brand lead)
 
 - [ ] One method letter circled (A–I). Default if blank: **A**.
-- [ ] Public mark locked (one new system **or** one heritage hex) before Phase 2. Until then, wordmark only.
+- [ ] Public face is the readable wordmark (`01-slash-track` unless another lockup is named).
 - [ ] Factory list: which open POs still have the original hex (those ship; they are not redone).
-- [ ] Next PO tech packs have **no** original closed hex unless Method B is circled.
+- [ ] Next PO tech packs have **no** hex and **no** coin.
 - [ ] Shopee shop logo + three IG avatars queued to the same phase.
 - [ ] Hangtag / care label reprint uses wordmark; CN only if you are already in Phase 2.
 - [ ] Store VM brief: sell through hex product; new cards are word-only.
