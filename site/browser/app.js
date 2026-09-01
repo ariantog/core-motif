@@ -9,6 +9,11 @@ const logos = [
   { title: 'Linea', note: 'Core anatomy · pure symbol', path: 'assets/logo/concepts/04-linea.svg' },
   { title: 'Oblique', note: 'Core anatomy · modular', path: 'assets/logo/concepts/05-oblique.svg' },
   { title: 'Crossbrace', note: 'Core anatomy · hidden N', path: 'assets/logo/concepts/06-crossbrace.svg' },
+  { title: 'Hex Heritage', note: 'Hexagon heritage · faithful redraw', path: 'assets/logo/hexagon/01-heritage.svg' },
+  { title: 'Hex Emboss', note: 'Hexagon heritage · tonal knockout', path: 'assets/logo/hexagon/02-emboss.svg' },
+  { title: 'Hex Inline', note: 'Hexagon heritage · premium thin', path: 'assets/logo/hexagon/03-inline.svg' },
+  { title: 'Hex Facet', note: 'Hexagon heritage · engineered edge', path: 'assets/logo/hexagon/04-facet.svg' },
+  { title: 'Hex Sideline', note: 'Hexagon heritage · wide stance', path: 'assets/logo/hexagon/05-sideline.svg' },
   { title: 'Original reference', note: 'Closed hexagon', path: 'assets/logo/reference-original-hexagon.jpg' },
 ]
 
@@ -22,6 +27,7 @@ const designFilters = [
 ]
 
 const docs = [
+  { title: 'Logo transition', path: 'docs/logo-transition.md' },
   { title: 'Padel collection', path: 'docs/padel-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
@@ -42,12 +48,25 @@ function showView(name) {
   history.replaceState(null, '', `#${name}`)
 }
 
-function wireDesignBoard() {
+async function wireDesignBoard() {
   const frame = document.querySelector('#view-design-board iframe')
   const link = document.querySelector('#view-design-board .btn')
   if (!frame || !link) return
-  const nested = /\/site\/?$/i.test(hubBase().pathname)
-  const href = nested ? 'design-board/index.html' : 'site/design-board/index.html'
+
+  const candidates = ['design-board/index.html', 'site/design-board/index.html']
+  let href = frame.getAttribute('src') || candidates[0]
+  for (const candidate of candidates) {
+    try {
+      const res = await fetch(assetUrl(candidate), { method: 'HEAD' })
+      if (res.ok) {
+        href = candidate
+        break
+      }
+    } catch {
+      /* try the next path */
+    }
+  }
+
   frame.src = href
   link.href = href
 }

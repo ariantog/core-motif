@@ -215,6 +215,96 @@ header {
   text-transform: uppercase;
 }
 
+.phase-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.phase-row article {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.85rem 0.95rem;
+}
+
+.phase-row span {
+  display: block;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.phase-row strong {
+  display: block;
+  margin: 0.35rem 0 0.25rem;
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  color: var(--cream);
+}
+
+.phase-row p {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.method-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+}
+
+.method-card.recommended {
+  border-color: var(--gold);
+}
+
+.method-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+
+.method-id {
+  flex-shrink: 0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+}
+
+.method-card h3 {
+  margin: 0;
+  flex: 1;
+  font-size: 0.88rem;
+  letter-spacing: 0.03em;
+  color: var(--cream);
+}
+
+.method-head span:last-child {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #69685f;
+}
+
+.method-card p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 .logo-note {
   margin: 1rem 0 0;
   font-size: 0.85rem;
@@ -226,7 +316,9 @@ header {
 }
 
 @media (max-width: 720px) {
-  .concept-grid {
+  .concept-grid,
+  .method-grid,
+  .phase-row {
     grid-template-columns: 1fr;
   }
 
@@ -238,6 +330,11 @@ header {
 @media (min-width: 721px) and (max-width: 1000px) {
   .concept-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .method-grid,
+  .phase-row {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

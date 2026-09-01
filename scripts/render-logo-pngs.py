@@ -6,6 +6,7 @@ import cairosvg
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "logo" / "concepts"
+HEX_OUT = ROOT / "assets" / "logo" / "hexagon"
 
 CREAM = "#D6CFB5"
 INK = "#0A0A0A"
@@ -17,6 +18,14 @@ CONCEPTS = [
     "04-linea",
     "05-oblique",
     "06-crossbrace",
+]
+
+HEXAGON_VARIATIONS = [
+    "01-heritage",
+    "02-emboss",
+    "03-inline",
+    "04-facet",
+    "05-sideline",
 ]
 
 
@@ -35,6 +44,9 @@ def render(source: Path, destination: Path) -> None:
 def main() -> None:
     for slug in CONCEPTS:
         render(OUT / f"{slug}.svg", OUT / f"{slug}.png")
+
+    for slug in HEXAGON_VARIATIONS:
+        render(HEX_OUT / f"{slug}.svg", HEX_OUT / f"{slug}.png")
 
     logo_dir = ROOT / "assets" / "logo"
     render(logo_dir / "corenation-cn-logo-cream.svg", logo_dir / "corenation-cn-logo-cream.png")

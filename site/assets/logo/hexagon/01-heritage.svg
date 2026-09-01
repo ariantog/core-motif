@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="hex-heritage-title">
+  <title id="hex-heritage-title">Corenation hexagon Heritage badge</title>
+  <g fill="currentColor">
+    <path fill-rule="evenodd" d="M80 16l55 32v64l-55 32-55-32V48Zm0 11L34 54v52l46 27 46-27V54Z"/>
+    <path fill-rule="evenodd" d="M80 32l42 24v48l-42 24-42-24V56Zm0 3L41 58v44l39 23 39-23V58Z"/>
+    <path d="M54 100V56h14l24 32V60l14-8v52h-14L68 76v28Z"/>
+  </g>
+</svg>

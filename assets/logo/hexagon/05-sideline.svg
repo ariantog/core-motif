@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="hex-sideline-title">
+  <title id="hex-sideline-title">Corenation hexagon Sideline badge</title>
+  <g fill="currentColor">
+    <path fill-rule="evenodd" d="M144 80l-32 55H48L16 80l32-55h64Zm-11 0-26-46H53L27 80l26 46h54Z"/>
+    <path d="M54 104V56h14l24 32V56h14v48h-14L68 72v32Z"/>
+  </g>
+</svg>
