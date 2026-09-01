@@ -1,7 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 import { LogoMark } from './components/LogoMark'
-import { collections, mockups, referenceSamples } from './data/kanji'
+import { cultureMockups, culturePrints } from './data/culture'
+import { floralMockups, floralRules } from './data/floral'
+import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
+import { asset } from './lib/assets'
+
+type Tab = 'brand' | 'men' | 'women' | 'culture' | 'marks'
+
+const TABS: { id: Tab; label: string }[] = [
+  { id: 'brand', label: 'Brand' },
+  { id: 'men', label: 'Men kanji' },
+  { id: 'women', label: 'Women floral' },
+  { id: 'culture', label: 'Culture run' },
+  { id: 'marks', label: 'Marks' },
+]
 
 const logoConcepts = [
   {
@@ -34,6 +47,38 @@ const logoConcepts = [
   },
 ]
 
+function Swatches({ items }: { items: { hex: string; name: string }[] }) {
+  return (
+    <div className="palette">
+      {items.map((item) => (
+        <div className="swatch" key={item.name}>
+          <span style={{ background: item.hex }} />
+          {item.name}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function MockGrid({ items }: { items: Array<{ src: string; title: string; type?: string }> }) {
+  return (
+    <div className="mockup-grid">
+      {items.map((item) => (
+        <article
+          key={item.src}
+          className={`mockup-card${item.type === 'Apparel' && item.title.includes('Tee') ? ' tall' : item.type === 'Accessory' ? ' square' : ''}`}
+        >
+          <img src={item.src} alt={item.title} loading="lazy" />
+          <div className="mockup-info">
+            {item.type ? <div className="mockup-type">{item.type}</div> : null}
+            <h3>{item.title}</h3>
+          </div>
+        </article>
+      ))}
+    </div>
+  )
+}
+
 function App() {
   const [tab, setTab] = useState<Tab>('brand')
 
@@ -50,72 +95,70 @@ function App() {
           </div>
         </div>
         <nav className="tabs" aria-label="Lines">
-          {TABS.map((t) => (
-            <button key={t.id} className={tab === t.id ? 'active' : ''} onClick={() => setTab(t.id)} type="button">
-              {t.label}
+          {TABS.map((item) => (
+            <button
+              key={item.id}
+              className={tab === item.id ? 'active' : ''}
+              onClick={() => setTab(item.id)}
+              type="button"
+            >
+              {item.label}
             </button>
           ))}
         </nav>
       </header>
 
-      <section>
-        <h2>CN Monogram — New Directions</h2>
-        <p className="section-lead">
-          Four rebuilt concepts using solid, intentional geometry. Each mark combines a clearly readable
-          <strong> C</strong> with an angular <strong>N</strong>—without looking like a damaged hexagon.
-        </p>
-        <div className="concept-grid">
-          {logoConcepts.map((concept) => (
-            <article className="concept-card" key={concept.variant}>
-              <div className="concept-preview">
-                <span className="concept-number">{concept.id}</span>
-                <LogoMark
-                  className="concept-mark"
-                  title="Corenation"
-                  variant={concept.variant}
-                />
-              </div>
-              <div className="concept-copy">
-                <div className="concept-heading">
-                  <h3>{concept.name}</h3>
-                  <span>{concept.note}</span>
-                </div>
-                <p>{concept.description}</p>
-                <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
-                  <LogoMark title="Corenation" variant={concept.variant} />
-                  <LogoMark title="Corenation" variant={concept.variant} />
-                  <LogoMark title="Corenation" variant={concept.variant} />
-                  <strong>Small-size test</strong>
-                </div>
-              </div>
-            </article>
-          ))}
-        </div>
-        <p className="logo-note">
-          All four concepts are production-ready SVGs in <code>assets/logo/concepts/</code>.
-          Concept 01 is also exported as the current master in <code>assets/logo/corenation-cn-logo.svg</code>.
-        </p>
-      </section>
+      {tab === 'brand' && (
+        <>
+          <section>
+            <h2>CN Monogram — New Directions</h2>
+            <p className="section-lead">
+              Four rebuilt concepts using solid, intentional geometry. Each mark combines a clearly readable
+              <strong> C</strong> with an angular <strong>N</strong>—without looking like a damaged hexagon.
+            </p>
+            <div className="concept-grid">
+              {logoConcepts.map((concept) => (
+                <article className="concept-card" key={concept.variant}>
+                  <div className="concept-preview">
+                    <span className="concept-number">{concept.id}</span>
+                    <LogoMark className="concept-mark" title="Corenation" variant={concept.variant} />
+                  </div>
+                  <div className="concept-copy">
+                    <div className="concept-heading">
+                      <h3>{concept.name}</h3>
+                      <span>{concept.note}</span>
+                    </div>
+                    <p>{concept.description}</p>
+                    <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
+                      <LogoMark title="Corenation" variant={concept.variant} />
+                      <LogoMark title="Corenation" variant={concept.variant} />
+                      <LogoMark title="Corenation" variant={concept.variant} />
+                      <strong>Small-size test</strong>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+            <p className="logo-note">
+              All four concepts are production-ready SVGs in <code>assets/logo/concepts/</code>.
+              Concept 01 is also exported as the current master in <code>assets/logo/corenation-cn-logo.svg</code>.
+            </p>
+          </section>
 
-      <section>
-        <h2>Design Mockups</h2>
-        <div className="mockup-grid">
-          {mockups.map((m) => (
-            <article
-              key={m.src}
-              className={`mockup-card${m.type === 'Apparel' && m.title.includes('Tee') ? ' tall' : m.type === 'Accessory' ? ' square' : ''}`}
-            >
-              <img src={m.src} alt={m.title} loading="lazy" />
-              <div className="mockup-info">
-                <div className="mockup-type">{m.type}</div>
-                <h3>{m.title}</h3>
-              </div>
+          <section>
+            <h2>Positioning</h2>
+            <div className="two-col">
               <div>
                 <h3>Use</h3>
                 <p>performance · training · built to move · quality fabric · everyday athlete</p>
               </div>
+              <div>
+                <h3>Brand</h3>
+                <p>Corenation Active · Surabaya · men / women / hijab / Culture Run / padel</p>
+              </div>
             </div>
           </section>
+
           <section>
             <h2>Channels</h2>
             <ol className="channel-list">
@@ -132,6 +175,7 @@ function App() {
               </li>
             </ol>
           </section>
+
           <section>
             <h2>Playbook v2.0 — what staff got</h2>
             <p className="lede">
@@ -170,15 +214,15 @@ function App() {
                   <span className="collection-theme">{col.theme}</span>
                 </div>
                 <div className="kanji-grid">
-                  {col.items.map((k) => (
-                    <article key={k.char} className="kanji-card">
-                      <div className="kanji-char">{k.char}</div>
+                  {col.items.map((item) => (
+                    <article key={item.char} className="kanji-card">
+                      <div className="kanji-char">{item.char}</div>
                       <div className="kanji-meta">
-                        <strong>{k.romanization}</strong> — {k.meaning}
+                        <strong>{item.romanization}</strong> — {item.meaning}
                         <br />
-                        Accent: {k.accent}
+                        Accent: {item.accent}
                         <br />
-                        {k.applications}
+                        {item.applications}
                       </div>
                     </article>
                   ))}
@@ -194,10 +238,10 @@ function App() {
           <section>
             <h2>Theme lock</h2>
             <div className="rule-grid">
-              {floralRules.map((r) => (
-                <article key={r.lock}>
-                  <h3>{r.lock}</h3>
-                  <p>{r.flower}</p>
+              {floralRules.map((rule) => (
+                <article key={rule.lock}>
+                  <h3>{rule.lock}</h3>
+                  <p>{rule.flower}</p>
                 </article>
               ))}
             </div>
@@ -244,8 +288,8 @@ function App() {
             <div className="mark-grid">
               {kanjiMarks.map((slug) => (
                 <article key={slug} className="mark-pair">
-                  <img src={`/assets/men-kanji/marks/card-${slug}.png`} alt={`Card ${slug}`} loading="lazy" />
-                  <img src={`/assets/men-kanji/marks/patch-${slug}.png`} alt={`Patch ${slug}`} loading="lazy" />
+                  <img src={asset(`assets/men-kanji/marks/card-${slug}.png`)} alt={`Card ${slug}`} loading="lazy" />
+                  <img src={asset(`assets/men-kanji/marks/patch-${slug}.png`)} alt={`Patch ${slug}`} loading="lazy" />
                   <h3>{slug}</h3>
                 </article>
               ))}
@@ -255,8 +299,8 @@ function App() {
             <h2>Floral sheets</h2>
             <MockGrid
               items={[
-                { src: '/assets/women-floral/marks/sakura-branch-sheet.png', title: 'Sakura branch — pink SKUs' },
-                { src: '/assets/women-floral/marks/lavender-spray-sheet.png', title: 'Lavender spray — lilac SKUs' },
+                { src: asset('assets/women-floral/marks/sakura-branch-sheet.png'), title: 'Sakura branch — pink SKUs' },
+                { src: asset('assets/women-floral/marks/lavender-spray-sheet.png'), title: 'Lavender spray — lilac SKUs' },
               ]}
             />
           </section>
