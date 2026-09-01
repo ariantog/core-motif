@@ -9,6 +9,11 @@ const logos = [
   { title: 'Linea', note: 'Core anatomy · pure symbol', path: 'assets/logo/concepts/04-linea.svg' },
   { title: 'Oblique', note: 'Core anatomy · modular', path: 'assets/logo/concepts/05-oblique.svg' },
   { title: 'Crossbrace', note: 'Core anatomy · hidden N', path: 'assets/logo/concepts/06-crossbrace.svg' },
+  { title: 'Hex Heritage', note: 'Hexagon heritage · faithful redraw', path: 'assets/logo/hexagon/01-heritage.svg' },
+  { title: 'Hex Emboss', note: 'Hexagon heritage · tonal knockout', path: 'assets/logo/hexagon/02-emboss.svg' },
+  { title: 'Hex Inline', note: 'Hexagon heritage · premium thin', path: 'assets/logo/hexagon/03-inline.svg' },
+  { title: 'Hex Facet', note: 'Hexagon heritage · engineered edge', path: 'assets/logo/hexagon/04-facet.svg' },
+  { title: 'Hex Sideline', note: 'Hexagon heritage · wide stance', path: 'assets/logo/hexagon/05-sideline.svg' },
   { title: 'Original reference', note: 'Closed hexagon', path: 'assets/logo/reference-original-hexagon.jpg' },
 ]
 
