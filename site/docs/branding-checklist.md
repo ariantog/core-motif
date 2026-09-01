@@ -16,7 +16,7 @@ v1.0 was a strong **men's kanji** ops list. It did not give the company a brand 
 ### Visual Rules
 - [ ] Base colors: olive `#4A5240`, black, charcoal grey — max 3 structural colors per piece.
 - [ ] Accent colors: cream `#D6CFB5`, gold `#D4AF37`, red `#C41E3A` — **one hero accent** per product face.
-- [ ] Brand mark on new POs is the readable wordmark in [`readable-wordmark.md`](readable-wordmark.md). Default: `01-slash-track`. No hex, no coin.
+- [ ] Brand lead selected one direction from [`readable-wordmark.md`](readable-wordmark.md) before a new PO. Open Set is recommended. No hex, no coin.
 - [ ] Kanji on apparel uses **black rectangular patch** (shorts/tees) or **gold/cream on dark overlay** (belts).
 - [ ] Kanji stroke style: bold brush on belts; clean bold strokes on small patches (legibility at 3m).
 - [ ] Wordmark: `CORENATION` or `CORE NATION` — all caps, wide sans-serif only.
@@ -405,12 +405,12 @@ Do not launch three line stories in the same week on the same account.
 
 Path locked: **drop hex and coin → readable wordmark → new mark later.** Spec: [`readable-wordmark.md`](readable-wordmark.md).
 
-- [ ] Next PO tech packs use `01-slash-track` (or a named lockup from the spec). No hex. No coin.
+- [ ] Next PO tech packs use the selected readable direction. Do not issue before selection. No hex. No coin.
 - [ ] Unsold hex / coin inventory sells through — do not scrap, do not reprint those badges on a restock.
 - [ ] New-system marks (Continuum and the rest) stay in the studio until the introduce-later phase.
 - [ ] Hex or coin never share a product face with the readable wordmark.
 - [ ] No “rebrand / new logo / new era” copy on Shopee or IG. Show the product.
-- [ ] Shopee shop mark + IG avatars use the track wordmark or the slashed C.
+- [ ] Shopee shop mark + IG avatars use the selected wordmark family.
 
 ---
 

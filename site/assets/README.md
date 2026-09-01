@@ -5,7 +5,7 @@ Each line lives in its own folder. Culture Run drops are grouped by texture fami
 ```
 assets/
   LOGO CORENATION A–E.pdf     uploaded readable-logo references
-  logo/readable/              production wordmarks + cropped A–E refs
+  logo/readable/              outlined wordmark directions + cropped A–E refs
   references/                 original 龍 samples
   men-kanji/
     belts/  apparel/  accessories/
