@@ -30,39 +30,43 @@ All-over dye-sub. No sewn embroidery patches. Hex C is flat print. 走 (if used)
 
 ## Drops (one folder each)
 
-All files: `assets/culture-run/<drop>/` — garment mockup + `print.png` (locked composite) + `print-bg.png` (texture only).
+Drops are grouped by texture so the file browser is easier to scan:
+
+`assets/culture-run/01-wave/` · `02-brushed/` · `03-marble/` · `04-earth/` · `05-watercolor/`
+
+Each drop folder has garment mockup + `print.png` (locked) + `background-clean.png` (texture only).
 
 **Layers for moving marks**
 
 | File | What it is |
 |------|------------|
-| `assets/culture-run/<drop>/print.png` | Locked design — leave this alone |
-| `assets/culture-run/<drop>/print-bg.png` | Same drop without kanji, hex C, or chrome type |
-| `assets/culture-run/_layers/so-run-*.png` | Transparent 走 (cream / ink / white / gold / rose) |
-| `assets/culture-run/_layers/san-mountain-*.png` | Transparent 山 |
-| `assets/culture-run/_layers/hex-c-*.png` | Transparent classic hex C |
-| `assets/culture-run/_layers/cn-core-cut-*.png` | Transparent CN Core Cut |
+| `…/<drop>/print.png` | Locked design — leave this alone |
+| `…/<drop>/background-clean.png` | Same drop without logo, kanji, or slogans |
+| `assets/culture-run/layers/kanji/so-run-*.png` | Transparent 走 |
+| `assets/culture-run/layers/kanji/san-mountain-*.png` | Transparent 山 |
+| `assets/culture-run/layers/logos/hex-c-*.png` | Transparent classic hex C |
+| `assets/culture-run/layers/logos/cn-core-cut-*.png` | Transparent CN Core Cut |
 
-Place a layer on `print-bg.png` in any editor. Do not overwrite `print.png`.
+Place a layer on `background-clean.png` in any editor. Do not overwrite `print.png`.
 
-| Folder | Story | Who | Kanji |
-|--------|--------|-----|-------|
-| `blue-hour-wave` | Aurora wave (approved hero) | Men singlet | 走 |
-| `wave-brushed-tide` | Tide painted in one pass | Men tee | 走 |
-| `summit-brushed` | Ridge in brushed dawn | Men tank | 山 at hem |
-| `bloom-marble` | Sakura path on pink marble | Women tank | No |
-| `dusk-marble` | Lavender veins on dusk marble | Women tee | No |
-| `home-soil-dawn` | Java ridge, brushed sunrise | Unisex singlet | No |
-| `heatmap-marble` | Thermal / lava marble | Men singlet | 走 |
-| `ink-marble` | Suminagashi | Men singlet | 走 |
-| `bumi-strata` | Terracotta strata + Java ridge | Unisex singlet | No |
-| `moss-current` | Moss / river-stone mineral marble | Men tee | 走 |
-| `sandstone-sumi` | Espresso / sandstone suminagashi | Men tank | 走 |
-| `cacao-route` | Cacao / clay topographic route | Women tank | No |
-| `bumi-watercolor` | Terracotta / ochre volcanic pigment wash | Unisex singlet | No |
-| `moss-watercolor` | Moss / stone river pigment wash | Men tee | 走 |
-| `sand-wave-watercolor` | Sand / umber watercolor wave | Men tank | 走 |
-| `cacao-watercolor` | Cacao / clay watercolor route | Women tank | No |
+| Family | Folder | Story | Who | Kanji |
+|--------|--------|--------|-----|-------|
+| `01-wave` | `blue-hour-wave` | Aurora wave (approved hero) | Men singlet | 走 |
+| `01-wave` | `wave-brushed-tide` | Tide painted in one pass | Men tee | 走 |
+| `02-brushed` | `summit-brushed` | Ridge in brushed dawn | Men tank | 山 at hem |
+| `02-brushed` | `home-soil-dawn` | Java ridge, brushed sunrise | Unisex singlet | No |
+| `03-marble` | `bloom-marble` | Sakura path on pink marble | Women tank | No |
+| `03-marble` | `dusk-marble` | Lavender veins on dusk marble | Women tee | No |
+| `03-marble` | `heatmap-marble` | Thermal / lava marble | Men singlet | 走 |
+| `03-marble` | `ink-marble` | Suminagashi | Men singlet | 走 |
+| `04-earth` | `bumi-strata` | Terracotta strata + Java ridge | Unisex singlet | No |
+| `04-earth` | `moss-current` | Moss / river-stone mineral marble | Men tee | 走 |
+| `04-earth` | `sandstone-sumi` | Espresso / sandstone suminagashi | Men tank | 走 |
+| `04-earth` | `cacao-route` | Cacao / clay topographic route | Women tank | No |
+| `05-watercolor` | `bumi-watercolor` | Terracotta / ochre volcanic pigment wash | Unisex singlet | No |
+| `05-watercolor` | `moss-watercolor` | Moss / stone river pigment wash | Men tee | 走 |
+| `05-watercolor` | `sand-wave-watercolor` | Sand / umber watercolor wave | Men tank | 走 |
+| `05-watercolor` | `cacao-watercolor` | Cacao / clay watercolor route | Women tank | No |
 
 `_archive-v1/` = flat charcoal pieces. Do not send those to factory.
 
@@ -101,4 +105,4 @@ Hang so the **back** shows. Do not merch next to the 龍 lifting short without a
 
 ---
 
-*Document version: 3.3 — Added mark-free `print-bg.png` per drop plus `_layers/` so kanji and logos can move.*
+*Document version: 3.4 — Clean plates are `background-clean.png`. Drops grouped into `01-wave` … `05-watercolor`. Loose marks live in `layers/kanji` and `layers/logos`.*
