@@ -46,29 +46,63 @@ function showView(name) {
   views.forEach((view) => view.classList.toggle('active', view.id === `view-${name}`))
   navItems.forEach((item) => item.classList.toggle('active', item.dataset.view === name))
   history.replaceState(null, '', `#${name}`)
+  if (name === 'design-board') revealDesignBoard()
 }
 
-async function wireDesignBoard() {
-  const frame = document.querySelector('#view-design-board iframe')
-  const link = document.querySelector('#view-design-board .btn')
-  if (!frame || !link) return
+function designBoardEls() {
+  return {
+    frame: document.querySelector('#view-design-board iframe'),
+    link: document.querySelector('#view-design-board .btn'),
+  }
+}
 
-  const candidates = ['design-board/index.html', 'site/design-board/index.html']
-  let href = frame.getAttribute('src') || candidates[0]
+function isBuiltBoardHtml(html) {
+  // The Vite source entry also 200s at /design-board/ when the domain is the
+  // repo root. It has an empty #root and /src/main.tsx, which 404s in the hub.
+  return html.includes('id="root"') && !html.includes('/src/main.tsx')
+}
+
+async function resolveDesignBoardHref() {
+  const { frame } = designBoardEls()
+  const markup = frame?.getAttribute('src')
+  const candidates = [markup, 'site/design-board/index.html', 'design-board/index.html'].filter(Boolean)
+  const seen = new Set()
+
   for (const candidate of candidates) {
+    if (seen.has(candidate)) continue
+    seen.add(candidate)
     try {
-      const res = await fetch(assetUrl(candidate), { method: 'HEAD' })
-      if (res.ok) {
-        href = candidate
-        break
-      }
+      const res = await fetch(assetUrl(candidate), { cache: 'no-store' })
+      if (!res.ok) continue
+      if (isBuiltBoardHtml(await res.text())) return candidate
     } catch {
       /* try the next path */
     }
   }
 
+  return markup || 'site/design-board/index.html'
+}
+
+function applyDesignBoardHref(href) {
+  const { frame, link } = designBoardEls()
+  if (!frame || !link) return
+  frame.removeAttribute('loading')
   frame.src = href
   link.href = href
+}
+
+function revealDesignBoard() {
+  const { frame } = designBoardEls()
+  if (!frame) return
+  frame.removeAttribute('loading')
+  const href = frame.getAttribute('src') || frame.src
+  if (href) frame.src = href
+}
+
+async function wireDesignBoard() {
+  const { frame, link } = designBoardEls()
+  if (!frame || !link) return
+  applyDesignBoardHref(await resolveDesignBoardHref())
 }
 
 function hubBase() {
