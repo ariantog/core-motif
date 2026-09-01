@@ -82,7 +82,7 @@ header {
 
 .concept-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
 }
 
@@ -105,7 +105,7 @@ header {
   position: relative;
   display: grid;
   place-items: center;
-  min-height: 330px;
+  min-height: 290px;
   color: var(--cream);
   background:
     radial-gradient(circle at 50% 42%, rgba(214, 207, 181, 0.08), transparent 34%),
@@ -122,8 +122,18 @@ header {
   color: #69685f;
 }
 
+.concept-family {
+  position: absolute;
+  top: 0.9rem;
+  right: 1rem;
+  color: #77746b;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .concept-mark {
-  width: min(210px, 62%);
+  width: min(190px, 58%);
   height: auto;
   filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.38));
 }
@@ -155,10 +165,24 @@ header {
 }
 
 .concept-copy p {
-  min-height: 3.6em;
-  margin: 0.6rem 0 1rem;
+  min-height: 5em;
+  margin: 0.6rem 0 0.7rem;
   color: #9a9588;
   font-size: 0.82rem;
+}
+
+.concept-download {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  color: var(--gold);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.concept-download:hover {
+  color: var(--cream);
 }
 
 .concept-small-scale {
@@ -208,6 +232,12 @@ header {
 
   .concept-preview {
     min-height: 260px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1000px) {
+  .concept-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 

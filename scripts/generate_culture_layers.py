@@ -30,13 +30,6 @@ FONT_SANS = FONT_SERIF
 if not FONT_SERIF:
     raise SystemExit("No CJK font found. Install fonts-noto-cjk.")
 
-CONCEPTS = {
-    "01-core-cut": [
-        "M143 40 88 8 25 39 12 80l13 41 63 31 55-32-13-22-43 25-38-19-6-24 6-24 38-19 43 25Z",
-        "M58 106V54h18l28 39V54h18v52h-18L76 67v39Z",
-    ],
-}
-
 
 def save(im: Image.Image, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -92,12 +85,8 @@ def hex_c(color: tuple[int, int, int, int], size: int = 720) -> Image.Image:
     return im
 
 
-def concept_png(paths: list[str], fill: str, dest: Path, px: int = 800) -> None:
-    path_xml = "\n".join(f'    <path fill="{fill}" d="{d}"/>' for d in paths)
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img">
-{path_xml}
-</svg>
-"""
+def concept_png(source: Path, color: str, dest: Path, px: int = 800) -> None:
+    svg = source.read_text(encoding="utf-8").replace("currentColor", color)
     dest.parent.mkdir(parents=True, exist_ok=True)
     cairosvg.svg2png(bytestring=svg.encode("utf-8"), write_to=str(dest), output_width=px, output_height=px)
     print(f"wrote {dest.relative_to(ROOT)}")
@@ -123,9 +112,10 @@ def main() -> None:
     save(hex_c(WHITE), LOGO_DIR / "hex-c-white.png")
     save(hex_c(GOLD), LOGO_DIR / "hex-c-gold.png")
 
-    hex_colors = {"cream": "#D6CFB5", "ink": "#0A0A0A", "white": "#FFFFFF", "gold": "#D4AF37"}
-    for name, fill in hex_colors.items():
-        concept_png(CONCEPTS["01-core-cut"], fill, LOGO_DIR / f"cn-core-cut-{name}.png")
+    logo_colors = {"cream": "#D6CFB5", "ink": "#0A0A0A", "white": "#FFFFFF", "gold": "#D4AF37"}
+    continuum = ROOT / "assets" / "logo" / "concepts" / "01-continuum.svg"
+    for name, color in logo_colors.items():
+        concept_png(continuum, color, LOGO_DIR / f"cn-continuum-{name}.png")
 
 
 if __name__ == "__main__":

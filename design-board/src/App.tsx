@@ -21,73 +21,57 @@ const TABS: { id: Tab; label: string }[] = [
 const logoConcepts = [
   {
     id: '01',
-    variant: 'core-cut' as const,
-    name: 'Core Cut',
-    description: 'A bold hexagonal C with a clean side cut. The N sits independently inside for maximum legibility.',
-    note: 'Best all-rounder',
+    variant: 'continuum' as const,
+    name: 'Continuum',
+    family: 'CN abstraction',
+    description: 'One continuous line rounds into a C, then rises through an N. Open, fluid, and deliberately uncontained.',
+    note: 'Fluid / minimal',
+    file: '01-continuum.svg',
   },
   {
     id: '02',
-    variant: 'interlock' as const,
-    name: 'Interlock',
-    description: 'The C is built from three locked plates while the N bridges its open side. More technical and engineered.',
-    note: 'Best for equipment',
+    variant: 'fold' as const,
+    name: 'Fold',
+    family: 'CN abstraction',
+    description: 'Two folded planes share their edges: a cropped C on the left and a deep N on the right.',
+    note: 'Angular / apparel',
+    file: '02-fold.svg',
   },
   {
     id: '03',
-    variant: 'velocity' as const,
-    name: 'Velocity',
-    description: 'A forward-leaning C and N with a compact athletic stance. Designed for apparel and performance products.',
-    note: 'Best for sportswear',
+    variant: 'counterform' as const,
+    name: 'Counterform',
+    family: 'CN abstraction',
+    description: 'The letters live in the white space: a curved C counter meets a diagonal N channel between two blocks.',
+    note: 'Negative space',
+    file: '03-counterform.svg',
   },
   {
     id: '04',
-    variant: 'core-block' as const,
-    name: 'Core Block',
-    description: 'A wide, stable C with a heavy inset N. The simplest option for embroidery, rubber patches, and small sizes.',
-    note: 'Best for production',
+    variant: 'linea' as const,
+    name: 'Linea',
+    family: 'Core anatomy',
+    description: 'Paired abdominal walls pull toward a narrow linea alba. This is a core symbol first, with no forced letterform.',
+    note: 'Pure core symbol',
+    file: '04-linea.svg',
   },
   {
     id: '05',
-    variant: 'seal' as const,
-    name: 'Seal',
-    description: 'A circular C that reads as a letter at a glance, with the angular N locked in the opening.',
-    note: 'Most readable C',
+    variant: 'oblique' as const,
+    name: 'Oblique',
+    family: 'Core anatomy',
+    description: 'Six compressed bands map the obliques from rib to waist. The split center keeps the mark light and technical.',
+    note: 'Modular / technical',
+    file: '05-oblique.svg',
   },
   {
     id: '06',
-    variant: 'shield' as const,
-    name: 'Shield',
-    description: 'A pointed badge C built for patches, belts, and club kit. The N sits in the shield pocket.',
-    note: 'Best for patches',
-  },
-  {
-    id: '07',
-    variant: 'lockbar' as const,
-    name: 'Lockbar',
-    description: 'The N grows out of the C spine so the two letters share one bar. Compact and industrial.',
-    note: 'Tight monogram',
-  },
-  {
-    id: '08',
-    variant: 'stamp' as const,
-    name: 'Stamp',
-    description: 'A square chop-mark C, open on the right, with a heavy N. Reads like a Japanese hanko on apparel.',
-    note: 'Hanko / chop',
-  },
-  {
-    id: '09',
-    variant: 'orbit' as const,
-    name: 'Orbit',
-    description: 'An elliptical C ring around the N. Softer motion without losing the gym-weight geometry.',
-    note: 'Ring + core',
-  },
-  {
-    id: '10',
-    variant: 'wedge' as const,
-    name: 'Wedge',
-    description: 'A hard left-pointing C cut with a forward wedge. Aggressive, made for fight-short heat transfers.',
-    note: 'Aggressive cut',
+    variant: 'crossbrace' as const,
+    name: 'Crossbrace',
+    family: 'Core anatomy',
+    description: 'Curved abdominal walls are joined by a diagonal fascial sling, revealing an N inside the torso shape.',
+    note: 'Core + N hybrid',
+    file: '06-crossbrace.svg',
   },
 ]
 
@@ -161,16 +145,18 @@ function App() {
       {tab === 'brand' && (
         <>
           <section>
-            <h2>CN Monogram — New Directions</h2>
+            <h2>Logo Exploration — Two New Systems</h2>
             <p className="section-lead">
-              Four rebuilt concepts using solid, intentional geometry. Each mark combines a clearly readable
-              <strong> C</strong> with an angular <strong>N</strong>—without looking like a damaged hexagon.
+              A clean break from the enclosed badge family. Directions 01–03 abstract <strong>CN</strong> as a
+              ligature; 04–06 translate <strong>core musculature</strong> into a symbol. No hexagons, shields, or
+              outer containers.
             </p>
             <div className="concept-grid">
               {logoConcepts.map((concept) => (
                 <article className="concept-card" key={concept.variant}>
                   <div className="concept-preview">
                     <span className="concept-number">{concept.id}</span>
+                    <span className="concept-family">{concept.family}</span>
                     <LogoMark className="concept-mark" title="Corenation" variant={concept.variant} />
                   </div>
                   <div className="concept-copy">
@@ -179,6 +165,13 @@ function App() {
                       <span>{concept.note}</span>
                     </div>
                     <p>{concept.description}</p>
+                    <a
+                      className="concept-download"
+                      href={asset(`assets/logo/concepts/${concept.file}`)}
+                      download
+                    >
+                      Download SVG
+                    </a>
                     <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
                       <LogoMark title="Corenation" variant={concept.variant} />
                       <LogoMark title="Corenation" variant={concept.variant} />
@@ -190,8 +183,8 @@ function App() {
               ))}
             </div>
             <p className="logo-note">
-              All ten concepts are previewed as PNGs in <code>assets/logo/concepts/</code>.
-              Use the matching <code>.svg</code> next to each PNG if you need a vector file.
+              All six are monochrome working vectors in <code>assets/logo/concepts/</code>. They are presented as
+              parallel explorations; no direction is designated as the final master yet.
             </p>
           </section>
 
