@@ -75,6 +75,84 @@ const logoConcepts = [
   },
 ]
 
+const hexagonVariations = [
+  {
+    id: 'H1',
+    variant: 'hex-heritage' as const,
+    name: 'Heritage',
+    family: 'Hexagon heritage',
+    description: 'The closest redraw of the original badge: double outline, point-up stance, and the angular N with its beveled cut.',
+    note: 'Faithful redraw',
+    file: '01-heritage.svg',
+  },
+  {
+    id: 'H2',
+    variant: 'hex-emboss' as const,
+    name: 'Emboss',
+    family: 'Hexagon heritage',
+    description: 'A solid badge with the N carved out as negative space. Built for the tonal black-on-black treatment in the reference photo.',
+    note: 'Tonal / patches',
+    file: '02-emboss.svg',
+  },
+  {
+    id: 'H3',
+    variant: 'hex-inline' as const,
+    name: 'Inline',
+    family: 'Hexagon heritage',
+    description: 'Hairline twin outlines and a slim N. The premium version for foil stamps, embossing, and zipper pulls.',
+    note: 'Premium thin',
+    file: '03-inline.svg',
+  },
+  {
+    id: 'H4',
+    variant: 'hex-facet' as const,
+    name: 'Facet',
+    family: 'Hexagon heritage',
+    description: 'Each corner is chamfered so the badge reads machined rather than heraldic. Same closed silhouette, more equipment energy.',
+    note: 'Engineered edge',
+    file: '04-facet.svg',
+  },
+  {
+    id: 'H5',
+    variant: 'hex-sideline' as const,
+    name: 'Sideline',
+    family: 'Hexagon heritage',
+    description: 'The badge rotated onto its side points. A wider stance that sits better on chest prints and waistbands.',
+    note: 'Wide stance',
+    file: '05-sideline.svg',
+  },
+]
+
+type Concept = (typeof logoConcepts)[number] | (typeof hexagonVariations)[number]
+
+function ConceptCard({ concept, folder }: { concept: Concept; folder: string }) {
+  return (
+    <article className="concept-card">
+      <div className="concept-preview">
+        <span className="concept-number">{concept.id}</span>
+        <span className="concept-family">{concept.family}</span>
+        <LogoMark className="concept-mark" title="Corenation" variant={concept.variant} />
+      </div>
+      <div className="concept-copy">
+        <div className="concept-heading">
+          <h3>{concept.name}</h3>
+          <span>{concept.note}</span>
+        </div>
+        <p>{concept.description}</p>
+        <a className="concept-download" href={asset(`${folder}/${concept.file}`)} download>
+          Download SVG
+        </a>
+        <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
+          <LogoMark title="Corenation" variant={concept.variant} />
+          <LogoMark title="Corenation" variant={concept.variant} />
+          <LogoMark title="Corenation" variant={concept.variant} />
+          <strong>Small-size test</strong>
+        </div>
+      </div>
+    </article>
+  )
+}
+
 function Swatches({ items }: { items: { hex: string; name: string }[] }) {
   return (
     <div className="palette">
@@ -153,38 +231,29 @@ function App() {
             </p>
             <div className="concept-grid">
               {logoConcepts.map((concept) => (
-                <article className="concept-card" key={concept.variant}>
-                  <div className="concept-preview">
-                    <span className="concept-number">{concept.id}</span>
-                    <span className="concept-family">{concept.family}</span>
-                    <LogoMark className="concept-mark" title="Corenation" variant={concept.variant} />
-                  </div>
-                  <div className="concept-copy">
-                    <div className="concept-heading">
-                      <h3>{concept.name}</h3>
-                      <span>{concept.note}</span>
-                    </div>
-                    <p>{concept.description}</p>
-                    <a
-                      className="concept-download"
-                      href={asset(`assets/logo/concepts/${concept.file}`)}
-                      download
-                    >
-                      Download SVG
-                    </a>
-                    <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
-                      <LogoMark title="Corenation" variant={concept.variant} />
-                      <LogoMark title="Corenation" variant={concept.variant} />
-                      <LogoMark title="Corenation" variant={concept.variant} />
-                      <strong>Small-size test</strong>
-                    </div>
-                  </div>
-                </article>
+                <ConceptCard concept={concept} folder="assets/logo/concepts" key={concept.variant} />
               ))}
             </div>
             <p className="logo-note">
               All six are monochrome working vectors in <code>assets/logo/concepts/</code>. They are presented as
               parallel explorations; no direction is designated as the final master yet.
+            </p>
+          </section>
+
+          <section>
+            <h2>Hexagon Heritage — Original Badge Variations</h2>
+            <p className="section-lead">
+              Five variations built directly on the original closed-hexagon badge
+              (<code>assets/logo/reference-original-hexagon.jpg</code>). The silhouette stays closed; only the
+              outline treatment, stance, and N construction change.
+            </p>
+            <div className="concept-grid">
+              {hexagonVariations.map((concept) => (
+                <ConceptCard concept={concept} folder="assets/logo/hexagon" key={concept.variant} />
+              ))}
+            </div>
+            <p className="logo-note">
+              Working vectors live in <code>assets/logo/hexagon/</code> with matching cream-on-black PNG previews.
             </p>
           </section>
 

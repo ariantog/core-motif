@@ -5,6 +5,11 @@ export type LogoVariant =
   | 'linea'
   | 'oblique'
   | 'crossbrace'
+  | 'hex-heritage'
+  | 'hex-emboss'
+  | 'hex-inline'
+  | 'hex-facet'
+  | 'hex-sideline'
 
 type LogoMarkProps = {
   className?: string
@@ -64,6 +69,41 @@ const marks = {
         transform="translate(160) scale(-1 1)"
       />
       <path d="m50 48 16-10 44 74-16 10Z" />
+    </g>
+  ),
+  'hex-heritage': (
+    <g>
+      <path fillRule="evenodd" d="M80 16l55 32v64l-55 32-55-32V48Zm0 11L34 54v52l46 27 46-27V54Z" />
+      <path fillRule="evenodd" d="M80 32l42 24v48l-42 24-42-24V56Zm0 3L41 58v44l39 23 39-23V58Z" />
+      <path d="M54 100V56h14l24 32V60l14-8v52h-14L68 76v28Z" />
+    </g>
+  ),
+  'hex-emboss': (
+    <path
+      fillRule="evenodd"
+      d="M80 16l55 32v64l-55 32-55-32V48ZM50 108h17V76l24 32h17V52h-16v33L67 52H50Z"
+    />
+  ),
+  'hex-inline': (
+    <g>
+      <path fillRule="evenodd" d="M80 16l55 32v64l-55 32-55-32V48Zm0 6L30 51v58l50 29 50-29V51Z" />
+      <path fillRule="evenodd" d="M80 28l45 26v52l-45 26-45-26V54Zm0 3L38 56v48l42 25 42-25V56Z" />
+      <path d="M56 104V56h9l30 38V56h9v48h-9L65 66v38Z" />
+    </g>
+  ),
+  'hex-facet': (
+    <g>
+      <path
+        fillRule="evenodd"
+        d="M70 22h20l35 20 10 18v40l-10 18-35 20H70l-35-20-10-18V60l10-18Zm10 5L34 54v52l46 27 46-27V54Z"
+      />
+      <path d="M54 104V56h14l24 32V56h14v48h-14L68 72v32Z" />
+    </g>
+  ),
+  'hex-sideline': (
+    <g>
+      <path fillRule="evenodd" d="M144 80l-32 55H48L16 80l32-55h64Zm-11 0-26-46H53L27 80l26 46h54Z" />
+      <path d="M54 104V56h14l24 32V56h14v48h-14L68 72v32Z" />
     </g>
   ),
 } as const

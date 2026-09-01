@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="hex-emboss-title">
+  <title id="hex-emboss-title">Corenation hexagon Emboss badge</title>
+  <path
+    fill="currentColor"
+    fill-rule="evenodd"
+    d="M80 16l55 32v64l-55 32-55-32V48ZM50 108h17V76l24 32h17V52h-16v33L67 52H50Z"
+  />
+</svg>

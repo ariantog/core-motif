@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:27:25Z",
+  "generatedAt": "2026-09-01T05:04:14Z",
   "root": [
     {
       "type": "dir",
@@ -684,6 +684,63 @@
                   "type": "image",
                   "name": "06-crossbrace.svg",
                   "path": "assets/logo/concepts/06-crossbrace.svg"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "hexagon",
+              "path": "assets/logo/hexagon",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "01-heritage.png",
+                  "path": "assets/logo/hexagon/01-heritage.png"
+                },
+                {
+                  "type": "image",
+                  "name": "01-heritage.svg",
+                  "path": "assets/logo/hexagon/01-heritage.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-emboss.png",
+                  "path": "assets/logo/hexagon/02-emboss.png"
+                },
+                {
+                  "type": "image",
+                  "name": "02-emboss.svg",
+                  "path": "assets/logo/hexagon/02-emboss.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-inline.png",
+                  "path": "assets/logo/hexagon/03-inline.png"
+                },
+                {
+                  "type": "image",
+                  "name": "03-inline.svg",
+                  "path": "assets/logo/hexagon/03-inline.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-facet.png",
+                  "path": "assets/logo/hexagon/04-facet.png"
+                },
+                {
+                  "type": "image",
+                  "name": "04-facet.svg",
+                  "path": "assets/logo/hexagon/04-facet.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-sideline.png",
+                  "path": "assets/logo/hexagon/05-sideline.png"
+                },
+                {
+                  "type": "image",
+                  "name": "05-sideline.svg",
+                  "path": "assets/logo/hexagon/05-sideline.svg"
                 }
               ]
             },
@@ -2023,6 +2080,63 @@
                           "type": "image",
                           "name": "06-crossbrace.svg",
                           "path": "design-board/public/assets/logo/concepts/06-crossbrace.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "hexagon",
+                      "path": "design-board/public/assets/logo/hexagon",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "01-heritage.png",
+                          "path": "design-board/public/assets/logo/hexagon/01-heritage.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-heritage.svg",
+                          "path": "design-board/public/assets/logo/hexagon/01-heritage.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-emboss.png",
+                          "path": "design-board/public/assets/logo/hexagon/02-emboss.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-emboss.svg",
+                          "path": "design-board/public/assets/logo/hexagon/02-emboss.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-inline.png",
+                          "path": "design-board/public/assets/logo/hexagon/03-inline.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-inline.svg",
+                          "path": "design-board/public/assets/logo/hexagon/03-inline.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-facet.png",
+                          "path": "design-board/public/assets/logo/hexagon/04-facet.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-facet.svg",
+                          "path": "design-board/public/assets/logo/hexagon/04-facet.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-sideline.png",
+                          "path": "design-board/public/assets/logo/hexagon/05-sideline.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-sideline.svg",
+                          "path": "design-board/public/assets/logo/hexagon/05-sideline.svg"
                         }
                       ]
                     },
