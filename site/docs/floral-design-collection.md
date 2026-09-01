@@ -92,6 +92,8 @@ Logo: hex C + CORENATION on every accs piece. Apparel: hex C at hem or nape; do 
 | **Sakura Session** | Pink + sakura | Belt, gloves, tee, short |
 | **Lavender Dusk** | Lilac + lavender | Belt, gloves, tank, tight |
 | **Bloom Path** (shared with Culture Run) | Sakura graphic on a **running** tank | Women's run tank only — see culture-run spec |
+| **Blush Watercolor** (shared with Culture Run) | Sakura path on blush watercolor | Women's run tank — flower stays on the garment / print, never on `background-clean.png` |
+| **Lilac Watercolor** (shared with Culture Run) | Lavender spikes on a lilac wash tee | Women's run tee — flower stays on the garment, never on `background-clean.png` |
 
 Do not launch Sakura Session and Lavender Dusk in the same week on the same grid.
 
@@ -108,4 +110,4 @@ Mockups: `assets/women-floral/sakura/` and `assets/women-floral/lavender/`
 
 ---
 
-*Document version: 1.0 — Women's floral. Japanese kanji stay on the men's line.*
+*Document version: 1.1 — Shared Culture Run blush / lilac watercolor tanks and tees. Japanese kanji stay on the men's line.*

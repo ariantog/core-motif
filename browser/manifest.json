@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T05:22:18Z",
+  "generatedAt": "2026-09-01T06:20:33Z",
   "root": [
     {
       "type": "dir",
@@ -393,6 +393,123 @@
                       "type": "image",
                       "name": "tank.png",
                       "path": "assets/culture-run/05-watercolor/sand-wave-watercolor/tank.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "06-pastel",
+              "path": "assets/culture-run/06-pastel",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "apricot-brush",
+                  "path": "assets/culture-run/06-pastel/apricot-brush",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/06-pastel/apricot-brush/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/06-pastel/apricot-brush/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/culture-run/06-pastel/apricot-brush/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "blush-watercolor",
+                  "path": "assets/culture-run/06-pastel/blush-watercolor",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/06-pastel/blush-watercolor/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/06-pastel/blush-watercolor/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/06-pastel/blush-watercolor/tank.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "lilac-watercolor",
+                  "path": "assets/culture-run/06-pastel/lilac-watercolor",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/06-pastel/lilac-watercolor/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/06-pastel/lilac-watercolor/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/culture-run/06-pastel/lilac-watercolor/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "mint-marble",
+                  "path": "assets/culture-run/06-pastel/mint-marble",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/06-pastel/mint-marble/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/06-pastel/mint-marble/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/06-pastel/mint-marble/tank.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "mist-wave",
+                  "path": "assets/culture-run/06-pastel/mist-wave",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/06-pastel/mist-wave/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/06-pastel/mist-wave/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "singlet.png",
+                      "path": "assets/culture-run/06-pastel/mist-wave/singlet.png"
                     }
                   ]
                 }
@@ -2025,6 +2142,123 @@
                               "type": "image",
                               "name": "tank.png",
                               "path": "design-board/public/assets/culture-run/05-watercolor/sand-wave-watercolor/tank.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "06-pastel",
+                      "path": "design-board/public/assets/culture-run/06-pastel",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "apricot-brush",
+                          "path": "design-board/public/assets/culture-run/06-pastel/apricot-brush",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/apricot-brush/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/apricot-brush/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/apricot-brush/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "blush-watercolor",
+                          "path": "design-board/public/assets/culture-run/06-pastel/blush-watercolor",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/blush-watercolor/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/blush-watercolor/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/blush-watercolor/tank.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "lilac-watercolor",
+                          "path": "design-board/public/assets/culture-run/06-pastel/lilac-watercolor",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/lilac-watercolor/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/lilac-watercolor/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/lilac-watercolor/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "mint-marble",
+                          "path": "design-board/public/assets/culture-run/06-pastel/mint-marble",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/mint-marble/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/mint-marble/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/mint-marble/tank.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "mist-wave",
+                          "path": "design-board/public/assets/culture-run/06-pastel/mist-wave",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/mist-wave/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/mist-wave/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "singlet.png",
+                              "path": "design-board/public/assets/culture-run/06-pastel/mist-wave/singlet.png"
                             }
                           ]
                         }

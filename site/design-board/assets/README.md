@@ -33,8 +33,9 @@ assets/
     03-marble/                bloom / dusk / heatmap / ink
     04-earth/                 bumi / moss / sandstone / cacao
     05-watercolor/            earth-tone wash capsule
+    06-pastel/                women's pastel run wall
       <drop>/
-        background-clean.png  texture only — no logo, kanji, or slogans
+        background-clean.png  texture only — no logo, kanji, slogans, flowers, or artifacts
         print.png             locked composite (do not overwrite)
         singlet.png | tank.png | tee.png
     layers/
@@ -80,3 +81,8 @@ Culture Run drops (v2 — print + gradient, no embroidery patch):
 | `05-watercolor` | `moss-watercolor` | Moss / river-stone watercolor current | Men tee |
 | `05-watercolor` | `sand-wave-watercolor` | Sand / umber watercolor wave | Men tank |
 | `05-watercolor` | `cacao-watercolor` | Cacao / clay watercolor route | Women tank |
+| `06-pastel` | `mist-wave` | Powder / seafoam aurora wave | Women singlet |
+| `06-pastel` | `apricot-brush` | Apricot / cream wet-brush tide | Women tee |
+| `06-pastel` | `mint-marble` | Mint / pistachio liquid marble | Women tank |
+| `06-pastel` | `blush-watercolor` | Sakura path on blush watercolor | Women tank |
+| `06-pastel` | `lilac-watercolor` | Lilac watercolor wash | Women tee |

@@ -501,8 +501,9 @@ function App() {
             <h2>Running shirts &amp; tanks</h2>
             <p className="lede">
               v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
-              heatmap, suminagashi, watercolor wash. Drops live under{' '}
-              <code>assets/culture-run/01-wave</code> … <code>05-watercolor</code>. Use{' '}
+              heatmap, suminagashi, watercolor wash. Women&apos;s pastel capsule lives in{' '}
+              <code>06-pastel</code>. Drops live under{' '}
+              <code>assets/culture-run/01-wave</code> … <code>06-pastel</code>. Use{' '}
               <code>background-clean.png</code> when you need to move kanji or logos; keep{' '}
               <code>print.png</code> as the locked composite.
             </p>
@@ -511,8 +512,9 @@ function App() {
           <section>
             <h2>Backgrounds only (no kanji / logo)</h2>
             <p className="lede">
-              Same drop, texture only — no logo, no kanji, no slogans. Place 走 / 山 and the hex C or CN
-              mark from <code>assets/culture-run/layers/</code> on top in any position.
+              Same drop, texture only — no logo, no kanji, no slogans, no flowers, no figurative
+              artifacts. Place 走 / 山 and the hex C or CN mark from{' '}
+              <code>assets/culture-run/layers/</code> on top in any position.
             </p>
             <MockGrid items={cultureBackgrounds} />
           </section>

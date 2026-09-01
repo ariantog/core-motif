@@ -21,6 +21,11 @@ export const cultureMockups: Mockup[] = [
   { src: drop('05-watercolor', 'moss-watercolor', 'tee.png'), title: 'Moss Watercolor', type: 'Men tee · current wash', line: 'culture' },
   { src: drop('05-watercolor', 'sand-wave-watercolor', 'tank.png'), title: 'Sand Wave Watercolor', type: 'Men tank · wave wash', line: 'culture' },
   { src: drop('05-watercolor', 'cacao-watercolor', 'tank.png'), title: 'Cacao Watercolor Route', type: 'Women tank · route wash', line: 'culture' },
+  { src: drop('06-pastel', 'mist-wave', 'singlet.png'), title: 'Mist Wave', type: 'Women singlet · pastel wave', line: 'culture' },
+  { src: drop('06-pastel', 'apricot-brush', 'tee.png'), title: 'Apricot Brush', type: 'Women tee · pastel brush', line: 'culture' },
+  { src: drop('06-pastel', 'mint-marble', 'tank.png'), title: 'Mint Marble', type: 'Women tank · pastel marble', line: 'culture' },
+  { src: drop('06-pastel', 'blush-watercolor', 'tank.png'), title: 'Blush Watercolor', type: 'Women tank · sakura wash', line: 'culture' },
+  { src: drop('06-pastel', 'lilac-watercolor', 'tee.png'), title: 'Lilac Watercolor', type: 'Women tee · lilac wash', line: 'culture' },
 ]
 
 export const cultureBackgrounds = [
@@ -40,6 +45,11 @@ export const cultureBackgrounds = [
   { src: drop('05-watercolor', 'moss-watercolor', 'background-clean.png'), title: 'Clean — Moss Watercolor' },
   { src: drop('05-watercolor', 'sand-wave-watercolor', 'background-clean.png'), title: 'Clean — Sand Wave Watercolor' },
   { src: drop('05-watercolor', 'cacao-watercolor', 'background-clean.png'), title: 'Clean — Cacao Watercolor Route' },
+  { src: drop('06-pastel', 'mist-wave', 'background-clean.png'), title: 'Clean — Mist Wave' },
+  { src: drop('06-pastel', 'apricot-brush', 'background-clean.png'), title: 'Clean — Apricot Brush' },
+  { src: drop('06-pastel', 'mint-marble', 'background-clean.png'), title: 'Clean — Mint Marble' },
+  { src: drop('06-pastel', 'blush-watercolor', 'background-clean.png'), title: 'Clean — Blush Watercolor' },
+  { src: drop('06-pastel', 'lilac-watercolor', 'background-clean.png'), title: 'Clean — Lilac Watercolor' },
 ]
 
 export const cultureLayers = [
@@ -79,4 +89,9 @@ export const culturePrints = [
   { src: drop('05-watercolor', 'moss-watercolor', 'print.png'), title: 'Print — Moss Watercolor' },
   { src: drop('05-watercolor', 'sand-wave-watercolor', 'print.png'), title: 'Print — Sand Wave Watercolor' },
   { src: drop('05-watercolor', 'cacao-watercolor', 'print.png'), title: 'Print — Cacao Watercolor Route' },
+  { src: drop('06-pastel', 'mist-wave', 'print.png'), title: 'Print — Mist Wave' },
+  { src: drop('06-pastel', 'apricot-brush', 'print.png'), title: 'Print — Apricot Brush' },
+  { src: drop('06-pastel', 'mint-marble', 'print.png'), title: 'Print — Mint Marble' },
+  { src: drop('06-pastel', 'blush-watercolor', 'print.png'), title: 'Print — Blush Watercolor' },
+  { src: drop('06-pastel', 'lilac-watercolor', 'print.png'), title: 'Print — Lilac Watercolor' },
 ]
