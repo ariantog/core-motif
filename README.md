@@ -10,8 +10,21 @@ Design and branding deliverables for **Corenation** (Indonesia) men's kanji spor
 | Staff branding checklist | [`docs/branding-checklist.md`](docs/branding-checklist.md) |
 | Product mockups (6 images) | [`assets/designs/`](assets/designs/) |
 | Internal design board (Vite) | [`design-board/`](design-board/) |
+| **Web browser (domain hub)** | [`index.html`](index.html) — see [`docs/deploy.md`](docs/deploy.md) |
 
-## Design board (preview)
+## Browse on your domain
+
+After `git pull`, run once:
+
+```bash
+bash scripts/build-site.sh
+```
+
+Point your web server at the repo root and open your domain. The hub includes logos, kanji designs, docs, and the design board.
+
+→ Deploy notes: [`docs/deploy.md`](docs/deploy.md)
+
+## Design board (local dev)
 
 ```bash
 cd design-board && npm install && npm run dev

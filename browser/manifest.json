@@ -1,0 +1,432 @@
+{
+  "generatedAt": "2026-09-01T00:48:48Z",
+  "root": [
+    {
+      "type": "dir",
+      "name": "assets",
+      "path": "assets",
+      "children": [
+        {
+          "type": "dir",
+          "name": "designs",
+          "path": "assets/designs",
+          "children": [
+            {
+              "type": "image",
+              "name": "belt-kanji-chikara-power.png",
+              "path": "assets/designs/belt-kanji-chikara-power.png"
+            },
+            {
+              "type": "image",
+              "name": "belt-kanji-d\u014d-path.png",
+              "path": "assets/designs/belt-kanji-d\u014d-path.png"
+            },
+            {
+              "type": "image",
+              "name": "gloves-kanji-rai-thunder.png",
+              "path": "assets/designs/gloves-kanji-rai-thunder.png"
+            },
+            {
+              "type": "image",
+              "name": "knee-support-kanji-f\u016b-wind.png",
+              "path": "assets/designs/knee-support-kanji-f\u016b-wind.png"
+            },
+            {
+              "type": "image",
+              "name": "shorts-kanji-sh\u014d-victory.png",
+              "path": "assets/designs/shorts-kanji-sh\u014d-victory.png"
+            },
+            {
+              "type": "image",
+              "name": "tee-kanji-bu-warrior.png",
+              "path": "assets/designs/tee-kanji-bu-warrior.png"
+            }
+          ]
+        },
+        {
+          "type": "dir",
+          "name": "logo",
+          "path": "assets/logo",
+          "children": [
+            {
+              "type": "dir",
+              "name": "concepts",
+              "path": "assets/logo/concepts",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "01-core-cut.svg",
+                  "path": "assets/logo/concepts/01-core-cut.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-interlock.svg",
+                  "path": "assets/logo/concepts/02-interlock.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-velocity.svg",
+                  "path": "assets/logo/concepts/03-velocity.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-core-block.svg",
+                  "path": "assets/logo/concepts/04-core-block.svg"
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "name": "corenation-cn-logo-black.svg",
+              "path": "assets/logo/corenation-cn-logo-black.svg"
+            },
+            {
+              "type": "image",
+              "name": "corenation-cn-logo-cream.svg",
+              "path": "assets/logo/corenation-cn-logo-cream.svg"
+            },
+            {
+              "type": "image",
+              "name": "corenation-cn-logo-white.svg",
+              "path": "assets/logo/corenation-cn-logo-white.svg"
+            },
+            {
+              "type": "image",
+              "name": "corenation-cn-logo.svg",
+              "path": "assets/logo/corenation-cn-logo.svg"
+            },
+            {
+              "type": "image",
+              "name": "reference-original-hexagon.jpg",
+              "path": "assets/logo/reference-original-hexagon.jpg"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg",
+          "path": "assets/79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg"
+        },
+        {
+          "type": "image",
+          "name": "7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg",
+          "path": "assets/7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg"
+        }
+      ]
+    },
+    {
+      "type": "dir",
+      "name": "design-board",
+      "path": "design-board",
+      "children": [
+        {
+          "type": "dir",
+          "name": "public",
+          "path": "design-board/public",
+          "children": [
+            {
+              "type": "dir",
+              "name": "assets",
+              "path": "design-board/public/assets",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "designs",
+                  "path": "design-board/public/assets/designs",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "belt-kanji-chikara-power.png",
+                      "path": "design-board/public/assets/designs/belt-kanji-chikara-power.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "belt-kanji-d\u014d-path.png",
+                      "path": "design-board/public/assets/designs/belt-kanji-d\u014d-path.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "gloves-kanji-rai-thunder.png",
+                      "path": "design-board/public/assets/designs/gloves-kanji-rai-thunder.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "knee-support-kanji-f\u016b-wind.png",
+                      "path": "design-board/public/assets/designs/knee-support-kanji-f\u016b-wind.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts-kanji-sh\u014d-victory.png",
+                      "path": "design-board/public/assets/designs/shorts-kanji-sh\u014d-victory.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee-kanji-bu-warrior.png",
+                      "path": "design-board/public/assets/designs/tee-kanji-bu-warrior.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "logo",
+                  "path": "design-board/public/assets/logo",
+                  "children": [
+                    {
+                      "type": "dir",
+                      "name": "concepts",
+                      "path": "design-board/public/assets/logo/concepts",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "01-core-cut.svg",
+                          "path": "design-board/public/assets/logo/concepts/01-core-cut.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-interlock.svg",
+                          "path": "design-board/public/assets/logo/concepts/02-interlock.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-velocity.svg",
+                          "path": "design-board/public/assets/logo/concepts/03-velocity.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-core-block.svg",
+                          "path": "design-board/public/assets/logo/concepts/04-core-block.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "name": "corenation-cn-logo-black.svg",
+                      "path": "design-board/public/assets/logo/corenation-cn-logo-black.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "corenation-cn-logo-cream.svg",
+                      "path": "design-board/public/assets/logo/corenation-cn-logo-cream.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "corenation-cn-logo-white.svg",
+                      "path": "design-board/public/assets/logo/corenation-cn-logo-white.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "corenation-cn-logo.svg",
+                      "path": "design-board/public/assets/logo/corenation-cn-logo.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "reference-original-hexagon.jpg",
+                      "path": "design-board/public/assets/logo/reference-original-hexagon.jpg"
+                    }
+                  ]
+                },
+                {
+                  "type": "image",
+                  "name": "79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg",
+                  "path": "design-board/public/assets/79516bb4-1828-4c9b-8dd0-e15ca2d0bb7d.jpg"
+                },
+                {
+                  "type": "image",
+                  "name": "7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg",
+                  "path": "design-board/public/assets/7b4bcb20-0ba0-446a-bd24-2a69dcf633c9.jpg"
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "name": "corenation-logo.svg",
+              "path": "design-board/public/corenation-logo.svg"
+            },
+            {
+              "type": "image",
+              "name": "favicon.svg",
+              "path": "design-board/public/favicon.svg"
+            },
+            {
+              "type": "image",
+              "name": "icons.svg",
+              "path": "design-board/public/icons.svg"
+            },
+            {
+              "type": "image",
+              "name": "reference-original-hexagon.jpg",
+              "path": "design-board/public/reference-original-hexagon.jpg"
+            }
+          ]
+        },
+        {
+          "type": "dir",
+          "name": "src",
+          "path": "design-board/src",
+          "children": [
+            {
+              "type": "dir",
+              "name": "assets",
+              "path": "design-board/src/assets",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "hero.png",
+                  "path": "design-board/src/assets/hero.png"
+                },
+                {
+                  "type": "image",
+                  "name": "react.svg",
+                  "path": "design-board/src/assets/react.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "vite.svg",
+                  "path": "design-board/src/assets/vite.svg"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "components",
+              "path": "design-board/src/components",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "LogoMark.tsx",
+                  "path": "design-board/src/components/LogoMark.tsx"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "data",
+              "path": "design-board/src/data",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "kanji.ts",
+                  "path": "design-board/src/data/kanji.ts"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "App.css",
+              "path": "design-board/src/App.css"
+            },
+            {
+              "type": "file",
+              "name": "App.tsx",
+              "path": "design-board/src/App.tsx"
+            },
+            {
+              "type": "file",
+              "name": "index.css",
+              "path": "design-board/src/index.css"
+            },
+            {
+              "type": "file",
+              "name": "main.tsx",
+              "path": "design-board/src/main.tsx"
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "name": "index.html",
+          "path": "design-board/index.html"
+        },
+        {
+          "type": "file",
+          "name": "package-lock.json",
+          "path": "design-board/package-lock.json"
+        },
+        {
+          "type": "file",
+          "name": "package.json",
+          "path": "design-board/package.json"
+        },
+        {
+          "type": "markdown",
+          "name": "README.md",
+          "path": "design-board/README.md"
+        },
+        {
+          "type": "file",
+          "name": "tsconfig.app.json",
+          "path": "design-board/tsconfig.app.json"
+        },
+        {
+          "type": "file",
+          "name": "tsconfig.json",
+          "path": "design-board/tsconfig.json"
+        },
+        {
+          "type": "file",
+          "name": "tsconfig.node.json",
+          "path": "design-board/tsconfig.node.json"
+        },
+        {
+          "type": "file",
+          "name": "vite.config.ts",
+          "path": "design-board/vite.config.ts"
+        }
+      ]
+    },
+    {
+      "type": "dir",
+      "name": "docs",
+      "path": "docs",
+      "children": [
+        {
+          "type": "markdown",
+          "name": "branding-checklist.md",
+          "path": "docs/branding-checklist.md"
+        },
+        {
+          "type": "markdown",
+          "name": "cn-logo-spec.md",
+          "path": "docs/cn-logo-spec.md"
+        },
+        {
+          "type": "markdown",
+          "name": "deploy.md",
+          "path": "docs/deploy.md"
+        },
+        {
+          "type": "markdown",
+          "name": "kanji-design-collection.md",
+          "path": "docs/kanji-design-collection.md"
+        }
+      ]
+    },
+    {
+      "type": "dir",
+      "name": "scripts",
+      "path": "scripts",
+      "children": [
+        {
+          "type": "file",
+          "name": "build-site.sh",
+          "path": "scripts/build-site.sh"
+        },
+        {
+          "type": "file",
+          "name": "generate-manifest.sh",
+          "path": "scripts/generate-manifest.sh"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "name": "index.html",
+      "path": "index.html"
+    },
+    {
+      "type": "markdown",
+      "name": "README.md",
+      "path": "README.md"
+    }
+  ]
+}
