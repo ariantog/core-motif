@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="hex-facet-title">
+  <title id="hex-facet-title">Corenation hexagon Facet badge</title>
+  <g fill="currentColor">
+    <path fill-rule="evenodd" d="M70 22h20l35 20 10 18v40l-10 18-35 20H70l-35-20-10-18V60l10-18Zm10 5L34 54v52l46 27 46-27V54Z"/>
+    <path d="M54 104V56h14l24 32V56h14v48h-14L68 72v32Z"/>
+  </g>
+</svg>
