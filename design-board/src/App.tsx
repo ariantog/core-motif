@@ -45,6 +45,48 @@ const logoConcepts = [
     description: 'A wide, stable C with a heavy inset N. The simplest option for embroidery, rubber patches, and small sizes.',
     note: 'Best for production',
   },
+  {
+    id: '05',
+    variant: 'seal' as const,
+    name: 'Seal',
+    description: 'A circular C that reads as a letter at a glance, with the angular N locked in the opening.',
+    note: 'Most readable C',
+  },
+  {
+    id: '06',
+    variant: 'shield' as const,
+    name: 'Shield',
+    description: 'A pointed badge C built for patches, belts, and club kit. The N sits in the shield pocket.',
+    note: 'Best for patches',
+  },
+  {
+    id: '07',
+    variant: 'lockbar' as const,
+    name: 'Lockbar',
+    description: 'The N grows out of the C spine so the two letters share one bar. Compact and industrial.',
+    note: 'Tight monogram',
+  },
+  {
+    id: '08',
+    variant: 'stamp' as const,
+    name: 'Stamp',
+    description: 'A square chop-mark C, open on the right, with a heavy N. Reads like a Japanese hanko on apparel.',
+    note: 'Hanko / chop',
+  },
+  {
+    id: '09',
+    variant: 'orbit' as const,
+    name: 'Orbit',
+    description: 'An elliptical C ring around the N. Softer motion without losing the gym-weight geometry.',
+    note: 'Ring + core',
+  },
+  {
+    id: '10',
+    variant: 'wedge' as const,
+    name: 'Wedge',
+    description: 'A hard left-pointing C cut with a forward wedge. Aggressive, made for fight-short heat transfers.',
+    note: 'Aggressive cut',
+  },
 ]
 
 function Swatches({ items }: { items: { hex: string; name: string }[] }) {
@@ -140,8 +182,8 @@ function App() {
               ))}
             </div>
             <p className="logo-note">
-              All four concepts are production-ready SVGs in <code>assets/logo/concepts/</code>.
-              Concept 01 is also exported as the current master in <code>assets/logo/corenation-cn-logo.svg</code>.
+              All ten concepts are previewed as PNGs in <code>assets/logo/concepts/</code>.
+              Use the matching <code>.svg</code> next to each PNG if you need a vector file.
             </p>
           </section>
 

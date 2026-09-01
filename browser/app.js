@@ -3,11 +3,17 @@ const navItems = [...document.querySelectorAll('.nav-item')]
 const jumpCards = [...document.querySelectorAll('[data-jump]')]
 
 const logos = [
-  { title: 'Core Cut', note: 'Best all-rounder', path: 'assets/logo/concepts/01-core-cut.svg' },
-  { title: 'Interlock', note: 'Best for equipment', path: 'assets/logo/concepts/02-interlock.svg' },
-  { title: 'Velocity', note: 'Best for sportswear', path: 'assets/logo/concepts/03-velocity.svg' },
-  { title: 'Core Block', note: 'Best for production', path: 'assets/logo/concepts/04-core-block.svg' },
-  { title: 'Master (cream)', note: 'Primary export', path: 'assets/logo/corenation-cn-logo-cream.svg' },
+  { title: 'Core Cut', note: 'Best all-rounder', path: 'assets/logo/concepts/01-core-cut.png' },
+  { title: 'Interlock', note: 'Best for equipment', path: 'assets/logo/concepts/02-interlock.png' },
+  { title: 'Velocity', note: 'Best for sportswear', path: 'assets/logo/concepts/03-velocity.png' },
+  { title: 'Core Block', note: 'Best for production', path: 'assets/logo/concepts/04-core-block.png' },
+  { title: 'Seal', note: 'Most readable C', path: 'assets/logo/concepts/05-seal.png' },
+  { title: 'Shield', note: 'Best for patches', path: 'assets/logo/concepts/06-shield.png' },
+  { title: 'Lockbar', note: 'Tight monogram', path: 'assets/logo/concepts/07-lockbar.png' },
+  { title: 'Stamp', note: 'Hanko / chop', path: 'assets/logo/concepts/08-stamp.png' },
+  { title: 'Orbit', note: 'Ring + core', path: 'assets/logo/concepts/09-orbit.png' },
+  { title: 'Wedge', note: 'Aggressive cut', path: 'assets/logo/concepts/10-wedge.png' },
+  { title: 'Master (cream)', note: 'Primary export', path: 'assets/logo/corenation-cn-logo-cream.png' },
   { title: 'Original reference', note: 'Closed hexagon', path: 'assets/logo/reference-original-hexagon.jpg' },
 ]
 
