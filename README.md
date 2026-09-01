@@ -4,30 +4,27 @@ Brand direction, staff checklists, and design files for **Corenation Active** (S
 
 ## Positioning
 
-Preferable performance (Adidas energy) — same fabric class as Nike / Adidas / Lululemon, not Alo Yoga luxury.
+| Deliverable | Path |
+|-------------|------|
+| Kanji design collection (16 concepts) | [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) |
+| Staff branding checklist | [`docs/branding-checklist.md`](docs/branding-checklist.md) |
+| Product mockups (6 images) | [`assets/designs/`](assets/designs/) |
+| Internal design board (Vite) | [`design-board/`](design-board/) |
+| **Web browser (domain hub)** | [`index.html`](index.html) — see [`docs/deploy.md`](docs/deploy.md) |
 
-## Docs (hand these to staff)
+## Browse on your domain
 
-| File | What it is |
-|------|------------|
-| [`docs/branding-checklist.md`](docs/branding-checklist.md) | **v2.0 playbook** — owners, language, line walls, Shopee / store / HQ ticks |
-| [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) | 25 men's kanji + 走 for running |
-| [`docs/floral-design-collection.md`](docs/floral-design-collection.md) | Sakura = pink · Lavender = lilac |
-| [`docs/culture-run-collection.md`](docs/culture-run-collection.md) | Culture Run v2 — gradient / brush / marble |
-| [`assets/README.md`](assets/README.md) | Folder map |
+After `git pull`, run once:
 
-## Visuals
+```bash
+bash scripts/build-site.sh
+```
 
-See [`assets/README.md`](assets/README.md). Short version:
+Point your web server at the repo root and open your domain. The hub includes logos, kanji designs, docs, and the design board.
 
-| Path | Contents |
-|------|----------|
-| `assets/culture-run/<drop>/` | Each running drop: garment + print |
-| `assets/men-kanji/` | Belts, apparel, accs, kanji marks |
-| `assets/women-floral/` | Sakura / lavender + flower sheets |
-| `assets/references/` | Original 龍 shorts + belt |
+→ Deploy notes: [`docs/deploy.md`](docs/deploy.md)
 
-## Design board
+## Design board (local dev)
 
 ```bash
 cd design-board && npm install && npm run dev

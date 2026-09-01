@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Corenation — Design Hub</title>
+    <link rel="icon" type="image/svg+xml" href="assets/logo/corenation-cn-logo-cream.svg" />
+    <link rel="stylesheet" href="browser/style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <header class="sidebar-head">
+          <img src="assets/logo/corenation-cn-logo-cream.svg" alt="" class="brand-icon" />
+          <div>
+            <strong>Corenation</strong>
+            <span>Design Hub</span>
+          </div>
+        </header>
+
+        <nav class="nav">
+          <button type="button" class="nav-item active" data-view="home">Home</button>
+          <button type="button" class="nav-item" data-view="design-board">Design Board</button>
+          <button type="button" class="nav-item" data-view="logos">Logo Concepts</button>
+          <button type="button" class="nav-item" data-view="designs">Kanji Designs</button>
+          <button type="button" class="nav-item" data-view="docs">Documentation</button>
+          <button type="button" class="nav-item" data-view="browse">File Browser</button>
+        </nav>
+
+        <div class="sidebar-foot">
+          <a href="https://instagram.com/corenationmen" target="_blank" rel="noopener">@corenationmen</a>
+          <a href="https://shopee.co.id/corenation" target="_blank" rel="noopener">Shopee</a>
+        </div>
+      </aside>
+
+      <main class="main">
+        <section id="view-home" class="view active">
+          <div class="hero">
+            <p class="eyebrow">Core Motif · Internal</p>
+            <h1>Design deliverables, one click away</h1>
+            <p class="lead">
+              Browse logos, kanji mockups, docs, and the interactive design board.
+              After <code>git pull</code>, open your domain — no extra setup.
+            </p>
+          </div>
+          <div class="card-grid">
+            <button type="button" class="card" data-jump="design-board">
+              <span class="card-tag">Interactive</span>
+              <h2>Design Board</h2>
+              <p>Kanji collection, mockups, logo concepts, and brand palette.</p>
+            </button>
+            <button type="button" class="card" data-jump="logos">
+              <span class="card-tag">Brand</span>
+              <h2>Logo Concepts</h2>
+              <p>Four CN monogram directions with SVG downloads.</p>
+            </button>
+            <button type="button" class="card" data-jump="designs">
+              <span class="card-tag">Product</span>
+              <h2>Kanji Designs</h2>
+              <p>Belt, tee, shorts, gloves, and accessory artwork.</p>
+            </button>
+            <button type="button" class="card" data-jump="docs">
+              <span class="card-tag">Docs</span>
+              <h2>Documentation</h2>
+              <p>Branding checklist, kanji collection spec, logo notes.</p>
+            </button>
+          </div>
+        </section>
+
+        <section id="view-design-board" class="view">
+          <div class="view-head">
+            <h1>Design Board</h1>
+            <a class="btn" href="site/design-board/index.html" target="_blank" rel="noopener">Open full screen</a>
+          </div>
+          <iframe
+            class="frame"
+            title="Corenation design board"
+            src="site/design-board/index.html"
+            loading="lazy"
+          ></iframe>
+        </section>
+
+        <section id="view-logos" class="view">
+          <div class="view-head">
+            <h1>Logo Concepts</h1>
+            <p>CN monogram directions for CORENATION</p>
+          </div>
+          <div id="logo-grid" class="gallery"></div>
+        </section>
+
+        <section id="view-designs" class="view">
+          <div class="view-head">
+            <h1>Kanji Designs</h1>
+            <p>Product mockups and hero reference samples</p>
+          </div>
+          <div id="design-grid" class="gallery"></div>
+        </section>
+
+        <section id="view-docs" class="view">
+          <div class="view-head">
+            <h1>Documentation</h1>
+          </div>
+          <div class="docs-layout">
+            <div id="doc-list" class="doc-list"></div>
+            <article id="doc-content" class="doc-content">
+              <p class="muted">Select a document from the list.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="view-browse" class="view">
+          <div class="view-head">
+            <h1>File Browser</h1>
+            <p>All project files (excluding node_modules and build cache)</p>
+          </div>
+          <div class="browse-layout">
+            <div id="file-tree" class="file-tree"></div>
+            <div id="file-preview" class="file-preview">
+              <p class="muted">Pick a file to preview or download.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="browser/app.js"></script>
+  </body>
+</html>
