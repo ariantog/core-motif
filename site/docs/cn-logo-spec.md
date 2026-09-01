@@ -1,55 +1,54 @@
-# Corenation CN Monogram Exploration
+# Corenation Logo Exploration
 
 **Brand:** Corenation Active  
-**Mark:** Combined **C** (outer form) + **N** (inner letterform)
+**Status:** Six parallel explorations — no final master selected
 
 ## Design goal
 
-The original mark used a closed hexagon around an N. These directions rebuild the outer geometry as a deliberate letter **C**, rather than removing one line from the old hexagon. Each uses solid shapes so it reproduces cleanly on gym apparel and equipment.
+This round leaves the enclosed badge language behind. It explores two independent systems:
+
+1. **CN abstraction** — the letters share strokes, folds, or negative space.
+2. **Core anatomy** — obliques, the linea alba, and diagonal fascial tension become the symbol.
+
+None of the concepts use a hexagon, shield, ring, or outer container.
 
 ## Concepts
 
-| # | Direction | Character | Best use |
-|---|-----------|-----------|----------|
-| 01 | **Core Cut** | Bold hexagonal C with a separate inset N | Best all-rounder |
-| 02 | **Interlock** | Three engineered C plates locked around the N | Belts and equipment |
-| 03 | **Velocity** | Forward-leaning, athletic CN | Performance apparel |
-| 04 | **Core Block** | Wide, stable, production-friendly CN | Embroidery and small patches |
+| # | Direction | System | Design signal |
+|---|-----------|--------|---------------|
+| 01 | **Continuum** | CN abstraction | A fluid C-to-N continuous line |
+| 02 | **Fold** | CN abstraction | Two angular planes sharing edges |
+| 03 | **Counterform** | CN abstraction | C and N cut into the negative space |
+| 04 | **Linea** | Core anatomy | Abdominal walls and the central linea alba |
+| 05 | **Oblique** | Core anatomy | Six modular rib-to-waist compression bands |
+| 06 | **Crossbrace** | Core anatomy / N hybrid | Curved core walls crossed by a fascial sling |
 
 ## Files
 
-| File | Use |
-|------|-----|
-| `concepts/01-core-cut.png` | Core Cut — best all-rounder |
-| `concepts/02-interlock.png` | Interlock — equipment |
-| `concepts/03-velocity.png` | Velocity — sportswear |
-| `concepts/04-core-block.png` | Core Block — production |
-| `concepts/05-seal.png` | Seal — most readable C |
-| `concepts/06-shield.png` | Shield — patches |
-| `concepts/07-lockbar.png` | Lockbar — shared spine |
-| `concepts/08-stamp.png` | Stamp — hanko / chop |
-| `concepts/09-orbit.png` | Orbit — ring + core |
-| `concepts/10-wedge.png` | Wedge — aggressive cut |
-| `corenation-cn-logo-cream.png` | Cream preview for the hub and favicon |
-| `corenation-cn-logo.svg` | Current master (Concept 01) — `currentColor` for CSS/theming |
-| `corenation-cn-logo-cream.svg` | Cream `#D6CFB5` on dark apparel |
-| `corenation-cn-logo-white.svg` | White on olive/black |
-| `corenation-cn-logo-black.svg` | Black emboss on cream or tonal black-on-black |
-| `reference-original-hexagon.jpg` | Previous closed-hexagon reference |
+| File | Direction |
+|------|-----------|
+| `concepts/01-continuum.svg` | Continuum |
+| `concepts/02-fold.svg` | Fold |
+| `concepts/03-counterform.svg` | Counterform |
+| `concepts/04-linea.svg` | Linea |
+| `concepts/05-oblique.svg` | Oblique |
+| `concepts/06-crossbrace.svg` | Crossbrace |
+| `corenation-cn-logo.svg` | Temporary interface mark using Continuum and `currentColor` |
+| `corenation-cn-logo-cream.svg` | Cream `#D6CFB5` interface export |
+| `corenation-cn-logo-white.svg` | White interface export |
+| `corenation-cn-logo-black.svg` | Black interface export |
+| `reference-original-hexagon.jpg` | Previous enclosed-badge reference |
 
-## Color usage
-
-- **Primary on dark:** Cream or white fill on black, charcoal, or olive `#4A5240`
-- **Emboss / tonal:** Black fill on black fabric (shorts waistband)
-- **Minimum size:** 12mm print height for Concepts 01–03; Concept 04 can go to 8mm after a production sample
+The Continuum export replaces the rejected mark in the design hub only. That does not make it the selected brand master.
 
 ## Production notes
 
-- Export as vector (SVG/PDF) for embroidery and heat transfer
-- All concepts use **filled paths**, avoiding fragile strokes and open contours
-- Preserve the clear space between the C and N; do not close the right-side aperture
-- Test embroidery at actual size before production because thread spread can narrow the internal gaps
+- Keep every mark monochrome during selection; color should not rescue weak geometry.
+- Test at 42px, 30px, and 20px before choosing a direction.
+- Convert the Continuum stroke to an outlined path before sending final artwork to embroidery or molding.
+- Preserve the center gaps in Linea and Oblique; thread spread can close them below 12mm.
+- Run trademark and similarity screening only after narrowing to one or two directions.
 
 ## Comparison
 
-See the **CN Monogram — New Directions** section in the design board (`design-board/`) for side-by-side and small-size previews.
+See **Logo Exploration — Two New Systems** in the design board (`design-board/`) for side-by-side and small-size previews.
