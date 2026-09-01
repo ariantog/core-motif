@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:57:21Z",
+  "generatedAt": "2026-09-01T05:12:23Z",
   "root": [
     {
       "type": "dir",
@@ -1096,6 +1096,33 @@
               "children": [
                 {
                   "type": "dir",
+                  "name": "crosscourt-mesh",
+                  "path": "assets/padel/men/crosscourt-mesh",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/crosscourt-mesh/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/crosscourt-mesh/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/crosscourt-mesh/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/crosscourt-mesh/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "dual-glass",
                   "path": "assets/padel/men/dual-glass",
                   "children": [
@@ -1172,6 +1199,33 @@
                       "type": "image",
                       "name": "tee.png",
                       "path": "assets/padel/men/harbor-haze/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "orbit-serve",
+                  "path": "assets/padel/men/orbit-serve",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/orbit-serve/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/orbit-serve/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/orbit-serve/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/orbit-serve/tee.png"
                     }
                   ]
                 },
@@ -1275,6 +1329,38 @@
                 },
                 {
                   "type": "dir",
+                  "name": "halo-serve",
+                  "path": "assets/padel/women/halo-serve",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/halo-serve/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/halo-serve/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/halo-serve/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/halo-serve/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/halo-serve/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "lemon-sherbet",
                   "path": "assets/padel/women/lemon-sherbet",
                   "children": [
@@ -1302,6 +1388,38 @@
                       "type": "image",
                       "name": "tee.png",
                       "path": "assets/padel/women/lemon-sherbet/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "rally-ribbon",
+                  "path": "assets/padel/women/rally-ribbon",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/rally-ribbon/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/rally-ribbon/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/rally-ribbon/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/rally-ribbon/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/rally-ribbon/tee.png"
                     }
                   ]
                 },
@@ -2553,6 +2671,33 @@
                       "children": [
                         {
                           "type": "dir",
+                          "name": "crosscourt-mesh",
+                          "path": "design-board/public/assets/padel/men/crosscourt-mesh",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/crosscourt-mesh/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/crosscourt-mesh/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/crosscourt-mesh/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/crosscourt-mesh/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
                           "name": "dual-glass",
                           "path": "design-board/public/assets/padel/men/dual-glass",
                           "children": [
@@ -2629,6 +2774,33 @@
                               "type": "image",
                               "name": "tee.png",
                               "path": "design-board/public/assets/padel/men/harbor-haze/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "orbit-serve",
+                          "path": "design-board/public/assets/padel/men/orbit-serve",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/orbit-serve/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/orbit-serve/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/orbit-serve/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/orbit-serve/tee.png"
                             }
                           ]
                         },
@@ -2732,6 +2904,38 @@
                         },
                         {
                           "type": "dir",
+                          "name": "halo-serve",
+                          "path": "design-board/public/assets/padel/women/halo-serve",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/halo-serve/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/halo-serve/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/halo-serve/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/halo-serve/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/halo-serve/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
                           "name": "lemon-sherbet",
                           "path": "design-board/public/assets/padel/women/lemon-sherbet",
                           "children": [
@@ -2759,6 +2963,38 @@
                               "type": "image",
                               "name": "tee.png",
                               "path": "design-board/public/assets/padel/women/lemon-sherbet/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "rally-ribbon",
+                          "path": "design-board/public/assets/padel/women/rally-ribbon",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/rally-ribbon/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/rally-ribbon/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/rally-ribbon/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/rally-ribbon/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/rally-ribbon/tee.png"
                             }
                           ]
                         },
