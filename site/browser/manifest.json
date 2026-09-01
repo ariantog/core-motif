@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T07:27:48Z",
+  "generatedAt": "2026-09-01T08:01:03Z",
   "root": [
     {
       "type": "dir",
@@ -868,6 +868,43 @@
               "children": [
                 {
                   "type": "dir",
+                  "name": "licenses",
+                  "path": "assets/logo/readable/licenses",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "archivo-black-OFL.txt",
+                      "path": "assets/logo/readable/licenses/archivo-black-OFL.txt"
+                    },
+                    {
+                      "type": "file",
+                      "name": "barlow-condensed-OFL.txt",
+                      "path": "assets/logo/readable/licenses/barlow-condensed-OFL.txt"
+                    },
+                    {
+                      "type": "file",
+                      "name": "league-spartan-OFL.txt",
+                      "path": "assets/logo/readable/licenses/league-spartan-OFL.txt"
+                    },
+                    {
+                      "type": "file",
+                      "name": "manrope-OFL.txt",
+                      "path": "assets/logo/readable/licenses/manrope-OFL.txt"
+                    },
+                    {
+                      "type": "file",
+                      "name": "space-grotesk-OFL.txt",
+                      "path": "assets/logo/readable/licenses/space-grotesk-OFL.txt"
+                    },
+                    {
+                      "type": "file",
+                      "name": "syne-OFL.txt",
+                      "path": "assets/logo/readable/licenses/syne-OFL.txt"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "reference",
                   "path": "assets/logo/readable/reference",
                   "children": [
@@ -925,178 +962,203 @@
                 },
                 {
                   "type": "image",
-                  "name": "01-slash-track-black.svg",
-                  "path": "assets/logo/readable/01-slash-track-black.svg"
+                  "name": "01-open-set-active-black.svg",
+                  "path": "assets/logo/readable/01-open-set-active-black.svg"
                 },
                 {
                   "type": "image",
-                  "name": "01-slash-track-cream.svg",
-                  "path": "assets/logo/readable/01-slash-track-cream.svg"
+                  "name": "01-open-set-active-cream.svg",
+                  "path": "assets/logo/readable/01-open-set-active-cream.svg"
                 },
                 {
                   "type": "image",
-                  "name": "01-slash-track-white.svg",
-                  "path": "assets/logo/readable/01-slash-track-white.svg"
+                  "name": "01-open-set-active-white.svg",
+                  "path": "assets/logo/readable/01-open-set-active-white.svg"
                 },
                 {
                   "type": "image",
-                  "name": "01-slash-track.png",
-                  "path": "assets/logo/readable/01-slash-track.png"
+                  "name": "01-open-set-active.png",
+                  "path": "assets/logo/readable/01-open-set-active.png"
                 },
                 {
                   "type": "image",
-                  "name": "01-slash-track.svg",
-                  "path": "assets/logo/readable/01-slash-track.svg"
+                  "name": "01-open-set-active.svg",
+                  "path": "assets/logo/readable/01-open-set-active.svg"
                 },
                 {
                   "type": "image",
-                  "name": "02-slash-active-black.svg",
-                  "path": "assets/logo/readable/02-slash-active-black.svg"
+                  "name": "01-open-set-black.svg",
+                  "path": "assets/logo/readable/01-open-set-black.svg"
                 },
                 {
                   "type": "image",
-                  "name": "02-slash-active-cream.svg",
-                  "path": "assets/logo/readable/02-slash-active-cream.svg"
+                  "name": "01-open-set-cream.svg",
+                  "path": "assets/logo/readable/01-open-set-cream.svg"
                 },
                 {
                   "type": "image",
-                  "name": "02-slash-active-white.svg",
-                  "path": "assets/logo/readable/02-slash-active-white.svg"
+                  "name": "01-open-set-stack-black.svg",
+                  "path": "assets/logo/readable/01-open-set-stack-black.svg"
                 },
                 {
                   "type": "image",
-                  "name": "02-slash-active.png",
-                  "path": "assets/logo/readable/02-slash-active.png"
+                  "name": "01-open-set-stack-cream.svg",
+                  "path": "assets/logo/readable/01-open-set-stack-cream.svg"
                 },
                 {
                   "type": "image",
-                  "name": "02-slash-active.svg",
-                  "path": "assets/logo/readable/02-slash-active.svg"
+                  "name": "01-open-set-stack-white.svg",
+                  "path": "assets/logo/readable/01-open-set-stack-white.svg"
                 },
                 {
                   "type": "image",
-                  "name": "03-slash-stack-black.svg",
-                  "path": "assets/logo/readable/03-slash-stack-black.svg"
+                  "name": "01-open-set-stack.png",
+                  "path": "assets/logo/readable/01-open-set-stack.png"
                 },
                 {
                   "type": "image",
-                  "name": "03-slash-stack-cream.svg",
-                  "path": "assets/logo/readable/03-slash-stack-cream.svg"
+                  "name": "01-open-set-stack.svg",
+                  "path": "assets/logo/readable/01-open-set-stack.svg"
                 },
                 {
                   "type": "image",
-                  "name": "03-slash-stack-white.svg",
-                  "path": "assets/logo/readable/03-slash-stack-white.svg"
+                  "name": "01-open-set-white.svg",
+                  "path": "assets/logo/readable/01-open-set-white.svg"
                 },
                 {
                   "type": "image",
-                  "name": "03-slash-stack.png",
-                  "path": "assets/logo/readable/03-slash-stack.png"
+                  "name": "01-open-set.png",
+                  "path": "assets/logo/readable/01-open-set.png"
                 },
                 {
                   "type": "image",
-                  "name": "03-slash-stack.svg",
-                  "path": "assets/logo/readable/03-slash-stack.svg"
+                  "name": "01-open-set.svg",
+                  "path": "assets/logo/readable/01-open-set.svg"
                 },
                 {
                   "type": "image",
-                  "name": "04-slash-stack-active-black.svg",
-                  "path": "assets/logo/readable/04-slash-stack-active-black.svg"
+                  "name": "02-core-nation-black.svg",
+                  "path": "assets/logo/readable/02-core-nation-black.svg"
                 },
                 {
                   "type": "image",
-                  "name": "04-slash-stack-active-cream.svg",
-                  "path": "assets/logo/readable/04-slash-stack-active-cream.svg"
+                  "name": "02-core-nation-cream.svg",
+                  "path": "assets/logo/readable/02-core-nation-cream.svg"
                 },
                 {
                   "type": "image",
-                  "name": "04-slash-stack-active-white.svg",
-                  "path": "assets/logo/readable/04-slash-stack-active-white.svg"
+                  "name": "02-core-nation-white.svg",
+                  "path": "assets/logo/readable/02-core-nation-white.svg"
                 },
                 {
                   "type": "image",
-                  "name": "04-slash-stack-active.png",
-                  "path": "assets/logo/readable/04-slash-stack-active.png"
+                  "name": "02-core-nation.png",
+                  "path": "assets/logo/readable/02-core-nation.png"
                 },
                 {
                   "type": "image",
-                  "name": "04-slash-stack-active.svg",
-                  "path": "assets/logo/readable/04-slash-stack-active.svg"
+                  "name": "02-core-nation.svg",
+                  "path": "assets/logo/readable/02-core-nation.svg"
                 },
                 {
                   "type": "image",
-                  "name": "05-core-lead-black.svg",
-                  "path": "assets/logo/readable/05-core-lead-black.svg"
+                  "name": "03-forward-black.svg",
+                  "path": "assets/logo/readable/03-forward-black.svg"
                 },
                 {
                   "type": "image",
-                  "name": "05-core-lead-cream.svg",
-                  "path": "assets/logo/readable/05-core-lead-cream.svg"
+                  "name": "03-forward-cream.svg",
+                  "path": "assets/logo/readable/03-forward-cream.svg"
                 },
                 {
                   "type": "image",
-                  "name": "05-core-lead-white.svg",
-                  "path": "assets/logo/readable/05-core-lead-white.svg"
+                  "name": "03-forward-white.svg",
+                  "path": "assets/logo/readable/03-forward-white.svg"
                 },
                 {
                   "type": "image",
-                  "name": "05-core-lead.png",
-                  "path": "assets/logo/readable/05-core-lead.png"
+                  "name": "03-forward.png",
+                  "path": "assets/logo/readable/03-forward.png"
                 },
                 {
                   "type": "image",
-                  "name": "05-core-lead.svg",
-                  "path": "assets/logo/readable/05-core-lead.svg"
+                  "name": "03-forward.svg",
+                  "path": "assets/logo/readable/03-forward.svg"
                 },
                 {
                   "type": "image",
-                  "name": "06-core-block-black.svg",
-                  "path": "assets/logo/readable/06-core-block-black.svg"
+                  "name": "04-field-black.svg",
+                  "path": "assets/logo/readable/04-field-black.svg"
                 },
                 {
                   "type": "image",
-                  "name": "06-core-block-cream.svg",
-                  "path": "assets/logo/readable/06-core-block-cream.svg"
+                  "name": "04-field-cream.svg",
+                  "path": "assets/logo/readable/04-field-cream.svg"
                 },
                 {
                   "type": "image",
-                  "name": "06-core-block-white.svg",
-                  "path": "assets/logo/readable/06-core-block-white.svg"
+                  "name": "04-field-white.svg",
+                  "path": "assets/logo/readable/04-field-white.svg"
                 },
                 {
                   "type": "image",
-                  "name": "06-core-block.png",
-                  "path": "assets/logo/readable/06-core-block.png"
+                  "name": "04-field.png",
+                  "path": "assets/logo/readable/04-field.png"
                 },
                 {
                   "type": "image",
-                  "name": "06-core-block.svg",
-                  "path": "assets/logo/readable/06-core-block.svg"
+                  "name": "04-field.svg",
+                  "path": "assets/logo/readable/04-field.svg"
                 },
                 {
                   "type": "image",
-                  "name": "slash-c-black.svg",
-                  "path": "assets/logo/readable/slash-c-black.svg"
+                  "name": "05-everyday-black.svg",
+                  "path": "assets/logo/readable/05-everyday-black.svg"
                 },
                 {
                   "type": "image",
-                  "name": "slash-c-cream.svg",
-                  "path": "assets/logo/readable/slash-c-cream.svg"
+                  "name": "05-everyday-cream.svg",
+                  "path": "assets/logo/readable/05-everyday-cream.svg"
                 },
                 {
                   "type": "image",
-                  "name": "slash-c-white.svg",
-                  "path": "assets/logo/readable/slash-c-white.svg"
+                  "name": "05-everyday-white.svg",
+                  "path": "assets/logo/readable/05-everyday-white.svg"
                 },
                 {
                   "type": "image",
-                  "name": "slash-c.png",
-                  "path": "assets/logo/readable/slash-c.png"
+                  "name": "05-everyday.png",
+                  "path": "assets/logo/readable/05-everyday.png"
                 },
                 {
                   "type": "image",
-                  "name": "slash-c.svg",
-                  "path": "assets/logo/readable/slash-c.svg"
+                  "name": "05-everyday.svg",
+                  "path": "assets/logo/readable/05-everyday.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "core-initial-black.svg",
+                  "path": "assets/logo/readable/core-initial-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "core-initial-cream.svg",
+                  "path": "assets/logo/readable/core-initial-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "core-initial-white.svg",
+                  "path": "assets/logo/readable/core-initial-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "core-initial.png",
+                  "path": "assets/logo/readable/core-initial.png"
+                },
+                {
+                  "type": "image",
+                  "name": "core-initial.svg",
+                  "path": "assets/logo/readable/core-initial.svg"
                 }
               ]
             },
@@ -2881,6 +2943,43 @@
                       "children": [
                         {
                           "type": "dir",
+                          "name": "licenses",
+                          "path": "design-board/public/assets/logo/readable/licenses",
+                          "children": [
+                            {
+                              "type": "file",
+                              "name": "archivo-black-OFL.txt",
+                              "path": "design-board/public/assets/logo/readable/licenses/archivo-black-OFL.txt"
+                            },
+                            {
+                              "type": "file",
+                              "name": "barlow-condensed-OFL.txt",
+                              "path": "design-board/public/assets/logo/readable/licenses/barlow-condensed-OFL.txt"
+                            },
+                            {
+                              "type": "file",
+                              "name": "league-spartan-OFL.txt",
+                              "path": "design-board/public/assets/logo/readable/licenses/league-spartan-OFL.txt"
+                            },
+                            {
+                              "type": "file",
+                              "name": "manrope-OFL.txt",
+                              "path": "design-board/public/assets/logo/readable/licenses/manrope-OFL.txt"
+                            },
+                            {
+                              "type": "file",
+                              "name": "space-grotesk-OFL.txt",
+                              "path": "design-board/public/assets/logo/readable/licenses/space-grotesk-OFL.txt"
+                            },
+                            {
+                              "type": "file",
+                              "name": "syne-OFL.txt",
+                              "path": "design-board/public/assets/logo/readable/licenses/syne-OFL.txt"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
                           "name": "reference",
                           "path": "design-board/public/assets/logo/readable/reference",
                           "children": [
@@ -2938,178 +3037,203 @@
                         },
                         {
                           "type": "image",
-                          "name": "01-slash-track-black.svg",
-                          "path": "design-board/public/assets/logo/readable/01-slash-track-black.svg"
+                          "name": "01-open-set-active-black.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-active-black.svg"
                         },
                         {
                           "type": "image",
-                          "name": "01-slash-track-cream.svg",
-                          "path": "design-board/public/assets/logo/readable/01-slash-track-cream.svg"
+                          "name": "01-open-set-active-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-active-cream.svg"
                         },
                         {
                           "type": "image",
-                          "name": "01-slash-track-white.svg",
-                          "path": "design-board/public/assets/logo/readable/01-slash-track-white.svg"
+                          "name": "01-open-set-active-white.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-active-white.svg"
                         },
                         {
                           "type": "image",
-                          "name": "01-slash-track.png",
-                          "path": "design-board/public/assets/logo/readable/01-slash-track.png"
+                          "name": "01-open-set-active.png",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-active.png"
                         },
                         {
                           "type": "image",
-                          "name": "01-slash-track.svg",
-                          "path": "design-board/public/assets/logo/readable/01-slash-track.svg"
+                          "name": "01-open-set-active.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-active.svg"
                         },
                         {
                           "type": "image",
-                          "name": "02-slash-active-black.svg",
-                          "path": "design-board/public/assets/logo/readable/02-slash-active-black.svg"
+                          "name": "01-open-set-black.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-black.svg"
                         },
                         {
                           "type": "image",
-                          "name": "02-slash-active-cream.svg",
-                          "path": "design-board/public/assets/logo/readable/02-slash-active-cream.svg"
+                          "name": "01-open-set-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-cream.svg"
                         },
                         {
                           "type": "image",
-                          "name": "02-slash-active-white.svg",
-                          "path": "design-board/public/assets/logo/readable/02-slash-active-white.svg"
+                          "name": "01-open-set-stack-black.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-stack-black.svg"
                         },
                         {
                           "type": "image",
-                          "name": "02-slash-active.png",
-                          "path": "design-board/public/assets/logo/readable/02-slash-active.png"
+                          "name": "01-open-set-stack-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-stack-cream.svg"
                         },
                         {
                           "type": "image",
-                          "name": "02-slash-active.svg",
-                          "path": "design-board/public/assets/logo/readable/02-slash-active.svg"
+                          "name": "01-open-set-stack-white.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-stack-white.svg"
                         },
                         {
                           "type": "image",
-                          "name": "03-slash-stack-black.svg",
-                          "path": "design-board/public/assets/logo/readable/03-slash-stack-black.svg"
+                          "name": "01-open-set-stack.png",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-stack.png"
                         },
                         {
                           "type": "image",
-                          "name": "03-slash-stack-cream.svg",
-                          "path": "design-board/public/assets/logo/readable/03-slash-stack-cream.svg"
+                          "name": "01-open-set-stack.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-stack.svg"
                         },
                         {
                           "type": "image",
-                          "name": "03-slash-stack-white.svg",
-                          "path": "design-board/public/assets/logo/readable/03-slash-stack-white.svg"
+                          "name": "01-open-set-white.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set-white.svg"
                         },
                         {
                           "type": "image",
-                          "name": "03-slash-stack.png",
-                          "path": "design-board/public/assets/logo/readable/03-slash-stack.png"
+                          "name": "01-open-set.png",
+                          "path": "design-board/public/assets/logo/readable/01-open-set.png"
                         },
                         {
                           "type": "image",
-                          "name": "03-slash-stack.svg",
-                          "path": "design-board/public/assets/logo/readable/03-slash-stack.svg"
+                          "name": "01-open-set.svg",
+                          "path": "design-board/public/assets/logo/readable/01-open-set.svg"
                         },
                         {
                           "type": "image",
-                          "name": "04-slash-stack-active-black.svg",
-                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active-black.svg"
+                          "name": "02-core-nation-black.svg",
+                          "path": "design-board/public/assets/logo/readable/02-core-nation-black.svg"
                         },
                         {
                           "type": "image",
-                          "name": "04-slash-stack-active-cream.svg",
-                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active-cream.svg"
+                          "name": "02-core-nation-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/02-core-nation-cream.svg"
                         },
                         {
                           "type": "image",
-                          "name": "04-slash-stack-active-white.svg",
-                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active-white.svg"
+                          "name": "02-core-nation-white.svg",
+                          "path": "design-board/public/assets/logo/readable/02-core-nation-white.svg"
                         },
                         {
                           "type": "image",
-                          "name": "04-slash-stack-active.png",
-                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active.png"
+                          "name": "02-core-nation.png",
+                          "path": "design-board/public/assets/logo/readable/02-core-nation.png"
                         },
                         {
                           "type": "image",
-                          "name": "04-slash-stack-active.svg",
-                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active.svg"
+                          "name": "02-core-nation.svg",
+                          "path": "design-board/public/assets/logo/readable/02-core-nation.svg"
                         },
                         {
                           "type": "image",
-                          "name": "05-core-lead-black.svg",
-                          "path": "design-board/public/assets/logo/readable/05-core-lead-black.svg"
+                          "name": "03-forward-black.svg",
+                          "path": "design-board/public/assets/logo/readable/03-forward-black.svg"
                         },
                         {
                           "type": "image",
-                          "name": "05-core-lead-cream.svg",
-                          "path": "design-board/public/assets/logo/readable/05-core-lead-cream.svg"
+                          "name": "03-forward-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/03-forward-cream.svg"
                         },
                         {
                           "type": "image",
-                          "name": "05-core-lead-white.svg",
-                          "path": "design-board/public/assets/logo/readable/05-core-lead-white.svg"
+                          "name": "03-forward-white.svg",
+                          "path": "design-board/public/assets/logo/readable/03-forward-white.svg"
                         },
                         {
                           "type": "image",
-                          "name": "05-core-lead.png",
-                          "path": "design-board/public/assets/logo/readable/05-core-lead.png"
+                          "name": "03-forward.png",
+                          "path": "design-board/public/assets/logo/readable/03-forward.png"
                         },
                         {
                           "type": "image",
-                          "name": "05-core-lead.svg",
-                          "path": "design-board/public/assets/logo/readable/05-core-lead.svg"
+                          "name": "03-forward.svg",
+                          "path": "design-board/public/assets/logo/readable/03-forward.svg"
                         },
                         {
                           "type": "image",
-                          "name": "06-core-block-black.svg",
-                          "path": "design-board/public/assets/logo/readable/06-core-block-black.svg"
+                          "name": "04-field-black.svg",
+                          "path": "design-board/public/assets/logo/readable/04-field-black.svg"
                         },
                         {
                           "type": "image",
-                          "name": "06-core-block-cream.svg",
-                          "path": "design-board/public/assets/logo/readable/06-core-block-cream.svg"
+                          "name": "04-field-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/04-field-cream.svg"
                         },
                         {
                           "type": "image",
-                          "name": "06-core-block-white.svg",
-                          "path": "design-board/public/assets/logo/readable/06-core-block-white.svg"
+                          "name": "04-field-white.svg",
+                          "path": "design-board/public/assets/logo/readable/04-field-white.svg"
                         },
                         {
                           "type": "image",
-                          "name": "06-core-block.png",
-                          "path": "design-board/public/assets/logo/readable/06-core-block.png"
+                          "name": "04-field.png",
+                          "path": "design-board/public/assets/logo/readable/04-field.png"
                         },
                         {
                           "type": "image",
-                          "name": "06-core-block.svg",
-                          "path": "design-board/public/assets/logo/readable/06-core-block.svg"
+                          "name": "04-field.svg",
+                          "path": "design-board/public/assets/logo/readable/04-field.svg"
                         },
                         {
                           "type": "image",
-                          "name": "slash-c-black.svg",
-                          "path": "design-board/public/assets/logo/readable/slash-c-black.svg"
+                          "name": "05-everyday-black.svg",
+                          "path": "design-board/public/assets/logo/readable/05-everyday-black.svg"
                         },
                         {
                           "type": "image",
-                          "name": "slash-c-cream.svg",
-                          "path": "design-board/public/assets/logo/readable/slash-c-cream.svg"
+                          "name": "05-everyday-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/05-everyday-cream.svg"
                         },
                         {
                           "type": "image",
-                          "name": "slash-c-white.svg",
-                          "path": "design-board/public/assets/logo/readable/slash-c-white.svg"
+                          "name": "05-everyday-white.svg",
+                          "path": "design-board/public/assets/logo/readable/05-everyday-white.svg"
                         },
                         {
                           "type": "image",
-                          "name": "slash-c.png",
-                          "path": "design-board/public/assets/logo/readable/slash-c.png"
+                          "name": "05-everyday.png",
+                          "path": "design-board/public/assets/logo/readable/05-everyday.png"
                         },
                         {
                           "type": "image",
-                          "name": "slash-c.svg",
-                          "path": "design-board/public/assets/logo/readable/slash-c.svg"
+                          "name": "05-everyday.svg",
+                          "path": "design-board/public/assets/logo/readable/05-everyday.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "core-initial-black.svg",
+                          "path": "design-board/public/assets/logo/readable/core-initial-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "core-initial-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/core-initial-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "core-initial-white.svg",
+                          "path": "design-board/public/assets/logo/readable/core-initial-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "core-initial.png",
+                          "path": "design-board/public/assets/logo/readable/core-initial.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "core-initial.svg",
+                          "path": "design-board/public/assets/logo/readable/core-initial.svg"
                         }
                       ]
                     },
