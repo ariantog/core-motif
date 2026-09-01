@@ -198,6 +198,9 @@ The letters **C** and **N** become the logo before the monogram returns. Then th
 
 **Lock:** Same wide sans, same cream. Do not invent a third typeface. Do not add a box around CORE.
 
+**Files:** six ready split lockups (CORE / NATION and CO / RE / NATION) built from the
+current wordmark type live in `assets/logo/split/` — see [`split-wordmark.md`](split-wordmark.md).
+
 ---
 
 ## What we recommend for this brand

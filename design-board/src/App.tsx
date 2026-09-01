@@ -222,7 +222,66 @@ const openSetLockups = [
   },
 ]
 
-type Wordmark = (typeof readableWordmarks)[number] | (typeof openSetLockups)[number]
+const splitWordmarks = [
+  {
+    id: '01',
+    name: 'Flag',
+    tag: 'Half width',
+    file: '01-flag.png',
+    svg: '01-flag.svg',
+    description:
+      'CORE over NATION at one cap height. The Open Set core line grows into a full-width divider between them.',
+  },
+  {
+    id: '02',
+    name: 'Lead',
+    tag: 'Calm stack',
+    file: '02-lead.png',
+    svg: '02-lead.svg',
+    description:
+      'Big CORE with NATION scaled — not squeezed — to match its width. The quiet version of the stack.',
+  },
+  {
+    id: '03',
+    name: 'Totem',
+    tag: 'Square',
+    file: '03-totem.png',
+    svg: '03-totem.svg',
+    description:
+      'CO / RE / NATION justified to one column, straight from sample E. C and N stay the first letters you read.',
+  },
+  {
+    id: '04',
+    name: 'Interval',
+    tag: 'Belt-safe',
+    file: '04-interval.png',
+    svg: '04-interval.svg',
+    description:
+      'One line with small square intervals marking the syllables. The only split that stays single-line.',
+  },
+  {
+    id: '05',
+    name: 'Cascade',
+    tag: 'Go wild',
+    file: '05-cascade.png',
+    svg: '05-cascade.svg',
+    description: 'Three steps descending to the right. Forward motion with no added device.',
+  },
+  {
+    id: '06',
+    name: 'Banner',
+    tag: 'Boldest',
+    file: '06-banner.png',
+    svg: '06-banner.svg',
+    description:
+      'CORE on top, NATION knocked out of a solid bar. A real cut — safe for print, too fine to embroider small.',
+  },
+]
+
+type Wordmark =
+  | (typeof readableWordmarks)[number]
+  | (typeof openSetLockups)[number]
+  | (typeof splitWordmarks)[number]
 
 const hexagonVariations = [
   {
@@ -276,14 +335,18 @@ type Concept = (typeof logoConcepts)[number] | (typeof hexagonVariations)[number
 
 function WordmarkCard({
   mark,
+  folder = 'assets/logo/readable',
+  recommended = false,
 }: {
   mark: Wordmark
+  folder?: string
+  recommended?: boolean
 }) {
   return (
-    <article className={`wordmark-card${mark.id === '01' || mark.id === 'P' ? ' recommended' : ''}`}>
+    <article className={`wordmark-card${recommended ? ' recommended' : ''}`}>
       <div className="wordmark-preview">
         <span className="concept-number">{mark.id}</span>
-        <img src={asset(`assets/logo/readable/${mark.file}`)} alt={mark.name} />
+        <img src={asset(`${folder}/${mark.file}`)} alt={mark.name} />
       </div>
       <div className="concept-copy">
         <div className="concept-heading">
@@ -291,7 +354,7 @@ function WordmarkCard({
           <span>{mark.tag}</span>
         </div>
         <p>{mark.description}</p>
-        <a className="concept-download" href={asset(`assets/logo/readable/${mark.svg}`)} download>
+        <a className="concept-download" href={asset(`${folder}/${mark.svg}`)} download>
           Download SVG
         </a>
       </div>
@@ -410,7 +473,7 @@ function App() {
             </p>
             <div className="wordmark-grid">
               {readableWordmarks.map((mark) => (
-                <WordmarkCard key={mark.id} mark={mark} />
+                <WordmarkCard key={mark.id} mark={mark} recommended={mark.id === '01'} />
               ))}
             </div>
             <p className="logo-note">
@@ -426,9 +489,29 @@ function App() {
             </p>
             <div className="wordmark-grid">
               {openSetLockups.map((mark) => (
-                <WordmarkCard key={mark.id} mark={mark} />
+                <WordmarkCard key={mark.id} mark={mark} recommended={mark.id === 'P'} />
               ))}
             </div>
+          </section>
+
+          <section>
+            <h2>Split wordmark — length options</h2>
+            <p className="section-lead">
+              The one-line name can feel long. These six lockups split it the way the original A–E
+              samples do — <strong>CORE / NATION</strong>, then <strong>CO / RE / NATION</strong> —
+              but drawn with the current wordmark type instead of the rejected slash-cut letters.
+              Pick at most one split to pair with the one-line face. Spec:{' '}
+              <code>docs/split-wordmark.md</code>.
+            </p>
+            <div className="wordmark-grid">
+              {splitWordmarks.map((mark) => (
+                <WordmarkCard key={mark.id} mark={mark} folder="assets/logo/split" />
+              ))}
+            </div>
+            <p className="logo-note">
+              Vectors in <code>assets/logo/split/</code> are outlined paths — cream, white, black,
+              and <code>currentColor</code> variants of each lockup.
+            </p>
           </section>
 
           <section>

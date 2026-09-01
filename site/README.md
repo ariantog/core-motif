@@ -10,6 +10,7 @@ Brand direction, staff checklists, and design files for **Corenation Active** (S
 | Kanji design collection (16 concepts) | [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) |
 | Staff branding checklist | [`docs/branding-checklist.md`](docs/branding-checklist.md) |
 | Readable wordmark (hex/coin off) | [`docs/readable-wordmark.md`](docs/readable-wordmark.md) |
+| Split wordmark (CORE / NATION lockups) | [`docs/split-wordmark.md`](docs/split-wordmark.md) |
 | Logo transition (hex → word → new mark) | [`docs/logo-transition.md`](docs/logo-transition.md) |
 | Product mockups (6 images) | [`assets/designs/`](assets/designs/) |
 | Internal design board (Vite) | [`design-board/`](design-board/) |
