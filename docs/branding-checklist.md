@@ -340,14 +340,15 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 - [ ] Copy is court, pair, session. Use: *play the glass, stay light, club night.* Not warrior kanji, not luxury clubhouse.
 - [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only.
-- [ ] Men stories: **Glass Court** (ice → mint → cyan) and **Harbor Haze** (fog → sky → teal).
-- [ ] Women stories: **Sunrise Clay** (ivory → apricot → peach clay) and **Lemon Sherbet** (cream → honeydew → lemon). Skirt is women-only.
+- [ ] Men v2: **Reef Trio** (3 color · seafoam → sky → periwinkle) and **Dual Glass** (2 color · teal → periwinkle).
+- [ ] Women v2: **Clay Bloom** (3 color · peach → rose → lilac) and **Dual Sherbet** (2 color · apricot → pistachio). Skirt is women-only.
+- [ ] v1 one-hue washes (Glass Court, Harbor Haze, Sunrise Clay, Lemon Sherbet) stay in the archive bay. New samples must show 2 or 3 distinct pastels.
 - [ ] Do not put a men's fade on a women's cut or the reverse.
 - [ ] Binding / collar / waistband stay inside the same pastel family. No black logo patch.
 
 ### Shopee title
 
-`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Glass Court|Harbor Haze|Sunrise Clay|Lemon Sherbet]`
+`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Reef Trio|Dual Glass|Clay Bloom|Dual Sherbet]`
 
 ### Store VM
 

@@ -9,12 +9,13 @@
 
 ## Art direction (locked)
 
-All-over dye-sub **pastel gradient** only.
+All-over dye-sub **pastel** only. New drops must show **two or three distinct hues** — not a white/ivory wash into one color.
 
 | Rule | Do | Do not |
 |------|----|--------|
 | Marks | Blank chest, back, collar, waistband, hem | Kanji, hex C, CORENATION, club badge |
-| Texture | Smooth fade + performance mesh | Floral, marble veins, wave graphic, heatmap |
+| Texture | Smooth fade or two-tone split + performance mesh | Floral, marble veins, wave graphic, heatmap |
+| Hue count | 2 or 3 readable pastels on v2 | White / ice / cream as the only top color |
 | Gender | Separate stories and cuts | One gradient shared across men and women SKUs |
 | Women extra | Skirt / skort | Skirt on the men's rack |
 
@@ -30,10 +31,14 @@ Each story folder holds garment mockups only (front + back ghost mannequin).
 
 | Folder | Who | Fade | Pieces |
 |--------|-----|------|--------|
-| `men/glass-court` | Men | Ice `#F2FAFC` → mint glass `#B8E8D8` → soft cyan `#C8EEF0` | polo, tee, tank, shorts |
-| `men/harbor-haze` | Men | Pearl fog `#EEF4F6` → dusty sky `#C4D8E0` → harbor teal `#8FB8B8` | polo, tee, tank, shorts |
-| `women/sunrise-clay` | Women | Ivory `#FAF4EC` → apricot `#F5D8C0` → peach clay `#F0C4A8` | polo, tee, tank, shorts, skirt |
-| `women/lemon-sherbet` | Women | Cream `#F8F6EC` → honeydew `#E4F0C8` → pale lemon `#F0E8A8` | polo, tee, tank, shorts, skirt |
+| `men/reef-trio` | Men | **3 color** seafoam `#8ED9C4` → sky aqua `#8CC4E8` → periwinkle `#B8B0E8` | polo, tee, tank, shorts |
+| `men/dual-glass` | Men | **2 color** teal `#6FB8B0` → periwinkle `#A098D8` | polo, tee, tank, shorts |
+| `women/clay-bloom` | Women | **3 color** peach `#F0B898` → dusty rose `#E8A8C4` → lilac `#C8B0E0` | polo, tee, tank, shorts, skirt |
+| `women/dual-sherbet` | Women | **2 color** apricot `#E8B888` → pistachio `#C8D888` | polo, tee, tank, shorts, skirt |
+| `men/glass-court` | Men | v1 one-hue · ice → mint glass | polo, tee, tank, shorts |
+| `men/harbor-haze` | Men | v1 one-hue · fog → harbor teal | polo, tee, tank, shorts |
+| `women/sunrise-clay` | Women | v1 one-hue · ivory → peach clay | polo, tee, tank, shorts, skirt |
+| `women/lemon-sherbet` | Women | v1 one-hue · cream → pale lemon | polo, tee, tank, shorts, skirt |
 
 ---
 
@@ -51,12 +56,12 @@ Binding, collar, and waistband stay **inside the same pastel family**. No black 
 
 ## Shopee & floor
 
-Title: `Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Glass Court|Harbor Haze|Sunrise Clay|Lemon Sherbet]`
+Title: `Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Reef Trio|Dual Glass|Clay Bloom|Dual Sherbet|Glass Court|Harbor Haze|Sunrise Clay|Lemon Sherbet]`
 
-- Men's bay: Glass Court + Harbor Haze only.
-- Women's bay: Sunrise Clay + Lemon Sherbet only. Skirt hangs with the matching top.
+- Lead with v2 (Reef Trio, Dual Glass, Clay Bloom, Dual Sherbet).
+- Men's bay: cool stories only. Women's bay: warm stories + skirts.
 - Do not merch next to 龍 lifting shorts or sakura belts without a fixture break.
 
 ---
 
-*Document version: 1.0 — First consumer padel pastel capsule. No kanji, no logo.*
+*Document version: 1.1 — v2 adds 2-color and 3-color drops. No kanji, no logo.*

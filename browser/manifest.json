@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:27:25Z",
+  "generatedAt": "2026-09-01T04:57:21Z",
   "root": [
     {
       "type": "dir",
@@ -1096,6 +1096,33 @@
               "children": [
                 {
                   "type": "dir",
+                  "name": "dual-glass",
+                  "path": "assets/padel/men/dual-glass",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/dual-glass/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/dual-glass/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/dual-glass/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/dual-glass/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "glass-court",
                   "path": "assets/padel/men/glass-court",
                   "children": [
@@ -1147,6 +1174,33 @@
                       "path": "assets/padel/men/harbor-haze/tee.png"
                     }
                   ]
+                },
+                {
+                  "type": "dir",
+                  "name": "reef-trio",
+                  "path": "assets/padel/men/reef-trio",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/reef-trio/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/reef-trio/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/reef-trio/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/reef-trio/tee.png"
+                    }
+                  ]
                 }
               ]
             },
@@ -1155,6 +1209,70 @@
               "name": "women",
               "path": "assets/padel/women",
               "children": [
+                {
+                  "type": "dir",
+                  "name": "clay-bloom",
+                  "path": "assets/padel/women/clay-bloom",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/clay-bloom/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/clay-bloom/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/clay-bloom/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/clay-bloom/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/clay-bloom/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "dual-sherbet",
+                  "path": "assets/padel/women/dual-sherbet",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/dual-sherbet/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/dual-sherbet/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/dual-sherbet/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/dual-sherbet/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/dual-sherbet/tee.png"
+                    }
+                  ]
+                },
                 {
                   "type": "dir",
                   "name": "lemon-sherbet",
@@ -2435,6 +2553,33 @@
                       "children": [
                         {
                           "type": "dir",
+                          "name": "dual-glass",
+                          "path": "design-board/public/assets/padel/men/dual-glass",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
                           "name": "glass-court",
                           "path": "design-board/public/assets/padel/men/glass-court",
                           "children": [
@@ -2486,6 +2631,33 @@
                               "path": "design-board/public/assets/padel/men/harbor-haze/tee.png"
                             }
                           ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "reef-trio",
+                          "path": "design-board/public/assets/padel/men/reef-trio",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/tee.png"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -2494,6 +2666,70 @@
                       "name": "women",
                       "path": "design-board/public/assets/padel/women",
                       "children": [
+                        {
+                          "type": "dir",
+                          "name": "clay-bloom",
+                          "path": "design-board/public/assets/padel/women/clay-bloom",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "dual-sherbet",
+                          "path": "design-board/public/assets/padel/women/dual-sherbet",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/tee.png"
+                            }
+                          ]
+                        },
                         {
                           "type": "dir",
                           "name": "lemon-sherbet",

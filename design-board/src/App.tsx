@@ -4,7 +4,18 @@ import { LogoMark } from './components/LogoMark'
 import { cultureBackgrounds, cultureLayers, cultureMockups, culturePrints } from './data/culture'
 import { floralMockups, floralRules } from './data/floral'
 import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
-import { padelMenMockups, padelMenPalette, padelRules, padelStories, padelWomenMockups, padelWomenPalette } from './data/padel'
+import {
+  padelMenMockups,
+  padelMenMultiMockups,
+  padelMenMultiPalette,
+  padelMenPalette,
+  padelRules,
+  padelStories,
+  padelWomenMockups,
+  padelWomenMultiMockups,
+  padelWomenMultiPalette,
+  padelWomenPalette,
+} from './data/padel'
 import { asset } from './lib/assets'
 
 type Tab = 'brand' | 'men' | 'women' | 'culture' | 'padel' | 'marks'
@@ -344,9 +355,10 @@ function App() {
           <section>
             <h2>Theme lock</h2>
             <p className="lede">
-              Consumer padel court kit — all-over pastel fade, no kanji, no logo. Men and women keep
-              separate color stories and cuts. Files live under <code>assets/padel/men/</code> and{' '}
-              <code>assets/padel/women/</code>. Spec: <code>docs/padel-collection.md</code>.
+              Consumer padel court kit — no kanji, no logo. v1 is a one-hue wash. v2 drops must
+              read as <strong>two or three distinct pastels</strong>. Men and women stay on
+              separate stories. Files: <code>assets/padel/men/</code> · <code>assets/padel/women/</code>.
+              Spec: <code>docs/padel-collection.md</code>.
             </p>
             <div className="rule-grid">
               {padelRules.map((rule) => (
@@ -373,12 +385,22 @@ function App() {
             </div>
           </section>
           <section>
-            <h2>Men — Glass Court + Harbor Haze</h2>
+            <h2>Men v2 — Reef Trio (3 color) + Dual Glass (2 color)</h2>
+            <Swatches items={padelMenMultiPalette} />
+            <MockGrid items={padelMenMultiMockups} />
+          </section>
+          <section>
+            <h2>Women v2 — Clay Bloom (3 color) + Dual Sherbet (2 color)</h2>
+            <Swatches items={padelWomenMultiPalette} />
+            <MockGrid items={padelWomenMultiMockups} />
+          </section>
+          <section>
+            <h2>Men v1 — Glass Court + Harbor Haze</h2>
             <Swatches items={padelMenPalette} />
             <MockGrid items={padelMenMockups} />
           </section>
           <section>
-            <h2>Women — Sunrise Clay + Lemon Sherbet</h2>
+            <h2>Women v1 — Sunrise Clay + Lemon Sherbet</h2>
             <Swatches items={padelWomenPalette} />
             <MockGrid items={padelWomenMockups} />
           </section>
