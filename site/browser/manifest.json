@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T08:01:03Z",
+  "generatedAt": "2026-09-01T15:07:59Z",
   "root": [
     {
       "type": "dir",
@@ -1159,6 +1159,175 @@
                   "type": "image",
                   "name": "core-initial.svg",
                   "path": "assets/logo/readable/core-initial.svg"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "split",
+              "path": "assets/logo/split",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "licenses",
+                  "path": "assets/logo/split/licenses",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "syne-OFL.txt",
+                      "path": "assets/logo/split/licenses/syne-OFL.txt"
+                    }
+                  ]
+                },
+                {
+                  "type": "image",
+                  "name": "01-flag-black.svg",
+                  "path": "assets/logo/split/01-flag-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "01-flag-cream.svg",
+                  "path": "assets/logo/split/01-flag-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "01-flag-white.svg",
+                  "path": "assets/logo/split/01-flag-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "01-flag.png",
+                  "path": "assets/logo/split/01-flag.png"
+                },
+                {
+                  "type": "image",
+                  "name": "01-flag.svg",
+                  "path": "assets/logo/split/01-flag.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-lead-black.svg",
+                  "path": "assets/logo/split/02-lead-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-lead-cream.svg",
+                  "path": "assets/logo/split/02-lead-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-lead-white.svg",
+                  "path": "assets/logo/split/02-lead-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-lead.png",
+                  "path": "assets/logo/split/02-lead.png"
+                },
+                {
+                  "type": "image",
+                  "name": "02-lead.svg",
+                  "path": "assets/logo/split/02-lead.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-totem-black.svg",
+                  "path": "assets/logo/split/03-totem-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-totem-cream.svg",
+                  "path": "assets/logo/split/03-totem-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-totem-white.svg",
+                  "path": "assets/logo/split/03-totem-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-totem.png",
+                  "path": "assets/logo/split/03-totem.png"
+                },
+                {
+                  "type": "image",
+                  "name": "03-totem.svg",
+                  "path": "assets/logo/split/03-totem.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-interval-black.svg",
+                  "path": "assets/logo/split/04-interval-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-interval-cream.svg",
+                  "path": "assets/logo/split/04-interval-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-interval-white.svg",
+                  "path": "assets/logo/split/04-interval-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-interval.png",
+                  "path": "assets/logo/split/04-interval.png"
+                },
+                {
+                  "type": "image",
+                  "name": "04-interval.svg",
+                  "path": "assets/logo/split/04-interval.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-cascade-black.svg",
+                  "path": "assets/logo/split/05-cascade-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-cascade-cream.svg",
+                  "path": "assets/logo/split/05-cascade-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-cascade-white.svg",
+                  "path": "assets/logo/split/05-cascade-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-cascade.png",
+                  "path": "assets/logo/split/05-cascade.png"
+                },
+                {
+                  "type": "image",
+                  "name": "05-cascade.svg",
+                  "path": "assets/logo/split/05-cascade.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-banner-black.svg",
+                  "path": "assets/logo/split/06-banner-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-banner-cream.svg",
+                  "path": "assets/logo/split/06-banner-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-banner-white.svg",
+                  "path": "assets/logo/split/06-banner-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-banner.png",
+                  "path": "assets/logo/split/06-banner.png"
+                },
+                {
+                  "type": "image",
+                  "name": "06-banner.svg",
+                  "path": "assets/logo/split/06-banner.svg"
                 }
               ]
             },
@@ -3238,6 +3407,175 @@
                       ]
                     },
                     {
+                      "type": "dir",
+                      "name": "split",
+                      "path": "design-board/public/assets/logo/split",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "licenses",
+                          "path": "design-board/public/assets/logo/split/licenses",
+                          "children": [
+                            {
+                              "type": "file",
+                              "name": "syne-OFL.txt",
+                              "path": "design-board/public/assets/logo/split/licenses/syne-OFL.txt"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-flag-black.svg",
+                          "path": "design-board/public/assets/logo/split/01-flag-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-flag-cream.svg",
+                          "path": "design-board/public/assets/logo/split/01-flag-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-flag-white.svg",
+                          "path": "design-board/public/assets/logo/split/01-flag-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-flag.png",
+                          "path": "design-board/public/assets/logo/split/01-flag.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-flag.svg",
+                          "path": "design-board/public/assets/logo/split/01-flag.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-lead-black.svg",
+                          "path": "design-board/public/assets/logo/split/02-lead-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-lead-cream.svg",
+                          "path": "design-board/public/assets/logo/split/02-lead-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-lead-white.svg",
+                          "path": "design-board/public/assets/logo/split/02-lead-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-lead.png",
+                          "path": "design-board/public/assets/logo/split/02-lead.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-lead.svg",
+                          "path": "design-board/public/assets/logo/split/02-lead.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-totem-black.svg",
+                          "path": "design-board/public/assets/logo/split/03-totem-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-totem-cream.svg",
+                          "path": "design-board/public/assets/logo/split/03-totem-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-totem-white.svg",
+                          "path": "design-board/public/assets/logo/split/03-totem-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-totem.png",
+                          "path": "design-board/public/assets/logo/split/03-totem.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-totem.svg",
+                          "path": "design-board/public/assets/logo/split/03-totem.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-interval-black.svg",
+                          "path": "design-board/public/assets/logo/split/04-interval-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-interval-cream.svg",
+                          "path": "design-board/public/assets/logo/split/04-interval-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-interval-white.svg",
+                          "path": "design-board/public/assets/logo/split/04-interval-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-interval.png",
+                          "path": "design-board/public/assets/logo/split/04-interval.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-interval.svg",
+                          "path": "design-board/public/assets/logo/split/04-interval.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-cascade-black.svg",
+                          "path": "design-board/public/assets/logo/split/05-cascade-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-cascade-cream.svg",
+                          "path": "design-board/public/assets/logo/split/05-cascade-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-cascade-white.svg",
+                          "path": "design-board/public/assets/logo/split/05-cascade-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-cascade.png",
+                          "path": "design-board/public/assets/logo/split/05-cascade.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-cascade.svg",
+                          "path": "design-board/public/assets/logo/split/05-cascade.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-banner-black.svg",
+                          "path": "design-board/public/assets/logo/split/06-banner-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-banner-cream.svg",
+                          "path": "design-board/public/assets/logo/split/06-banner-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-banner-white.svg",
+                          "path": "design-board/public/assets/logo/split/06-banner-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-banner.png",
+                          "path": "design-board/public/assets/logo/split/06-banner.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-banner.svg",
+                          "path": "design-board/public/assets/logo/split/06-banner.svg"
+                        }
+                      ]
+                    },
+                    {
                       "type": "image",
                       "name": "corenation-cn-logo-black.svg",
                       "path": "design-board/public/assets/logo/corenation-cn-logo-black.svg"
@@ -4354,6 +4692,11 @@
           "type": "markdown",
           "name": "readable-wordmark.md",
           "path": "docs/readable-wordmark.md"
+        },
+        {
+          "type": "markdown",
+          "name": "split-wordmark.md",
+          "path": "docs/split-wordmark.md"
         }
       ]
     },
@@ -4363,6 +4706,23 @@
       "path": "scripts",
       "children": [
         {
+          "type": "dir",
+          "name": "__pycache__",
+          "path": "scripts/__pycache__",
+          "children": [
+            {
+              "type": "file",
+              "name": "build_readable_wordmarks.cpython-312.pyc",
+              "path": "scripts/__pycache__/build_readable_wordmarks.cpython-312.pyc"
+            },
+            {
+              "type": "file",
+              "name": "build_split_wordmarks.cpython-312.pyc",
+              "path": "scripts/__pycache__/build_split_wordmarks.cpython-312.pyc"
+            }
+          ]
+        },
+        {
           "type": "file",
           "name": "build-site.sh",
           "path": "scripts/build-site.sh"
@@ -4371,6 +4731,11 @@
           "type": "file",
           "name": "build_readable_wordmarks.py",
           "path": "scripts/build_readable_wordmarks.py"
+        },
+        {
+          "type": "file",
+          "name": "build_split_wordmarks.py",
+          "path": "scripts/build_split_wordmarks.py"
         },
         {
           "type": "file",

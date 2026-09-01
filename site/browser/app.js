@@ -10,6 +10,12 @@ const logos = [
   { title: 'Forward', note: 'Athletic · campaign', path: 'assets/logo/readable/03-forward.png' },
   { title: 'Field', note: 'Condensed · equipment', path: 'assets/logo/readable/04-field.png' },
   { title: 'Everyday', note: 'Lowercase · approachable', path: 'assets/logo/readable/05-everyday.png' },
+  { title: 'Split Flag', note: 'CORE / NATION · full-width divider', path: 'assets/logo/split/01-flag.png' },
+  { title: 'Split Lead', note: 'Big CORE · width-matched NATION', path: 'assets/logo/split/02-lead.png' },
+  { title: 'Split Totem', note: 'CO / RE / NATION · square column', path: 'assets/logo/split/03-totem.png' },
+  { title: 'Split Interval', note: 'One line · square syllable marks', path: 'assets/logo/split/04-interval.png' },
+  { title: 'Split Cascade', note: 'Three descending steps', path: 'assets/logo/split/05-cascade.png' },
+  { title: 'Split Banner', note: 'NATION knocked out of a bar', path: 'assets/logo/split/06-banner.png' },
   { title: 'Core initial', note: 'Favicon only · not a new symbol', path: 'assets/logo/readable/core-initial.png' },
   { title: 'Continuum', note: 'Later · CN abstraction · fluid', path: 'assets/logo/concepts/01-continuum.svg' },
   { title: 'Fold', note: 'CN abstraction · angular', path: 'assets/logo/concepts/02-fold.svg' },
@@ -36,6 +42,7 @@ const designFilters = [
 
 const docs = [
   { title: 'Readable wordmark', path: 'docs/readable-wordmark.md' },
+  { title: 'Split wordmark', path: 'docs/split-wordmark.md' },
   { title: 'Logo transition', path: 'docs/logo-transition.md' },
   { title: 'Padel collection', path: 'docs/padel-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
