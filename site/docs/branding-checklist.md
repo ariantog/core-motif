@@ -80,7 +80,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 - [ ] Logo mark is the **hexagon C** (concentric broken hex + stylized C). White/cream on dark; charcoal on light pink/lilac.
 - [ ] Max **one hero motif** per visible panel (one kanji, or one flower cluster, or one culture graphic).
 - [ ] No competing line motifs on the same SKU (no sakura + 龍, no lavender + kanji patch).
-- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN). Wrong line code = reject.
+- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN / PDL). Wrong line code = reject.
 
 ### Palette lock (do not invent seasonal "premium" golds)
 
@@ -102,6 +102,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 | Women floral | @corenationactive | Sakura on pink, lavender on lilac | Apparel + matching accs | Kanji patches, olive tactical as hero |
 | Hijab / modest | @corenationhijab | Floral **or** clean modest | Sports hijab, long tunics, modest sets | Body-con crop-only hero, kanji warrior copy |
 | Culture Run | Active + Men (tag both if unisex) | Graphic print (wave, summit, bloom path) | Running tee, tank, singlet | Lifting-belt patch language, heavy olive tactical |
+| Padel court | Active + Men | Pastel fade, **no marks** | Polo, tee, tank, shorts, women skirt | Kanji, hex C, floral, Culture Run wave |
 | HQ padel | not a consumer drop | Club color **from approved palette** | Club kits, still Corenation branded | Club logo replacing hex C; unapproved neon |
 
 - [ ] Men's kanji SKUs never use sakura, lavender, pink, or lilac as a hero color.
@@ -141,7 +142,7 @@ Apparel (men / women / hijab, roughly equal) is what walks out of Central, Muku,
 - [ ] Price cards match Shopee titles (same product name). QR to Shopee optional, never a different SKU name.
 - [ ] Weekly Friday photo audit of all three stores sent to brand lead (same angles: bay, mannequin, table).
 
-### C. HQ warehouse / padel clubs
+### C. HQ warehouse / padel clubs (B2B)
 
 Owner: HQ / padel
 
@@ -324,6 +325,34 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 - [ ] Endcap or hanging "run wall" — shirts face out so the **back graphic** is visible (use a two-way hang or a back-facing mannequin).
 - [ ] Do not hang Culture Run inside the lifting-belt table.
+
+---
+
+## 8b. Padel court kit — pastel fade
+
+Owner: Brand lead + Design · Social: Active and/or Men
+
+**What this line is:** consumer padel polo, tee, tank, shorts, and women skirt with an **all-over pastel gradient**. No kanji. No hex C. No floral.
+
+**What it is not:** HQ club-custom kits (those still keep hex C — see §3C). Not Culture Run. Not sakura / lavender.
+
+### Voice & visual
+
+- [ ] Copy is court, pair, session. Use: *play the glass, stay light, club night.* Not warrior kanji, not luxury clubhouse.
+- [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only.
+- [ ] Men stories: **Glass Court** (ice → mint → cyan) and **Harbor Haze** (fog → sky → teal).
+- [ ] Women stories: **Sunrise Clay** (ivory → apricot → peach clay) and **Lemon Sherbet** (cream → honeydew → lemon). Skirt is women-only.
+- [ ] Do not put a men's fade on a women's cut or the reverse.
+- [ ] Binding / collar / waistband stay inside the same pastel family. No black logo patch.
+
+### Shopee title
+
+`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Glass Court|Harbor Haze|Sunrise Clay|Lemon Sherbet]`
+
+### Store VM
+
+- [ ] Own padel fixture or endcap. Men cool fades left, women warm fades + skirts right.
+- [ ] Do not hang next to 龍 shorts or sakura belts without a break.
 
 ---
 

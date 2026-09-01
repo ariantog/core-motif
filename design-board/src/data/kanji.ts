@@ -12,7 +12,7 @@ export type Mockup = {
   src: string
   title: string
   type: string
-  line: 'men' | 'women' | 'culture' | 'ref'
+  line: 'men' | 'women' | 'culture' | 'padel' | 'ref'
 }
 
 export const collections: { name: string; theme: string; items: Concept[] }[] = [

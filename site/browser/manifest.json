@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:05:54Z",
+  "generatedAt": "2026-09-01T04:27:25Z",
   "root": [
     {
       "type": "dir",
@@ -11,6 +11,393 @@
           "name": "culture-run",
           "path": "assets/culture-run",
           "children": [
+            {
+              "type": "dir",
+              "name": "01-wave",
+              "path": "assets/culture-run/01-wave",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "blue-hour-wave",
+                  "path": "assets/culture-run/01-wave/blue-hour-wave",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/01-wave/blue-hour-wave/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/01-wave/blue-hour-wave/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "singlet.png",
+                      "path": "assets/culture-run/01-wave/blue-hour-wave/singlet.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "wave-brushed-tide",
+                  "path": "assets/culture-run/01-wave/wave-brushed-tide",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/01-wave/wave-brushed-tide/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/01-wave/wave-brushed-tide/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/culture-run/01-wave/wave-brushed-tide/tee.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "02-brushed",
+              "path": "assets/culture-run/02-brushed",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "home-soil-dawn",
+                  "path": "assets/culture-run/02-brushed/home-soil-dawn",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/02-brushed/home-soil-dawn/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/02-brushed/home-soil-dawn/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "singlet.png",
+                      "path": "assets/culture-run/02-brushed/home-soil-dawn/singlet.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "summit-brushed",
+                  "path": "assets/culture-run/02-brushed/summit-brushed",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/02-brushed/summit-brushed/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/02-brushed/summit-brushed/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/02-brushed/summit-brushed/tank.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "03-marble",
+              "path": "assets/culture-run/03-marble",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "bloom-marble",
+                  "path": "assets/culture-run/03-marble/bloom-marble",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/03-marble/bloom-marble/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/03-marble/bloom-marble/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/03-marble/bloom-marble/tank.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "dusk-marble",
+                  "path": "assets/culture-run/03-marble/dusk-marble",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/03-marble/dusk-marble/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/03-marble/dusk-marble/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/culture-run/03-marble/dusk-marble/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "heatmap-marble",
+                  "path": "assets/culture-run/03-marble/heatmap-marble",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/03-marble/heatmap-marble/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/03-marble/heatmap-marble/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "singlet.png",
+                      "path": "assets/culture-run/03-marble/heatmap-marble/singlet.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "ink-marble",
+                  "path": "assets/culture-run/03-marble/ink-marble",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/03-marble/ink-marble/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/03-marble/ink-marble/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "singlet.png",
+                      "path": "assets/culture-run/03-marble/ink-marble/singlet.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "04-earth",
+              "path": "assets/culture-run/04-earth",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "bumi-strata",
+                  "path": "assets/culture-run/04-earth/bumi-strata",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/04-earth/bumi-strata/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/04-earth/bumi-strata/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "singlet.png",
+                      "path": "assets/culture-run/04-earth/bumi-strata/singlet.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "cacao-route",
+                  "path": "assets/culture-run/04-earth/cacao-route",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/04-earth/cacao-route/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/04-earth/cacao-route/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/04-earth/cacao-route/tank.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "moss-current",
+                  "path": "assets/culture-run/04-earth/moss-current",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/04-earth/moss-current/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/04-earth/moss-current/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/culture-run/04-earth/moss-current/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "sandstone-sumi",
+                  "path": "assets/culture-run/04-earth/sandstone-sumi",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/04-earth/sandstone-sumi/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/04-earth/sandstone-sumi/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/04-earth/sandstone-sumi/tank.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "05-watercolor",
+              "path": "assets/culture-run/05-watercolor",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "bumi-watercolor",
+                  "path": "assets/culture-run/05-watercolor/bumi-watercolor",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/05-watercolor/bumi-watercolor/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/05-watercolor/bumi-watercolor/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "singlet.png",
+                      "path": "assets/culture-run/05-watercolor/bumi-watercolor/singlet.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "cacao-watercolor",
+                  "path": "assets/culture-run/05-watercolor/cacao-watercolor",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/05-watercolor/cacao-watercolor/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/05-watercolor/cacao-watercolor/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/05-watercolor/cacao-watercolor/tank.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "moss-watercolor",
+                  "path": "assets/culture-run/05-watercolor/moss-watercolor",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/05-watercolor/moss-watercolor/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/05-watercolor/moss-watercolor/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/culture-run/05-watercolor/moss-watercolor/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "sand-wave-watercolor",
+                  "path": "assets/culture-run/05-watercolor/sand-wave-watercolor",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "background-clean.png",
+                      "path": "assets/culture-run/05-watercolor/sand-wave-watercolor/background-clean.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "print.png",
+                      "path": "assets/culture-run/05-watercolor/sand-wave-watercolor/print.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/culture-run/05-watercolor/sand-wave-watercolor/tank.png"
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "type": "dir",
               "name": "_archive-v1",
@@ -70,445 +457,107 @@
             },
             {
               "type": "dir",
-              "name": "_layers",
-              "path": "assets/culture-run/_layers",
+              "name": "layers",
+              "path": "assets/culture-run/layers",
               "children": [
                 {
-                  "type": "image",
-                  "name": "cn-continuum-cream.png",
-                  "path": "assets/culture-run/_layers/cn-continuum-cream.png"
+                  "type": "dir",
+                  "name": "kanji",
+                  "path": "assets/culture-run/layers/kanji",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "san-mountain-cream.png",
+                      "path": "assets/culture-run/layers/kanji/san-mountain-cream.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "san-mountain-gold.png",
+                      "path": "assets/culture-run/layers/kanji/san-mountain-gold.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "san-mountain-ink.png",
+                      "path": "assets/culture-run/layers/kanji/san-mountain-ink.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "san-mountain-white.png",
+                      "path": "assets/culture-run/layers/kanji/san-mountain-white.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "so-run-cream.png",
+                      "path": "assets/culture-run/layers/kanji/so-run-cream.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "so-run-gold.png",
+                      "path": "assets/culture-run/layers/kanji/so-run-gold.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "so-run-ink.png",
+                      "path": "assets/culture-run/layers/kanji/so-run-ink.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "so-run-rose.png",
+                      "path": "assets/culture-run/layers/kanji/so-run-rose.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "so-run-white.png",
+                      "path": "assets/culture-run/layers/kanji/so-run-white.png"
+                    }
+                  ]
                 },
                 {
-                  "type": "image",
-                  "name": "cn-continuum-gold.png",
-                  "path": "assets/culture-run/_layers/cn-continuum-gold.png"
-                },
-                {
-                  "type": "image",
-                  "name": "cn-continuum-ink.png",
-                  "path": "assets/culture-run/_layers/cn-continuum-ink.png"
-                },
-                {
-                  "type": "image",
-                  "name": "cn-continuum-white.png",
-                  "path": "assets/culture-run/_layers/cn-continuum-white.png"
-                },
-                {
-                  "type": "image",
-                  "name": "hex-c-cream.png",
-                  "path": "assets/culture-run/_layers/hex-c-cream.png"
-                },
-                {
-                  "type": "image",
-                  "name": "hex-c-gold.png",
-                  "path": "assets/culture-run/_layers/hex-c-gold.png"
-                },
-                {
-                  "type": "image",
-                  "name": "hex-c-ink.png",
-                  "path": "assets/culture-run/_layers/hex-c-ink.png"
-                },
-                {
-                  "type": "image",
-                  "name": "hex-c-white.png",
-                  "path": "assets/culture-run/_layers/hex-c-white.png"
-                },
-                {
-                  "type": "image",
-                  "name": "san-mountain-cream.png",
-                  "path": "assets/culture-run/_layers/san-mountain-cream.png"
-                },
-                {
-                  "type": "image",
-                  "name": "san-mountain-gold.png",
-                  "path": "assets/culture-run/_layers/san-mountain-gold.png"
-                },
-                {
-                  "type": "image",
-                  "name": "san-mountain-ink.png",
-                  "path": "assets/culture-run/_layers/san-mountain-ink.png"
-                },
-                {
-                  "type": "image",
-                  "name": "san-mountain-white.png",
-                  "path": "assets/culture-run/_layers/san-mountain-white.png"
-                },
-                {
-                  "type": "image",
-                  "name": "so-run-cream.png",
-                  "path": "assets/culture-run/_layers/so-run-cream.png"
-                },
-                {
-                  "type": "image",
-                  "name": "so-run-gold.png",
-                  "path": "assets/culture-run/_layers/so-run-gold.png"
-                },
-                {
-                  "type": "image",
-                  "name": "so-run-ink.png",
-                  "path": "assets/culture-run/_layers/so-run-ink.png"
-                },
-                {
-                  "type": "image",
-                  "name": "so-run-rose.png",
-                  "path": "assets/culture-run/_layers/so-run-rose.png"
-                },
-                {
-                  "type": "image",
-                  "name": "so-run-white.png",
-                  "path": "assets/culture-run/_layers/so-run-white.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "bloom-marble",
-              "path": "assets/culture-run/bloom-marble",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/bloom-marble/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/bloom-marble/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tank.png",
-                  "path": "assets/culture-run/bloom-marble/tank.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "blue-hour-wave",
-              "path": "assets/culture-run/blue-hour-wave",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/blue-hour-wave/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/blue-hour-wave/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "singlet.png",
-                  "path": "assets/culture-run/blue-hour-wave/singlet.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "bumi-strata",
-              "path": "assets/culture-run/bumi-strata",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/bumi-strata/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/bumi-strata/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "singlet.png",
-                  "path": "assets/culture-run/bumi-strata/singlet.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "bumi-watercolor",
-              "path": "assets/culture-run/bumi-watercolor",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/bumi-watercolor/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/bumi-watercolor/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "singlet.png",
-                  "path": "assets/culture-run/bumi-watercolor/singlet.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "cacao-route",
-              "path": "assets/culture-run/cacao-route",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/cacao-route/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/cacao-route/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tank.png",
-                  "path": "assets/culture-run/cacao-route/tank.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "cacao-watercolor",
-              "path": "assets/culture-run/cacao-watercolor",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/cacao-watercolor/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/cacao-watercolor/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tank.png",
-                  "path": "assets/culture-run/cacao-watercolor/tank.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "dusk-marble",
-              "path": "assets/culture-run/dusk-marble",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/dusk-marble/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/dusk-marble/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tee.png",
-                  "path": "assets/culture-run/dusk-marble/tee.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "heatmap-marble",
-              "path": "assets/culture-run/heatmap-marble",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/heatmap-marble/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/heatmap-marble/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "singlet.png",
-                  "path": "assets/culture-run/heatmap-marble/singlet.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "home-soil-dawn",
-              "path": "assets/culture-run/home-soil-dawn",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/home-soil-dawn/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/home-soil-dawn/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "singlet.png",
-                  "path": "assets/culture-run/home-soil-dawn/singlet.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "ink-marble",
-              "path": "assets/culture-run/ink-marble",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/ink-marble/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/ink-marble/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "singlet.png",
-                  "path": "assets/culture-run/ink-marble/singlet.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "moss-current",
-              "path": "assets/culture-run/moss-current",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/moss-current/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/moss-current/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tee.png",
-                  "path": "assets/culture-run/moss-current/tee.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "moss-watercolor",
-              "path": "assets/culture-run/moss-watercolor",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/moss-watercolor/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/moss-watercolor/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tee.png",
-                  "path": "assets/culture-run/moss-watercolor/tee.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "sand-wave-watercolor",
-              "path": "assets/culture-run/sand-wave-watercolor",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/sand-wave-watercolor/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/sand-wave-watercolor/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tank.png",
-                  "path": "assets/culture-run/sand-wave-watercolor/tank.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "sandstone-sumi",
-              "path": "assets/culture-run/sandstone-sumi",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/sandstone-sumi/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/sandstone-sumi/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tank.png",
-                  "path": "assets/culture-run/sandstone-sumi/tank.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "summit-brushed",
-              "path": "assets/culture-run/summit-brushed",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/summit-brushed/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/summit-brushed/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tank.png",
-                  "path": "assets/culture-run/summit-brushed/tank.png"
-                }
-              ]
-            },
-            {
-              "type": "dir",
-              "name": "wave-brushed-tide",
-              "path": "assets/culture-run/wave-brushed-tide",
-              "children": [
-                {
-                  "type": "image",
-                  "name": "print-bg.png",
-                  "path": "assets/culture-run/wave-brushed-tide/print-bg.png"
-                },
-                {
-                  "type": "image",
-                  "name": "print.png",
-                  "path": "assets/culture-run/wave-brushed-tide/print.png"
-                },
-                {
-                  "type": "image",
-                  "name": "tee.png",
-                  "path": "assets/culture-run/wave-brushed-tide/tee.png"
+                  "type": "dir",
+                  "name": "logos",
+                  "path": "assets/culture-run/layers/logos",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "cn-continuum-cream.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-cream.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "cn-continuum-gold.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-gold.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "cn-continuum-ink.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-ink.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "cn-continuum-white.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-white.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "hex-c-cream.png",
+                      "path": "assets/culture-run/layers/logos/hex-c-cream.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "hex-c-gold.png",
+                      "path": "assets/culture-run/layers/logos/hex-c-gold.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "hex-c-ink.png",
+                      "path": "assets/culture-run/layers/logos/hex-c-ink.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "hex-c-white.png",
+                      "path": "assets/culture-run/layers/logos/hex-c-white.png"
+                    }
+                  ]
                 }
               ]
             }
@@ -1037,6 +1086,145 @@
         },
         {
           "type": "dir",
+          "name": "padel",
+          "path": "assets/padel",
+          "children": [
+            {
+              "type": "dir",
+              "name": "men",
+              "path": "assets/padel/men",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "glass-court",
+                  "path": "assets/padel/men/glass-court",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/glass-court/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/glass-court/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/glass-court/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/glass-court/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "harbor-haze",
+                  "path": "assets/padel/men/harbor-haze",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/harbor-haze/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/harbor-haze/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/harbor-haze/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/harbor-haze/tee.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "women",
+              "path": "assets/padel/women",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "lemon-sherbet",
+                  "path": "assets/padel/women/lemon-sherbet",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/lemon-sherbet/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/lemon-sherbet/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/lemon-sherbet/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/lemon-sherbet/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/lemon-sherbet/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "sunrise-clay",
+                  "path": "assets/padel/women/sunrise-clay",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/sunrise-clay/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/sunrise-clay/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/sunrise-clay/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/sunrise-clay/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/sunrise-clay/tee.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dir",
           "name": "references",
           "path": "assets/references",
           "children": [
@@ -1164,6 +1352,393 @@
                   "children": [
                     {
                       "type": "dir",
+                      "name": "01-wave",
+                      "path": "design-board/public/assets/culture-run/01-wave",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "blue-hour-wave",
+                          "path": "design-board/public/assets/culture-run/01-wave/blue-hour-wave",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/01-wave/blue-hour-wave/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/01-wave/blue-hour-wave/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "singlet.png",
+                              "path": "design-board/public/assets/culture-run/01-wave/blue-hour-wave/singlet.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "wave-brushed-tide",
+                          "path": "design-board/public/assets/culture-run/01-wave/wave-brushed-tide",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/01-wave/wave-brushed-tide/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/01-wave/wave-brushed-tide/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/culture-run/01-wave/wave-brushed-tide/tee.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "02-brushed",
+                      "path": "design-board/public/assets/culture-run/02-brushed",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "home-soil-dawn",
+                          "path": "design-board/public/assets/culture-run/02-brushed/home-soil-dawn",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/02-brushed/home-soil-dawn/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/02-brushed/home-soil-dawn/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "singlet.png",
+                              "path": "design-board/public/assets/culture-run/02-brushed/home-soil-dawn/singlet.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "summit-brushed",
+                          "path": "design-board/public/assets/culture-run/02-brushed/summit-brushed",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/02-brushed/summit-brushed/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/02-brushed/summit-brushed/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/02-brushed/summit-brushed/tank.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "03-marble",
+                      "path": "design-board/public/assets/culture-run/03-marble",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "bloom-marble",
+                          "path": "design-board/public/assets/culture-run/03-marble/bloom-marble",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/bloom-marble/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/bloom-marble/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/bloom-marble/tank.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "dusk-marble",
+                          "path": "design-board/public/assets/culture-run/03-marble/dusk-marble",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/dusk-marble/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/dusk-marble/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/dusk-marble/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "heatmap-marble",
+                          "path": "design-board/public/assets/culture-run/03-marble/heatmap-marble",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/heatmap-marble/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/heatmap-marble/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "singlet.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/heatmap-marble/singlet.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "ink-marble",
+                          "path": "design-board/public/assets/culture-run/03-marble/ink-marble",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/ink-marble/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/ink-marble/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "singlet.png",
+                              "path": "design-board/public/assets/culture-run/03-marble/ink-marble/singlet.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "04-earth",
+                      "path": "design-board/public/assets/culture-run/04-earth",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "bumi-strata",
+                          "path": "design-board/public/assets/culture-run/04-earth/bumi-strata",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/bumi-strata/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/bumi-strata/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "singlet.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/bumi-strata/singlet.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "cacao-route",
+                          "path": "design-board/public/assets/culture-run/04-earth/cacao-route",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/cacao-route/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/cacao-route/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/cacao-route/tank.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "moss-current",
+                          "path": "design-board/public/assets/culture-run/04-earth/moss-current",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/moss-current/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/moss-current/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/moss-current/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "sandstone-sumi",
+                          "path": "design-board/public/assets/culture-run/04-earth/sandstone-sumi",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/sandstone-sumi/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/sandstone-sumi/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/04-earth/sandstone-sumi/tank.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "05-watercolor",
+                      "path": "design-board/public/assets/culture-run/05-watercolor",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "bumi-watercolor",
+                          "path": "design-board/public/assets/culture-run/05-watercolor/bumi-watercolor",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/bumi-watercolor/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/bumi-watercolor/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "singlet.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/bumi-watercolor/singlet.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "cacao-watercolor",
+                          "path": "design-board/public/assets/culture-run/05-watercolor/cacao-watercolor",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/cacao-watercolor/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/cacao-watercolor/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/cacao-watercolor/tank.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "moss-watercolor",
+                          "path": "design-board/public/assets/culture-run/05-watercolor/moss-watercolor",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/moss-watercolor/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/moss-watercolor/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/moss-watercolor/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "sand-wave-watercolor",
+                          "path": "design-board/public/assets/culture-run/05-watercolor/sand-wave-watercolor",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "background-clean.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/sand-wave-watercolor/background-clean.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "print.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/sand-wave-watercolor/print.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/culture-run/05-watercolor/sand-wave-watercolor/tank.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
                       "name": "_archive-v1",
                       "path": "design-board/public/assets/culture-run/_archive-v1",
                       "children": [
@@ -1221,445 +1796,107 @@
                     },
                     {
                       "type": "dir",
-                      "name": "_layers",
-                      "path": "design-board/public/assets/culture-run/_layers",
+                      "name": "layers",
+                      "path": "design-board/public/assets/culture-run/layers",
                       "children": [
                         {
-                          "type": "image",
-                          "name": "cn-continuum-cream.png",
-                          "path": "design-board/public/assets/culture-run/_layers/cn-continuum-cream.png"
+                          "type": "dir",
+                          "name": "kanji",
+                          "path": "design-board/public/assets/culture-run/layers/kanji",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "san-mountain-cream.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/san-mountain-cream.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "san-mountain-gold.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/san-mountain-gold.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "san-mountain-ink.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/san-mountain-ink.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "san-mountain-white.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/san-mountain-white.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "so-run-cream.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/so-run-cream.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "so-run-gold.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/so-run-gold.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "so-run-ink.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/so-run-ink.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "so-run-rose.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/so-run-rose.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "so-run-white.png",
+                              "path": "design-board/public/assets/culture-run/layers/kanji/so-run-white.png"
+                            }
+                          ]
                         },
                         {
-                          "type": "image",
-                          "name": "cn-continuum-gold.png",
-                          "path": "design-board/public/assets/culture-run/_layers/cn-continuum-gold.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "cn-continuum-ink.png",
-                          "path": "design-board/public/assets/culture-run/_layers/cn-continuum-ink.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "cn-continuum-white.png",
-                          "path": "design-board/public/assets/culture-run/_layers/cn-continuum-white.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "hex-c-cream.png",
-                          "path": "design-board/public/assets/culture-run/_layers/hex-c-cream.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "hex-c-gold.png",
-                          "path": "design-board/public/assets/culture-run/_layers/hex-c-gold.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "hex-c-ink.png",
-                          "path": "design-board/public/assets/culture-run/_layers/hex-c-ink.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "hex-c-white.png",
-                          "path": "design-board/public/assets/culture-run/_layers/hex-c-white.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "san-mountain-cream.png",
-                          "path": "design-board/public/assets/culture-run/_layers/san-mountain-cream.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "san-mountain-gold.png",
-                          "path": "design-board/public/assets/culture-run/_layers/san-mountain-gold.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "san-mountain-ink.png",
-                          "path": "design-board/public/assets/culture-run/_layers/san-mountain-ink.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "san-mountain-white.png",
-                          "path": "design-board/public/assets/culture-run/_layers/san-mountain-white.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "so-run-cream.png",
-                          "path": "design-board/public/assets/culture-run/_layers/so-run-cream.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "so-run-gold.png",
-                          "path": "design-board/public/assets/culture-run/_layers/so-run-gold.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "so-run-ink.png",
-                          "path": "design-board/public/assets/culture-run/_layers/so-run-ink.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "so-run-rose.png",
-                          "path": "design-board/public/assets/culture-run/_layers/so-run-rose.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "so-run-white.png",
-                          "path": "design-board/public/assets/culture-run/_layers/so-run-white.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "bloom-marble",
-                      "path": "design-board/public/assets/culture-run/bloom-marble",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/bloom-marble/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/bloom-marble/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tank.png",
-                          "path": "design-board/public/assets/culture-run/bloom-marble/tank.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "blue-hour-wave",
-                      "path": "design-board/public/assets/culture-run/blue-hour-wave",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/blue-hour-wave/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/blue-hour-wave/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "singlet.png",
-                          "path": "design-board/public/assets/culture-run/blue-hour-wave/singlet.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "bumi-strata",
-                      "path": "design-board/public/assets/culture-run/bumi-strata",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/bumi-strata/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/bumi-strata/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "singlet.png",
-                          "path": "design-board/public/assets/culture-run/bumi-strata/singlet.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "bumi-watercolor",
-                      "path": "design-board/public/assets/culture-run/bumi-watercolor",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/bumi-watercolor/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/bumi-watercolor/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "singlet.png",
-                          "path": "design-board/public/assets/culture-run/bumi-watercolor/singlet.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "cacao-route",
-                      "path": "design-board/public/assets/culture-run/cacao-route",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/cacao-route/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/cacao-route/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tank.png",
-                          "path": "design-board/public/assets/culture-run/cacao-route/tank.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "cacao-watercolor",
-                      "path": "design-board/public/assets/culture-run/cacao-watercolor",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/cacao-watercolor/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/cacao-watercolor/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tank.png",
-                          "path": "design-board/public/assets/culture-run/cacao-watercolor/tank.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "dusk-marble",
-                      "path": "design-board/public/assets/culture-run/dusk-marble",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/dusk-marble/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/dusk-marble/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tee.png",
-                          "path": "design-board/public/assets/culture-run/dusk-marble/tee.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "heatmap-marble",
-                      "path": "design-board/public/assets/culture-run/heatmap-marble",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/heatmap-marble/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/heatmap-marble/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "singlet.png",
-                          "path": "design-board/public/assets/culture-run/heatmap-marble/singlet.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "home-soil-dawn",
-                      "path": "design-board/public/assets/culture-run/home-soil-dawn",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/home-soil-dawn/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/home-soil-dawn/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "singlet.png",
-                          "path": "design-board/public/assets/culture-run/home-soil-dawn/singlet.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "ink-marble",
-                      "path": "design-board/public/assets/culture-run/ink-marble",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/ink-marble/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/ink-marble/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "singlet.png",
-                          "path": "design-board/public/assets/culture-run/ink-marble/singlet.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "moss-current",
-                      "path": "design-board/public/assets/culture-run/moss-current",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/moss-current/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/moss-current/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tee.png",
-                          "path": "design-board/public/assets/culture-run/moss-current/tee.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "moss-watercolor",
-                      "path": "design-board/public/assets/culture-run/moss-watercolor",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/moss-watercolor/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/moss-watercolor/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tee.png",
-                          "path": "design-board/public/assets/culture-run/moss-watercolor/tee.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "sand-wave-watercolor",
-                      "path": "design-board/public/assets/culture-run/sand-wave-watercolor",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/sand-wave-watercolor/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/sand-wave-watercolor/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tank.png",
-                          "path": "design-board/public/assets/culture-run/sand-wave-watercolor/tank.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "sandstone-sumi",
-                      "path": "design-board/public/assets/culture-run/sandstone-sumi",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/sandstone-sumi/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/sandstone-sumi/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tank.png",
-                          "path": "design-board/public/assets/culture-run/sandstone-sumi/tank.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "summit-brushed",
-                      "path": "design-board/public/assets/culture-run/summit-brushed",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/summit-brushed/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/summit-brushed/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tank.png",
-                          "path": "design-board/public/assets/culture-run/summit-brushed/tank.png"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "dir",
-                      "name": "wave-brushed-tide",
-                      "path": "design-board/public/assets/culture-run/wave-brushed-tide",
-                      "children": [
-                        {
-                          "type": "image",
-                          "name": "print-bg.png",
-                          "path": "design-board/public/assets/culture-run/wave-brushed-tide/print-bg.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "print.png",
-                          "path": "design-board/public/assets/culture-run/wave-brushed-tide/print.png"
-                        },
-                        {
-                          "type": "image",
-                          "name": "tee.png",
-                          "path": "design-board/public/assets/culture-run/wave-brushed-tide/tee.png"
+                          "type": "dir",
+                          "name": "logos",
+                          "path": "design-board/public/assets/culture-run/layers/logos",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "cn-continuum-cream.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-cream.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "cn-continuum-gold.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-gold.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "cn-continuum-ink.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-ink.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "cn-continuum-white.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-white.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "hex-c-cream.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/hex-c-cream.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "hex-c-gold.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/hex-c-gold.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "hex-c-ink.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/hex-c-ink.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "hex-c-white.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/hex-c-white.png"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -2188,6 +2425,145 @@
                 },
                 {
                   "type": "dir",
+                  "name": "padel",
+                  "path": "design-board/public/assets/padel",
+                  "children": [
+                    {
+                      "type": "dir",
+                      "name": "men",
+                      "path": "design-board/public/assets/padel/men",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "glass-court",
+                          "path": "design-board/public/assets/padel/men/glass-court",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "harbor-haze",
+                          "path": "design-board/public/assets/padel/men/harbor-haze",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/tee.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "women",
+                      "path": "design-board/public/assets/padel/women",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "lemon-sherbet",
+                          "path": "design-board/public/assets/padel/women/lemon-sherbet",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "sunrise-clay",
+                          "path": "design-board/public/assets/padel/women/sunrise-clay",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/tee.png"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "references",
                   "path": "design-board/public/assets/references",
                   "children": [
@@ -2373,6 +2749,11 @@
                   "type": "file",
                   "name": "kanji.ts",
                   "path": "design-board/src/data/kanji.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "padel.ts",
+                  "path": "design-board/src/data/padel.ts"
                 }
               ]
             },
@@ -2486,6 +2867,11 @@
           "type": "markdown",
           "name": "kanji-design-collection.md",
           "path": "docs/kanji-design-collection.md"
+        },
+        {
+          "type": "markdown",
+          "name": "padel-collection.md",
+          "path": "docs/padel-collection.md"
         }
       ]
     },
@@ -2520,6 +2906,11 @@
           "path": "scripts/render-logo-pngs.py"
         }
       ]
+    },
+    {
+      "type": "markdown",
+      "name": "AGENTS.md",
+      "path": "AGENTS.md"
     },
     {
       "type": "html",

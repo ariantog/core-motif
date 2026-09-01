@@ -45,6 +45,11 @@ body {
   --gold: #d4af37;
 }
 
+.app.theme-padel {
+  --accent: #8fb8b8;
+  --gold: #f0c4a8;
+}
+
 header {
   border-bottom: 1px solid var(--border);
   padding-bottom: 1.25rem;

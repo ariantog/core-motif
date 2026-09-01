@@ -4,15 +4,17 @@ import { LogoMark } from './components/LogoMark'
 import { cultureBackgrounds, cultureLayers, cultureMockups, culturePrints } from './data/culture'
 import { floralMockups, floralRules } from './data/floral'
 import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
+import { padelMenMockups, padelMenPalette, padelRules, padelStories, padelWomenMockups, padelWomenPalette } from './data/padel'
 import { asset } from './lib/assets'
 
-type Tab = 'brand' | 'men' | 'women' | 'culture' | 'marks'
+type Tab = 'brand' | 'men' | 'women' | 'culture' | 'padel' | 'marks'
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'brand', label: 'Brand' },
   { id: 'men', label: 'Men kanji' },
   { id: 'women', label: 'Women floral' },
   { id: 'culture', label: 'Culture run' },
+  { id: 'padel', label: 'Padel' },
   { id: 'marks', label: 'Marks' },
 ]
 
@@ -221,7 +223,8 @@ function App() {
             <h2>Playbook v2.0 — what staff got</h2>
             <p className="lede">
               v1.0 was men-kanji only. v2.0 adds brand direction, owners, women / hijab / Culture Run / padel, and
-              channel playbooks. Full ticks live in <code>docs/branding-checklist.md</code>.
+              channel playbooks. v2.2 adds the consumer padel pastel kit (no kanji, no logo) on the Padel tab.
+              Full ticks live in <code>docs/branding-checklist.md</code>.
             </p>
           </section>
         </>
@@ -309,17 +312,18 @@ function App() {
             <h2>Running shirts &amp; tanks</h2>
             <p className="lede">
               v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
-              heatmap, suminagashi, watercolor wash. 走 is printed in the dye. Each drop is a folder under{' '}
-              <code>assets/culture-run/</code>. Use <code>print-bg.png</code> when you need to move kanji or logos;
-              keep <code>print.png</code> as the locked composite.
+              heatmap, suminagashi, watercolor wash. Drops live under{' '}
+              <code>assets/culture-run/01-wave</code> … <code>05-watercolor</code>. Use{' '}
+              <code>background-clean.png</code> when you need to move kanji or logos; keep{' '}
+              <code>print.png</code> as the locked composite.
             </p>
             <MockGrid items={cultureMockups} />
           </section>
           <section>
             <h2>Backgrounds only (no kanji / logo)</h2>
             <p className="lede">
-              Same drop, texture only. Drop 走 / 山 and the hex C or CN mark from{' '}
-              <code>assets/culture-run/_layers/</code> on top in any position.
+              Same drop, texture only — no logo, no kanji, no slogans. Place 走 / 山 and the hex C or CN
+              mark from <code>assets/culture-run/layers/</code> on top in any position.
             </p>
             <MockGrid items={cultureBackgrounds} />
           </section>
@@ -331,6 +335,52 @@ function App() {
           <section>
             <h2>Print placements (locked composites)</h2>
             <MockGrid items={culturePrints} />
+          </section>
+        </>
+      )}
+
+      {tab === 'padel' && (
+        <>
+          <section>
+            <h2>Theme lock</h2>
+            <p className="lede">
+              Consumer padel court kit — all-over pastel fade, no kanji, no logo. Men and women keep
+              separate color stories and cuts. Files live under <code>assets/padel/men/</code> and{' '}
+              <code>assets/padel/women/</code>. Spec: <code>docs/padel-collection.md</code>.
+            </p>
+            <div className="rule-grid">
+              {padelRules.map((rule) => (
+                <article key={rule.lock}>
+                  <h3>{rule.lock}</h3>
+                  <p>{rule.flower}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Drops</h2>
+            <div className="rule-grid">
+              {padelStories.map((story) => (
+                <article key={story.id}>
+                  <h3>
+                    {story.gender === 'men' ? 'Men' : 'Women'} · {story.name}
+                  </h3>
+                  <p>
+                    {story.fade}. {story.note}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Men — Glass Court + Harbor Haze</h2>
+            <Swatches items={padelMenPalette} />
+            <MockGrid items={padelMenMockups} />
+          </section>
+          <section>
+            <h2>Women — Sunrise Clay + Lemon Sherbet</h2>
+            <Swatches items={padelWomenPalette} />
+            <MockGrid items={padelWomenMockups} />
           </section>
         </>
       )}
@@ -363,7 +413,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.1 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.2 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )
