@@ -16,6 +16,63 @@ const TABS: { id: Tab; label: string }[] = [
   { id: 'marks', label: 'Marks' },
 ]
 
+const transitionMethods = [
+  {
+    id: 'A',
+    name: 'Wordmark Bridge',
+    tag: 'Default',
+    summary: 'Hex off. CORENATION holds the brand. New CN arrives small, on new items only.',
+  },
+  {
+    id: 'B',
+    name: 'Evolutionary morph',
+    tag: 'Same seat',
+    summary: 'Open the old hex until it is a C. Two steps max — a half-open hex looks broken.',
+  },
+  {
+    id: 'C',
+    name: 'Dual-run, then sunset',
+    tag: 'Inventory',
+    summary: 'Old hex stays on tooled lines. New CN only on new lines. One season later, hex is done.',
+  },
+  {
+    id: 'D',
+    name: 'Placement migration',
+    tag: 'Quiet',
+    summary: 'Wordmark takes the old badge seat. New CN starts at hem, nape, or buckle-back.',
+  },
+  {
+    id: 'E',
+    name: 'Digital first',
+    tag: 'Files first',
+    summary: 'IG, Shopee, hangtags switch now. Garments wait until the current cut is through.',
+  },
+  {
+    id: 'F',
+    name: 'Capsule vehicle',
+    tag: 'One drop',
+    summary: 'The new mark is the graphic of one named drop — not a rebrand announcement.',
+  },
+  {
+    id: 'G',
+    name: 'Split system',
+    tag: 'Keep',
+    summary: 'Wordmark is the face forever. CN is a hardware stamp. Motif stays the product story.',
+  },
+  {
+    id: 'H',
+    name: 'Tonal ghost',
+    tag: 'Felt first',
+    summary: 'CN as black-on-black emboss, then cream print, then the old hex seat if you want it.',
+  },
+  {
+    id: 'I',
+    name: 'CORE / NATION',
+    tag: 'Type as mark',
+    summary: 'Two-line wordmark so C and N are the logo before the monogram returns.',
+  },
+]
+
 const logoConcepts = [
   {
     id: '01',
@@ -190,7 +247,55 @@ function App() {
             <p className="logo-note">
               All ten concepts are previewed as PNGs in <code>assets/logo/concepts/</code>.
               Use the matching <code>.svg</code> next to each PNG if you need a vector file.
+              Public lock for new work: Core Cut. Methods for retiring the hex live in{' '}
+              <code>docs/logo-transition.md</code>.
             </p>
+          </section>
+
+          <section>
+            <h2>Logo transition — pick one method</h2>
+            <p className="section-lead">
+              Working plan: take the closed hex off new work, live on the word <strong>CORENATION</strong>, then
+              introduce the locked CN only on new items. That is method A. A + D + G is the recommended stack. Do
+              not mix two methods on one SKU.
+            </p>
+            <div className="phase-row" aria-label="Recommended sequence">
+              <article>
+                <span>Now</span>
+                <strong>Hex off</strong>
+                <p>New POs and files. Sell through old stock.</p>
+              </article>
+              <article>
+                <span>This season</span>
+                <strong>Word only</strong>
+                <p>CORENATION holds the brand. No new badge yet.</p>
+              </article>
+              <article>
+                <span>New items</span>
+                <strong>Small CN</strong>
+                <p>Hangtag, then hem / nape / buckle-back.</p>
+              </article>
+              <article>
+                <span>Later</span>
+                <strong>Split or seat</strong>
+                <p>CN stays a stamp, or takes the old hex seat.</p>
+              </article>
+            </div>
+            <div className="method-grid">
+              {transitionMethods.map((method) => (
+                <article
+                  key={method.id}
+                  className={`method-card${method.id === 'A' ? ' recommended' : ''}`}
+                >
+                  <div className="method-head">
+                    <span className="method-id">{method.id}</span>
+                    <h3>{method.name}</h3>
+                    <span>{method.tag}</span>
+                  </div>
+                  <p>{method.summary}</p>
+                </article>
+              ))}
+            </div>
           </section>
 
           <section>
@@ -371,7 +476,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.1 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.2 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )

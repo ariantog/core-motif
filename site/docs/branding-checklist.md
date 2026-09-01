@@ -16,7 +16,7 @@ v1.0 was a strong **men's kanji** ops list. It did not give the company a brand 
 ### Visual Rules
 - [ ] Base colors: olive `#4A5240`, black, charcoal grey — max 3 structural colors per piece.
 - [ ] Accent colors: cream `#D6CFB5`, gold `#D4AF37`, red `#C41E3A` — **one hero accent** per product face.
-- [ ] Hexagonal **CN** logo (C frame + N inside) present on belts and primary apparel (waistband or hem).
+- [ ] Brand mark on new POs follows [`logo-transition.md`](logo-transition.md): wordmark first; no closed hex on new work; new CN only when that phase has started.
 - [ ] Kanji on apparel uses **black rectangular patch** (shorts/tees) or **gold/cream on dark overlay** (belts).
 - [ ] Kanji stroke style: bold brush on belts; clean bold strokes on small patches (legibility at 3m).
 - [ ] Wordmark: `CORENATION` or `CORE NATION` — all caps, wide sans-serif only.
@@ -77,7 +77,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 ### Shared brand marks (every line)
 
 - [ ] Wordmark is `CORENATION` or `CORE NATION` — all caps, wide sans-serif only. Letter **A** may use the diagonal-cut custom A from the belt samples — do not invent a third A.
-- [ ] Logo mark is the **hexagon C** (concentric broken hex + stylized C). White/cream on dark; charcoal on light pink/lilac.
+- [ ] Logo mark on **new** work is the word `CORENATION` plus the locked CN when that phase is on (see [`logo-transition.md`](logo-transition.md)). Do not reprint the closed hex. White/cream on dark; charcoal on light pink/lilac.
 - [ ] Max **one hero motif** per visible panel (one kanji, or one flower cluster, or one culture graphic).
 - [ ] No competing line motifs on the same SKU (no sakura + 龍, no lavender + kanji patch).
 - [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN). Wrong line code = reject.
@@ -366,4 +366,21 @@ Do not launch three line stories in the same week on the same account.
 
 ---
 
-*Playbook v2.0 — Corenation Active. Next review when a new hero motif (new kanji, new flower, new Culture graphic) is approved.*
+---
+
+## 12. Logo transition (read before the next PO)
+
+The closed hexagon is leaving. New work uses the **wordmark first**; the new CN arrives only on new items. Full methods: [`logo-transition.md`](logo-transition.md).
+
+Default if brand lead has not circled another method: **Method A — Wordmark Bridge**.
+
+- [ ] Next PO tech packs have **no** closed hexagon.
+- [ ] Unsold hex inventory sells through — do not scrap, do not reprint the hex on a restock.
+- [ ] One public CN locked (default: Core Cut). Do not put studio concepts 02–10 on a shop SKU.
+- [ ] Old hex and new CN never share one product face.
+- [ ] No “rebrand / new logo / new era” copy on Shopee or IG. Show the product.
+- [ ] Shopee shop mark + IG avatars match the current phase (word only, or word + small CN).
+
+---
+
+*Playbook v2.0 — Corenation Active. Next review when a new hero motif (new kanji, new flower, new Culture graphic) is approved, or when logo Phase 3 starts.*

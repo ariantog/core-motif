@@ -53,3 +53,9 @@ The original mark used a closed hexagon around an N. These directions rebuild th
 ## Comparison
 
 See the **CN Monogram — New Directions** section in the design board (`design-board/`) for side-by-side and small-size previews.
+
+## How the mark enters the brand
+
+The closed hexagon is retired on **new** work. The word `CORENATION` holds the brand while the locked CN (this file’s master) is introduced on new items only.
+
+Full methods, phases, and channel rules: [`logo-transition.md`](logo-transition.md).
