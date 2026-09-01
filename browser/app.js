@@ -3,17 +3,12 @@ const navItems = [...document.querySelectorAll('.nav-item')]
 const jumpCards = [...document.querySelectorAll('[data-jump]')]
 
 const logos = [
-  { title: 'Core Cut', note: 'Best all-rounder', path: 'assets/logo/concepts/01-core-cut.png' },
-  { title: 'Interlock', note: 'Best for equipment', path: 'assets/logo/concepts/02-interlock.png' },
-  { title: 'Velocity', note: 'Best for sportswear', path: 'assets/logo/concepts/03-velocity.png' },
-  { title: 'Core Block', note: 'Best for production', path: 'assets/logo/concepts/04-core-block.png' },
-  { title: 'Seal', note: 'Most readable C', path: 'assets/logo/concepts/05-seal.png' },
-  { title: 'Shield', note: 'Best for patches', path: 'assets/logo/concepts/06-shield.png' },
-  { title: 'Lockbar', note: 'Tight monogram', path: 'assets/logo/concepts/07-lockbar.png' },
-  { title: 'Stamp', note: 'Hanko / chop', path: 'assets/logo/concepts/08-stamp.png' },
-  { title: 'Orbit', note: 'Ring + core', path: 'assets/logo/concepts/09-orbit.png' },
-  { title: 'Wedge', note: 'Aggressive cut', path: 'assets/logo/concepts/10-wedge.png' },
-  { title: 'Master (cream)', note: 'Primary export', path: 'assets/logo/corenation-cn-logo-cream.png' },
+  { title: 'Continuum', note: 'CN abstraction · fluid', path: 'assets/logo/concepts/01-continuum.svg' },
+  { title: 'Fold', note: 'CN abstraction · angular', path: 'assets/logo/concepts/02-fold.svg' },
+  { title: 'Counterform', note: 'CN abstraction · negative space', path: 'assets/logo/concepts/03-counterform.svg' },
+  { title: 'Linea', note: 'Core anatomy · pure symbol', path: 'assets/logo/concepts/04-linea.svg' },
+  { title: 'Oblique', note: 'Core anatomy · modular', path: 'assets/logo/concepts/05-oblique.svg' },
+  { title: 'Crossbrace', note: 'Core anatomy · hidden N', path: 'assets/logo/concepts/06-crossbrace.svg' },
   { title: 'Original reference', note: 'Closed hexagon', path: 'assets/logo/reference-original-hexagon.jpg' },
 ]
 

@@ -53,10 +53,10 @@ export const cultureLayers = [
   { src: asset('assets/culture-run/_layers/hex-c-ink.png'), title: 'Hex C ink' },
   { src: asset('assets/culture-run/_layers/hex-c-white.png'), title: 'Hex C white' },
   { src: asset('assets/culture-run/_layers/hex-c-gold.png'), title: 'Hex C gold' },
-  { src: asset('assets/culture-run/_layers/cn-core-cut-cream.png'), title: 'CN Core Cut cream' },
-  { src: asset('assets/culture-run/_layers/cn-core-cut-ink.png'), title: 'CN Core Cut ink' },
-  { src: asset('assets/culture-run/_layers/cn-core-cut-white.png'), title: 'CN Core Cut white' },
-  { src: asset('assets/culture-run/_layers/cn-core-cut-gold.png'), title: 'CN Core Cut gold' },
+  { src: asset('assets/culture-run/_layers/cn-continuum-cream.png'), title: 'CN Continuum cream' },
+  { src: asset('assets/culture-run/_layers/cn-continuum-ink.png'), title: 'CN Continuum ink' },
+  { src: asset('assets/culture-run/_layers/cn-continuum-white.png'), title: 'CN Continuum white' },
+  { src: asset('assets/culture-run/_layers/cn-continuum-gold.png'), title: 'CN Continuum gold' },
 ]
 
 export const culturePrints = [

@@ -41,7 +41,7 @@ All files: `assets/culture-run/<drop>/` — garment mockup + `print.png` (locked
 | `assets/culture-run/_layers/so-run-*.png` | Transparent 走 (cream / ink / white / gold / rose) |
 | `assets/culture-run/_layers/san-mountain-*.png` | Transparent 山 |
 | `assets/culture-run/_layers/hex-c-*.png` | Transparent classic hex C |
-| `assets/culture-run/_layers/cn-core-cut-*.png` | Transparent CN Core Cut |
+| `assets/culture-run/_layers/cn-continuum-*.png` | Transparent CN Continuum working mark |
 
 Place a layer on `print-bg.png` in any editor. Do not overwrite `print.png`.
 
