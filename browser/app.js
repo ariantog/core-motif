@@ -22,10 +22,12 @@ const designFilters = [
   { id: 'men-kanji', label: 'Men kanji' },
   { id: 'women-floral', label: 'Women floral' },
   { id: 'culture-run', label: 'Culture run' },
+  { id: 'padel', label: 'Padel' },
   { id: 'references', label: 'References' },
 ]
 
 const docs = [
+  { title: 'Padel collection', path: 'docs/padel-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
   { title: 'Branding checklist', path: 'docs/branding-checklist.md' },

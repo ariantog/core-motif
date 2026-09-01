@@ -12,6 +12,13 @@ assets/
     sakura/                   pink SKUs
     lavender/                 lilac SKUs
     marks/                    flower sheets
+  padel/
+    men/
+      glass-court/            ice → mint → cyan (polo, tee, tank, shorts)
+      harbor-haze/            fog → sky → teal (polo, tee, tank, shorts)
+    women/
+      sunrise-clay/           ivory → apricot → peach clay (+ skirt)
+      lemon-sherbet/          cream → honeydew → lemon (+ skirt)
   culture-run/
     01-wave/                  aurora + brushed tide
     02-brushed/               summit + home soil dawn
@@ -27,6 +34,15 @@ assets/
       logos/                  transparent hex C + CN Core Cut
     _archive-v1/              flat charcoal pieces (superseded)
 ```
+
+Padel consumer kit (pastel fade, no kanji, no logo):
+
+| Folder | Who | Fade | Pieces |
+|--------|-----|------|--------|
+| `men/glass-court` | Men | Ice → mint glass → soft cyan | polo, tee, tank, shorts |
+| `men/harbor-haze` | Men | Pearl fog → dusty sky → harbor teal | polo, tee, tank, shorts |
+| `women/sunrise-clay` | Women | Ivory → apricot → peach clay | polo, tee, tank, shorts, skirt |
+| `women/lemon-sherbet` | Women | Cream → honeydew → pale lemon | polo, tee, tank, shorts, skirt |
 
 Culture Run drops (v2 — print + gradient, no embroidery patch):
 
