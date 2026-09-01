@@ -1,14 +1,15 @@
-type LogoVariant =
-  | 'core-cut'
-  | 'interlock'
-  | 'velocity'
-  | 'core-block'
-  | 'seal'
-  | 'shield'
-  | 'lockbar'
-  | 'stamp'
-  | 'orbit'
-  | 'wedge'
+export type LogoVariant =
+  | 'continuum'
+  | 'fold'
+  | 'counterform'
+  | 'linea'
+  | 'oblique'
+  | 'crossbrace'
+  | 'hex-heritage'
+  | 'hex-emboss'
+  | 'hex-inline'
+  | 'hex-facet'
+  | 'hex-sideline'
 
 type LogoMarkProps = {
   className?: string
@@ -17,72 +18,100 @@ type LogoMarkProps = {
 }
 
 const marks = {
-  'core-cut': (
-    <>
-      <path d="M143 40 88 8 25 39 12 80l13 41 63 31 55-32-13-22-43 25-38-19-6-24 6-24 38-19 43 25Z" />
-      <path d="M58 106V54h18l28 39V54h18v52h-18L76 67v39Z" />
-    </>
+  continuum: (
+    <path
+      d="M90 38H70C42 38 24 55 24 80s18 42 46 42h4l42-84v84"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="19"
+      strokeLinecap="square"
+      strokeLinejoin="round"
+    />
   ),
-  interlock: (
-    <>
-      <path d="m20 42 56-32 69 28-13 22-55-23-35 21Zm0 0 22 16v44l-22 16Zm0 76 22-16 35 21 55-23 13 22-69 28Z" />
-      <path d="M58 108V52h18l34 40V52h19v56h-19L77 68v40Z" />
-    </>
+  fold: (
+    <g>
+      <path d="M22 28h100l-22 24H52v48l18 18-18 18-30-28Z" />
+      <path d="m62 62 18-14 34 42V48h24v84h-22L86 94v30l-24 16Z" />
+    </g>
   ),
-  velocity: (
-    <>
-      <path d="M150 14H64L21 43 8 107l29 39h84l17-25H51l-16-20 9-43 29-19h62Z" />
-      <path d="m58 112 12-62h19l22 39 8-39h22l-12 62h-20L87 72l-8 40Z" />
-    </>
+  counterform: (
+    <g>
+      <path d="M22 24h54C60 42 52 58 52 80s8 38 24 56H22Z" />
+      <path d="M86 24h52v72L86 48Z" />
+      <path d="m86 64 52 48v24H86Z" />
+    </g>
   ),
-  'core-block': (
-    <>
-      <path d="M137 12H65L17 43v74l48 31h72l-14-26H75l-30-18V56l30-18h48Z" />
-      <path d="M61 108V52h18l30 37V52h20v56h-18L81 71v37Z" />
-    </>
+  linea: (
+    <g>
+      <path d="M24 18c12 20 28 34 44 42v16c-10 7-16 18-18 32-7 12-17 24-30 34 9-25 14-45 14-62S30 43 24 18Z" />
+      <path
+        d="M24 18c12 20 28 34 44 42v16c-10 7-16 18-18 32-7 12-17 24-30 34 9-25 14-45 14-62S30 43 24 18Z"
+        transform="translate(160) scale(-1 1)"
+      />
+      <path d="m74 30 6-12 6 12v100l-6 12-6-12Z" />
+    </g>
   ),
-  seal: (
-    <>
-      <path d="M118 44A56 56 0 1 0 118 116L100 104A36 36 0 1 1 100 56Z" />
-      <path d="M56 50h16l22 36V50h16v60h-16L72 74v36H56Z" />
-    </>
+  oblique: (
+    <g>
+      <path d="m20 22 52 30v20L30 48Z" />
+      <path d="m30 58 42 24v20L38 82Z" />
+      <path d="m40 94 32 18v28l-22-12Z" />
+      <path d="m20 22 52 30v20L30 48Z" transform="translate(160) scale(-1 1)" />
+      <path d="m30 58 42 24v20L38 82Z" transform="translate(160) scale(-1 1)" />
+      <path d="m40 94 32 18v28l-22-12Z" transform="translate(160) scale(-1 1)" />
+    </g>
   ),
-  shield: (
-    <>
-      <path d="M128 46 80 16 32 46 20 100l60 44 28-20-12-16-16 12-40-28 8-40 32-18 36 20Z" />
-      <path d="M58 56h16l20 30V56h16v56H94L74 82v30H58Z" />
-    </>
+  crossbrace: (
+    <g>
+      <path d="M24 18c23 20 38 37 40 56v18c-2 20-17 37-42 52 11-23 17-44 17-64S33 41 24 18Z" />
+      <path
+        d="M24 18c23 20 38 37 40 56v18c-2 20-17 37-42 52 11-23 17-44 17-64S33 41 24 18Z"
+        transform="translate(160) scale(-1 1)"
+      />
+      <path d="m50 48 16-10 44 74-16 10Z" />
+    </g>
   ),
-  lockbar: (
-    <>
-      <path d="M132 28H60L22 56v48l38 28h72l-14-22H70L48 92V68l22-16h50Z" />
-      <path d="M72 50h16l26 36V50h16v60H98L72 74Z" />
-    </>
+  'hex-heritage': (
+    <g>
+      <path fillRule="evenodd" d="M80 16l55 32v64l-55 32-55-32V48Zm0 11L34 54v52l46 27 46-27V54Z" />
+      <path fillRule="evenodd" d="M80 32l42 24v48l-42 24-42-24V56Zm0 3L41 58v44l39 23 39-23V58Z" />
+      <path d="M54 100V56h14l24 32V60l14-8v52h-14L68 76v28Z" />
+    </g>
   ),
-  stamp: (
-    <>
-      <path d="M140 22H22v116h118V118H44V42h96Z" />
-      <path d="M58 52h14l22 34V52h14v56H94L72 74v34H58Z" />
-    </>
+  'hex-emboss': (
+    <path
+      fillRule="evenodd"
+      d="M80 16l55 32v64l-55 32-55-32V48ZM50 108h17V76l24 32h17V52h-16v33L67 52H50Z"
+    />
   ),
-  orbit: (
-    <>
-      <path d="M128 38A64 48 0 1 0 128 122L110 110A44 32 0 1 1 110 50Z" />
-      <path d="M62 48h14l24 40V48h16v64H96L72 72v40H62Z" />
-    </>
+  'hex-inline': (
+    <g>
+      <path fillRule="evenodd" d="M80 16l55 32v64l-55 32-55-32V48Zm0 6L30 51v58l50 29 50-29V51Z" />
+      <path fillRule="evenodd" d="M80 28l45 26v52l-45 26-45-26V54Zm0 3L38 56v48l42 25 42-25V56Z" />
+      <path d="M56 104V56h9l30 38V56h9v48h-9L65 66v38Z" />
+    </g>
   ),
-  wedge: (
-    <>
-      <path d="M148 18 52 8 12 80l40 72 96-10-16-24-70 8-26-46 26-46 70 8Z" />
-      <path d="M58 48h16l26 40V48h16v64H96L70 72v40H58Z" />
-    </>
+  'hex-facet': (
+    <g>
+      <path
+        fillRule="evenodd"
+        d="M70 22h20l35 20 10 18v40l-10 18-35 20H70l-35-20-10-18V60l10-18Zm10 5L34 54v52l46 27 46-27V54Z"
+      />
+      <path d="M54 104V56h14l24 32V56h14v48h-14L68 72v32Z" />
+    </g>
+  ),
+  'hex-sideline': (
+    <g>
+      <path fillRule="evenodd" d="M144 80l-32 55H48L16 80l32-55h64Zm-11 0-26-46H53L27 80l26 46h54Z" />
+      <path d="M54 104V56h14l24 32V56h14v48h-14L68 72v32Z" />
+    </g>
   ),
 } as const
 
 export function LogoMark({
   className = '',
   title = 'Corenation',
-  variant = 'core-cut',
+  variant = 'continuum',
 }: LogoMarkProps) {
   return (
     <svg
@@ -91,7 +120,7 @@ export function LogoMark({
       viewBox="0 0 160 160"
       fill="currentColor"
       role="img"
-      aria-label={`${title} CN ${variant} logo concept`}
+      aria-label={`${title} ${variant} logo concept`}
     >
       {marks[variant]}
     </svg>

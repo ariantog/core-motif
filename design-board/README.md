@@ -10,4 +10,6 @@ npm run dev
 
 **http://localhost:5177**
 
+Tabs: Brand · Men kanji · Women floral · Culture run · **Padel** · Marks.
+
 Assets are served from `public/assets` → `/workspace/assets` (see `assets/README.md` for the folder map).

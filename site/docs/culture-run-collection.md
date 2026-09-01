@@ -45,7 +45,7 @@ Each drop folder has garment mockup + `print.png` (locked) + `background-clean.p
 | `assets/culture-run/layers/kanji/so-run-*.png` | Transparent 走 |
 | `assets/culture-run/layers/kanji/san-mountain-*.png` | Transparent 山 |
 | `assets/culture-run/layers/logos/hex-c-*.png` | Transparent classic hex C |
-| `assets/culture-run/layers/logos/cn-core-cut-*.png` | Transparent CN Core Cut |
+| `assets/culture-run/layers/logos/cn-continuum-*.png` | Transparent CN Continuum working mark |
 
 Place a layer on `background-clean.png` in any editor. Do not overwrite `print.png`.
 

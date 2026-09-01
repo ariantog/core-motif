@@ -3,17 +3,17 @@ const navItems = [...document.querySelectorAll('.nav-item')]
 const jumpCards = [...document.querySelectorAll('[data-jump]')]
 
 const logos = [
-  { title: 'Core Cut', note: 'Best all-rounder', path: 'assets/logo/concepts/01-core-cut.png' },
-  { title: 'Interlock', note: 'Best for equipment', path: 'assets/logo/concepts/02-interlock.png' },
-  { title: 'Velocity', note: 'Best for sportswear', path: 'assets/logo/concepts/03-velocity.png' },
-  { title: 'Core Block', note: 'Best for production', path: 'assets/logo/concepts/04-core-block.png' },
-  { title: 'Seal', note: 'Most readable C', path: 'assets/logo/concepts/05-seal.png' },
-  { title: 'Shield', note: 'Best for patches', path: 'assets/logo/concepts/06-shield.png' },
-  { title: 'Lockbar', note: 'Tight monogram', path: 'assets/logo/concepts/07-lockbar.png' },
-  { title: 'Stamp', note: 'Hanko / chop', path: 'assets/logo/concepts/08-stamp.png' },
-  { title: 'Orbit', note: 'Ring + core', path: 'assets/logo/concepts/09-orbit.png' },
-  { title: 'Wedge', note: 'Aggressive cut', path: 'assets/logo/concepts/10-wedge.png' },
-  { title: 'Master (cream)', note: 'Primary export', path: 'assets/logo/corenation-cn-logo-cream.png' },
+  { title: 'Continuum', note: 'CN abstraction · fluid', path: 'assets/logo/concepts/01-continuum.svg' },
+  { title: 'Fold', note: 'CN abstraction · angular', path: 'assets/logo/concepts/02-fold.svg' },
+  { title: 'Counterform', note: 'CN abstraction · negative space', path: 'assets/logo/concepts/03-counterform.svg' },
+  { title: 'Linea', note: 'Core anatomy · pure symbol', path: 'assets/logo/concepts/04-linea.svg' },
+  { title: 'Oblique', note: 'Core anatomy · modular', path: 'assets/logo/concepts/05-oblique.svg' },
+  { title: 'Crossbrace', note: 'Core anatomy · hidden N', path: 'assets/logo/concepts/06-crossbrace.svg' },
+  { title: 'Hex Heritage', note: 'Hexagon heritage · faithful redraw', path: 'assets/logo/hexagon/01-heritage.svg' },
+  { title: 'Hex Emboss', note: 'Hexagon heritage · tonal knockout', path: 'assets/logo/hexagon/02-emboss.svg' },
+  { title: 'Hex Inline', note: 'Hexagon heritage · premium thin', path: 'assets/logo/hexagon/03-inline.svg' },
+  { title: 'Hex Facet', note: 'Hexagon heritage · engineered edge', path: 'assets/logo/hexagon/04-facet.svg' },
+  { title: 'Hex Sideline', note: 'Hexagon heritage · wide stance', path: 'assets/logo/hexagon/05-sideline.svg' },
   { title: 'Original reference', note: 'Closed hexagon', path: 'assets/logo/reference-original-hexagon.jpg' },
 ]
 
@@ -22,11 +22,13 @@ const designFilters = [
   { id: 'men-kanji', label: 'Men kanji' },
   { id: 'women-floral', label: 'Women floral' },
   { id: 'culture-run', label: 'Culture run' },
+  { id: 'padel', label: 'Padel' },
   { id: 'references', label: 'References' },
 ]
 
 const docs = [
   { title: 'Logo transition', path: 'docs/logo-transition.md' },
+  { title: 'Padel collection', path: 'docs/padel-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
   { title: 'Branding checklist', path: 'docs/branding-checklist.md' },
@@ -46,12 +48,25 @@ function showView(name) {
   history.replaceState(null, '', `#${name}`)
 }
 
-function wireDesignBoard() {
+async function wireDesignBoard() {
   const frame = document.querySelector('#view-design-board iframe')
   const link = document.querySelector('#view-design-board .btn')
   if (!frame || !link) return
-  const nested = /\/site\/?$/i.test(hubBase().pathname)
-  const href = nested ? 'design-board/index.html' : 'site/design-board/index.html'
+
+  const candidates = ['design-board/index.html', 'site/design-board/index.html']
+  let href = frame.getAttribute('src') || candidates[0]
+  for (const candidate of candidates) {
+    try {
+      const res = await fetch(assetUrl(candidate), { method: 'HEAD' })
+      if (res.ok) {
+        href = candidate
+        break
+      }
+    } catch {
+      /* try the next path */
+    }
+  }
+
   frame.src = href
   link.href = href
 }

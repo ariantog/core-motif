@@ -12,6 +12,17 @@ assets/
     sakura/                   pink SKUs
     lavender/                 lilac SKUs
     marks/                    flower sheets
+  padel/
+    men/
+      reef-trio/              3 color · seafoam → sky → periwinkle
+      dual-glass/             2 color · teal → periwinkle
+      glass-court/            v1 one-hue · ice → mint
+      harbor-haze/            v1 one-hue · fog → teal
+    women/
+      clay-bloom/             3 color · peach → rose → lilac (+ skirt)
+      dual-sherbet/           2 color · apricot → pistachio (+ skirt)
+      sunrise-clay/           v1 one-hue · ivory → peach clay (+ skirt)
+      lemon-sherbet/          v1 one-hue · cream → lemon (+ skirt)
   culture-run/
     01-wave/                  aurora + brushed tide
     02-brushed/               summit + home soil dawn
@@ -27,6 +38,19 @@ assets/
       logos/                  transparent hex C + CN Core Cut
     _archive-v1/              flat charcoal pieces (superseded)
 ```
+
+Padel consumer kit (pastel fade, no kanji, no logo):
+
+| Folder | Who | Fade | Pieces |
+|--------|-----|------|--------|
+| `men/reef-trio` | Men | 3 color · seafoam → sky aqua → periwinkle | polo, tee, tank, shorts |
+| `men/dual-glass` | Men | 2 color · teal → periwinkle | polo, tee, tank, shorts |
+| `women/clay-bloom` | Women | 3 color · peach → dusty rose → lilac | polo, tee, tank, shorts, skirt |
+| `women/dual-sherbet` | Women | 2 color · apricot → pistachio | polo, tee, tank, shorts, skirt |
+| `men/glass-court` | Men | v1 one-hue · ice → mint | polo, tee, tank, shorts |
+| `men/harbor-haze` | Men | v1 one-hue · fog → teal | polo, tee, tank, shorts |
+| `women/sunrise-clay` | Women | v1 one-hue · ivory → peach clay | polo, tee, tank, shorts, skirt |
+| `women/lemon-sherbet` | Women | v1 one-hue · cream → lemon | polo, tee, tank, shorts, skirt |
 
 Culture Run drops (v2 — print + gradient, no embroidery patch):
 

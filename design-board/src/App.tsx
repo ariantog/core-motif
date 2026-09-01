@@ -4,15 +4,28 @@ import { LogoMark } from './components/LogoMark'
 import { cultureBackgrounds, cultureLayers, cultureMockups, culturePrints } from './data/culture'
 import { floralMockups, floralRules } from './data/floral'
 import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
+import {
+  padelMenMockups,
+  padelMenMultiMockups,
+  padelMenMultiPalette,
+  padelMenPalette,
+  padelRules,
+  padelStories,
+  padelWomenMockups,
+  padelWomenMultiMockups,
+  padelWomenMultiPalette,
+  padelWomenPalette,
+} from './data/padel'
 import { asset } from './lib/assets'
 
-type Tab = 'brand' | 'men' | 'women' | 'culture' | 'marks'
+type Tab = 'brand' | 'men' | 'women' | 'culture' | 'padel' | 'marks'
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'brand', label: 'Brand' },
   { id: 'men', label: 'Men kanji' },
   { id: 'women', label: 'Women floral' },
   { id: 'culture', label: 'Culture run' },
+  { id: 'padel', label: 'Padel' },
   { id: 'marks', label: 'Marks' },
 ]
 
@@ -25,9 +38,9 @@ const transitionMethods = [
   },
   {
     id: 'B',
-    name: 'Evolutionary morph',
-    tag: 'Same seat',
-    summary: 'Open the old hex until it is a C. Two steps max — a half-open hex looks broken.',
+    name: 'Heritage refresh',
+    tag: 'Keep badge',
+    summary: 'Stay in the hexagon family. Ship one H1–H5 variation in the same seat as the old badge.',
   },
   {
     id: 'C',
@@ -76,75 +89,137 @@ const transitionMethods = [
 const logoConcepts = [
   {
     id: '01',
-    variant: 'core-cut' as const,
-    name: 'Core Cut',
-    description: 'A bold hexagonal C with a clean side cut. The N sits independently inside for maximum legibility.',
-    note: 'Best all-rounder',
+    variant: 'continuum' as const,
+    name: 'Continuum',
+    family: 'CN abstraction',
+    description: 'One continuous line rounds into a C, then rises through an N. Open, fluid, and deliberately uncontained.',
+    note: 'Fluid / minimal',
+    file: '01-continuum.svg',
   },
   {
     id: '02',
-    variant: 'interlock' as const,
-    name: 'Interlock',
-    description: 'The C is built from three locked plates while the N bridges its open side. More technical and engineered.',
-    note: 'Best for equipment',
+    variant: 'fold' as const,
+    name: 'Fold',
+    family: 'CN abstraction',
+    description: 'Two folded planes share their edges: a cropped C on the left and a deep N on the right.',
+    note: 'Angular / apparel',
+    file: '02-fold.svg',
   },
   {
     id: '03',
-    variant: 'velocity' as const,
-    name: 'Velocity',
-    description: 'A forward-leaning C and N with a compact athletic stance. Designed for apparel and performance products.',
-    note: 'Best for sportswear',
+    variant: 'counterform' as const,
+    name: 'Counterform',
+    family: 'CN abstraction',
+    description: 'The letters live in the white space: a curved C counter meets a diagonal N channel between two blocks.',
+    note: 'Negative space',
+    file: '03-counterform.svg',
   },
   {
     id: '04',
-    variant: 'core-block' as const,
-    name: 'Core Block',
-    description: 'A wide, stable C with a heavy inset N. The simplest option for embroidery, rubber patches, and small sizes.',
-    note: 'Best for production',
+    variant: 'linea' as const,
+    name: 'Linea',
+    family: 'Core anatomy',
+    description: 'Paired abdominal walls pull toward a narrow linea alba. This is a core symbol first, with no forced letterform.',
+    note: 'Pure core symbol',
+    file: '04-linea.svg',
   },
   {
     id: '05',
-    variant: 'seal' as const,
-    name: 'Seal',
-    description: 'A circular C that reads as a letter at a glance, with the angular N locked in the opening.',
-    note: 'Most readable C',
+    variant: 'oblique' as const,
+    name: 'Oblique',
+    family: 'Core anatomy',
+    description: 'Six compressed bands map the obliques from rib to waist. The split center keeps the mark light and technical.',
+    note: 'Modular / technical',
+    file: '05-oblique.svg',
   },
   {
     id: '06',
-    variant: 'shield' as const,
-    name: 'Shield',
-    description: 'A pointed badge C built for patches, belts, and club kit. The N sits in the shield pocket.',
-    note: 'Best for patches',
-  },
-  {
-    id: '07',
-    variant: 'lockbar' as const,
-    name: 'Lockbar',
-    description: 'The N grows out of the C spine so the two letters share one bar. Compact and industrial.',
-    note: 'Tight monogram',
-  },
-  {
-    id: '08',
-    variant: 'stamp' as const,
-    name: 'Stamp',
-    description: 'A square chop-mark C, open on the right, with a heavy N. Reads like a Japanese hanko on apparel.',
-    note: 'Hanko / chop',
-  },
-  {
-    id: '09',
-    variant: 'orbit' as const,
-    name: 'Orbit',
-    description: 'An elliptical C ring around the N. Softer motion without losing the gym-weight geometry.',
-    note: 'Ring + core',
-  },
-  {
-    id: '10',
-    variant: 'wedge' as const,
-    name: 'Wedge',
-    description: 'A hard left-pointing C cut with a forward wedge. Aggressive, made for fight-short heat transfers.',
-    note: 'Aggressive cut',
+    variant: 'crossbrace' as const,
+    name: 'Crossbrace',
+    family: 'Core anatomy',
+    description: 'Curved abdominal walls are joined by a diagonal fascial sling, revealing an N inside the torso shape.',
+    note: 'Core + N hybrid',
+    file: '06-crossbrace.svg',
   },
 ]
+
+const hexagonVariations = [
+  {
+    id: 'H1',
+    variant: 'hex-heritage' as const,
+    name: 'Heritage',
+    family: 'Hexagon heritage',
+    description: 'The closest redraw of the original badge: double outline, point-up stance, and the angular N with its beveled cut.',
+    note: 'Faithful redraw',
+    file: '01-heritage.svg',
+  },
+  {
+    id: 'H2',
+    variant: 'hex-emboss' as const,
+    name: 'Emboss',
+    family: 'Hexagon heritage',
+    description: 'A solid badge with the N carved out as negative space. Built for the tonal black-on-black treatment in the reference photo.',
+    note: 'Tonal / patches',
+    file: '02-emboss.svg',
+  },
+  {
+    id: 'H3',
+    variant: 'hex-inline' as const,
+    name: 'Inline',
+    family: 'Hexagon heritage',
+    description: 'Hairline twin outlines and a slim N. The premium version for foil stamps, embossing, and zipper pulls.',
+    note: 'Premium thin',
+    file: '03-inline.svg',
+  },
+  {
+    id: 'H4',
+    variant: 'hex-facet' as const,
+    name: 'Facet',
+    family: 'Hexagon heritage',
+    description: 'Each corner is chamfered so the badge reads machined rather than heraldic. Same closed silhouette, more equipment energy.',
+    note: 'Engineered edge',
+    file: '04-facet.svg',
+  },
+  {
+    id: 'H5',
+    variant: 'hex-sideline' as const,
+    name: 'Sideline',
+    family: 'Hexagon heritage',
+    description: 'The badge rotated onto its side points. A wider stance that sits better on chest prints and waistbands.',
+    note: 'Wide stance',
+    file: '05-sideline.svg',
+  },
+]
+
+type Concept = (typeof logoConcepts)[number] | (typeof hexagonVariations)[number]
+
+function ConceptCard({ concept, folder }: { concept: Concept; folder: string }) {
+  return (
+    <article className="concept-card">
+      <div className="concept-preview">
+        <span className="concept-number">{concept.id}</span>
+        <span className="concept-family">{concept.family}</span>
+        <LogoMark className="concept-mark" title="Corenation" variant={concept.variant} />
+      </div>
+      <div className="concept-copy">
+        <div className="concept-heading">
+          <h3>{concept.name}</h3>
+          <span>{concept.note}</span>
+        </div>
+        <p>{concept.description}</p>
+        <a className="concept-download" href={asset(`${folder}/${concept.file}`)} download>
+          Download SVG
+        </a>
+        <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
+          <LogoMark title="Corenation" variant={concept.variant} />
+          <LogoMark title="Corenation" variant={concept.variant} />
+          <LogoMark title="Corenation" variant={concept.variant} />
+          <strong>Small-size test</strong>
+        </div>
+      </div>
+    </article>
+  )
+}
 
 function Swatches({ items }: { items: { hex: string; name: string }[] }) {
   return (
@@ -216,48 +291,48 @@ function App() {
       {tab === 'brand' && (
         <>
           <section>
-            <h2>CN Monogram — New Directions</h2>
+            <h2>Logo Exploration — Two New Systems</h2>
             <p className="section-lead">
-              Four rebuilt concepts using solid, intentional geometry. Each mark combines a clearly readable
-              <strong> C</strong> with an angular <strong>N</strong>—without looking like a damaged hexagon.
+              A clean break from the enclosed badge family. Directions 01–03 abstract <strong>CN</strong> as a
+              ligature; 04–06 translate <strong>core musculature</strong> into a symbol. No hexagons, shields, or
+              outer containers.
             </p>
             <div className="concept-grid">
               {logoConcepts.map((concept) => (
-                <article className="concept-card" key={concept.variant}>
-                  <div className="concept-preview">
-                    <span className="concept-number">{concept.id}</span>
-                    <LogoMark className="concept-mark" title="Corenation" variant={concept.variant} />
-                  </div>
-                  <div className="concept-copy">
-                    <div className="concept-heading">
-                      <h3>{concept.name}</h3>
-                      <span>{concept.note}</span>
-                    </div>
-                    <p>{concept.description}</p>
-                    <div className="concept-small-scale" aria-label={`${concept.name} small-size preview`}>
-                      <LogoMark title="Corenation" variant={concept.variant} />
-                      <LogoMark title="Corenation" variant={concept.variant} />
-                      <LogoMark title="Corenation" variant={concept.variant} />
-                      <strong>Small-size test</strong>
-                    </div>
-                  </div>
-                </article>
+                <ConceptCard concept={concept} folder="assets/logo/concepts" key={concept.variant} />
               ))}
             </div>
             <p className="logo-note">
-              All ten concepts are previewed as PNGs in <code>assets/logo/concepts/</code>.
-              Use the matching <code>.svg</code> next to each PNG if you need a vector file.
-              Public lock for new work: Core Cut. Methods for retiring the hex live in{' '}
-              <code>docs/logo-transition.md</code>.
+              All six are monochrome working vectors in <code>assets/logo/concepts/</code>. They are presented as
+              parallel explorations; no direction is designated as the final master yet. How a chosen mark enters
+              product: <code>docs/logo-transition.md</code>.
+            </p>
+          </section>
+
+          <section>
+            <h2>Hexagon Heritage — Original Badge Variations</h2>
+            <p className="section-lead">
+              Five variations built directly on the original closed-hexagon badge
+              (<code>assets/logo/reference-original-hexagon.jpg</code>). The silhouette stays closed; only the
+              outline treatment, stance, and N construction change.
+            </p>
+            <div className="concept-grid">
+              {hexagonVariations.map((concept) => (
+                <ConceptCard concept={concept} folder="assets/logo/hexagon" key={concept.variant} />
+              ))}
+            </div>
+            <p className="logo-note">
+              Working vectors live in <code>assets/logo/hexagon/</code> with matching cream-on-black PNG previews.
+              Heritage is Method B if you stay with the badge instead of a new system.
             </p>
           </section>
 
           <section>
             <h2>Logo transition — pick one method</h2>
             <p className="section-lead">
-              Working plan: take the closed hex off new work, live on the word <strong>CORENATION</strong>, then
-              introduce the locked CN only on new items. That is method A. A + D + G is the recommended stack. Do
-              not mix two methods on one SKU.
+              Working plan: take the original hex off new work, live on the word <strong>CORENATION</strong>, then
+              introduce one locked mark only on new items. That is method A. A + D + G is the recommended stack
+              once a direction is selected. Do not mix two methods on one SKU.
             </p>
             <div className="phase-row" aria-label="Recommended sequence">
               <article>
@@ -333,7 +408,8 @@ function App() {
             <h2>Playbook v2.0 — what staff got</h2>
             <p className="lede">
               v1.0 was men-kanji only. v2.0 adds brand direction, owners, women / hijab / Culture Run / padel, and
-              channel playbooks. Full ticks live in <code>docs/branding-checklist.md</code>.
+              channel playbooks. v2.2 adds the consumer padel pastel kit (no kanji, no logo) on the Padel tab.
+              Full ticks live in <code>docs/branding-checklist.md</code>.
             </p>
           </section>
         </>
@@ -444,6 +520,63 @@ function App() {
           <section>
             <h2>Print placements (locked composites)</h2>
             <MockGrid items={culturePrints} />
+          </section>
+        </>
+      )}
+
+      {tab === 'padel' && (
+        <>
+          <section>
+            <h2>Theme lock</h2>
+            <p className="lede">
+              Consumer padel court kit — no kanji, no logo. v1 is a one-hue wash. v2 drops must
+              read as <strong>two or three distinct pastels</strong>. Men and women stay on
+              separate stories. Files: <code>assets/padel/men/</code> · <code>assets/padel/women/</code>.
+              Spec: <code>docs/padel-collection.md</code>.
+            </p>
+            <div className="rule-grid">
+              {padelRules.map((rule) => (
+                <article key={rule.lock}>
+                  <h3>{rule.lock}</h3>
+                  <p>{rule.flower}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Drops</h2>
+            <div className="rule-grid">
+              {padelStories.map((story) => (
+                <article key={story.id}>
+                  <h3>
+                    {story.gender === 'men' ? 'Men' : 'Women'} · {story.name}
+                  </h3>
+                  <p>
+                    {story.fade}. {story.note}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Men v2 — Reef Trio (3 color) + Dual Glass (2 color)</h2>
+            <Swatches items={padelMenMultiPalette} />
+            <MockGrid items={padelMenMultiMockups} />
+          </section>
+          <section>
+            <h2>Women v2 — Clay Bloom (3 color) + Dual Sherbet (2 color)</h2>
+            <Swatches items={padelWomenMultiPalette} />
+            <MockGrid items={padelWomenMultiMockups} />
+          </section>
+          <section>
+            <h2>Men v1 — Glass Court + Harbor Haze</h2>
+            <Swatches items={padelMenPalette} />
+            <MockGrid items={padelMenMockups} />
+          </section>
+          <section>
+            <h2>Women v1 — Sunrise Clay + Lemon Sherbet</h2>
+            <Swatches items={padelWomenPalette} />
+            <MockGrid items={padelWomenMockups} />
           </section>
         </>
       )}

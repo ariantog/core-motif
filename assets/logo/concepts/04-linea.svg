@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="linea-title">
+  <title id="linea-title">Corenation Linea abstract core mark</title>
+  <g fill="currentColor">
+    <path d="M24 18c12 20 28 34 44 42v16c-10 7-16 18-18 32-7 12-17 24-30 34 9-25 14-45 14-62S30 43 24 18Z"/>
+    <path d="M24 18c12 20 28 34 44 42v16c-10 7-16 18-18 32-7 12-17 24-30 34 9-25 14-45 14-62S30 43 24 18Z" transform="translate(160) scale(-1 1)"/>
+    <path d="m74 30 6-12 6 12v100l-6 12-6-12Z"/>
+  </g>
+</svg>

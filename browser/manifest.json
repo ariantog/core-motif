@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T05:00:34Z",
+  "generatedAt": "2026-09-01T05:14:34Z",
   "root": [
     {
       "type": "dir",
@@ -519,23 +519,23 @@
                   "children": [
                     {
                       "type": "image",
-                      "name": "cn-core-cut-cream.png",
-                      "path": "assets/culture-run/layers/logos/cn-core-cut-cream.png"
+                      "name": "cn-continuum-cream.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-cream.png"
                     },
                     {
                       "type": "image",
-                      "name": "cn-core-cut-gold.png",
-                      "path": "assets/culture-run/layers/logos/cn-core-cut-gold.png"
+                      "name": "cn-continuum-gold.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-gold.png"
                     },
                     {
                       "type": "image",
-                      "name": "cn-core-cut-ink.png",
-                      "path": "assets/culture-run/layers/logos/cn-core-cut-ink.png"
+                      "name": "cn-continuum-ink.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-ink.png"
                     },
                     {
                       "type": "image",
-                      "name": "cn-core-cut-white.png",
-                      "path": "assets/culture-run/layers/logos/cn-core-cut-white.png"
+                      "name": "cn-continuum-white.png",
+                      "path": "assets/culture-run/layers/logos/cn-continuum-white.png"
                     },
                     {
                       "type": "image",
@@ -627,103 +627,120 @@
               "children": [
                 {
                   "type": "image",
-                  "name": "01-core-cut.png",
-                  "path": "assets/logo/concepts/01-core-cut.png"
+                  "name": "01-continuum.png",
+                  "path": "assets/logo/concepts/01-continuum.png"
                 },
                 {
                   "type": "image",
-                  "name": "01-core-cut.svg",
-                  "path": "assets/logo/concepts/01-core-cut.svg"
+                  "name": "01-continuum.svg",
+                  "path": "assets/logo/concepts/01-continuum.svg"
                 },
                 {
                   "type": "image",
-                  "name": "02-interlock.png",
-                  "path": "assets/logo/concepts/02-interlock.png"
+                  "name": "02-fold.png",
+                  "path": "assets/logo/concepts/02-fold.png"
                 },
                 {
                   "type": "image",
-                  "name": "02-interlock.svg",
-                  "path": "assets/logo/concepts/02-interlock.svg"
+                  "name": "02-fold.svg",
+                  "path": "assets/logo/concepts/02-fold.svg"
                 },
                 {
                   "type": "image",
-                  "name": "03-velocity.png",
-                  "path": "assets/logo/concepts/03-velocity.png"
+                  "name": "03-counterform.png",
+                  "path": "assets/logo/concepts/03-counterform.png"
                 },
                 {
                   "type": "image",
-                  "name": "03-velocity.svg",
-                  "path": "assets/logo/concepts/03-velocity.svg"
+                  "name": "03-counterform.svg",
+                  "path": "assets/logo/concepts/03-counterform.svg"
                 },
                 {
                   "type": "image",
-                  "name": "04-core-block.png",
-                  "path": "assets/logo/concepts/04-core-block.png"
+                  "name": "04-linea.png",
+                  "path": "assets/logo/concepts/04-linea.png"
                 },
                 {
                   "type": "image",
-                  "name": "04-core-block.svg",
-                  "path": "assets/logo/concepts/04-core-block.svg"
+                  "name": "04-linea.svg",
+                  "path": "assets/logo/concepts/04-linea.svg"
                 },
                 {
                   "type": "image",
-                  "name": "05-seal.png",
-                  "path": "assets/logo/concepts/05-seal.png"
+                  "name": "05-oblique.png",
+                  "path": "assets/logo/concepts/05-oblique.png"
                 },
                 {
                   "type": "image",
-                  "name": "05-seal.svg",
-                  "path": "assets/logo/concepts/05-seal.svg"
+                  "name": "05-oblique.svg",
+                  "path": "assets/logo/concepts/05-oblique.svg"
                 },
                 {
                   "type": "image",
-                  "name": "06-shield.png",
-                  "path": "assets/logo/concepts/06-shield.png"
+                  "name": "06-crossbrace.png",
+                  "path": "assets/logo/concepts/06-crossbrace.png"
                 },
                 {
                   "type": "image",
-                  "name": "06-shield.svg",
-                  "path": "assets/logo/concepts/06-shield.svg"
+                  "name": "06-crossbrace.svg",
+                  "path": "assets/logo/concepts/06-crossbrace.svg"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "hexagon",
+              "path": "assets/logo/hexagon",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "01-heritage.png",
+                  "path": "assets/logo/hexagon/01-heritage.png"
                 },
                 {
                   "type": "image",
-                  "name": "07-lockbar.png",
-                  "path": "assets/logo/concepts/07-lockbar.png"
+                  "name": "01-heritage.svg",
+                  "path": "assets/logo/hexagon/01-heritage.svg"
                 },
                 {
                   "type": "image",
-                  "name": "07-lockbar.svg",
-                  "path": "assets/logo/concepts/07-lockbar.svg"
+                  "name": "02-emboss.png",
+                  "path": "assets/logo/hexagon/02-emboss.png"
                 },
                 {
                   "type": "image",
-                  "name": "08-stamp.png",
-                  "path": "assets/logo/concepts/08-stamp.png"
+                  "name": "02-emboss.svg",
+                  "path": "assets/logo/hexagon/02-emboss.svg"
                 },
                 {
                   "type": "image",
-                  "name": "08-stamp.svg",
-                  "path": "assets/logo/concepts/08-stamp.svg"
+                  "name": "03-inline.png",
+                  "path": "assets/logo/hexagon/03-inline.png"
                 },
                 {
                   "type": "image",
-                  "name": "09-orbit.png",
-                  "path": "assets/logo/concepts/09-orbit.png"
+                  "name": "03-inline.svg",
+                  "path": "assets/logo/hexagon/03-inline.svg"
                 },
                 {
                   "type": "image",
-                  "name": "09-orbit.svg",
-                  "path": "assets/logo/concepts/09-orbit.svg"
+                  "name": "04-facet.png",
+                  "path": "assets/logo/hexagon/04-facet.png"
                 },
                 {
                   "type": "image",
-                  "name": "10-wedge.png",
-                  "path": "assets/logo/concepts/10-wedge.png"
+                  "name": "04-facet.svg",
+                  "path": "assets/logo/hexagon/04-facet.svg"
                 },
                 {
                   "type": "image",
-                  "name": "10-wedge.svg",
-                  "path": "assets/logo/concepts/10-wedge.svg"
+                  "name": "05-sideline.png",
+                  "path": "assets/logo/hexagon/05-sideline.png"
+                },
+                {
+                  "type": "image",
+                  "name": "05-sideline.svg",
+                  "path": "assets/logo/hexagon/05-sideline.svg"
                 }
               ]
             },
@@ -1119,6 +1136,263 @@
                   "type": "image",
                   "name": "patch-\u9f8d-ryu.png",
                   "path": "assets/men-kanji/marks/patch-\u9f8d-ryu.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dir",
+          "name": "padel",
+          "path": "assets/padel",
+          "children": [
+            {
+              "type": "dir",
+              "name": "men",
+              "path": "assets/padel/men",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "dual-glass",
+                  "path": "assets/padel/men/dual-glass",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/dual-glass/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/dual-glass/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/dual-glass/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/dual-glass/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "glass-court",
+                  "path": "assets/padel/men/glass-court",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/glass-court/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/glass-court/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/glass-court/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/glass-court/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "harbor-haze",
+                  "path": "assets/padel/men/harbor-haze",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/harbor-haze/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/harbor-haze/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/harbor-haze/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/harbor-haze/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "reef-trio",
+                  "path": "assets/padel/men/reef-trio",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/reef-trio/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/reef-trio/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/reef-trio/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/reef-trio/tee.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "women",
+              "path": "assets/padel/women",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "clay-bloom",
+                  "path": "assets/padel/women/clay-bloom",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/clay-bloom/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/clay-bloom/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/clay-bloom/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/clay-bloom/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/clay-bloom/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "dual-sherbet",
+                  "path": "assets/padel/women/dual-sherbet",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/dual-sherbet/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/dual-sherbet/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/dual-sherbet/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/dual-sherbet/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/dual-sherbet/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "lemon-sherbet",
+                  "path": "assets/padel/women/lemon-sherbet",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/lemon-sherbet/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/lemon-sherbet/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/lemon-sherbet/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/lemon-sherbet/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/lemon-sherbet/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "sunrise-clay",
+                  "path": "assets/padel/women/sunrise-clay",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/sunrise-clay/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/sunrise-clay/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/sunrise-clay/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/sunrise-clay/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/sunrise-clay/tee.png"
+                    }
+                  ]
                 }
               ]
             }
@@ -1759,23 +2033,23 @@
                           "children": [
                             {
                               "type": "image",
-                              "name": "cn-core-cut-cream.png",
-                              "path": "design-board/public/assets/culture-run/layers/logos/cn-core-cut-cream.png"
+                              "name": "cn-continuum-cream.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-cream.png"
                             },
                             {
                               "type": "image",
-                              "name": "cn-core-cut-gold.png",
-                              "path": "design-board/public/assets/culture-run/layers/logos/cn-core-cut-gold.png"
+                              "name": "cn-continuum-gold.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-gold.png"
                             },
                             {
                               "type": "image",
-                              "name": "cn-core-cut-ink.png",
-                              "path": "design-board/public/assets/culture-run/layers/logos/cn-core-cut-ink.png"
+                              "name": "cn-continuum-ink.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-ink.png"
                             },
                             {
                               "type": "image",
-                              "name": "cn-core-cut-white.png",
-                              "path": "design-board/public/assets/culture-run/layers/logos/cn-core-cut-white.png"
+                              "name": "cn-continuum-white.png",
+                              "path": "design-board/public/assets/culture-run/layers/logos/cn-continuum-white.png"
                             },
                             {
                               "type": "image",
@@ -1867,103 +2141,120 @@
                       "children": [
                         {
                           "type": "image",
-                          "name": "01-core-cut.png",
-                          "path": "design-board/public/assets/logo/concepts/01-core-cut.png"
+                          "name": "01-continuum.png",
+                          "path": "design-board/public/assets/logo/concepts/01-continuum.png"
                         },
                         {
                           "type": "image",
-                          "name": "01-core-cut.svg",
-                          "path": "design-board/public/assets/logo/concepts/01-core-cut.svg"
+                          "name": "01-continuum.svg",
+                          "path": "design-board/public/assets/logo/concepts/01-continuum.svg"
                         },
                         {
                           "type": "image",
-                          "name": "02-interlock.png",
-                          "path": "design-board/public/assets/logo/concepts/02-interlock.png"
+                          "name": "02-fold.png",
+                          "path": "design-board/public/assets/logo/concepts/02-fold.png"
                         },
                         {
                           "type": "image",
-                          "name": "02-interlock.svg",
-                          "path": "design-board/public/assets/logo/concepts/02-interlock.svg"
+                          "name": "02-fold.svg",
+                          "path": "design-board/public/assets/logo/concepts/02-fold.svg"
                         },
                         {
                           "type": "image",
-                          "name": "03-velocity.png",
-                          "path": "design-board/public/assets/logo/concepts/03-velocity.png"
+                          "name": "03-counterform.png",
+                          "path": "design-board/public/assets/logo/concepts/03-counterform.png"
                         },
                         {
                           "type": "image",
-                          "name": "03-velocity.svg",
-                          "path": "design-board/public/assets/logo/concepts/03-velocity.svg"
+                          "name": "03-counterform.svg",
+                          "path": "design-board/public/assets/logo/concepts/03-counterform.svg"
                         },
                         {
                           "type": "image",
-                          "name": "04-core-block.png",
-                          "path": "design-board/public/assets/logo/concepts/04-core-block.png"
+                          "name": "04-linea.png",
+                          "path": "design-board/public/assets/logo/concepts/04-linea.png"
                         },
                         {
                           "type": "image",
-                          "name": "04-core-block.svg",
-                          "path": "design-board/public/assets/logo/concepts/04-core-block.svg"
+                          "name": "04-linea.svg",
+                          "path": "design-board/public/assets/logo/concepts/04-linea.svg"
                         },
                         {
                           "type": "image",
-                          "name": "05-seal.png",
-                          "path": "design-board/public/assets/logo/concepts/05-seal.png"
+                          "name": "05-oblique.png",
+                          "path": "design-board/public/assets/logo/concepts/05-oblique.png"
                         },
                         {
                           "type": "image",
-                          "name": "05-seal.svg",
-                          "path": "design-board/public/assets/logo/concepts/05-seal.svg"
+                          "name": "05-oblique.svg",
+                          "path": "design-board/public/assets/logo/concepts/05-oblique.svg"
                         },
                         {
                           "type": "image",
-                          "name": "06-shield.png",
-                          "path": "design-board/public/assets/logo/concepts/06-shield.png"
+                          "name": "06-crossbrace.png",
+                          "path": "design-board/public/assets/logo/concepts/06-crossbrace.png"
                         },
                         {
                           "type": "image",
-                          "name": "06-shield.svg",
-                          "path": "design-board/public/assets/logo/concepts/06-shield.svg"
+                          "name": "06-crossbrace.svg",
+                          "path": "design-board/public/assets/logo/concepts/06-crossbrace.svg"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "hexagon",
+                      "path": "design-board/public/assets/logo/hexagon",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "01-heritage.png",
+                          "path": "design-board/public/assets/logo/hexagon/01-heritage.png"
                         },
                         {
                           "type": "image",
-                          "name": "07-lockbar.png",
-                          "path": "design-board/public/assets/logo/concepts/07-lockbar.png"
+                          "name": "01-heritage.svg",
+                          "path": "design-board/public/assets/logo/hexagon/01-heritage.svg"
                         },
                         {
                           "type": "image",
-                          "name": "07-lockbar.svg",
-                          "path": "design-board/public/assets/logo/concepts/07-lockbar.svg"
+                          "name": "02-emboss.png",
+                          "path": "design-board/public/assets/logo/hexagon/02-emboss.png"
                         },
                         {
                           "type": "image",
-                          "name": "08-stamp.png",
-                          "path": "design-board/public/assets/logo/concepts/08-stamp.png"
+                          "name": "02-emboss.svg",
+                          "path": "design-board/public/assets/logo/hexagon/02-emboss.svg"
                         },
                         {
                           "type": "image",
-                          "name": "08-stamp.svg",
-                          "path": "design-board/public/assets/logo/concepts/08-stamp.svg"
+                          "name": "03-inline.png",
+                          "path": "design-board/public/assets/logo/hexagon/03-inline.png"
                         },
                         {
                           "type": "image",
-                          "name": "09-orbit.png",
-                          "path": "design-board/public/assets/logo/concepts/09-orbit.png"
+                          "name": "03-inline.svg",
+                          "path": "design-board/public/assets/logo/hexagon/03-inline.svg"
                         },
                         {
                           "type": "image",
-                          "name": "09-orbit.svg",
-                          "path": "design-board/public/assets/logo/concepts/09-orbit.svg"
+                          "name": "04-facet.png",
+                          "path": "design-board/public/assets/logo/hexagon/04-facet.png"
                         },
                         {
                           "type": "image",
-                          "name": "10-wedge.png",
-                          "path": "design-board/public/assets/logo/concepts/10-wedge.png"
+                          "name": "04-facet.svg",
+                          "path": "design-board/public/assets/logo/hexagon/04-facet.svg"
                         },
                         {
                           "type": "image",
-                          "name": "10-wedge.svg",
-                          "path": "design-board/public/assets/logo/concepts/10-wedge.svg"
+                          "name": "05-sideline.png",
+                          "path": "design-board/public/assets/logo/hexagon/05-sideline.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-sideline.svg",
+                          "path": "design-board/public/assets/logo/hexagon/05-sideline.svg"
                         }
                       ]
                     },
@@ -2366,6 +2657,263 @@
                 },
                 {
                   "type": "dir",
+                  "name": "padel",
+                  "path": "design-board/public/assets/padel",
+                  "children": [
+                    {
+                      "type": "dir",
+                      "name": "men",
+                      "path": "design-board/public/assets/padel/men",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "dual-glass",
+                          "path": "design-board/public/assets/padel/men/dual-glass",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/dual-glass/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "glass-court",
+                          "path": "design-board/public/assets/padel/men/glass-court",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/glass-court/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "harbor-haze",
+                          "path": "design-board/public/assets/padel/men/harbor-haze",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/harbor-haze/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "reef-trio",
+                          "path": "design-board/public/assets/padel/men/reef-trio",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/reef-trio/tee.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "women",
+                      "path": "design-board/public/assets/padel/women",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "clay-bloom",
+                          "path": "design-board/public/assets/padel/women/clay-bloom",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/clay-bloom/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "dual-sherbet",
+                          "path": "design-board/public/assets/padel/women/dual-sherbet",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/dual-sherbet/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "lemon-sherbet",
+                          "path": "design-board/public/assets/padel/women/lemon-sherbet",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/lemon-sherbet/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "sunrise-clay",
+                          "path": "design-board/public/assets/padel/women/sunrise-clay",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/sunrise-clay/tee.png"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "references",
                   "path": "design-board/public/assets/references",
                   "children": [
@@ -2551,6 +3099,11 @@
                   "type": "file",
                   "name": "kanji.ts",
                   "path": "design-board/src/data/kanji.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "padel.ts",
+                  "path": "design-board/src/data/padel.ts"
                 }
               ]
             },
@@ -2669,6 +3222,11 @@
           "type": "markdown",
           "name": "logo-transition.md",
           "path": "docs/logo-transition.md"
+        },
+        {
+          "type": "markdown",
+          "name": "padel-collection.md",
+          "path": "docs/padel-collection.md"
         }
       ]
     },
@@ -2703,6 +3261,11 @@
           "path": "scripts/render-logo-pngs.py"
         }
       ]
+    },
+    {
+      "type": "markdown",
+      "name": "AGENTS.md",
+      "path": "AGENTS.md"
     },
     {
       "type": "html",

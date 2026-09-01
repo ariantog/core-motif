@@ -16,7 +16,7 @@ v1.0 was a strong **men's kanji** ops list. It did not give the company a brand 
 ### Visual Rules
 - [ ] Base colors: olive `#4A5240`, black, charcoal grey — max 3 structural colors per piece.
 - [ ] Accent colors: cream `#D6CFB5`, gold `#D4AF37`, red `#C41E3A` — **one hero accent** per product face.
-- [ ] Brand mark on new POs follows [`logo-transition.md`](logo-transition.md): wordmark first; no closed hex on new work; new CN only when that phase has started.
+- [ ] Brand mark on new POs follows [`logo-transition.md`](logo-transition.md): wordmark first unless Method B (heritage) is circled; no unselected studio marks on shop SKUs.
 - [ ] Kanji on apparel uses **black rectangular patch** (shorts/tees) or **gold/cream on dark overlay** (belts).
 - [ ] Kanji stroke style: bold brush on belts; clean bold strokes on small patches (legibility at 3m).
 - [ ] Wordmark: `CORENATION` or `CORE NATION` — all caps, wide sans-serif only.
@@ -77,10 +77,10 @@ Corenation is the training brand you actually wear to train — same class of fa
 ### Shared brand marks (every line)
 
 - [ ] Wordmark is `CORENATION` or `CORE NATION` — all caps, wide sans-serif only. Letter **A** may use the diagonal-cut custom A from the belt samples — do not invent a third A.
-- [ ] Logo mark on **new** work is the word `CORENATION` plus the locked CN when that phase is on (see [`logo-transition.md`](logo-transition.md)). Do not reprint the closed hex. White/cream on dark; charcoal on light pink/lilac.
+- [ ] Logo mark on **new** work is the word `CORENATION` plus the locked direction when that phase is on (see [`logo-transition.md`](logo-transition.md)). Do not reprint the original closed hex. White/cream on dark; charcoal on light pink/lilac.
 - [ ] Max **one hero motif** per visible panel (one kanji, or one flower cluster, or one culture graphic).
 - [ ] No competing line motifs on the same SKU (no sakura + 龍, no lavender + kanji patch).
-- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN). Wrong line code = reject.
+- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN / PDL). Wrong line code = reject.
 
 ### Palette lock (do not invent seasonal "premium" golds)
 
@@ -102,6 +102,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 | Women floral | @corenationactive | Sakura on pink, lavender on lilac | Apparel + matching accs | Kanji patches, olive tactical as hero |
 | Hijab / modest | @corenationhijab | Floral **or** clean modest | Sports hijab, long tunics, modest sets | Body-con crop-only hero, kanji warrior copy |
 | Culture Run | Active + Men (tag both if unisex) | Graphic print (wave, summit, bloom path) | Running tee, tank, singlet | Lifting-belt patch language, heavy olive tactical |
+| Padel court | Active + Men | Pastel fade, **no marks** | Polo, tee, tank, shorts, women skirt | Kanji, hex C, floral, Culture Run wave |
 | HQ padel | not a consumer drop | Club color **from approved palette** | Club kits, still Corenation branded | Club logo replacing hex C; unapproved neon |
 
 - [ ] Men's kanji SKUs never use sakura, lavender, pink, or lilac as a hero color.
@@ -141,7 +142,7 @@ Apparel (men / women / hijab, roughly equal) is what walks out of Central, Muku,
 - [ ] Price cards match Shopee titles (same product name). QR to Shopee optional, never a different SKU name.
 - [ ] Weekly Friday photo audit of all three stores sent to brand lead (same angles: bay, mannequin, table).
 
-### C. HQ warehouse / padel clubs
+### C. HQ warehouse / padel clubs (B2B)
 
 Owner: HQ / padel
 
@@ -327,6 +328,35 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 ---
 
+## 8b. Padel court kit — pastel fade
+
+Owner: Brand lead + Design · Social: Active and/or Men
+
+**What this line is:** consumer padel polo, tee, tank, shorts, and women skirt with an **all-over pastel gradient**. No kanji. No hex C. No floral.
+
+**What it is not:** HQ club-custom kits (those still keep hex C — see §3C). Not Culture Run. Not sakura / lavender.
+
+### Voice & visual
+
+- [ ] Copy is court, pair, session. Use: *play the glass, stay light, club night.* Not warrior kanji, not luxury clubhouse.
+- [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only.
+- [ ] Men v2: **Reef Trio** (3 color · seafoam → sky → periwinkle) and **Dual Glass** (2 color · teal → periwinkle).
+- [ ] Women v2: **Clay Bloom** (3 color · peach → rose → lilac) and **Dual Sherbet** (2 color · apricot → pistachio). Skirt is women-only.
+- [ ] v1 one-hue washes (Glass Court, Harbor Haze, Sunrise Clay, Lemon Sherbet) stay in the archive bay. New samples must show 2 or 3 distinct pastels.
+- [ ] Do not put a men's fade on a women's cut or the reverse.
+- [ ] Binding / collar / waistband stay inside the same pastel family. No black logo patch.
+
+### Shopee title
+
+`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Reef Trio|Dual Glass|Clay Bloom|Dual Sherbet]`
+
+### Store VM
+
+- [ ] Own padel fixture or endcap. Men cool fades left, women warm fades + skirts right.
+- [ ] Do not hang next to 龍 shorts or sakura belts without a break.
+
+---
+
 ## 9. Photography, stories, UGC (all accounts)
 
 - [ ] Filters: no luxury gold grade, no heavy pink-glow spa grade. Skin and fabric stay honest.
@@ -366,20 +396,18 @@ Do not launch three line stories in the same week on the same account.
 
 ---
 
----
-
 ## 12. Logo transition (read before the next PO)
 
-The closed hexagon is leaving. New work uses the **wordmark first**; the new CN arrives only on new items. Full methods: [`logo-transition.md`](logo-transition.md).
+The original closed hexagon is leaving new work unless Method B (heritage) is circled. New work uses the **wordmark first**; a locked mark arrives only on new items. Full methods: [`logo-transition.md`](logo-transition.md).
 
-Default if brand lead has not circled another method: **Method A — Wordmark Bridge**.
+Default if brand lead has not circled another method: **Method A — Wordmark Bridge**. No public master is locked yet.
 
-- [ ] Next PO tech packs have **no** closed hexagon.
-- [ ] Unsold hex inventory sells through — do not scrap, do not reprint the hex on a restock.
-- [ ] One public CN locked (default: Core Cut). Do not put studio concepts 02–10 on a shop SKU.
-- [ ] Old hex and new CN never share one product face.
+- [ ] Next PO tech packs have **no** original closed hexagon (unless Method B is circled).
+- [ ] Unsold hex inventory sells through — do not scrap, do not reprint the original hex on a restock.
+- [ ] One public mark locked before Phase 2 (a new system **or** one heritage hex). Studio explorations stay off shop SKUs.
+- [ ] Original hex and a new/heritage mark never share one product face.
 - [ ] No “rebrand / new logo / new era” copy on Shopee or IG. Show the product.
-- [ ] Shopee shop mark + IG avatars match the current phase (word only, or word + small CN).
+- [ ] Shopee shop mark + IG avatars match the current phase (word only, or word + small mark).
 
 ---
 

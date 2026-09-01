@@ -10,7 +10,7 @@
 
 The old mark is the **closed hexagon around an N**. Regulars have seen it on belts, hems, hangtags, Shopee thumbnails, and store fixtures since the brand started.
 
-The new mark is a **deliberate C with an N inside** (master: Core Cut). Do not put ten concepts on product. Lock one shape, then change how it *appears*.
+The studio now has two families and **no locked master**: six new systems (CN abstraction + core anatomy) and five hexagon heritage variations. Do not put the whole board on product. Lock one shape, then change how it *appears*.
 
 Your working plan is already a real method:
 
@@ -27,9 +27,9 @@ That is **Method A (Wordmark Bridge)**. The methods below are different ways to 
 | Lock | Rule |
 |------|------|
 | Name | `CORENATION` or `CORE NATION` — all caps, wide sans. Letter A may use the diagonal-cut A from the belt samples. |
-| New mark | One locked CN (default: Core Cut). Cream / white / black only. |
-| Old mark | Sell through existing stock. Do not reprint the closed hex on a restock. |
-| One face | Never old hex + new CN on the same product panel. |
+| New mark | One locked direction after selection — a new system **or** one heritage hex. Cream / white / black only. |
+| Old mark | Sell through existing stock. Do not reprint the original closed hex on a restock. |
+| One face | Never the original hex + a new/heritage mark on the same product panel. |
 | Voice | Do not say *rebrand, reborn, luxury refresh, new era*. Say the product name. The logo change is not the campaign. |
 | Inventory | Dept-store apparel and unsold accs keep whatever mark they shipped with. |
 | Clubs | Padel kits already cut keep the hex. New club POs follow the method you pick. |
@@ -70,23 +70,23 @@ hex OFF  →   CORENATION only   →    CORENATION + small CN
 
 ---
 
-## Method B — Evolutionary morph
+## Method B — Heritage refresh
 
-**Idea:** Do not kill the hex. Open it until it *is* a C.
+**Idea:** Do not kill the hex. Stay in the closed-badge family and ship **one** of H1–H5 (Heritage, Emboss, Inline, Facet, Sideline).
 
 ```
-closed hex  →  slightly open right side  →  Core Cut (clear C + N)
+original closed hex  →  one heritage variation, same seat
 ```
 
-- Restocks and new POs use **one step more open** than the last shipment — not a new invention each time.
-- Keep the same cream fill, same size, same belt seat. Only the right-side aperture changes.
-- Stop when it matches the locked Core Cut SVG. Do not wander into Seal / Orbit / Wedge on product.
+- Pick one variation from `assets/logo/hexagon/`. Emboss (H2) is the safest for rubber patches and tonal black-on-black.
+- Keep the same cream fill, same size, same belt seat. Only outline, stance, or N construction changes.
+- Do not rotate through all five hexes on consecutive POs. One lock, then stop.
 
 **Use when:** Brand lead wants regulars to still “see Corenation” in the silhouette.
 
 **Skip when:** You are tired of the hex and want it gone now (that is Method A).
 
-**Risk:** A half-open hex looks like a damaged stamp. If you choose this, jump in **two steps max**, not five.
+**Risk:** Shoppers may not notice a heritage refresh. That is fine if the goal is continuity, not a new-mark story.
 
 ---
 
@@ -118,7 +118,7 @@ closed hex  →  slightly open right side  →  Core Cut (clear C + N)
 
 **Use when:** You want zero “they changed the logo” comments. Regulars notice the word, not a new drawing.
 
-**Pairs with:** Method A. Do not pair with Method B (morph needs the same seat).
+**Pairs with:** Method A. Do not pair with Method B (heritage needs the same seat).
 
 ---
 
@@ -203,7 +203,7 @@ The letters **C** and **N** become the logo before the monogram returns. Then th
 
 ## What we recommend for this brand
 
-Run **A + D + G**, in that order. Do not run B (morph) at the same time.
+Run **A + D + G**, in that order, once a new-system mark is locked. Do not run B (heritage) at the same time.
 
 | Step | Do | Do not |
 |------|----|--------|
@@ -211,7 +211,7 @@ Run **A + D + G**, in that order. Do not run B (morph) at the same time.
 | **This season** | New CN only on hangtags / care labels, then on **one** new drop, in a **new** seat, 8–12mm. | Do not put CN on a restock of a hex SKU. Do not ship two CN concepts. |
 | **Next season** | CN may sit in the old hex seat if the small stamp already feels normal. Or keep the split system (word = face, CN = stamp). | Do not grow the CN into an all-over monogram. |
 
-**Lock the public mark now:** Core Cut (`assets/logo/corenation-cn-logo.svg`). Interlock / Shield / Stamp may stay in the studio for equipment or chop experiments — they are not the shop logo.
+**Do not lock a public mark yet.** Continuum is only the temporary hub icon. Circle one direction (a new system **or** one heritage hex) before Phase 2. Studio explorations stay off shop SKUs.
 
 ---
 
@@ -261,9 +261,9 @@ hardware → small CN (or CN on buckle-back) → vertical JP → `CORENATION` �
 ## Staff ticks (owner: brand lead)
 
 - [ ] One method letter circled (A–I). Default if blank: **A**.
-- [ ] Public CN locked (Core Cut unless brand lead writes another).
-- [ ] Factory list: which open POs still have the hex (those ship; they are not redone).
-- [ ] Next PO tech packs have **no** closed hex.
+- [ ] Public mark locked (one new system **or** one heritage hex) before Phase 2. Until then, wordmark only.
+- [ ] Factory list: which open POs still have the original hex (those ship; they are not redone).
+- [ ] Next PO tech packs have **no** original closed hex unless Method B is circled.
 - [ ] Shopee shop logo + three IG avatars queued to the same phase.
 - [ ] Hangtag / care label reprint uses wordmark; CN only if you are already in Phase 2.
 - [ ] Store VM brief: sell through hex product; new cards are word-only.
