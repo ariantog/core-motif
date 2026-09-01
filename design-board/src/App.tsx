@@ -316,17 +316,18 @@ function App() {
             <h2>Running shirts &amp; tanks</h2>
             <p className="lede">
               v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
-              heatmap, suminagashi, watercolor wash. 走 is printed in the dye. Each drop is a folder under{' '}
-              <code>assets/culture-run/</code>. Use <code>print-bg.png</code> when you need to move kanji or logos;
-              keep <code>print.png</code> as the locked composite.
+              heatmap, suminagashi, watercolor wash. Drops live under{' '}
+              <code>assets/culture-run/01-wave</code> … <code>05-watercolor</code>. Use{' '}
+              <code>background-clean.png</code> when you need to move kanji or logos; keep{' '}
+              <code>print.png</code> as the locked composite.
             </p>
             <MockGrid items={cultureMockups} />
           </section>
           <section>
             <h2>Backgrounds only (no kanji / logo)</h2>
             <p className="lede">
-              Same drop, texture only. Drop 走 / 山 and the hex C or CN mark from{' '}
-              <code>assets/culture-run/_layers/</code> on top in any position.
+              Same drop, texture only — no logo, no kanji, no slogans. Place 走 / 山 and the hex C or CN
+              mark from <code>assets/culture-run/layers/</code> on top in any position.
             </p>
             <MockGrid items={cultureBackgrounds} />
           </section>

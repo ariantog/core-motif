@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Transparent kanji + logo layers for compositing on Culture Run print-bg.png files."""
+"""Transparent kanji + logo layers for compositing on Culture Run background-clean.png files."""
 
 from __future__ import annotations
 
@@ -10,7 +10,8 @@ import cairosvg
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-LAYER_DIR = ROOT / "assets" / "culture-run" / "_layers"
+KANJI_DIR = ROOT / "assets" / "culture-run" / "layers" / "kanji"
+LOGO_DIR = ROOT / "assets" / "culture-run" / "layers" / "logos"
 CREAM = (214, 207, 181, 255)
 INK = (10, 10, 10, 255)
 WHITE = (255, 255, 255, 255)
@@ -103,27 +104,28 @@ def concept_png(paths: list[str], fill: str, dest: Path, px: int = 800) -> None:
 
 
 def main() -> None:
-    LAYER_DIR.mkdir(parents=True, exist_ok=True)
+    KANJI_DIR.mkdir(parents=True, exist_ok=True)
+    LOGO_DIR.mkdir(parents=True, exist_ok=True)
 
-    save(glyph("走", CREAM), LAYER_DIR / "so-run-cream.png")
-    save(glyph("走", INK), LAYER_DIR / "so-run-ink.png")
-    save(glyph("走", WHITE), LAYER_DIR / "so-run-white.png")
-    save(glyph("走", GOLD), LAYER_DIR / "so-run-gold.png")
-    save(glyph("走", ROSE), LAYER_DIR / "so-run-rose.png")
+    save(glyph("走", CREAM), KANJI_DIR / "so-run-cream.png")
+    save(glyph("走", INK), KANJI_DIR / "so-run-ink.png")
+    save(glyph("走", WHITE), KANJI_DIR / "so-run-white.png")
+    save(glyph("走", GOLD), KANJI_DIR / "so-run-gold.png")
+    save(glyph("走", ROSE), KANJI_DIR / "so-run-rose.png")
 
-    save(glyph("山", CREAM), LAYER_DIR / "san-mountain-cream.png")
-    save(glyph("山", INK), LAYER_DIR / "san-mountain-ink.png")
-    save(glyph("山", WHITE), LAYER_DIR / "san-mountain-white.png")
-    save(glyph("山", GOLD), LAYER_DIR / "san-mountain-gold.png")
+    save(glyph("山", CREAM), KANJI_DIR / "san-mountain-cream.png")
+    save(glyph("山", INK), KANJI_DIR / "san-mountain-ink.png")
+    save(glyph("山", WHITE), KANJI_DIR / "san-mountain-white.png")
+    save(glyph("山", GOLD), KANJI_DIR / "san-mountain-gold.png")
 
-    save(hex_c(CREAM), LAYER_DIR / "hex-c-cream.png")
-    save(hex_c(INK), LAYER_DIR / "hex-c-ink.png")
-    save(hex_c(WHITE), LAYER_DIR / "hex-c-white.png")
-    save(hex_c(GOLD), LAYER_DIR / "hex-c-gold.png")
+    save(hex_c(CREAM), LOGO_DIR / "hex-c-cream.png")
+    save(hex_c(INK), LOGO_DIR / "hex-c-ink.png")
+    save(hex_c(WHITE), LOGO_DIR / "hex-c-white.png")
+    save(hex_c(GOLD), LOGO_DIR / "hex-c-gold.png")
 
     hex_colors = {"cream": "#D6CFB5", "ink": "#0A0A0A", "white": "#FFFFFF", "gold": "#D4AF37"}
     for name, fill in hex_colors.items():
-        concept_png(CONCEPTS["01-core-cut"], fill, LAYER_DIR / f"cn-core-cut-{name}.png")
+        concept_png(CONCEPTS["01-core-cut"], fill, LOGO_DIR / f"cn-core-cut-{name}.png")
 
 
 if __name__ == "__main__":
