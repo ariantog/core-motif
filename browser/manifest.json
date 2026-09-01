@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T06:20:33Z",
+  "generatedAt": "2026-09-01T07:27:48Z",
   "root": [
     {
       "type": "dir",
@@ -858,6 +858,245 @@
                   "type": "image",
                   "name": "05-sideline.svg",
                   "path": "assets/logo/hexagon/05-sideline.svg"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "readable",
+              "path": "assets/logo/readable",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "reference",
+                  "path": "assets/logo/readable/reference",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "a-track-active.png",
+                      "path": "assets/logo/readable/reference/a-track-active.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "a-track-active.svg",
+                      "path": "assets/logo/readable/reference/a-track-active.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "b-track.png",
+                      "path": "assets/logo/readable/reference/b-track.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "b-track.svg",
+                      "path": "assets/logo/readable/reference/b-track.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "c-stack-active.png",
+                      "path": "assets/logo/readable/reference/c-stack-active.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "c-stack-active.svg",
+                      "path": "assets/logo/readable/reference/c-stack-active.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "d-core-lead.png",
+                      "path": "assets/logo/readable/reference/d-core-lead.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "d-core-lead.svg",
+                      "path": "assets/logo/readable/reference/d-core-lead.svg"
+                    },
+                    {
+                      "type": "image",
+                      "name": "e-core-block.png",
+                      "path": "assets/logo/readable/reference/e-core-block.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "e-core-block.svg",
+                      "path": "assets/logo/readable/reference/e-core-block.svg"
+                    }
+                  ]
+                },
+                {
+                  "type": "image",
+                  "name": "01-slash-track-black.svg",
+                  "path": "assets/logo/readable/01-slash-track-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "01-slash-track-cream.svg",
+                  "path": "assets/logo/readable/01-slash-track-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "01-slash-track-white.svg",
+                  "path": "assets/logo/readable/01-slash-track-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "01-slash-track.png",
+                  "path": "assets/logo/readable/01-slash-track.png"
+                },
+                {
+                  "type": "image",
+                  "name": "01-slash-track.svg",
+                  "path": "assets/logo/readable/01-slash-track.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-slash-active-black.svg",
+                  "path": "assets/logo/readable/02-slash-active-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-slash-active-cream.svg",
+                  "path": "assets/logo/readable/02-slash-active-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-slash-active-white.svg",
+                  "path": "assets/logo/readable/02-slash-active-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "02-slash-active.png",
+                  "path": "assets/logo/readable/02-slash-active.png"
+                },
+                {
+                  "type": "image",
+                  "name": "02-slash-active.svg",
+                  "path": "assets/logo/readable/02-slash-active.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-slash-stack-black.svg",
+                  "path": "assets/logo/readable/03-slash-stack-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-slash-stack-cream.svg",
+                  "path": "assets/logo/readable/03-slash-stack-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-slash-stack-white.svg",
+                  "path": "assets/logo/readable/03-slash-stack-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "03-slash-stack.png",
+                  "path": "assets/logo/readable/03-slash-stack.png"
+                },
+                {
+                  "type": "image",
+                  "name": "03-slash-stack.svg",
+                  "path": "assets/logo/readable/03-slash-stack.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-slash-stack-active-black.svg",
+                  "path": "assets/logo/readable/04-slash-stack-active-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-slash-stack-active-cream.svg",
+                  "path": "assets/logo/readable/04-slash-stack-active-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-slash-stack-active-white.svg",
+                  "path": "assets/logo/readable/04-slash-stack-active-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "04-slash-stack-active.png",
+                  "path": "assets/logo/readable/04-slash-stack-active.png"
+                },
+                {
+                  "type": "image",
+                  "name": "04-slash-stack-active.svg",
+                  "path": "assets/logo/readable/04-slash-stack-active.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-core-lead-black.svg",
+                  "path": "assets/logo/readable/05-core-lead-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-core-lead-cream.svg",
+                  "path": "assets/logo/readable/05-core-lead-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-core-lead-white.svg",
+                  "path": "assets/logo/readable/05-core-lead-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "05-core-lead.png",
+                  "path": "assets/logo/readable/05-core-lead.png"
+                },
+                {
+                  "type": "image",
+                  "name": "05-core-lead.svg",
+                  "path": "assets/logo/readable/05-core-lead.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-core-block-black.svg",
+                  "path": "assets/logo/readable/06-core-block-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-core-block-cream.svg",
+                  "path": "assets/logo/readable/06-core-block-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-core-block-white.svg",
+                  "path": "assets/logo/readable/06-core-block-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "06-core-block.png",
+                  "path": "assets/logo/readable/06-core-block.png"
+                },
+                {
+                  "type": "image",
+                  "name": "06-core-block.svg",
+                  "path": "assets/logo/readable/06-core-block.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "slash-c-black.svg",
+                  "path": "assets/logo/readable/slash-c-black.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "slash-c-cream.svg",
+                  "path": "assets/logo/readable/slash-c-cream.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "slash-c-white.svg",
+                  "path": "assets/logo/readable/slash-c-white.svg"
+                },
+                {
+                  "type": "image",
+                  "name": "slash-c.png",
+                  "path": "assets/logo/readable/slash-c.png"
+                },
+                {
+                  "type": "image",
+                  "name": "slash-c.svg",
+                  "path": "assets/logo/readable/slash-c.svg"
                 }
               ]
             },
@@ -1732,6 +1971,31 @@
               ]
             }
           ]
+        },
+        {
+          "type": "file",
+          "name": "LOGO CORENATION A.pdf",
+          "path": "assets/LOGO CORENATION A.pdf"
+        },
+        {
+          "type": "file",
+          "name": "LOGO CORENATION B.pdf",
+          "path": "assets/LOGO CORENATION B.pdf"
+        },
+        {
+          "type": "file",
+          "name": "LOGO CORENATION C.pdf",
+          "path": "assets/LOGO CORENATION C.pdf"
+        },
+        {
+          "type": "file",
+          "name": "LOGO CORENATION D.pdf",
+          "path": "assets/LOGO CORENATION D.pdf"
+        },
+        {
+          "type": "file",
+          "name": "LOGO CORENATION E.pdf",
+          "path": "assets/LOGO CORENATION E.pdf"
         },
         {
           "type": "markdown",
@@ -2611,6 +2875,245 @@
                       ]
                     },
                     {
+                      "type": "dir",
+                      "name": "readable",
+                      "path": "design-board/public/assets/logo/readable",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "reference",
+                          "path": "design-board/public/assets/logo/readable/reference",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "a-track-active.png",
+                              "path": "design-board/public/assets/logo/readable/reference/a-track-active.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "a-track-active.svg",
+                              "path": "design-board/public/assets/logo/readable/reference/a-track-active.svg"
+                            },
+                            {
+                              "type": "image",
+                              "name": "b-track.png",
+                              "path": "design-board/public/assets/logo/readable/reference/b-track.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "b-track.svg",
+                              "path": "design-board/public/assets/logo/readable/reference/b-track.svg"
+                            },
+                            {
+                              "type": "image",
+                              "name": "c-stack-active.png",
+                              "path": "design-board/public/assets/logo/readable/reference/c-stack-active.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "c-stack-active.svg",
+                              "path": "design-board/public/assets/logo/readable/reference/c-stack-active.svg"
+                            },
+                            {
+                              "type": "image",
+                              "name": "d-core-lead.png",
+                              "path": "design-board/public/assets/logo/readable/reference/d-core-lead.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "d-core-lead.svg",
+                              "path": "design-board/public/assets/logo/readable/reference/d-core-lead.svg"
+                            },
+                            {
+                              "type": "image",
+                              "name": "e-core-block.png",
+                              "path": "design-board/public/assets/logo/readable/reference/e-core-block.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "e-core-block.svg",
+                              "path": "design-board/public/assets/logo/readable/reference/e-core-block.svg"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-slash-track-black.svg",
+                          "path": "design-board/public/assets/logo/readable/01-slash-track-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-slash-track-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/01-slash-track-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-slash-track-white.svg",
+                          "path": "design-board/public/assets/logo/readable/01-slash-track-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-slash-track.png",
+                          "path": "design-board/public/assets/logo/readable/01-slash-track.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "01-slash-track.svg",
+                          "path": "design-board/public/assets/logo/readable/01-slash-track.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-slash-active-black.svg",
+                          "path": "design-board/public/assets/logo/readable/02-slash-active-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-slash-active-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/02-slash-active-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-slash-active-white.svg",
+                          "path": "design-board/public/assets/logo/readable/02-slash-active-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-slash-active.png",
+                          "path": "design-board/public/assets/logo/readable/02-slash-active.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "02-slash-active.svg",
+                          "path": "design-board/public/assets/logo/readable/02-slash-active.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-slash-stack-black.svg",
+                          "path": "design-board/public/assets/logo/readable/03-slash-stack-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-slash-stack-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/03-slash-stack-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-slash-stack-white.svg",
+                          "path": "design-board/public/assets/logo/readable/03-slash-stack-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-slash-stack.png",
+                          "path": "design-board/public/assets/logo/readable/03-slash-stack.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "03-slash-stack.svg",
+                          "path": "design-board/public/assets/logo/readable/03-slash-stack.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-slash-stack-active-black.svg",
+                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-slash-stack-active-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-slash-stack-active-white.svg",
+                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-slash-stack-active.png",
+                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "04-slash-stack-active.svg",
+                          "path": "design-board/public/assets/logo/readable/04-slash-stack-active.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-core-lead-black.svg",
+                          "path": "design-board/public/assets/logo/readable/05-core-lead-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-core-lead-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/05-core-lead-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-core-lead-white.svg",
+                          "path": "design-board/public/assets/logo/readable/05-core-lead-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-core-lead.png",
+                          "path": "design-board/public/assets/logo/readable/05-core-lead.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "05-core-lead.svg",
+                          "path": "design-board/public/assets/logo/readable/05-core-lead.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-core-block-black.svg",
+                          "path": "design-board/public/assets/logo/readable/06-core-block-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-core-block-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/06-core-block-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-core-block-white.svg",
+                          "path": "design-board/public/assets/logo/readable/06-core-block-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-core-block.png",
+                          "path": "design-board/public/assets/logo/readable/06-core-block.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "06-core-block.svg",
+                          "path": "design-board/public/assets/logo/readable/06-core-block.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "slash-c-black.svg",
+                          "path": "design-board/public/assets/logo/readable/slash-c-black.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "slash-c-cream.svg",
+                          "path": "design-board/public/assets/logo/readable/slash-c-cream.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "slash-c-white.svg",
+                          "path": "design-board/public/assets/logo/readable/slash-c-white.svg"
+                        },
+                        {
+                          "type": "image",
+                          "name": "slash-c.png",
+                          "path": "design-board/public/assets/logo/readable/slash-c.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "slash-c.svg",
+                          "path": "design-board/public/assets/logo/readable/slash-c.svg"
+                        }
+                      ]
+                    },
+                    {
                       "type": "image",
                       "name": "corenation-cn-logo-black.svg",
                       "path": "design-board/public/assets/logo/corenation-cn-logo-black.svg"
@@ -3483,6 +3986,31 @@
                   ]
                 },
                 {
+                  "type": "file",
+                  "name": "LOGO CORENATION A.pdf",
+                  "path": "design-board/public/assets/LOGO CORENATION A.pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "LOGO CORENATION B.pdf",
+                  "path": "design-board/public/assets/LOGO CORENATION B.pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "LOGO CORENATION C.pdf",
+                  "path": "design-board/public/assets/LOGO CORENATION C.pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "LOGO CORENATION D.pdf",
+                  "path": "design-board/public/assets/LOGO CORENATION D.pdf"
+                },
+                {
+                  "type": "file",
+                  "name": "LOGO CORENATION E.pdf",
+                  "path": "design-board/public/assets/LOGO CORENATION E.pdf"
+                },
+                {
                   "type": "markdown",
                   "name": "README.md",
                   "path": "design-board/public/assets/README.md"
@@ -3697,6 +4225,11 @@
           "type": "markdown",
           "name": "padel-collection.md",
           "path": "docs/padel-collection.md"
+        },
+        {
+          "type": "markdown",
+          "name": "readable-wordmark.md",
+          "path": "docs/readable-wordmark.md"
         }
       ]
     },
@@ -3709,6 +4242,11 @@
           "type": "file",
           "name": "build-site.sh",
           "path": "scripts/build-site.sh"
+        },
+        {
+          "type": "file",
+          "name": "build_readable_wordmarks.py",
+          "path": "scripts/build_readable_wordmarks.py"
         },
         {
           "type": "file",

@@ -68,6 +68,8 @@ header {
   height: 40px;
   flex-shrink: 0;
   color: var(--cream);
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .section-lead {
@@ -215,6 +217,44 @@ header {
   text-transform: uppercase;
 }
 
+.wordmark-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.wordmark-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.wordmark-card.recommended {
+  border-color: var(--gold);
+}
+
+.wordmark-preview {
+  position: relative;
+  min-height: 160px;
+  background: #090909;
+  display: grid;
+  place-items: center;
+  padding: 1.4rem 1.2rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.wordmark-preview.ref {
+  background: #f4f1ea;
+}
+
+.wordmark-preview img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+}
+
 .phase-row {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -318,7 +358,8 @@ header {
 @media (max-width: 720px) {
   .concept-grid,
   .method-grid,
-  .phase-row {
+  .phase-row,
+  .wordmark-grid {
     grid-template-columns: 1fr;
   }
 

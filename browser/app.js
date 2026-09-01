@@ -3,7 +3,19 @@ const navItems = [...document.querySelectorAll('.nav-item')]
 const jumpCards = [...document.querySelectorAll('[data-jump]')]
 
 const logos = [
-  { title: 'Continuum', note: 'CN abstraction · fluid', path: 'assets/logo/concepts/01-continuum.svg' },
+  { title: 'Slash Track', note: 'Primary readable · one-line CORENATION', path: 'assets/logo/readable/01-slash-track.png' },
+  { title: 'Slash Active', note: 'Track + ACTIVEWEAR', path: 'assets/logo/readable/02-slash-active.png' },
+  { title: 'Slash Stack', note: 'CORE over NATION', path: 'assets/logo/readable/03-slash-stack.png' },
+  { title: 'Stack Active', note: 'Stack + ACTIVEWEAR', path: 'assets/logo/readable/04-slash-stack-active.png' },
+  { title: 'Core Lead', note: 'Heavy CORE over NATION', path: 'assets/logo/readable/05-core-lead.png' },
+  { title: 'Core Block', note: 'CO / RE / NATION', path: 'assets/logo/readable/06-core-block.png' },
+  { title: 'Slash C', note: 'Letter only · favicon / pull', path: 'assets/logo/readable/slash-c.png' },
+  { title: 'Ref A', note: 'Uploaded · track + active', path: 'assets/logo/readable/reference/a-track-active.png' },
+  { title: 'Ref B', note: 'Uploaded · track', path: 'assets/logo/readable/reference/b-track.png' },
+  { title: 'Ref C', note: 'Uploaded · stack + active', path: 'assets/logo/readable/reference/c-stack-active.png' },
+  { title: 'Ref D', note: 'Uploaded · core lead', path: 'assets/logo/readable/reference/d-core-lead.png' },
+  { title: 'Ref E', note: 'Uploaded · core block', path: 'assets/logo/readable/reference/e-core-block.png' },
+  { title: 'Continuum', note: 'Later · CN abstraction · fluid', path: 'assets/logo/concepts/01-continuum.svg' },
   { title: 'Fold', note: 'CN abstraction · angular', path: 'assets/logo/concepts/02-fold.svg' },
   { title: 'Counterform', note: 'CN abstraction · negative space', path: 'assets/logo/concepts/03-counterform.svg' },
   { title: 'Linea', note: 'Core anatomy · pure symbol', path: 'assets/logo/concepts/04-linea.svg' },
@@ -27,6 +39,7 @@ const designFilters = [
 ]
 
 const docs = [
+  { title: 'Readable wordmark', path: 'docs/readable-wordmark.md' },
   { title: 'Logo transition', path: 'docs/logo-transition.md' },
   { title: 'Padel collection', path: 'docs/padel-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
