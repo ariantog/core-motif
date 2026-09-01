@@ -6,7 +6,8 @@ const piece = (gender: 'men' | 'women', story: string, file: string) =>
 
 export const padelRules = [
   { lock: 'No marks', flower: 'No kanji, no hex C, no CORENATION wordmark, no club badge' },
-  { lock: '2–3 hues', flower: 'New drops must show two or three distinct pastels. White-to-one-color is v1 only' },
+  { lock: 'Directional color', flower: 'Use diagonal, curved, side-swept, or radial fields—not another stacked fade' },
+  { lock: 'Pattern restraint', flower: 'Dots, mesh, dashes, or pinlines may live only inside a narrow color transition' },
   { lock: 'Split the court', flower: 'Men stay cool mint / teal / periwinkle. Women stay peach / rose / pistachio. Never mix on one SKU' },
   { lock: 'Women extras', flower: 'Skirt / skort is women-only. Men stay polo, tee, tank, shorts' },
 ]
@@ -45,7 +46,53 @@ export const padelWomenMultiPalette = [
   { hex: '#C8D888', name: 'Pistachio #C8D888' },
 ]
 
+export const padelMenDirectionalPalette = [
+  { hex: '#86D2C4', name: 'Crosscourt seafoam #86D2C4' },
+  { hex: '#84B9E6', name: 'Crosscourt sky #84B9E6' },
+  { hex: '#AAA0DB', name: 'Crosscourt violet #AAA0DB' },
+  { hex: '#8EC8D0', name: 'Orbit aqua #8EC8D0' },
+  { hex: '#9BD5B1', name: 'Orbit mint #9BD5B1' },
+  { hex: '#ACA4D8', name: 'Orbit violet #ACA4D8' },
+]
+
+export const padelWomenDirectionalPalette = [
+  { hex: '#F1B49B', name: 'Ribbon peach #F1B49B' },
+  { hex: '#E6A2C0', name: 'Ribbon rose #E6A2C0' },
+  { hex: '#C0AFE0', name: 'Ribbon lilac #C0AFE0' },
+  { hex: '#CAD98F', name: 'Halo pistachio #CAD98F' },
+  { hex: '#F0B49D', name: 'Halo peach #F0B49D' },
+  { hex: '#C7B5DF', name: 'Halo lilac #C7B5DF' },
+]
+
 export const padelStories = [
+  {
+    id: 'crosscourt-mesh',
+    gender: 'men' as const,
+    name: 'Crosscourt Mesh',
+    fade: 'v3 · diagonal fields · seafoam / sky / periwinkle',
+    note: 'Diamond-net dissolve appears only at one angled transition.',
+  },
+  {
+    id: 'orbit-serve',
+    gender: 'men' as const,
+    name: 'Orbit Serve',
+    fade: 'v3 · off-center radial · aqua / mint / periwinkle',
+    note: 'Overlapping halos with four restrained trajectory pinlines.',
+  },
+  {
+    id: 'rally-ribbon',
+    gender: 'women' as const,
+    name: 'Rally Ribbon',
+    fade: 'v3 · S-curve fields · peach / rose / lilac',
+    note: 'Flowing color path with a small micro-dash dissolve.',
+  },
+  {
+    id: 'halo-serve',
+    gender: 'women' as const,
+    name: 'Halo Serve',
+    fade: 'v3 · side-origin arcs · pistachio / peach / lilac',
+    note: 'Offset oval fields with two short rows of curved ticks.',
+  },
   {
     id: 'glass-court',
     gender: 'men' as const,
@@ -150,4 +197,28 @@ export const padelWomenMultiMockups: Mockup[] = [
   { src: piece('women', 'dual-sherbet', 'tank.png'), title: 'Dual Sherbet tank', type: 'Women tank · 2 color · apricot → pistachio', line: 'padel' },
   { src: piece('women', 'dual-sherbet', 'shorts.png'), title: 'Dual Sherbet shorts', type: 'Women shorts · 2 color · apricot → pistachio', line: 'padel' },
   { src: piece('women', 'dual-sherbet', 'skirt.png'), title: 'Dual Sherbet skirt', type: 'Women skirt · 2 color · apricot → pistachio', line: 'padel' },
+]
+
+export const padelMenDirectionalMockups: Mockup[] = [
+  { src: piece('men', 'crosscourt-mesh', 'polo.png'), title: 'Crosscourt Mesh polo', type: 'Men polo · diagonal + net dissolve', line: 'padel' },
+  { src: piece('men', 'crosscourt-mesh', 'tee.png'), title: 'Crosscourt Mesh tee', type: 'Men tee · diagonal + net dissolve', line: 'padel' },
+  { src: piece('men', 'crosscourt-mesh', 'tank.png'), title: 'Crosscourt Mesh tank', type: 'Men tank · diagonal + net dissolve', line: 'padel' },
+  { src: piece('men', 'crosscourt-mesh', 'shorts.png'), title: 'Crosscourt Mesh shorts', type: 'Men shorts · diagonal + net dissolve', line: 'padel' },
+  { src: piece('men', 'orbit-serve', 'polo.png'), title: 'Orbit Serve polo', type: 'Men polo · off-center halo + pinlines', line: 'padel' },
+  { src: piece('men', 'orbit-serve', 'tee.png'), title: 'Orbit Serve tee', type: 'Men tee · off-center halo + pinlines', line: 'padel' },
+  { src: piece('men', 'orbit-serve', 'tank.png'), title: 'Orbit Serve tank', type: 'Men tank · off-center halo + pinlines', line: 'padel' },
+  { src: piece('men', 'orbit-serve', 'shorts.png'), title: 'Orbit Serve shorts', type: 'Men shorts · off-center halo + pinlines', line: 'padel' },
+]
+
+export const padelWomenDirectionalMockups: Mockup[] = [
+  { src: piece('women', 'rally-ribbon', 'polo.png'), title: 'Rally Ribbon polo', type: 'Women polo · S-curve + dash dissolve', line: 'padel' },
+  { src: piece('women', 'rally-ribbon', 'tee.png'), title: 'Rally Ribbon tee', type: 'Women tee · S-curve + dash dissolve', line: 'padel' },
+  { src: piece('women', 'rally-ribbon', 'tank.png'), title: 'Rally Ribbon tank', type: 'Women tank · S-curve + dash dissolve', line: 'padel' },
+  { src: piece('women', 'rally-ribbon', 'shorts.png'), title: 'Rally Ribbon shorts', type: 'Women shorts · S-curve + dash dissolve', line: 'padel' },
+  { src: piece('women', 'rally-ribbon', 'skirt.png'), title: 'Rally Ribbon skirt', type: 'Women skirt · S-curve + dash dissolve', line: 'padel' },
+  { src: piece('women', 'halo-serve', 'polo.png'), title: 'Halo Serve polo', type: 'Women polo · radial arcs + transition ticks', line: 'padel' },
+  { src: piece('women', 'halo-serve', 'tee.png'), title: 'Halo Serve tee', type: 'Women tee · radial arcs + transition ticks', line: 'padel' },
+  { src: piece('women', 'halo-serve', 'tank.png'), title: 'Halo Serve tank', type: 'Women tank · radial arcs + transition ticks', line: 'padel' },
+  { src: piece('women', 'halo-serve', 'shorts.png'), title: 'Halo Serve shorts', type: 'Women shorts · radial arcs + transition ticks', line: 'padel' },
+  { src: piece('women', 'halo-serve', 'skirt.png'), title: 'Halo Serve skirt', type: 'Women skirt · radial arcs + transition ticks', line: 'padel' },
 ]

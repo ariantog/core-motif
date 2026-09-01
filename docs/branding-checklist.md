@@ -340,6 +340,9 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 - [ ] Copy is court, pair, session. Use: *play the glass, stay light, club night.* Not warrior kanji, not luxury clubhouse.
 - [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only.
+- [ ] Men v3: **Crosscourt Mesh** (diagonal + net dissolve) and **Orbit Serve** (off-center halo + pinlines).
+- [ ] Women v3: **Rally Ribbon** (S-curve + micro dashes) and **Halo Serve** (side-origin arcs + transition ticks). Skirt is women-only.
+- [ ] Transition pattern is tonal, follows one color boundary, and covers no more than 12% of the garment face.
 - [ ] Men v2: **Reef Trio** (3 color · seafoam → sky → periwinkle) and **Dual Glass** (2 color · teal → periwinkle).
 - [ ] Women v2: **Clay Bloom** (3 color · peach → rose → lilac) and **Dual Sherbet** (2 color · apricot → pistachio). Skirt is women-only.
 - [ ] v1 one-hue washes (Glass Court, Harbor Haze, Sunrise Clay, Lemon Sherbet) stay in the archive bay. New samples must show 2 or 3 distinct pastels.
@@ -348,7 +351,7 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 ### Shopee title
 
-`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Reef Trio|Dual Glass|Clay Bloom|Dual Sherbet]`
+`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Crosscourt Mesh|Orbit Serve|Rally Ribbon|Halo Serve]`
 
 ### Store VM
 

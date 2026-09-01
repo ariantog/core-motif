@@ -14,11 +14,15 @@ assets/
     marks/                    flower sheets
   padel/
     men/
+      crosscourt-mesh/        diagonal fields + diamond-net dissolve
+      orbit-serve/            off-center halo + pinline arcs
       reef-trio/              3 color · seafoam → sky → periwinkle
       dual-glass/             2 color · teal → periwinkle
       glass-court/            v1 one-hue · ice → mint
       harbor-haze/            v1 one-hue · fog → teal
     women/
+      rally-ribbon/           S-curve fields + micro-dash dissolve (+ skirt)
+      halo-serve/             side-origin arcs + transition ticks (+ skirt)
       clay-bloom/             3 color · peach → rose → lilac (+ skirt)
       dual-sherbet/           2 color · apricot → pistachio (+ skirt)
       sunrise-clay/           v1 one-hue · ivory → peach clay (+ skirt)
@@ -43,6 +47,10 @@ Padel consumer kit (pastel fade, no kanji, no logo):
 
 | Folder | Who | Fade | Pieces |
 |--------|-----|------|--------|
+| `men/crosscourt-mesh` | Men | Diagonal seafoam / sky / periwinkle + diamond-net dissolve | polo, tee, tank, shorts |
+| `men/orbit-serve` | Men | Off-center aqua / mint / violet halo + pinline arcs | polo, tee, tank, shorts |
+| `women/rally-ribbon` | Women | Peach / rose / lilac S-curve + micro-dash dissolve | polo, tee, tank, shorts, skirt |
+| `women/halo-serve` | Women | Pistachio / peach / lilac side-origin arcs + transition ticks | polo, tee, tank, shorts, skirt |
 | `men/reef-trio` | Men | 3 color · seafoam → sky aqua → periwinkle | polo, tee, tank, shorts |
 | `men/dual-glass` | Men | 2 color · teal → periwinkle | polo, tee, tank, shorts |
 | `women/clay-bloom` | Women | 3 color · peach → dusty rose → lilac | polo, tee, tank, shorts, skirt |
