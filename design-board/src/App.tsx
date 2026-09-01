@@ -149,62 +149,80 @@ const logoConcepts = [
 
 const readableWordmarks = [
   {
-    id: 'W1',
-    name: 'Slash Track',
-    tag: 'Primary',
-    file: '01-slash-track.png',
-    svg: '01-slash-track.svg',
-    description: 'One-line CORENATION. Slashed C, circular O, separated R, clipped A. Default for Shopee, IG, hangtag, and belt.',
+    id: '01',
+    name: 'Open Set',
+    tag: 'Recommended',
+    file: '01-open-set.png',
+    svg: '01-open-set.svg',
+    description:
+      'Broad, unmistakable CORENATION with a quiet line under CORE. Ownable without making any letter harder to read.',
   },
   {
-    id: 'W2',
-    name: 'Slash Active',
-    tag: 'Hangtag',
-    file: '02-slash-active.png',
-    svg: '02-slash-active.svg',
-    description: 'Track plus a wide ACTIVEWEAR line. Hangtags, store cards, lookbook.',
+    id: '02',
+    name: 'Core / Nation',
+    tag: 'Meaning',
+    file: '02-core-nation.png',
+    svg: '02-core-nation.svg',
+    description:
+      'CORE carries the strength; NATION opens into community. One readable name, expressed with two weights.',
   },
   {
-    id: 'W3',
-    name: 'Slash Stack',
-    tag: 'Square',
-    file: '03-slash-stack.png',
-    svg: '03-slash-stack.svg',
-    description: 'CORE over NATION, same width. Avatars, hem labels, bags.',
+    id: '03',
+    name: 'Forward',
+    tag: 'Performance',
+    file: '03-forward.png',
+    svg: '03-forward.svg',
+    description:
+      'A forward-driving athletic wordmark on a tapered rail. Best for running, training campaigns, and team kit.',
   },
   {
-    id: 'W4',
-    name: 'Stack Active',
-    tag: 'Packaging',
-    file: '04-slash-stack-active.png',
-    svg: '04-slash-stack-active.svg',
-    description: 'Stack plus ACTIVEWEAR. Packaging and lookbook covers.',
+    id: '04',
+    name: 'Field',
+    tag: 'Equipment',
+    file: '04-field.png',
+    svg: '04-field.svg',
+    description:
+      'Tall, condensed and direct. Designed for belts, straps, waistbands, narrow labels, and court sidelines.',
   },
   {
-    id: 'W5',
-    name: 'Core Lead',
-    tag: 'Apparel',
-    file: '05-core-lead.png',
-    svg: '05-core-lead.svg',
-    description: 'Heavy CORE over a lighter NATION. Chest or back when CORE should lead.',
-  },
-  {
-    id: 'W6',
-    name: 'Core Block',
-    tag: 'Graphic',
-    file: '06-core-block.png',
-    svg: '06-core-block.svg',
-    description: 'CO / RE / NATION. Graphic tee and tote only. Not below 24mm.',
+    id: '05',
+    name: 'Everyday',
+    tag: 'Approachable',
+    file: '05-everyday.png',
+    svg: '05-everyday.svg',
+    description:
+      'A calm lowercase direction for women, hijab, recovery, and daily wear without losing the training backbone.',
   },
 ]
 
-const readableRefs = [
-  { id: 'A', name: 'Track + Active', file: 'a-track-active.png' },
-  { id: 'B', name: 'Track', file: 'b-track.png' },
-  { id: 'C', name: 'Stack + Active', file: 'c-stack-active.png' },
-  { id: 'D', name: 'Core lead', file: 'd-core-lead.png' },
-  { id: 'E', name: 'Core block', file: 'e-core-block.png' },
+const openSetLockups = [
+  {
+    id: 'P',
+    name: 'Primary',
+    tag: 'One line',
+    file: '01-open-set.png',
+    svg: '01-open-set.svg',
+    description: 'The default horizontal brand face.',
+  },
+  {
+    id: 'D',
+    name: 'With descriptor',
+    tag: 'Store / hangtag',
+    file: '01-open-set-active.png',
+    svg: '01-open-set-active.svg',
+    description: 'Adds ACTIVEWEAR / SURABAYA without changing the word.',
+  },
+  {
+    id: 'S',
+    name: 'Stacked',
+    tag: 'Square',
+    file: '01-open-set-stack.png',
+    svg: '01-open-set-stack.svg',
+    description: 'CORE over NATION for avatars, bags, and square spaces.',
+  },
 ]
+
+type Wordmark = (typeof readableWordmarks)[number] | (typeof openSetLockups)[number]
 
 const hexagonVariations = [
   {
@@ -259,10 +277,10 @@ type Concept = (typeof logoConcepts)[number] | (typeof hexagonVariations)[number
 function WordmarkCard({
   mark,
 }: {
-  mark: (typeof readableWordmarks)[number]
+  mark: Wordmark
 }) {
   return (
-    <article className={`wordmark-card${mark.id === 'W1' ? ' recommended' : ''}`}>
+    <article className={`wordmark-card${mark.id === '01' || mark.id === 'P' ? ' recommended' : ''}`}>
       <div className="wordmark-preview">
         <span className="concept-number">{mark.id}</span>
         <img src={asset(`assets/logo/readable/${mark.file}`)} alt={mark.name} />
@@ -356,8 +374,8 @@ function App() {
         <div className="brand-mark">
           <img
             className="brand-logo"
-            src={asset('assets/logo/readable/slash-c.png')}
-            alt="Corenation slashed C"
+            src={asset('assets/logo/readable/core-initial.png')}
+            alt="Corenation C"
           />
           <div>
             <h1>Corenation Design Studio</h1>
@@ -383,12 +401,12 @@ function App() {
       {tab === 'brand' && (
         <>
           <section>
-            <h2>Readable wordmarks — locked for new work</h2>
+            <h2>Readable wordmarks — new directions</h2>
             <p className="section-lead">
               Path: <strong>drop hex and coin</strong> → use a readable <strong>CORENATION</strong> → introduce a
-              new mark later, on new items only. Default lockup is Slash Track. Letter DNA from the uploaded A–E
-              boards: slashed C, circular O, separated R. Spec:{' '}
-              <code>docs/readable-wordmark.md</code>.
+              new mark later, on new items only. These five directions start over with professionally drawn,
+              outlined type and one idea each. <strong>Open Set is the recommendation</strong>, not a final lock
+              until you choose it. Spec: <code>docs/readable-wordmark.md</code>.
             </p>
             <div className="wordmark-grid">
               {readableWordmarks.map((mark) => (
@@ -396,34 +414,19 @@ function App() {
               ))}
             </div>
             <p className="logo-note">
-              Vectors in <code>assets/logo/readable/</code>. Favicon and small avatar use{' '}
-              <code>slash-c</code> — a letter, not a coin.
+              All vectors in <code>assets/logo/readable/</code> are outlined paths. No font install is required.
             </p>
           </section>
 
           <section>
-            <h2>Your uploaded references (A–E)</h2>
+            <h2>Open Set — recommended family</h2>
             <p className="section-lead">
-              Source PDFs at the repo root of <code>assets/</code>. Cropped here for side-by-side. Factory files
-              are the production lockups above, not these boards.
+              If you select Open Set, use these three lockups. The broad primary is the brand face; the stack only
+              solves square spaces. The plain C is reserved for a favicon, not presented as a new symbol.
             </p>
             <div className="wordmark-grid">
-              {readableRefs.map((item) => (
-                <article className="wordmark-card" key={item.id}>
-                  <div className="wordmark-preview ref">
-                    <span className="concept-number">{item.id}</span>
-                    <img
-                      src={asset(`assets/logo/readable/reference/${item.file}`)}
-                      alt={`Reference ${item.id} ${item.name}`}
-                    />
-                  </div>
-                  <div className="concept-copy">
-                    <div className="concept-heading">
-                      <h3>{item.name}</h3>
-                      <span>Uploaded</span>
-                    </div>
-                  </div>
-                </article>
+              {openSetLockups.map((mark) => (
+                <WordmarkCard key={mark.id} mark={mark} />
               ))}
             </div>
           </section>
@@ -464,7 +467,7 @@ function App() {
             <h2>Logo transition — path locked</h2>
             <p className="section-lead">
               Chosen path: drop hex and coin, use the readable word, introduce a new mark later. That is method A
-              with the slash-track family as the word. Do not mix two methods on one SKU.
+              once one wordmark direction is approved. Do not mix two directions on one SKU.
             </p>
             <div className="phase-row" aria-label="Locked sequence">
               <article>
@@ -475,7 +478,7 @@ function App() {
               <article>
                 <span>This season</span>
                 <strong>Readable word</strong>
-                <p>Slash Track holds the brand. No new badge yet.</p>
+                <p>One approved wordmark holds the brand. No new badge yet.</p>
               </article>
               <article>
                 <span>Later</span>

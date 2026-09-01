@@ -234,6 +234,10 @@ header {
   border-color: var(--gold);
 }
 
+.wordmark-card.recommended:first-child {
+  grid-column: 1 / -1;
+}
+
 .wordmark-preview {
   position: relative;
   min-height: 160px;

@@ -1,77 +1,100 @@
 # Corenation Readable Wordmark
 
-**Brand:** Corenation Active  
-**Status:** Locked for new work. Hexagon and coin marks are off new POs.  
-**Path:** drop hex / coin ? readable word ? introduce a new mark later  
-**Related:** [`logo-transition.md`](logo-transition.md) · source PDFs in `assets/LOGO CORENATION A–E.pdf`
+**Brand:** Corenation Active
+**Status:** Five new directions — selection pending
+**Path:** drop hex / coin -> readable word -> introduce a new mark later
+**Recommendation:** **01 Open Set**
+**Source:** original A–E PDFs remain in `assets/` as background reference only
 
 ---
 
-## What this is
+## Reset
 
-The brand face is now the **word**, not a badge. Regulars should read `CORENATION` at a glance on a Shopee thumbnail, a belt, or an IG avatar.
+The first constructed wordmark family was rejected. It relied on too many cuts,
+gaps, and custom block letters, so the name looked engineered instead of
+confident.
 
-The letter DNA comes from the five uploaded references (A–E):
+This round starts over:
 
-| Letter | Rule |
-|--------|------|
-| **C** | Circular C with two parallel diagonal cuts through the upper left. This is the only signature cut. |
-| **O** | Perfect thick ring. Same weight as the C. |
-| **R** | Stem separated from the bowl. Diagonal leg does not join the stem. |
-| **A** | Track lockups: flat top, clipped top-right, low bar. Stack lockups: chevron, no bar. |
-| **T** | Right end of the bar is clipped. |
-| **N / E / I** | Heavy geometric blocks. N diagonal stays as thick as the stems. |
+- professional type drawing, converted to outlined paths
+- one visual idea per direction
+- `CORENATION` must read before any styling is noticed
+- no hexagon, coin, monogram, or invented emblem
+- monochrome first: cream, white, or black
 
-No hexagon. No coin. No enclosed badge around an N.
+## Directions
+
+| # | Direction | Idea | Best use |
+|---|-----------|------|----------|
+| **01** | **Open Set** | Broad geometric name; one quiet line identifies **CORE** | **Recommended brand face** |
+| 02 | Core / Nation | Heavy CORE, lighter NATION; strength becomes community | Brand story, apparel |
+| 03 | Forward | Forward lean on a tapered rail | Run, training, team campaigns |
+| 04 | Field | Tall condensed name with a practical descriptor | Belts, straps, labels, court |
+| 05 | Everyday | Calm lowercase with CORE carrying more weight | Women, hijab, recovery, daily wear |
+
+These are different identities, not six rearrangements of one alphabet.
+
+## Why Open Set is the recommendation
+
+Open Set has the most ownable silhouette while every letter remains immediate.
+The wide forms work as a storefront and digital header; the line under CORE
+turns the brand name itself into the idea. Nothing is cut apart.
+
+It has three production lockups:
+
+| File | Use |
+|------|-----|
+| `01-open-set.svg` | Default horizontal wordmark |
+| `01-open-set-active.svg` | Hangtag / store: adds `ACTIVEWEAR / SURABAYA` |
+| `01-open-set-stack.svg` | Square avatar, bag, folded label |
+| `core-initial.svg` | Browser favicon only; plain letter C, not a new mark |
+
+Do not issue a production PO until the brand lead selects a direction. If Open
+Set is selected, the files above become the wordmark family; directions 02â€“05
+remain unused.
+
+## Files
+
+All working assets are in `assets/logo/readable/`.
+
+Each direction includes:
+
+- `.svg` â€” `currentColor`, outlined paths
+- `-cream.svg` â€” `#D6CFB5`
+- `-white.svg` â€” white
+- `-black.svg` â€” black
+- `.png` â€” cream-on-black preview
+
+No font installation is required to place or manufacture the SVGs.
+
+Font foundations are open-source under SIL OFL and their licenses are included
+in `assets/logo/readable/licenses/`. The final artwork is outlined and does not
+contain live text.
+
+## Selection test
+
+Before selecting, view each candidate:
+
+1. at 320px wide (Shopee store and mobile header)
+2. at 40mm wide on a belt
+3. cream on black, black on cream, charcoal on pink, charcoal on lilac
+4. embroidered at actual size
+5. from three metres away on a shirt
+
+Reject a direction if a person reads anything other than **CORENATION** on the
+first glance.
+
+## Transition rule
+
+The path itself is already selected:
+
+1. Hex and coin come off new work.
+2. One approved readable wordmark becomes the public face.
+3. A new symbol may be introduced later on new items only.
+
+Existing hex / coin stock sells through. Do not place an old badge beside a new
+wordmark on the same product face.
 
 ---
 
-## Lockups
-
-All files live in `assets/logo/readable/`. Each has `currentColor`, cream, white, and black SVGs, plus a cream-on-black PNG preview.
-
-| File | Lockup | Use |
-|------|--------|-----|
-| `01-slash-track` | One-line `CORENATION` | **Primary.** Shopee shop, IG name plate, hangtag, belt hero, store card |
-| `02-slash-active` | Track + `ACTIVEWEAR` | Hangtags, lookbook, store bay sign |
-| `03-slash-stack` | `CORE` over `NATION` | Square avatars, hem labels, bags |
-| `04-slash-stack-active` | Stack + `ACTIVEWEAR` | Packaging, lookbook cover |
-| `05-core-lead` | Heavy `CORE` over lighter `NATION` | Apparel chest / back when you want CORE to lead |
-| `06-core-block` | `CO` / `RE` / `NATION` | Graphic tee, tote. Do not use below 24mm tall |
-| `slash-c` | Slashed C only | Favicon, small avatar, zipper pull. A letter, not a coin |
-
-**Default if a tech pack does not name a lockup:** `01-slash-track`.
-
-Your original A–E boards are cropped next to the production files in `assets/logo/readable/reference/` and stay as reference only. Do not send those PDFs to a factory.
-
----
-
-## Color
-
-- Dark fabric / screens: cream `#D6CFB5` or white
-- Light fabric / pink / lilac: charcoal or black
-- Emboss: black-on-black, track lockup only (stack is too tall)
-
----
-
-## Minimum sizes
-
-| Lockup | Print height | Notes |
-|--------|--------------|-------|
-| Track | 8mm | Holds on a belt |
-| Track + Active | 12mm | Need the subtitle to stay readable |
-| Stack | 16mm | Two lines |
-| Core block | 24mm | Three lines |
-| Slash C | 8mm | Favicon / pull |
-
----
-
-## What is not for this season
-
-- Closed hexagon and H1–H5 heritage badges — sell through, do not reprint
-- Continuum / Fold / Counterform / Linea / Oblique / Crossbrace — studio only, until the “introduce new logo” phase
-- Putting a coin, hex, or new monogram next to the wordmark on the same product face
-
----
-
-*Readable wordmark v1 — Corenation Active. Update when a new mark is locked for Phase 3.*
+*Readable wordmark exploration v2 â€” Corenation Active.*

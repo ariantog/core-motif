@@ -13,7 +13,7 @@ The old mark is the **closed hexagon around an N**. Regulars have seen it on bel
 **Path locked:** drop the hex and the coin → use the readable wordmark → introduce a new mark later, on new items only.
 
 1. **Hex and coin are off new work.** Sell through existing stock. Do not reprint either badge.
-2. **The face is `CORENATION`.** Use the slash-track family in [`readable-wordmark.md`](readable-wordmark.md). Default lockup: `01-slash-track`.
+2. **The face is `CORENATION`.** Select one direction in [`readable-wordmark.md`](readable-wordmark.md). Open Set is recommended.
 3. **A new mark comes later**, only on new items, after the word is doing the work.
 
 That is **Method A (Wordmark Bridge)**, with the readable family as the word. Do not mix a hex or coin onto a readable SKU.
@@ -25,7 +25,7 @@ That is **Method A (Wordmark Bridge)**, with the readable family as the word. Do
 | Lock | Rule |
 |------|------|
 | Name | `CORENATION` or `CORE NATION` — all caps, wide sans. Letter A may use the diagonal-cut A from the belt samples. |
-| Face now | Readable wordmark (`01-slash-track` unless another lockup is named). Cream / white / black only. |
+| Face now | One approved readable wordmark. Open Set is recommended. Cream / white / black only. |
 | Later mark | One new-system direction, introduced only after the word is established. Not this PO. |
 | Old mark | Sell through existing stock. Do not reprint the hex or coin on a restock. |
 | One face | Never hex or coin next to the readable word on the same product panel. |
@@ -210,7 +210,7 @@ Run **A + D + G**, in that order, once a new-system mark is locked. Do not run B
 | **This season** | New CN only on hangtags / care labels, then on **one** new drop, in a **new** seat, 8–12mm. | Do not put CN on a restock of a hex SKU. Do not ship two CN concepts. |
 | **Next season** | CN may sit in the old hex seat if the small stamp already feels normal. Or keep the split system (word = face, CN = stamp). | Do not grow the CN into an all-over monogram. |
 
-**Public face is locked:** Slash Track (`assets/logo/readable/01-slash-track.svg`). The slashed C is the small letter, not a coin. Studio systems stay off shop SKUs until the introduce-later phase.
+**The path is locked; the exact wordmark is not.** Open Set (`assets/logo/readable/01-open-set.svg`) is the recommendation. Studio systems stay off shop SKUs until the introduce-later phase.
 
 ---
 
@@ -260,7 +260,7 @@ hardware → small CN (or CN on buckle-back) → vertical JP → `CORENATION` �
 ## Staff ticks (owner: brand lead)
 
 - [ ] One method letter circled (A–I). Default if blank: **A**.
-- [ ] Public face is the readable wordmark (`01-slash-track` unless another lockup is named).
+- [ ] Brand lead selected one readable wordmark. Open Set is the recommendation.
 - [ ] Factory list: which open POs still have the original hex (those ship; they are not redone).
 - [ ] Next PO tech packs have **no** hex and **no** coin.
 - [ ] Shopee shop logo + three IG avatars queued to the same phase.
