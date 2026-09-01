@@ -5,12 +5,16 @@ import { cultureBackgrounds, cultureLayers, cultureMockups, culturePrints } from
 import { floralMockups, floralRules } from './data/floral'
 import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
 import {
+  padelMenDirectionalMockups,
+  padelMenDirectionalPalette,
   padelMenMockups,
   padelMenMultiMockups,
   padelMenMultiPalette,
   padelMenPalette,
   padelRules,
   padelStories,
+  padelWomenDirectionalMockups,
+  padelWomenDirectionalPalette,
   padelWomenMockups,
   padelWomenMultiMockups,
   padelWomenMultiPalette,
@@ -355,10 +359,11 @@ function App() {
           <section>
             <h2>Theme lock</h2>
             <p className="lede">
-              Consumer padel court kit — no kanji, no logo. v1 is a one-hue wash. v2 drops must
-              read as <strong>two or three distinct pastels</strong>. Men and women stay on
-              separate stories. Files: <code>assets/padel/men/</code> · <code>assets/padel/women/</code>.
-              Spec: <code>docs/padel-collection.md</code>.
+              Consumer padel court kit — no kanji, no logo. v3 moves beyond stacked fades with
+              <strong> diagonal, curved, and radial color fields</strong>. Small tonal patterns may
+              appear only where colors meet. Men and women stay on separate stories. Files:{' '}
+              <code>assets/padel/men/</code> · <code>assets/padel/women/</code>. Spec:{' '}
+              <code>docs/padel-collection.md</code>.
             </p>
             <div className="rule-grid">
               {padelRules.map((rule) => (
@@ -383,6 +388,16 @@ function App() {
                 </article>
               ))}
             </div>
+          </section>
+          <section>
+            <h2>Men v3 — Crosscourt Mesh + Orbit Serve</h2>
+            <Swatches items={padelMenDirectionalPalette} />
+            <MockGrid items={padelMenDirectionalMockups} />
+          </section>
+          <section>
+            <h2>Women v3 — Rally Ribbon + Halo Serve</h2>
+            <Swatches items={padelWomenDirectionalPalette} />
+            <MockGrid items={padelWomenDirectionalMockups} />
           </section>
           <section>
             <h2>Men v2 — Reef Trio (3 color) + Dual Glass (2 color)</h2>
@@ -435,7 +450,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.2 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.3 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )
