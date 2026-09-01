@@ -5,6 +5,7 @@
 **Path:** drop hex / coin -> readable word -> introduce a new mark later
 **Recommendation:** **01 Open Set**
 **Source:** original A–E PDFs remain in `assets/` as background reference only
+**Split lockups:** [`split-wordmark.md`](split-wordmark.md) — CORE / NATION and CO / RE / NATION arrangements of this same type
 
 ---
 
@@ -48,6 +49,11 @@ It has three production lockups:
 | `01-open-set-active.svg` | Hangtag / store: adds `ACTIVEWEAR / SURABAYA` |
 | `01-open-set-stack.svg` | Square avatar, bag, folded label |
 | `core-initial.svg` | Browser favicon only; plain letter C, not a new mark |
+
+If the one-line name feels long on a surface, six split lockups of the same
+type (CORE / NATION, CO / RE / NATION) live in `assets/logo/split/` — see
+[`split-wordmark.md`](split-wordmark.md). They are arrangements of this word,
+not new directions.
 
 Do not issue a production PO until the brand lead selects a direction. If Open
 Set is selected, the files above become the wordmark family; directions 02â€“05
