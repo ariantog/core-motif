@@ -15,7 +15,9 @@ assets/
   culture-run/
     <drop>/
       singlet.png | tank.png | tee.png
-      print.png               all-over dye-sub map
+      print.png               locked composite (texture + marks)
+      print-bg.png            texture only — no kanji, no logo, no type
+    _layers/                  transparent 走 / 山 / hex C / CN marks
     _archive-v1/              flat charcoal pieces (superseded)
 ```
 
