@@ -27,6 +27,7 @@ const designFilters = [
 ]
 
 const docs = [
+  { title: 'Logo transition', path: 'docs/logo-transition.md' },
   { title: 'Padel collection', path: 'docs/padel-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
@@ -47,12 +48,25 @@ function showView(name) {
   history.replaceState(null, '', `#${name}`)
 }
 
-function wireDesignBoard() {
+async function wireDesignBoard() {
   const frame = document.querySelector('#view-design-board iframe')
   const link = document.querySelector('#view-design-board .btn')
   if (!frame || !link) return
-  const nested = /\/site\/?$/i.test(hubBase().pathname)
-  const href = nested ? 'design-board/index.html' : 'site/design-board/index.html'
+
+  const candidates = ['design-board/index.html', 'site/design-board/index.html']
+  let href = frame.getAttribute('src') || candidates[0]
+  for (const candidate of candidates) {
+    try {
+      const res = await fetch(assetUrl(candidate), { method: 'HEAD' })
+      if (res.ok) {
+        href = candidate
+        break
+      }
+    } catch {
+      /* try the next path */
+    }
+  }
+
   frame.src = href
   link.href = href
 }

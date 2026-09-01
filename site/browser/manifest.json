@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T05:06:16Z",
+  "generatedAt": "2026-09-01T05:14:34Z",
   "root": [
     {
       "type": "dir",
@@ -3217,6 +3217,11 @@
           "type": "markdown",
           "name": "kanji-design-collection.md",
           "path": "docs/kanji-design-collection.md"
+        },
+        {
+          "type": "markdown",
+          "name": "logo-transition.md",
+          "path": "docs/logo-transition.md"
         },
         {
           "type": "markdown",

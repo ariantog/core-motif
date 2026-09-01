@@ -9,6 +9,7 @@ Brand direction, staff checklists, and design files for **Corenation Active** (S
 | Padel pastel court kit | [`docs/padel-collection.md`](docs/padel-collection.md) |
 | Kanji design collection (16 concepts) | [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) |
 | Staff branding checklist | [`docs/branding-checklist.md`](docs/branding-checklist.md) |
+| Logo transition (hex → word → new CN) | [`docs/logo-transition.md`](docs/logo-transition.md) |
 | Product mockups (6 images) | [`assets/designs/`](assets/designs/) |
 | Internal design board (Vite) | [`design-board/`](design-board/) |
 | **Web browser (domain hub)** | [`index.html`](index.html) — see [`docs/deploy.md`](docs/deploy.md) |

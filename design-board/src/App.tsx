@@ -29,6 +29,63 @@ const TABS: { id: Tab; label: string }[] = [
   { id: 'marks', label: 'Marks' },
 ]
 
+const transitionMethods = [
+  {
+    id: 'A',
+    name: 'Wordmark Bridge',
+    tag: 'Default',
+    summary: 'Hex off. CORENATION holds the brand. New CN arrives small, on new items only.',
+  },
+  {
+    id: 'B',
+    name: 'Heritage refresh',
+    tag: 'Keep badge',
+    summary: 'Stay in the hexagon family. Ship one H1–H5 variation in the same seat as the old badge.',
+  },
+  {
+    id: 'C',
+    name: 'Dual-run, then sunset',
+    tag: 'Inventory',
+    summary: 'Old hex stays on tooled lines. New CN only on new lines. One season later, hex is done.',
+  },
+  {
+    id: 'D',
+    name: 'Placement migration',
+    tag: 'Quiet',
+    summary: 'Wordmark takes the old badge seat. New CN starts at hem, nape, or buckle-back.',
+  },
+  {
+    id: 'E',
+    name: 'Digital first',
+    tag: 'Files first',
+    summary: 'IG, Shopee, hangtags switch now. Garments wait until the current cut is through.',
+  },
+  {
+    id: 'F',
+    name: 'Capsule vehicle',
+    tag: 'One drop',
+    summary: 'The new mark is the graphic of one named drop — not a rebrand announcement.',
+  },
+  {
+    id: 'G',
+    name: 'Split system',
+    tag: 'Keep',
+    summary: 'Wordmark is the face forever. CN is a hardware stamp. Motif stays the product story.',
+  },
+  {
+    id: 'H',
+    name: 'Tonal ghost',
+    tag: 'Felt first',
+    summary: 'CN as black-on-black emboss, then cream print, then the old hex seat if you want it.',
+  },
+  {
+    id: 'I',
+    name: 'CORE / NATION',
+    tag: 'Type as mark',
+    summary: 'Two-line wordmark so C and N are the logo before the monogram returns.',
+  },
+]
+
 const logoConcepts = [
   {
     id: '01',
@@ -247,7 +304,8 @@ function App() {
             </div>
             <p className="logo-note">
               All six are monochrome working vectors in <code>assets/logo/concepts/</code>. They are presented as
-              parallel explorations; no direction is designated as the final master yet.
+              parallel explorations; no direction is designated as the final master yet. How a chosen mark enters
+              product: <code>docs/logo-transition.md</code>.
             </p>
           </section>
 
@@ -265,7 +323,54 @@ function App() {
             </div>
             <p className="logo-note">
               Working vectors live in <code>assets/logo/hexagon/</code> with matching cream-on-black PNG previews.
+              Heritage is Method B if you stay with the badge instead of a new system.
             </p>
+          </section>
+
+          <section>
+            <h2>Logo transition — pick one method</h2>
+            <p className="section-lead">
+              Working plan: take the original hex off new work, live on the word <strong>CORENATION</strong>, then
+              introduce one locked mark only on new items. That is method A. A + D + G is the recommended stack
+              once a direction is selected. Do not mix two methods on one SKU.
+            </p>
+            <div className="phase-row" aria-label="Recommended sequence">
+              <article>
+                <span>Now</span>
+                <strong>Hex off</strong>
+                <p>New POs and files. Sell through old stock.</p>
+              </article>
+              <article>
+                <span>This season</span>
+                <strong>Word only</strong>
+                <p>CORENATION holds the brand. No new badge yet.</p>
+              </article>
+              <article>
+                <span>New items</span>
+                <strong>Small CN</strong>
+                <p>Hangtag, then hem / nape / buckle-back.</p>
+              </article>
+              <article>
+                <span>Later</span>
+                <strong>Split or seat</strong>
+                <p>CN stays a stamp, or takes the old hex seat.</p>
+              </article>
+            </div>
+            <div className="method-grid">
+              {transitionMethods.map((method) => (
+                <article
+                  key={method.id}
+                  className={`method-card${method.id === 'A' ? ' recommended' : ''}`}
+                >
+                  <div className="method-head">
+                    <span className="method-id">{method.id}</span>
+                    <h3>{method.name}</h3>
+                    <span>{method.tag}</span>
+                  </div>
+                  <p>{method.summary}</p>
+                </article>
+              ))}
+            </div>
           </section>
 
           <section>

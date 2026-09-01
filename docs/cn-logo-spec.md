@@ -73,3 +73,10 @@ The Continuum export replaces the rejected mark in the design hub only. That doe
 
 See **Logo Exploration — Two New Systems** and **Hexagon Heritage — Original Badge Variations** in the design
 board (`design-board/`) for side-by-side and small-size previews.
+
+## How a chosen mark enters the brand
+
+No master is locked yet. Until one direction is selected, new work can live on the word `CORENATION`.
+Once a mark is locked, introduce it on new items only — never next to the original closed hex on the same face.
+
+Full methods, phases, and channel rules: [`logo-transition.md`](logo-transition.md).
