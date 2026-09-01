@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { LogoMark } from './components/LogoMark'
-import { cultureMockups, culturePrints } from './data/culture'
+import { cultureBackgrounds, cultureLayers, cultureMockups, culturePrints } from './data/culture'
 import { floralMockups, floralRules } from './data/floral'
 import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
 import { asset } from './lib/assets'
@@ -102,13 +102,19 @@ function Swatches({ items }: { items: { hex: string; name: string }[] }) {
   )
 }
 
-function MockGrid({ items }: { items: Array<{ src: string; title: string; type?: string }> }) {
+function MockGrid({
+  items,
+  cardClass,
+}: {
+  items: Array<{ src: string; title: string; type?: string }>
+  cardClass?: string
+}) {
   return (
     <div className="mockup-grid">
       {items.map((item) => (
         <article
           key={item.src}
-          className={`mockup-card${item.type === 'Apparel' && item.title.includes('Tee') ? ' tall' : item.type === 'Accessory' ? ' square' : ''}`}
+          className={`mockup-card${cardClass ? ` ${cardClass}` : ''}${item.type === 'Apparel' && item.title.includes('Tee') ? ' tall' : item.type === 'Accessory' ? ' square' : ''}`}
         >
           <img src={item.src} alt={item.title} loading="lazy" />
           <div className="mockup-info">
@@ -311,12 +317,26 @@ function App() {
             <p className="lede">
               v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
               heatmap, suminagashi, watercolor wash. 走 is printed in the dye. Each drop is a folder under{' '}
-              <code>assets/culture-run/</code>.
+              <code>assets/culture-run/</code>. Use <code>print-bg.png</code> when you need to move kanji or logos;
+              keep <code>print.png</code> as the locked composite.
             </p>
             <MockGrid items={cultureMockups} />
           </section>
           <section>
-            <h2>Print placements (send to factory)</h2>
+            <h2>Backgrounds only (no kanji / logo)</h2>
+            <p className="lede">
+              Same drop, texture only. Drop 走 / 山 and the hex C or CN mark from{' '}
+              <code>assets/culture-run/_layers/</code> on top in any position.
+            </p>
+            <MockGrid items={cultureBackgrounds} />
+          </section>
+          <section>
+            <h2>Loose marks</h2>
+            <p className="lede">Transparent PNGs — cream, ink, white, gold. Place these on a background, do not flatten yet.</p>
+            <MockGrid items={cultureLayers} cardClass="layer-card" />
+          </section>
+          <section>
+            <h2>Print placements (locked composites)</h2>
             <MockGrid items={culturePrints} />
           </section>
         </>

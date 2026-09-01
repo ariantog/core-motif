@@ -30,7 +30,20 @@ All-over dye-sub. No sewn embroidery patches. Hex C is flat print. 走 (if used)
 
 ## Drops (one folder each)
 
-All files: `assets/culture-run/<drop>/` — `singlet.png` or `tank.png` or `tee.png` + `print.png`.
+All files: `assets/culture-run/<drop>/` — garment mockup + `print.png` (locked composite) + `print-bg.png` (texture only).
+
+**Layers for moving marks**
+
+| File | What it is |
+|------|------------|
+| `assets/culture-run/<drop>/print.png` | Locked design — leave this alone |
+| `assets/culture-run/<drop>/print-bg.png` | Same drop without kanji, hex C, or chrome type |
+| `assets/culture-run/_layers/so-run-*.png` | Transparent 走 (cream / ink / white / gold / rose) |
+| `assets/culture-run/_layers/san-mountain-*.png` | Transparent 山 |
+| `assets/culture-run/_layers/hex-c-*.png` | Transparent classic hex C |
+| `assets/culture-run/_layers/cn-core-cut-*.png` | Transparent CN Core Cut |
+
+Place a layer on `print-bg.png` in any editor. Do not overwrite `print.png`.
 
 | Folder | Story | Who | Kanji |
 |--------|--------|-----|-------|
@@ -88,4 +101,4 @@ Hang so the **back** shows. Do not merch next to the 龍 lifting short without a
 
 ---
 
-*Document version: 3.2 — Added four earth-tone watercolor drops. Files live per drop folder.*
+*Document version: 3.3 — Added mark-free `print-bg.png` per drop plus `_layers/` so kanji and logos can move.*

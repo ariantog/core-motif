@@ -322,6 +322,20 @@ code {
   aspect-ratio: 3 / 4;
 }
 
+.mockup-card.layer-card img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  padding: 1.25rem;
+  background-color: #c8c2ae;
+  background-image:
+    linear-gradient(45deg, #b7b09a 25%, transparent 25%),
+    linear-gradient(-45deg, #b7b09a 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #b7b09a 75%),
+    linear-gradient(-45deg, transparent 75%, #b7b09a 75%);
+  background-size: 28px 28px;
+  background-position: 0 0, 0 14px, 14px -14px, -14px 0;
+}
+
 .mockup-info {
   padding: 0.75rem 1rem;
 }

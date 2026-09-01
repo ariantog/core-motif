@@ -26,6 +26,7 @@ const designFilters = [
 ]
 
 const docs = [
+  { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
   { title: 'Branding checklist', path: 'docs/branding-checklist.md' },
   { title: 'CN logo spec', path: 'docs/cn-logo-spec.md' },
