@@ -20,6 +20,45 @@ export const cultureMockups: Mockup[] = [
   { src: asset('assets/culture-run/cacao-watercolor/tank.png'), title: 'Cacao Watercolor Route', type: 'Women tank · route wash', line: 'culture' },
 ]
 
+export const cultureBackgrounds = [
+  { src: asset('assets/culture-run/blue-hour-wave/print-bg.png'), title: 'BG — Blue Hour Wave' },
+  { src: asset('assets/culture-run/wave-brushed-tide/print-bg.png'), title: 'BG — Brushed Tide' },
+  { src: asset('assets/culture-run/summit-brushed/print-bg.png'), title: 'BG — Summit Brushed' },
+  { src: asset('assets/culture-run/bloom-marble/print-bg.png'), title: 'BG — Bloom Marble' },
+  { src: asset('assets/culture-run/dusk-marble/print-bg.png'), title: 'BG — Dusk Marble' },
+  { src: asset('assets/culture-run/home-soil-dawn/print-bg.png'), title: 'BG — Home Soil Dawn' },
+  { src: asset('assets/culture-run/heatmap-marble/print-bg.png'), title: 'BG — Heatmap Marble' },
+  { src: asset('assets/culture-run/ink-marble/print-bg.png'), title: 'BG — Ink Marble' },
+  { src: asset('assets/culture-run/bumi-strata/print-bg.png'), title: 'BG — Bumi Strata' },
+  { src: asset('assets/culture-run/moss-current/print-bg.png'), title: 'BG — Moss Current' },
+  { src: asset('assets/culture-run/sandstone-sumi/print-bg.png'), title: 'BG — Sandstone Sumi' },
+  { src: asset('assets/culture-run/cacao-route/print-bg.png'), title: 'BG — Cacao Route' },
+  { src: asset('assets/culture-run/bumi-watercolor/print-bg.png'), title: 'BG — Bumi Watercolor' },
+  { src: asset('assets/culture-run/moss-watercolor/print-bg.png'), title: 'BG — Moss Watercolor' },
+  { src: asset('assets/culture-run/sand-wave-watercolor/print-bg.png'), title: 'BG — Sand Wave Watercolor' },
+  { src: asset('assets/culture-run/cacao-watercolor/print-bg.png'), title: 'BG — Cacao Watercolor Route' },
+]
+
+export const cultureLayers = [
+  { src: asset('assets/culture-run/_layers/so-run-cream.png'), title: '走 cream' },
+  { src: asset('assets/culture-run/_layers/so-run-ink.png'), title: '走 ink' },
+  { src: asset('assets/culture-run/_layers/so-run-white.png'), title: '走 white' },
+  { src: asset('assets/culture-run/_layers/so-run-gold.png'), title: '走 gold' },
+  { src: asset('assets/culture-run/_layers/so-run-rose.png'), title: '走 rose' },
+  { src: asset('assets/culture-run/_layers/san-mountain-cream.png'), title: '山 cream' },
+  { src: asset('assets/culture-run/_layers/san-mountain-ink.png'), title: '山 ink' },
+  { src: asset('assets/culture-run/_layers/san-mountain-white.png'), title: '山 white' },
+  { src: asset('assets/culture-run/_layers/san-mountain-gold.png'), title: '山 gold' },
+  { src: asset('assets/culture-run/_layers/hex-c-cream.png'), title: 'Hex C cream' },
+  { src: asset('assets/culture-run/_layers/hex-c-ink.png'), title: 'Hex C ink' },
+  { src: asset('assets/culture-run/_layers/hex-c-white.png'), title: 'Hex C white' },
+  { src: asset('assets/culture-run/_layers/hex-c-gold.png'), title: 'Hex C gold' },
+  { src: asset('assets/culture-run/_layers/cn-core-cut-cream.png'), title: 'CN Core Cut cream' },
+  { src: asset('assets/culture-run/_layers/cn-core-cut-ink.png'), title: 'CN Core Cut ink' },
+  { src: asset('assets/culture-run/_layers/cn-core-cut-white.png'), title: 'CN Core Cut white' },
+  { src: asset('assets/culture-run/_layers/cn-core-cut-gold.png'), title: 'CN Core Cut gold' },
+]
+
 export const culturePrints = [
   { src: asset('assets/culture-run/blue-hour-wave/print.png'), title: 'Print — Blue Hour Wave' },
   { src: asset('assets/culture-run/wave-brushed-tide/print.png'), title: 'Print — Brushed Tide' },
