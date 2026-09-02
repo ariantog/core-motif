@@ -104,7 +104,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 | Women floral | @corenationactive | Sakura on pink, lavender on lilac | Apparel + matching accs | Kanji patches, olive tactical as hero |
 | Hijab / modest | @corenationhijab | Floral **or** clean modest | Sports hijab, long tunics, modest sets | Body-con crop-only hero, kanji warrior copy |
 | Culture Run | Active + Men (tag both if unisex) | Graphic print (wave, summit, bloom path) | Running tee, tank, singlet | Lifting-belt patch language, heavy olive tactical |
-| Padel court | Active + Men | Pastel fade, **no marks** | Polo, tee, tank, shorts, women skirt | Kanji, hex C, floral, Culture Run wave |
+| Padel court | Active + Men | Pastel (women) or earth stitch (men), **no marks** | Polo, tee, tank, shorts, women skirt | Kanji, hex C, floral, Culture Run wave |
 | HQ padel | not a consumer drop | Club color **from approved palette** | Club kits, still Corenation branded | Club logo replacing hex C; unapproved neon |
 
 - [ ] Men's kanji SKUs never use sakura, lavender, pink, or lilac as a hero color.
@@ -330,11 +330,11 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 ---
 
-## 8b. Padel court kit — pastel fade
+## 8b. Padel court kit
 
 Owner: Brand lead + Design · Social: Active and/or Men
 
-**What this line is:** consumer padel polo, tee, tank, shorts, and women skirt with an **all-over pastel gradient**. No kanji. No hex C. No floral.
+**What this line is:** consumer padel polo, tee, tank, shorts, and women skirt. No kanji. No hex C. No floral. v4 is sewn panels + contrast stitch. Women stay pastel. Men v4 is earth.
 
 **What it is not:** HQ club-custom kits (those still keep hex C — see §3C). Not Culture Run. Not sakura / lavender.
 
@@ -342,22 +342,24 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 - [ ] Copy is court, pair, session. Use: *play the glass, stay light, club night.* Not warrior kanji, not luxury clubhouse.
 - [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only.
+- [ ] Women v4: **Petal Seam** (princess panels + cream flatlock) and **Citrus Stitch** (raglan / yoke + apricot overlock). Skirt is women-only.
+- [ ] Men v4: **Clay Court** (angular panels + sandstone topstitch) and **Moss Baseline** (raglan / side panels + sand flatlock). Earth tones only — not mint / periwinkle.
 - [ ] Men v3: **Crosscourt Mesh** (diagonal + net dissolve) and **Orbit Serve** (off-center halo + pinlines).
 - [ ] Women v3: **Rally Ribbon** (S-curve + micro dashes) and **Halo Serve** (side-origin arcs + transition ticks). Skirt is women-only.
 - [ ] Transition pattern is tonal, follows one color boundary, and covers no more than 12% of the garment face.
 - [ ] Men v2: **Reef Trio** (3 color · seafoam → sky → periwinkle) and **Dual Glass** (2 color · teal → periwinkle).
 - [ ] Women v2: **Clay Bloom** (3 color · peach → rose → lilac) and **Dual Sherbet** (2 color · apricot → pistachio). Skirt is women-only.
-- [ ] v1 one-hue washes (Glass Court, Harbor Haze, Sunrise Clay, Lemon Sherbet) stay in the archive bay. New samples must show 2 or 3 distinct pastels.
+- [ ] v1 one-hue washes (Glass Court, Harbor Haze, Sunrise Clay, Lemon Sherbet) stay in the archive bay. New women samples must show 2 or 3 distinct pastels. New men v4 samples must show 2 or 3 distinct earth hues.
 - [ ] Do not put a men's fade on a women's cut or the reverse.
-- [ ] Binding / collar / waistband stay inside the same pastel family. No black logo patch.
+- [ ] Binding / collar / waistband stay inside the same color family. Contrast stitch is tonal. No black logo patch.
 
 ### Shopee title
 
-`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Crosscourt Mesh|Orbit Serve|Rally Ribbon|Halo Serve]`
+`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Petal Seam|Citrus Stitch|Clay Court|Moss Baseline]`
 
 ### Store VM
 
-- [ ] Own padel fixture or endcap. Men cool fades left, women warm fades + skirts right.
+- [ ] Own padel fixture or endcap. Men earth stitch left, women pastel stitch + skirts right.
 - [ ] Do not hang next to 龍 shorts or sakura belts without a break.
 
 ---
