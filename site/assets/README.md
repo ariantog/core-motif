@@ -8,7 +8,7 @@ assets/
   logo/readable/              outlined wordmark directions + cropped A–E refs
   references/                 original 龍 samples
   men-kanji/
-    belts/  apparel/  accessories/
+    belts/  apparel/  accessories/   lifting gloves + boxing-gloves-kanji-*.png
     marks/                    kanji cards + patches (factory)
   women-floral/
     sakura/                   pink SKUs

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T03:55:52Z",
+  "generatedAt": "2026-09-02T07:24:48Z",
   "root": [
     {
       "type": "dir",
@@ -1377,6 +1377,31 @@
                   "type": "image",
                   "name": "bag-hyrox-kanji-kyoku.png",
                   "path": "assets/men-kanji/accessories/bag-hyrox-kanji-kyoku.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-bu-warrior.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-bu-warrior.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-ken-fist.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-ken-fist.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-rai-thunder.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-rai-thunder.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-tamashii-soul.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-tamashii-soul.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-to-fight.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-to-fight.png"
                 },
                 {
                   "type": "image",
@@ -3739,6 +3764,31 @@
                           "type": "image",
                           "name": "bag-hyrox-kanji-kyoku.png",
                           "path": "design-board/public/assets/men-kanji/accessories/bag-hyrox-kanji-kyoku.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-bu-warrior.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-bu-warrior.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-ken-fist.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-ken-fist.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-rai-thunder.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-rai-thunder.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-tamashii-soul.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-tamashii-soul.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-to-fight.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-to-fight.png"
                         },
                         {
                           "type": "image",

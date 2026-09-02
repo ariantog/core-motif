@@ -91,7 +91,7 @@
 | **Meaning** | Warrior, martial, military valor |
 | **Why Corenation** | Bridges gym culture and combat sports (MMA, boxing) — expands men's line beyond pure lifting. |
 | **Accent color** | **Red** on black patch; **Gold** on belt |
-| **Applications** | Training tee, boxing hand wraps, hybrid fight shorts |
+| **Applications** | Training tee, boxing hand wraps, hybrid fight shorts, boxing gloves |
 | **Pairings** | 剛, 忍, 勝 |
 
 #### 鉄 — Iron
@@ -241,7 +241,7 @@
 | **Meaning** | Thunder, explosive power |
 | **Why Corenation** | Explosive lifts, plyometrics — dramatic single character with high shelf impact. |
 | **Accent color** | **Gold** on black belt overlay; **Red** on apparel patch |
-| **Applications** | Plyo short, explosive belt, training glove knuckle zone |
+| **Applications** | Plyo short, explosive belt, boxing glove knuckle zone |
 | **Pairings** | 火, 力, 破 |
 
 #### 山 — Mountain
@@ -281,7 +281,7 @@
 | **Meaning** | Soul, fighting spirit |
 | **Why Corenation** | Emotional pair to 力 — power needs spirit. Strong for gloves and a second belt colorway. |
 | **Accent color** | **Gold** brush on belt; **Cream** on olive tee |
-| **Applications** | Lifting belt alt, glove backhand, hoodie |
+| **Applications** | Lifting belt alt, boxing glove backhand, hoodie |
 | **Pairings** | 心, 気, 武 |
 | **Vertical phrase** | 魂を燃やせ (*Tamashii o moyase* — ignite the soul) |
 
@@ -305,7 +305,7 @@
 | **Meaning** | Fight, struggle, bout |
 | **Why Corenation** | MMA / padel / Hyrox crossover — combat energy without a cartoon tiger. Tee and fight-short hero. |
 | **Accent color** | **Red** on black chest patch; **Gold** on belt |
-| **Applications** | Performance tee, hybrid fight short, hand wrap tag |
+| **Applications** | Performance tee, hybrid fight short, boxing gloves, hand wrap tag |
 | **Pairings** | 武, 拳, 勝 |
 | **Vertical phrase** | 闘い続ける (*Tatakai tsuzukeru* — keep fighting) |
 
@@ -329,7 +329,7 @@
 | **Meaning** | Fist |
 | **Why Corenation** | Built for **gloves** — the mark sits on the backhand where a fist graphic belongs. Boxing + lifting glove SKU. |
 | **Accent color** | **Gold** embroidery on black backhand |
-| **Applications** | Training gloves, wrap kit, bag tag |
+| **Applications** | Boxing gloves (hero), fingerless training gloves, wrap kit, bag tag |
 | **Pairings** | 闘, 武, 剛 |
 | **Vertical phrase** | 拳に込めろ (*Kobushi ni komero* — put it in the fist) |
 
@@ -381,14 +381,14 @@
 |-----------|------------|------------------|---------------|
 | **Dragon Legacy** (existing) | 龍 | 流, 勝 | Shorts, belt |
 | **Iron Path** | 鉄 | 道, 力 | Belts, straps, tees |
-| **Warrior Discipline** | 武 | 忍, 剛 | Fight shorts, wraps, gloves |
+| **Warrior Discipline** | 武 | 忍, 剛 | Fight shorts, wraps, boxing gloves |
 | **Breakthrough** | 破 | 勝, 雷 | PR tee, belt, knee sleeve |
-| **Elemental Force** | 雷 | 火, 風 | HIIT apparel, gloves |
+| **Elemental Force** | 雷 | 火, 風 | HIIT apparel, boxing gloves |
 | **Still Power** | 静 | 心, 山 | Recovery/lifestyle crossover |
 | **Forge Week** | 鍛 | 鉄, 鋼 | Shorts, straps, tee |
-| **Spirit Belt** | 魂 | 気, 心 | Belt alt, gloves |
+| **Spirit Belt** | 魂 | 気, 心 | Belt alt, boxing gloves |
 | **Edge / Hyrox** | 極 | 勝, 峰 | Hyrox bag, meet belt |
-| **Fight Hour** | 闘 | 拳, 武 | Tee, gloves, wraps |
+| **Fight Hour** | 闘 | 拳, 武 | Tee, boxing gloves, wraps |
 | **Culture Wave** | 走 | 疾, 風 | Running tee / tank only |
 
 ---
@@ -401,21 +401,56 @@
 | Training shorts | Red `#C41E3A` | Black rectangular leg patch |
 | Performance tee | Cream or red | Olive body or black chest block |
 | Gloves / straps | Gold embroidery | Black knuckle/cuff zone |
+| Boxing gloves | Gold (拳 魂 雷) or red (闘 武) | Black backhand, olive cuff |
 | Knee support | Red or gold | Black sleeve with olive trim |
 | Gym / Hyrox bag | Cream or red | Olive or black front panel |
 | Running tee (走 only) | Cream / red | Charcoal body — see Culture Run spec |
 
-### Form lock
+## Boxing gloves — closed fist
+
+Fingerless lifting gloves stay in `gloves-kanji-*.png`. Boxing is a **separate SKU** — Velcro-cuff, padded knuckle, enclosed fingers. Do not print a lifting-glove photo on a boxing listing.
+
+### Construction
+
+- 12–14oz bag / sparring silhouette.
+- Matte black knuckle and fist. Dark olive `#4A5240` cuff and contrast stitch. Charcoal side panels.
+- One hero accent: **gold** `#D4AF37` or **red** `#C41E3A`. Never both on one pair.
+- Accessible performance — not luxury fashion leather, not neon.
+
+### Placement
+
+1. **Hero kanji** — embroidered on the black backhand of **both** gloves. 50–70mm tall. Must read at 3m / Shopee thumbnail.
+2. **`CORENATION`** — cream `#D6CFB5` wide sans on the olive cuff. Hex and coin **off** (new PO path).
+3. No kanji on the palm, mesh vent, or Velcro pile.
+4. One hero kanji per pair. Vertical phrases stay off the knuckle; if used, they sit on the cuff edge at 8–12mm and must match the hero (see Collection E).
+
+### SKUs
+
+| File | Kanji | Accent | Drop |
+|------|-------|--------|------|
+| `boxing-gloves-kanji-ken-fist.png` | 拳 *Ken* — fist | Gold | Fight Hour (hero) |
+| `boxing-gloves-kanji-to-fight.png` | 闘 *Tō* — fight | Red | Fight Hour |
+| `boxing-gloves-kanji-bu-warrior.png` | 武 *Bu* — warrior | Red | Warrior Discipline |
+| `boxing-gloves-kanji-tamashii-soul.png` | 魂 *Tamashii* — soul | Gold | Spirit Belt |
+| `boxing-gloves-kanji-rai-thunder.png` | 雷 *Rai* — thunder | Gold | Elemental Force |
+
+Do **not** put 走 on a boxing glove. 力 stays the belt hero unless brand lead adds a sixth boxing SKU.
+
+Factory marks: `assets/men-kanji/marks/card-` and `patch-` for the same five characters.
+
+---
+
+## Form lock
 
 - Use **Japanese** character forms. 龍 (dragon) not simplified Chinese 龙. 気 not 气. 闘 is preferred over 斗 for "fight."
 - One hero kanji per panel. Compounds (一心, 限界) are **copy only**, not belt heroes, unless brand lead approves a two-character patch at ≥ 80mm wide.
 - Vertical phrases must be real Japanese that matches the hero. Do not generate decorative kana.
 
-### Production files
+## Production files
 
 Print-ready marks: `assets/men-kanji/marks/`  
 Product mockups: `assets/men-kanji/belts/` · `apparel/` · `accessories/`
 
 ---
 
-*Document version: 2.0 — Added Collection E (Spirit / Forge) and 走 for Culture Run. Internal design/production use.*
+*Document version: 2.1 — Boxing glove SKUs (拳 闘 武 魂 雷). Internal design/production use.*
