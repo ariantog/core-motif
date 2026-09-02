@@ -1,23 +1,23 @@
-# Corenation Padel — Pastel Court Kit
+# Corenation Padel — Court Kit
 
 **Brand:** Corenation Active  
 **Line:** Padel — consumer court apparel  
 **Accounts:** @corenationactive · @corenationmen  
-**Positioning:** Club-court kit you actually play in. Soft pastel fade, no marks. Not HQ club-custom, not Culture Run, not floral.
+**Positioning:** Club-court kit you actually play in. No marks. Not HQ club-custom, not Culture Run, not floral.
 
 ---
 
 ## Art direction (locked)
 
-All-over dye-sub **pastel** only. v3 moves beyond the earlier top-to-bottom bands: color fields now travel diagonally, curve across the body, or expand from an off-center point.
+v4 leads with **sewn panels and contrast stitch**. Women stay warm pastels. Men v4 moves to earth court colors. v3 directional dye-sub fades stay in the line.
 
 | Rule | Do | Do not |
 |------|----|--------|
 | Marks | Blank chest, back, collar, waistband, hem | Kanji, hex C, CORENATION, club badge |
-| Color geometry | Diagonal, S-curve, side-origin, radial / halo | Another horizontal top / middle / bottom stack |
-| Transition pattern | Tonal dots, mesh, dashes, or pinlines inside one narrow transition | All-over repeat, large illustration, pattern on every boundary |
-| Pattern coverage | 5–12% of the garment face | Pattern becoming the hero graphic |
-| Hue count | 2 or 3 readable pastels | White / ice / cream as the only top color |
+| Color geometry | Diagonal, S-curve, raglan, yoke, or side panels | Another horizontal top / middle / bottom stack |
+| v4 stitch | Real sewn seams: flatlock, coverstitch, or double-needle in a tonal contrast thread | Printed fake seams, black structure panels |
+| Transition pattern (v3) | Tonal dots, mesh, dashes, or pinlines inside one narrow transition | All-over repeat, large illustration |
+| Hue count | 2 or 3 readable hues | White / ice / cream as the only top color |
 | Gender | Separate stories and cuts | One gradient shared across men and women SKUs |
 | Women extra | Skirt / skort | Skirt on the men's rack |
 
@@ -33,6 +33,10 @@ Each story folder holds garment mockups only (front + back ghost mannequin).
 
 | Folder | Who | Fade | Pieces |
 |--------|-----|------|--------|
+| `women/petal-seam` | Women | **v4 princess panels** blush `#F4C4C8` / cream `#FAF4EC` / pistachio `#D4E8A8`; cream flatlock | polo, tee, tank, shorts, skirt |
+| `women/citrus-stitch` | Women | **v4 raglan + yoke** lemon `#F0E8A8` / apricot `#F0C4A0` / honeydew `#E4F0C8`; apricot overlock | polo, tee, tank, shorts, skirt |
+| `men/clay-court` | Men | **v4 angular panels** terracotta `#C47854` / sandstone `#D7B98E` / soil `#6B5344`; sandstone topstitch | polo, tee, tank, shorts |
+| `men/moss-baseline` | Men | **v4 raglan + side panels** moss `#6E7B4A` / olive `#8A8F5C` / sand `#D8C6A2`; sand flatlock | polo, tee, tank, shorts |
 | `men/crosscourt-mesh` | Men | **Diagonal** seafoam `#86D2C4` / sky `#84B9E6` / periwinkle `#AAA0DB`; diamond-net dissolve | polo, tee, tank, shorts |
 | `men/orbit-serve` | Men | **Off-center halo** aqua `#8EC8D0` / mint `#9BD5B1` / violet `#ACA4D8`; four pinline arcs | polo, tee, tank, shorts |
 | `women/rally-ribbon` | Women | **S-curve** peach `#F1B49B` / rose `#E6A2C0` / lilac `#C0AFE0`; micro-dash dissolve | polo, tee, tank, shorts, skirt |
@@ -56,7 +60,14 @@ Each story folder holds garment mockups only (front + back ghost mannequin).
 - **Shorts:** men ~7" padel short with zip pockets. Women 3–4" fitted short. Tonal waistband — no logo patch.
 - **Skirt:** women skort only (A-line + built-in short). Mid-thigh.
 
-Binding, collar, and waistband stay **inside the same pastel family**. No black structure panels.
+Binding, collar, and waistband stay **inside the same color family** (pastel for women, earth for men v4). No black structure panels. Contrast stitch may be one step lighter or darker than a body hue.
+
+### Stitch-model rules (v4)
+
+- One construction per story: princess / petal panels, raglan + yoke, angular color-block, or raglan + side panels.
+- Contrast thread is visible and tonal. Do not hide the seam.
+- Panels wrap front to back. Do not reset color or stitch at a side seam.
+- Stitch is construction, not decoration floating in the middle of a panel.
 
 ### Transition-pattern rules
 
@@ -69,12 +80,12 @@ Binding, collar, and waistband stay **inside the same pastel family**. No black 
 
 ## Shopee & floor
 
-Title: `Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Crosscourt Mesh|Orbit Serve|Rally Ribbon|Halo Serve|Reef Trio|Dual Glass|Clay Bloom|Dual Sherbet]`
+Title: `Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Petal Seam|Citrus Stitch|Clay Court|Moss Baseline|Crosscourt Mesh|Orbit Serve|Rally Ribbon|Halo Serve]`
 
-- Lead with v3 (Crosscourt Mesh, Orbit Serve, Rally Ribbon, Halo Serve).
-- Men's bay: cool stories only. Women's bay: warm stories + skirts.
+- Lead with v4 (Petal Seam, Citrus Stitch, Clay Court, Moss Baseline).
+- Men's bay: earth stitch stories first; cool v3 fades behind. Women's bay: pastel stitch stories + skirts.
 - Do not merch next to 龍 lifting shorts or sakura belts without a fixture break.
 
 ---
 
-*Document version: 1.2 — v3 adds directional fields and restrained transition patterns. No kanji, no logo.*
+*Document version: 1.3 — v4 adds sewn stitch models: women pastels, men earth. No kanji, no logo.*
