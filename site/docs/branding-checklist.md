@@ -196,6 +196,7 @@ Owner: Social — Men + Design
 - [ ] Kanji on apparel = black rectangular patch (red/gold character). Belts = gold/cream brush kanji on dark overlay.
 - [ ] Belt layout left → right: buckle → hex C → vertical JP phrase → `CORENATION` → hero kanji.
 - [ ] **One hero kanji per panel.** Mesh stays kanji-free.
+- [ ] Boxing gloves are a separate SKU from fingerless lifting gloves. Closed fist, kanji on the backhand, `CORENATION` on the cuff, hex off. Never reuse a lifting-glove photo on a boxing listing.
 - [ ] Japanese forms only (`龍` not `龙`). If a factory file arrives in simplified Chinese, reject and re-export.
 - [ ] Vertical JP phrase is decorative and must be a real sentence that matches the hero kanji (see collection doc). Not random characters.
 
@@ -205,7 +206,7 @@ Owner: Social — Men + Design
 - [ ] Detail macro: kanji patch, hex C, mesh, waistband emboss.
 - [ ] On-body: gym floor, rack, belt worn — real training, not spa.
 - [ ] Belt: horizontal shot matching the mockup layout.
-- [ ] Accs in-use: gloves on bar, straps on deadlift, knee sleeve on squat (min one action).
+- [ ] Accs in-use: gloves on bar, boxing gloves on bag / pads, straps on deadlift, knee sleeve on squat (min one action).
 
 ### Instagram @corenationmen
 
@@ -219,7 +220,8 @@ Owner: Social — Men + Design
 ### Shopee title
 
 `Corenation [Product] — [Kanji] [Meaning] | Men's Training`  
-Example: `Corenation Lifting Belt — 力 Power | Men's Training`
+Example: `Corenation Lifting Belt — 力 Power | Men's Training`  
+Boxing: `Corenation Boxing Gloves — 拳 Fist | Men's Training`
 
 ### Store VM — men's zone
 

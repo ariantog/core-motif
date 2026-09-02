@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T15:07:59Z",
+  "generatedAt": "2026-09-02T05:15:30Z",
   "root": [
     {
       "type": "dir",
@@ -1377,6 +1377,31 @@
                   "type": "image",
                   "name": "bag-hyrox-kanji-kyoku.png",
                   "path": "assets/men-kanji/accessories/bag-hyrox-kanji-kyoku.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-bu-warrior.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-bu-warrior.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-ken-fist.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-ken-fist.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-rai-thunder.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-rai-thunder.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-tamashii-soul.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-tamashii-soul.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-to-fight.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-to-fight.png"
                 },
                 {
                   "type": "image",
@@ -3624,6 +3649,31 @@
                         },
                         {
                           "type": "image",
+                          "name": "boxing-gloves-kanji-bu-warrior.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-bu-warrior.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-ken-fist.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-ken-fist.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-rai-thunder.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-rai-thunder.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-tamashii-soul.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-tamashii-soul.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-to-fight.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-to-fight.png"
+                        },
+                        {
+                          "type": "image",
                           "name": "gloves-kanji-ken-fist.png",
                           "path": "design-board/public/assets/men-kanji/accessories/gloves-kanji-ken-fist.png"
                         },
@@ -4705,23 +4755,6 @@
       "name": "scripts",
       "path": "scripts",
       "children": [
-        {
-          "type": "dir",
-          "name": "__pycache__",
-          "path": "scripts/__pycache__",
-          "children": [
-            {
-              "type": "file",
-              "name": "build_readable_wordmarks.cpython-312.pyc",
-              "path": "scripts/__pycache__/build_readable_wordmarks.cpython-312.pyc"
-            },
-            {
-              "type": "file",
-              "name": "build_split_wordmarks.cpython-312.pyc",
-              "path": "scripts/__pycache__/build_split_wordmarks.cpython-312.pyc"
-            }
-          ]
-        },
         {
           "type": "file",
           "name": "build-site.sh",
