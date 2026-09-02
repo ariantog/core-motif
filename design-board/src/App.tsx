@@ -7,6 +7,8 @@ import { collections, kanjiMarks, menMockups, referenceSamples } from './data/ka
 import {
   padelMenDirectionalMockups,
   padelMenDirectionalPalette,
+  padelMenEarthMockups,
+  padelMenEarthPalette,
   padelMenMockups,
   padelMenMultiMockups,
   padelMenMultiPalette,
@@ -19,6 +21,8 @@ import {
   padelWomenMultiMockups,
   padelWomenMultiPalette,
   padelWomenPalette,
+  padelWomenStitchMockups,
+  padelWomenStitchPalette,
 } from './data/padel'
 import { asset } from './lib/assets'
 
@@ -749,9 +753,9 @@ function App() {
           <section>
             <h2>Theme lock</h2>
             <p className="lede">
-              Consumer padel court kit — no kanji, no logo. v3 moves beyond stacked fades with
-              <strong> diagonal, curved, and radial color fields</strong>. Small tonal patterns may
-              appear only where colors meet. Men and women stay on separate stories. Files:{' '}
+              Consumer padel court kit — no kanji, no logo. v4 leads with{' '}
+              <strong>sewn panels and contrast stitch</strong>: women get more warm pastels, men get
+              earth court colors. v3 directional fades stay below. Files:{' '}
               <code>assets/padel/men/</code> · <code>assets/padel/women/</code>. Spec:{' '}
               <code>docs/padel-collection.md</code>.
             </p>
@@ -778,6 +782,16 @@ function App() {
                 </article>
               ))}
             </div>
+          </section>
+          <section>
+            <h2>Women v4 — Petal Seam + Citrus Stitch</h2>
+            <Swatches items={padelWomenStitchPalette} />
+            <MockGrid items={padelWomenStitchMockups} />
+          </section>
+          <section>
+            <h2>Men v4 — Clay Court + Moss Baseline</h2>
+            <Swatches items={padelMenEarthPalette} />
+            <MockGrid items={padelMenEarthMockups} />
           </section>
           <section>
             <h2>Men v3 — Crosscourt Mesh + Orbit Serve</h2>
