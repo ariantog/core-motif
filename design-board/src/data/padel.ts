@@ -7,8 +7,8 @@ const piece = (gender: 'men' | 'women', story: string, file: string) =>
 export const padelRules = [
   { lock: 'No marks', flower: 'No kanji, no hex C, no CORENATION wordmark, no club badge' },
   { lock: 'Directional color', flower: 'Use diagonal, curved, side-swept, or radial fields—not another stacked fade' },
-  { lock: 'Pattern restraint', flower: 'Dots, mesh, dashes, or pinlines may live only inside a narrow color transition' },
-  { lock: 'Split the court', flower: 'Men stay cool mint / teal / periwinkle. Women stay peach / rose / pistachio. Never mix on one SKU' },
+  { lock: 'Stitch models', flower: 'v4 panels are sewn. Contrast flatlock, coverstitch, or double-needle is the hero — not a printed fake seam' },
+  { lock: 'Split the court', flower: 'Women stay warm pastels. Men v4 is earth (terracotta / moss). Men v1–v3 stay cool mint / teal / periwinkle. Never mix on one SKU' },
   { lock: 'Women extras', flower: 'Skirt / skort is women-only. Men stay polo, tee, tank, shorts' },
 ]
 
@@ -64,7 +64,53 @@ export const padelWomenDirectionalPalette = [
   { hex: '#C7B5DF', name: 'Halo lilac #C7B5DF' },
 ]
 
+export const padelWomenStitchPalette = [
+  { hex: '#F4C4C8', name: 'Petal blush #F4C4C8' },
+  { hex: '#FAF4EC', name: 'Petal cream #FAF4EC' },
+  { hex: '#D4E8A8', name: 'Petal pistachio #D4E8A8' },
+  { hex: '#F0E8A8', name: 'Citrus lemon #F0E8A8' },
+  { hex: '#F0C4A0', name: 'Citrus apricot #F0C4A0' },
+  { hex: '#E4F0C8', name: 'Citrus honeydew #E4F0C8' },
+]
+
+export const padelMenEarthPalette = [
+  { hex: '#C47854', name: 'Clay terracotta #C47854' },
+  { hex: '#D7B98E', name: 'Clay sandstone #D7B98E' },
+  { hex: '#6B5344', name: 'Clay soil #6B5344' },
+  { hex: '#6E7B4A', name: 'Baseline moss #6E7B4A' },
+  { hex: '#8A8F5C', name: 'Baseline olive #8A8F5C' },
+  { hex: '#D8C6A2', name: 'Baseline sand #D8C6A2' },
+]
+
 export const padelStories = [
+  {
+    id: 'petal-seam',
+    gender: 'women' as const,
+    name: 'Petal Seam',
+    fade: 'v4 · princess / petal panels · blush / cream / pistachio',
+    note: 'Sewn curved panels with cream contrast flatlock.',
+  },
+  {
+    id: 'citrus-stitch',
+    gender: 'women' as const,
+    name: 'Citrus Stitch',
+    fade: 'v4 · raglan + yoke · lemon / apricot / honeydew',
+    note: 'Apricot contrast overlock on raglan and yoke seams.',
+  },
+  {
+    id: 'clay-court',
+    gender: 'men' as const,
+    name: 'Clay Court',
+    fade: 'v4 · angular panels · terracotta / sandstone / soil',
+    note: 'Heavy sandstone double-needle topstitch.',
+  },
+  {
+    id: 'moss-baseline',
+    gender: 'men' as const,
+    name: 'Moss Baseline',
+    fade: 'v4 · raglan + side panels · moss / olive / sand',
+    note: 'Sand contrast flatlock on raglan and side panels.',
+  },
   {
     id: 'crosscourt-mesh',
     gender: 'men' as const,
@@ -208,6 +254,30 @@ export const padelMenDirectionalMockups: Mockup[] = [
   { src: piece('men', 'orbit-serve', 'tee.png'), title: 'Orbit Serve tee', type: 'Men tee · off-center halo + pinlines', line: 'padel' },
   { src: piece('men', 'orbit-serve', 'tank.png'), title: 'Orbit Serve tank', type: 'Men tank · off-center halo + pinlines', line: 'padel' },
   { src: piece('men', 'orbit-serve', 'shorts.png'), title: 'Orbit Serve shorts', type: 'Men shorts · off-center halo + pinlines', line: 'padel' },
+]
+
+export const padelWomenStitchMockups: Mockup[] = [
+  { src: piece('women', 'petal-seam', 'polo.png'), title: 'Petal Seam polo', type: 'Women polo · princess panels + cream stitch', line: 'padel' },
+  { src: piece('women', 'petal-seam', 'tee.png'), title: 'Petal Seam tee', type: 'Women tee · princess panels + cream stitch', line: 'padel' },
+  { src: piece('women', 'petal-seam', 'tank.png'), title: 'Petal Seam tank', type: 'Women tank · princess panels + cream stitch', line: 'padel' },
+  { src: piece('women', 'petal-seam', 'shorts.png'), title: 'Petal Seam shorts', type: 'Women shorts · princess panels + cream stitch', line: 'padel' },
+  { src: piece('women', 'petal-seam', 'skirt.png'), title: 'Petal Seam skirt', type: 'Women skirt · princess panels + cream stitch', line: 'padel' },
+  { src: piece('women', 'citrus-stitch', 'polo.png'), title: 'Citrus Stitch polo', type: 'Women polo · raglan + apricot overlock', line: 'padel' },
+  { src: piece('women', 'citrus-stitch', 'tee.png'), title: 'Citrus Stitch tee', type: 'Women tee · raglan + apricot overlock', line: 'padel' },
+  { src: piece('women', 'citrus-stitch', 'tank.png'), title: 'Citrus Stitch tank', type: 'Women tank · yoke + apricot overlock', line: 'padel' },
+  { src: piece('women', 'citrus-stitch', 'shorts.png'), title: 'Citrus Stitch shorts', type: 'Women shorts · yoke + apricot overlock', line: 'padel' },
+  { src: piece('women', 'citrus-stitch', 'skirt.png'), title: 'Citrus Stitch skirt', type: 'Women skirt · yoke + apricot overlock', line: 'padel' },
+]
+
+export const padelMenEarthMockups: Mockup[] = [
+  { src: piece('men', 'clay-court', 'polo.png'), title: 'Clay Court polo', type: 'Men polo · angular panels + sandstone stitch', line: 'padel' },
+  { src: piece('men', 'clay-court', 'tee.png'), title: 'Clay Court tee', type: 'Men tee · angular panels + sandstone stitch', line: 'padel' },
+  { src: piece('men', 'clay-court', 'tank.png'), title: 'Clay Court tank', type: 'Men tank · angular panels + sandstone stitch', line: 'padel' },
+  { src: piece('men', 'clay-court', 'shorts.png'), title: 'Clay Court shorts', type: 'Men shorts · angular panels + sandstone stitch', line: 'padel' },
+  { src: piece('men', 'moss-baseline', 'polo.png'), title: 'Moss Baseline polo', type: 'Men polo · raglan + sand flatlock', line: 'padel' },
+  { src: piece('men', 'moss-baseline', 'tee.png'), title: 'Moss Baseline tee', type: 'Men tee · raglan + sand flatlock', line: 'padel' },
+  { src: piece('men', 'moss-baseline', 'tank.png'), title: 'Moss Baseline tank', type: 'Men tank · side panels + sand flatlock', line: 'padel' },
+  { src: piece('men', 'moss-baseline', 'shorts.png'), title: 'Moss Baseline shorts', type: 'Men shorts · side panels + sand flatlock', line: 'padel' },
 ]
 
 export const padelWomenDirectionalMockups: Mockup[] = [

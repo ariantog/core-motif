@@ -16,6 +16,8 @@ assets/
     marks/                    flower sheets
   padel/
     men/
+      clay-court/             v4 angular panels + sandstone topstitch
+      moss-baseline/          v4 raglan + side panels + sand flatlock
       crosscourt-mesh/        diagonal fields + diamond-net dissolve
       orbit-serve/            off-center halo + pinline arcs
       reef-trio/              3 color · seafoam → sky → periwinkle
@@ -23,6 +25,8 @@ assets/
       glass-court/            v1 one-hue · ice → mint
       harbor-haze/            v1 one-hue · fog → teal
     women/
+      petal-seam/             v4 princess panels + cream flatlock (+ skirt)
+      citrus-stitch/          v4 raglan + yoke + apricot overlock (+ skirt)
       rally-ribbon/           S-curve fields + micro-dash dissolve (+ skirt)
       halo-serve/             side-origin arcs + transition ticks (+ skirt)
       clay-bloom/             3 color · peach → rose → lilac (+ skirt)
@@ -46,10 +50,14 @@ assets/
     _archive-v1/              flat charcoal pieces (superseded)
 ```
 
-Padel consumer kit (pastel fade, no kanji, no logo):
+Padel consumer kit (no kanji, no logo). v4 is sewn stitch models:
 
 | Folder | Who | Fade | Pieces |
 |--------|-----|------|--------|
+| `women/petal-seam` | Women | Princess panels · blush / cream / pistachio + cream flatlock | polo, tee, tank, shorts, skirt |
+| `women/citrus-stitch` | Women | Raglan + yoke · lemon / apricot / honeydew + apricot overlock | polo, tee, tank, shorts, skirt |
+| `men/clay-court` | Men | Angular panels · terracotta / sandstone / soil + sandstone topstitch | polo, tee, tank, shorts |
+| `men/moss-baseline` | Men | Raglan + side panels · moss / olive / sand + sand flatlock | polo, tee, tank, shorts |
 | `men/crosscourt-mesh` | Men | Diagonal seafoam / sky / periwinkle + diamond-net dissolve | polo, tee, tank, shorts |
 | `men/orbit-serve` | Men | Off-center aqua / mint / violet halo + pinline arcs | polo, tee, tank, shorts |
 | `women/rally-ribbon` | Women | Peach / rose / lilac S-curve + micro-dash dissolve | polo, tee, tank, shorts, skirt |

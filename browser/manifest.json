@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T05:15:30Z",
+  "generatedAt": "2026-09-02T07:24:48Z",
   "root": [
     {
       "type": "dir",
@@ -1765,6 +1765,33 @@
               "children": [
                 {
                   "type": "dir",
+                  "name": "clay-court",
+                  "path": "assets/padel/men/clay-court",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/clay-court/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/clay-court/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/clay-court/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/clay-court/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "crosscourt-mesh",
                   "path": "assets/padel/men/crosscourt-mesh",
                   "children": [
@@ -1873,6 +1900,33 @@
                 },
                 {
                   "type": "dir",
+                  "name": "moss-baseline",
+                  "path": "assets/padel/men/moss-baseline",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/men/moss-baseline/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/men/moss-baseline/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/men/moss-baseline/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/men/moss-baseline/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "orbit-serve",
                   "path": "assets/padel/men/orbit-serve",
                   "children": [
@@ -1932,6 +1986,38 @@
               "name": "women",
               "path": "assets/padel/women",
               "children": [
+                {
+                  "type": "dir",
+                  "name": "citrus-stitch",
+                  "path": "assets/padel/women/citrus-stitch",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/citrus-stitch/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/citrus-stitch/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/citrus-stitch/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/citrus-stitch/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/citrus-stitch/tee.png"
+                    }
+                  ]
+                },
                 {
                   "type": "dir",
                   "name": "clay-bloom",
@@ -2057,6 +2143,38 @@
                       "type": "image",
                       "name": "tee.png",
                       "path": "assets/padel/women/lemon-sherbet/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "petal-seam",
+                  "path": "assets/padel/women/petal-seam",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "polo.png",
+                      "path": "assets/padel/women/petal-seam/polo.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/padel/women/petal-seam/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "skirt.png",
+                      "path": "assets/padel/women/petal-seam/skirt.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/padel/women/petal-seam/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/padel/women/petal-seam/tee.png"
                     }
                   ]
                 },
@@ -4034,6 +4152,33 @@
                       "children": [
                         {
                           "type": "dir",
+                          "name": "clay-court",
+                          "path": "design-board/public/assets/padel/men/clay-court",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/clay-court/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/clay-court/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/clay-court/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/clay-court/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
                           "name": "crosscourt-mesh",
                           "path": "design-board/public/assets/padel/men/crosscourt-mesh",
                           "children": [
@@ -4142,6 +4287,33 @@
                         },
                         {
                           "type": "dir",
+                          "name": "moss-baseline",
+                          "path": "design-board/public/assets/padel/men/moss-baseline",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/men/moss-baseline/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/men/moss-baseline/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/men/moss-baseline/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/men/moss-baseline/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
                           "name": "orbit-serve",
                           "path": "design-board/public/assets/padel/men/orbit-serve",
                           "children": [
@@ -4201,6 +4373,38 @@
                       "name": "women",
                       "path": "design-board/public/assets/padel/women",
                       "children": [
+                        {
+                          "type": "dir",
+                          "name": "citrus-stitch",
+                          "path": "design-board/public/assets/padel/women/citrus-stitch",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/citrus-stitch/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/citrus-stitch/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/citrus-stitch/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/citrus-stitch/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/citrus-stitch/tee.png"
+                            }
+                          ]
+                        },
                         {
                           "type": "dir",
                           "name": "clay-bloom",
@@ -4326,6 +4530,38 @@
                               "type": "image",
                               "name": "tee.png",
                               "path": "design-board/public/assets/padel/women/lemon-sherbet/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "petal-seam",
+                          "path": "design-board/public/assets/padel/women/petal-seam",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "polo.png",
+                              "path": "design-board/public/assets/padel/women/petal-seam/polo.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/padel/women/petal-seam/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "skirt.png",
+                              "path": "design-board/public/assets/padel/women/petal-seam/skirt.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/padel/women/petal-seam/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/padel/women/petal-seam/tee.png"
                             }
                           ]
                         },
