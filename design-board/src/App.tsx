@@ -3,7 +3,7 @@ import './App.css'
 import { LogoMark } from './components/LogoMark'
 import { cultureBackgrounds, cultureLayers, cultureMockups, culturePrints } from './data/culture'
 import { floralMockups, floralRules } from './data/floral'
-import { collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
+import { boxingGloves, collections, kanjiMarks, menMockups, referenceSamples } from './data/kanji'
 import {
   padelMenDirectionalMockups,
   padelMenDirectionalPalette,
@@ -415,7 +415,7 @@ function MockGrid({
       {items.map((item) => (
         <article
           key={item.src}
-          className={`mockup-card${cardClass ? ` ${cardClass}` : ''}${item.type === 'Apparel' && item.title.includes('Tee') ? ' tall' : item.type === 'Accessory' ? ' square' : ''}`}
+          className={`mockup-card${cardClass ? ` ${cardClass}` : ''}${item.type === 'Apparel' && item.title.includes('Tee') ? ' tall' : item.type === 'Accessory' || item.type === 'Boxing' ? ' square' : ''}`}
         >
           <img src={item.src} alt={item.title} loading="lazy" />
           <div className="mockup-info">
@@ -647,6 +647,16 @@ function App() {
               ]}
             />
             <MockGrid items={menMockups} />
+          </section>
+          <section>
+            <h2>Boxing gloves</h2>
+            <p className="section-lead">
+              Closed-fist bag / sparring gloves — not the fingerless lifting pair. One hero kanji on
+              the black backhand. Cream <strong>CORENATION</strong> on the olive cuff. Hex off (new
+              PO path). Gold for 拳 / 魂 / 雷; red for 闘 / 武. Spec:{' '}
+              <code>docs/kanji-design-collection.md</code>.
+            </p>
+            <MockGrid items={boxingGloves} />
           </section>
           <section>
             <h2>Your 龍 samples</h2>

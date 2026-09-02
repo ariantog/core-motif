@@ -22,7 +22,7 @@ export const collections: { name: string; theme: string; items: Concept[] }[] = 
     items: [
       { char: '力', romanization: 'Chikara', meaning: 'Power, force', accent: 'Red / Gold', applications: 'Belt, straps, tee' },
       { char: '剛', romanization: 'Gō', meaning: 'Strength, firmness', accent: 'Red', applications: 'Knee sleeves, shorts' },
-      { char: '武', romanization: 'Bu', meaning: 'Warrior, martial', accent: 'Red / Gold', applications: 'Tee, wraps, fight shorts' },
+      { char: '武', romanization: 'Bu', meaning: 'Warrior, martial', accent: 'Red / Gold', applications: 'Tee, wraps, boxing gloves' },
       { char: '鉄', romanization: 'Tetsu', meaning: 'Iron', accent: 'Gold / Cream', applications: 'Belt, chalk bag' },
     ],
   },
@@ -52,7 +52,7 @@ export const collections: { name: string; theme: string; items: Concept[] }[] = 
     items: [
       { char: '火', romanization: 'Ka', meaning: 'Fire, intensity', accent: 'Red / Gold', applications: 'HIIT tee, straps' },
       { char: '風', romanization: 'Fū', meaning: 'Wind, speed', accent: 'Cream', applications: 'Running short, knee sleeve' },
-      { char: '雷', romanization: 'Rai', meaning: 'Thunder', accent: 'Gold / Red', applications: 'Gloves, plyo short' },
+      { char: '雷', romanization: 'Rai', meaning: 'Thunder', accent: 'Gold / Red', applications: 'Boxing gloves, plyo short' },
       { char: '山', romanization: 'San', meaning: 'Mountain', accent: 'Cream', applications: 'Squat tee, hybrid short' },
     ],
   },
@@ -61,11 +61,11 @@ export const collections: { name: string; theme: string; items: Concept[] }[] = 
     theme: '精',
     items: [
       { char: '極', romanization: 'Kyoku', meaning: 'Extreme, the edge', accent: 'Gold / Red', applications: 'Hyrox bag, meet belt' },
-      { char: '魂', romanization: 'Tamashii', meaning: 'Soul, spirit', accent: 'Gold', applications: 'Belt alt, gloves' },
+      { char: '魂', romanization: 'Tamashii', meaning: 'Soul, spirit', accent: 'Gold', applications: 'Belt alt, boxing gloves' },
       { char: '鍛', romanization: 'Tan', meaning: 'Forge, temper', accent: 'Red', applications: 'Shorts, straps, tee' },
-      { char: '闘', romanization: 'Tō', meaning: 'Fight, struggle', accent: 'Red / Gold', applications: 'Tee, fight shorts' },
+      { char: '闘', romanization: 'Tō', meaning: 'Fight, struggle', accent: 'Red / Gold', applications: 'Tee, fight shorts, boxing gloves' },
       { char: '気', romanization: 'Ki', meaning: 'Energy, spirit', accent: 'Cream', applications: 'Training tank' },
-      { char: '拳', romanization: 'Ken', meaning: 'Fist', accent: 'Gold', applications: 'Gloves, wraps' },
+      { char: '拳', romanization: 'Ken', meaning: 'Fist', accent: 'Gold', applications: 'Boxing gloves, wraps' },
       { char: '鋼', romanization: 'Hagane', meaning: 'Steel', accent: 'Gold / Cream', applications: 'Straps, belt alt' },
       { char: '峰', romanization: 'Mine', meaning: 'Peak', accent: 'Cream', applications: 'Squat tee, duffel' },
     ],
@@ -87,6 +87,14 @@ export const menMockups: Mockup[] = [
   { src: asset('assets/men-kanji/accessories/knee-support-kanji-fu-wind.png'), title: 'Knee Support — 風 Wind', type: 'Accessory', line: 'men' },
   { src: asset('assets/men-kanji/accessories/bag-hyrox-kanji-kyoku.png'), title: 'Hyrox Bag — 極 Extreme', type: 'Accessory', line: 'men' },
   { src: asset('assets/men-kanji/accessories/straps-kanji-hagane-steel.png'), title: 'Lifting Straps — 鋼 Steel', type: 'Accessory', line: 'men' },
+]
+
+export const boxingGloves: Mockup[] = [
+  { src: asset('assets/men-kanji/accessories/boxing-gloves-kanji-ken-fist.png'), title: 'Boxing Gloves — 拳 Fist', type: 'Boxing', line: 'men' },
+  { src: asset('assets/men-kanji/accessories/boxing-gloves-kanji-to-fight.png'), title: 'Boxing Gloves — 闘 Fight', type: 'Boxing', line: 'men' },
+  { src: asset('assets/men-kanji/accessories/boxing-gloves-kanji-bu-warrior.png'), title: 'Boxing Gloves — 武 Warrior', type: 'Boxing', line: 'men' },
+  { src: asset('assets/men-kanji/accessories/boxing-gloves-kanji-tamashii-soul.png'), title: 'Boxing Gloves — 魂 Soul', type: 'Boxing', line: 'men' },
+  { src: asset('assets/men-kanji/accessories/boxing-gloves-kanji-rai-thunder.png'), title: 'Boxing Gloves — 雷 Thunder', type: 'Boxing', line: 'men' },
 ]
 
 export const referenceSamples: Mockup[] = [
