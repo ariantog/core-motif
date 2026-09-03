@@ -16,13 +16,19 @@ assets/
     marks/                    flower sheets
   pace/
     men/
-      vent-map/               laser-cut heat map · ink / slate / mist
+      air-grid/               purchased eyelet-mesh zones · ink / slate / mist
       stride-panel/           angular side block · black / slate / rust
       cloud-yoke/             mesh shoulder cape · bone / cool gray / ink
+      back-draft/             overlap cape + mesh · storm / mineral / bone
+      relay-rib/              rib channels + piping · espresso / moss / sand
+      axis-split/             offset saddle + gusset · charcoal / teal / mist
     women/
       swift-map/              mapped seams · sand / blush / fog
       aero-racer/             mesh spine · rose clay / pearl / slate
       curve-pace/             hip-to-shoulder curve · bone / apricot / charcoal
+      crossflow/              crossed overlap vents · plum / mauve / shell
+      rib-trace/              contour rib + piping · cocoa / rose taupe / oat
+      tempo-pleat/            mesh-backed pleat · sage / fog / apricot
   padel/
     men/
       powder-reef/            v5 pastel watercolor · aqua / seafoam / mist
@@ -64,16 +70,22 @@ assets/
     _archive-v1/              flat charcoal pieces (superseded)
 ```
 
-Pace running kit (no kanji, no logo, no dye-sub graphic). Construction is the design:
+Pace running kit (no kanji, no logo, no dye-sub graphic). Standard-sewn construction is the design. It requires no laser cutter or seam-bonding equipment:
 
 | Folder | Who | Construction | Pieces |
 |--------|-----|--------------|--------|
-| `men/vent-map` | Men | Laser-cut heat map · ink / slate / mist | tee, tank, shorts |
+| `men/air-grid` | Men | Purchased eyelet-mesh zones · ink / slate / mist | tee, tank, shorts |
 | `men/stride-panel` | Men | Angular side block · black / slate / rust | tee, tank, shorts |
 | `men/cloud-yoke` | Men | Mesh shoulder cape · bone / cool gray / ink | tee, tank, shorts |
+| `men/back-draft` | Men | Overlap cape + mesh · storm / mineral / bone | tee, tank, shorts |
+| `men/relay-rib` | Men | Rib channels + piping · espresso / moss / sand | tee, tank, shorts |
+| `men/axis-split` | Men | Offset saddle + gusset · charcoal / teal / mist | tee, tank, shorts |
 | `women/swift-map` | Women | Mapped seams · sand / blush / fog | tee, tank, shorts |
 | `women/aero-racer` | Women | Mesh spine · rose clay / pearl / slate | tee, tank, shorts |
 | `women/curve-pace` | Women | Hip-to-shoulder curve · bone / apricot / charcoal | tee, tank, shorts |
+| `women/crossflow` | Women | Crossed overlap vents · plum / mauve / shell | tee, tank, shorts |
+| `women/rib-trace` | Women | Contour rib + piping · cocoa / rose taupe / oat | tee, tank, shorts |
+| `women/tempo-pleat` | Women | Mesh-backed pleat · sage / fog / apricot | tee, tank, shorts |
 
 Padel consumer kit (no kanji, no logo). v5 is pastel watercolor + vertical columns. v4 is sewn stitch models:
 

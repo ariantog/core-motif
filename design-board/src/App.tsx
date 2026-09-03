@@ -28,7 +28,15 @@ import {
   padelWomenTextureMockups,
   padelWomenTexturePalette,
 } from './data/padel'
-import { paceMenMockups, paceMenPalette, paceRules, paceStories, paceWomenMockups, paceWomenPalette } from './data/pace'
+import {
+  paceMenMockups,
+  paceMenPalette,
+  paceProductionDetails,
+  paceRules,
+  paceStories,
+  paceWomenMockups,
+  paceWomenPalette,
+} from './data/pace'
 import { asset } from './lib/assets'
 
 type Tab = 'brand' | 'men' | 'women' | 'culture' | 'pace' | 'padel' | 'marks'
@@ -637,7 +645,8 @@ function App() {
             <p className="lede">
               v1.0 was men-kanji only. v2.0 adds brand direction, owners, women / hijab / Culture Run / padel, and
               channel playbooks. v2.2 adds the consumer padel pastel kit (no kanji, no logo) on the Padel tab.
-              v2.4 adds Pace — construction-led running tees, tanks, and shorts with no printed graphics.
+              v2.5 expands Pace to 12 standard-sewn stories / 36 pieces, removes laser-cut and
+              bonded construction, and adds factory-level build details.
               Full ticks live in <code>docs/branding-checklist.md</code>.
             </p>
           </section>
@@ -772,9 +781,10 @@ function App() {
             <h2>Theme lock</h2>
             <p className="lede">
               Construction-led running kit — no kanji, no logo, no dye-sub graphic. Design is cut,
-              seam, mesh, bonded edge, and laser-cut ventilation. Lululemon / Nike AeroSwift / On
-              Cloud energy. Files: <code>assets/pace/men/</code> · <code>assets/pace/women/</code>.
-              Spec: <code>docs/pace-collection.md</code>.
+              seam, purchased mesh, piping, overlap vents, rib, pleats, and visible stitch. Every
+              piece uses standard lockstitch, overlock, coverstitch, elastic, coil zip, and bartack
+              construction — no laser cutter or seam bonding. Files: <code>assets/pace/men/</code> ·{' '}
+              <code>assets/pace/women/</code>. Spec: <code>docs/pace-collection.md</code>.
             </p>
             <div className="rule-grid">
               {paceRules.map((rule) => (
@@ -801,12 +811,27 @@ function App() {
             </div>
           </section>
           <section>
-            <h2>Men — Vent Map + Stride Panel + Cloud Yoke</h2>
+            <h2>Factory build details</h2>
+            <p className="section-lead">
+              Production baseline for every story. The spec adds the full bill of materials, seam
+              allowances, operation sequence, stress-point reinforcement, and sample checks.
+            </p>
+            <div className="rule-grid">
+              {paceProductionDetails.map((detail) => (
+                <article key={detail.lock}>
+                  <h3>{detail.lock}</h3>
+                  <p>{detail.flower}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Men — 6 stories · 18 pieces</h2>
             <Swatches items={paceMenPalette} />
             <MockGrid items={paceMenMockups} />
           </section>
           <section>
-            <h2>Women — Swift Map + Aero Racer + Curve Pace</h2>
+            <h2>Women — 6 stories · 18 pieces</h2>
             <Swatches items={paceWomenPalette} />
             <MockGrid items={paceWomenMockups} />
           </section>
@@ -929,7 +954,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.4 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.5 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )
