@@ -16,6 +16,8 @@ assets/
     marks/                    flower sheets
   padel/
     men/
+      powder-reef/            v5 pastel watercolor · aqua / seafoam / mist
+      sky-columns/            v5 pastel verticals · powder blue / sage / mist
       clay-court/             v4 angular panels + sandstone topstitch
       moss-baseline/          v4 raglan + side panels + sand flatlock
       crosscourt-mesh/        diagonal fields + diamond-net dissolve
@@ -25,6 +27,8 @@ assets/
       glass-court/            v1 one-hue · ice → mint
       harbor-haze/            v1 one-hue · fog → teal
     women/
+      sherbet-wash/           v5 pastel watercolor · apricot / blush / cream (+ skirt)
+      petal-columns/          v5 pastel verticals · blush / rose / cream (+ skirt)
       petal-seam/             v4 princess panels + cream flatlock (+ skirt)
       citrus-stitch/          v4 raglan + yoke + apricot overlock (+ skirt)
       rally-ribbon/           S-curve fields + micro-dash dissolve (+ skirt)
@@ -51,10 +55,14 @@ assets/
     _archive-v1/              flat charcoal pieces (superseded)
 ```
 
-Padel consumer kit (no kanji, no logo). v4 is sewn stitch models:
+Padel consumer kit (no kanji, no logo). v5 is pastel watercolor + vertical columns. v4 is sewn stitch models:
 
 | Folder | Who | Fade | Pieces |
 |--------|-----|------|--------|
+| `women/sherbet-wash` | Women | Pastel watercolor · apricot / blush / cream | polo, tee, tank, shorts, skirt |
+| `women/petal-columns` | Women | Pastel verticals · blush / rose / cream | polo, tee, tank, shorts, skirt |
+| `men/powder-reef` | Men | Pastel watercolor · aqua / seafoam / mist | polo, tee, tank, shorts |
+| `men/sky-columns` | Men | Pastel verticals · powder blue / sage / mist | polo, tee, tank, shorts |
 | `women/petal-seam` | Women | Princess panels · blush / cream / pistachio + cream flatlock | polo, tee, tank, shorts, skirt |
 | `women/citrus-stitch` | Women | Raglan + yoke · lemon / apricot / honeydew + apricot overlock | polo, tee, tank, shorts, skirt |
 | `men/clay-court` | Men | Angular panels · terracotta / sandstone / soil + sandstone topstitch | polo, tee, tank, shorts |

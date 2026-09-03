@@ -13,6 +13,8 @@ import {
   padelMenMultiMockups,
   padelMenMultiPalette,
   padelMenPalette,
+  padelMenPastelTextureMockups,
+  padelMenPastelTexturePalette,
   padelRules,
   padelStories,
   padelWomenDirectionalMockups,
@@ -23,6 +25,8 @@ import {
   padelWomenPalette,
   padelWomenStitchMockups,
   padelWomenStitchPalette,
+  padelWomenTextureMockups,
+  padelWomenTexturePalette,
 } from './data/padel'
 import { asset } from './lib/assets'
 
@@ -764,11 +768,11 @@ function App() {
           <section>
             <h2>Theme lock</h2>
             <p className="lede">
-              Consumer padel court kit — no kanji, no logo. v4 leads with{' '}
-              <strong>sewn panels and contrast stitch</strong>: women get more warm pastels, men get
-              earth court colors. v3 directional fades stay below. Files:{' '}
-              <code>assets/padel/men/</code> · <code>assets/padel/women/</code>. Spec:{' '}
-              <code>docs/padel-collection.md</code>.
+              Consumer padel court kit — no kanji, no logo. v5 leads with{' '}
+              <strong>pastel watercolor washes and vertical columns</strong>: women stay warm
+              apricot / blush, men stay cool aqua / powder blue. v4 stitch and v3 directional fades
+              stay below. Files: <code>assets/padel/men/</code> · <code>assets/padel/women/</code>.
+              Spec: <code>docs/padel-collection.md</code>.
             </p>
             <div className="rule-grid">
               {padelRules.map((rule) => (
@@ -793,6 +797,16 @@ function App() {
                 </article>
               ))}
             </div>
+          </section>
+          <section>
+            <h2>Women v5 — Sherbet Wash + Petal Columns</h2>
+            <Swatches items={padelWomenTexturePalette} />
+            <MockGrid items={padelWomenTextureMockups} />
+          </section>
+          <section>
+            <h2>Men v5 — Powder Reef + Sky Columns</h2>
+            <Swatches items={padelMenPastelTexturePalette} />
+            <MockGrid items={padelMenPastelTextureMockups} />
           </section>
           <section>
             <h2>Women v4 — Petal Seam + Citrus Stitch</h2>
