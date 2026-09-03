@@ -1,6 +1,6 @@
 # Corenation Brand Playbook — Staff Checklists
 
-**Version:** 2.4 (Pace running kit)  
+**Version:** 2.5 (standard-sewn Pace expansion)  
 **Use:** Print or duplicate per drop. Tick boxes as completed. One owner per section.  
 **Brand:** Corenation Active — Surabaya, est. 2014  
 **Channels:** @corenationactive · @corenationmen · @corenationhijab · shopee.co.id/corenation  
@@ -104,7 +104,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 | Women floral | @corenationactive | Sakura on pink, lavender on lilac | Apparel + matching accs | Kanji patches, olive tactical as hero |
 | Hijab / modest | @corenationhijab | Floral **or** clean modest | Sports hijab, long tunics, modest sets | Body-con crop-only hero, kanji warrior copy |
 | Culture Run | Active + Men (tag both if unisex) | Graphic print (wave, summit, bloom path) | Running tee, tank, singlet | Lifting-belt patch language, heavy olive tactical |
-| Pace | Active + Men (tag both if unisex) | Construction (mesh, laser-cut, mapped seam, panel) | Running tee, tank, shorts | Printed graphic, kanji, floral, padel polo/skirt |
+| Pace | Active + Men (tag both if unisex) | Construction (bought mesh, seam, piping, vent, rib, pleat) | Running tee, tank, shorts | Laser cutting, bonding, printed graphic, kanji, floral |
 | Padel court | Active + Men | Pastel (women) or earth stitch (men), **no marks** | Polo, tee, tank, shorts, women skirt | Kanji, hex C, floral, Culture Run wave |
 | HQ padel | not a consumer drop | Club color **from approved palette** | Club kits, still Corenation branded | Club logo replacing hex C; unapproved neon |
 
@@ -374,29 +374,33 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 Owner: Brand lead + Design · Social: Active and/or Men
 
-**What this line is:** lightweight running tees, tanks, and shorts whose design is **cut, seam, mesh, bonded edge, and laser-cut ventilation**. Lululemon / Nike AeroSwift / Adidas Adizero / On Cloud energy.
+**What this line is:** lightweight running tees, tanks, and shorts whose design is **cut, seam, purchased mesh, piping, overlap vents, rib panels, and pleats**. Lululemon / Nike AeroSwift / Adidas Adizero / On Cloud energy, produced on standard sewing machines.
 
-**What it is not:** Culture Run (no dye-sub graphic). Not padel (no polo, no skirt, no court watercolor). Not a lifting tee. No kanji. No floral.
+**What it is not:** Culture Run (no dye-sub graphic). Not padel (no polo, no skirt, no court watercolor). Not a lifting tee. No kanji. No floral. No laser cutting. No bonded or glued seam.
 
 ### Voice & visual
 
-- [ ] Copy is pace, split, heat map, keep the line. Use: *run the city, stay light, match the short.* Not *conquer nations*, not luxury marathon, not court night.
+- [ ] Copy is pace, split, airflow, keep the line. Use: *run the city, stay light, match the short.* Not *conquer nations*, not luxury marathon, not court night.
 - [ ] Fabric looks **light** in photos (mesh, pin-dot jersey, split hem). If it photographs like a lifting tee, recut or relight.
 - [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only. Line code **PAC**.
-- [ ] One construction per SKU: Vent Map (laser-cut), Stride Panel (angular rust block), Cloud Yoke (mesh cape), Swift Map (mapped seams), Aero Racer (mesh spine), or Curve Pace (hip-to-shoulder curve).
-- [ ] Men stay ink / rust / bone-gray. Women stay sand / clay / apricot. Do not share one panel map across genders.
+- [ ] One construction per SKU. Men: Air Grid, Stride Panel, Cloud Yoke, Back Draft, Relay Rib, Axis Split. Women: Swift Map, Aero Racer, Curve Pace, Crossflow, Rib Trace, Tempo Pleat.
+- [ ] Air Grid ventilation is **supplier-made eyelet mesh yardage sewn as panels**. The factory does not cut holes into the body fabric.
+- [ ] Men stay technical dark / mineral / bone. Women stay warm neutral / plum / sage. Do not share one panel map across genders.
 - [ ] Tee is a running tee (split hem, drop-tail OK). Tank is a race tank (men) or racerback (women). Shorts are 5–7" men / 3–4" women with liner. No polo. No skirt.
-- [ ] Laser-cut holes go through the fabric. Seams are real flatlock, coverstitch, or bonded. Do not print fake stitch.
+- [ ] Capability lock: straight stitch, 4-thread overlock, 2-needle coverstitch, elastic, standard coil zip, and bartack / narrow zigzag.
+- [ ] Use sewn binding, turned hems, coverstitch, piping, and topstitch. No laser cutter, perforation service, bonding, glue, or heat-sealed edge.
+- [ ] Reinforce split tops, vent ends, pleat stops, and zipper ends with 8–10 mm bartacks.
 
 ### Shot list
 
 - [ ] Ghost mannequin, front + back in one frame.
-- [ ] Side or back so the construction is obvious (mesh cape, laser map, curve panel).
+- [ ] Side or back so the construction is obvious (mesh panel, cape vent, rib channel, cross flap, curve panel, or pleat).
+- [ ] Detail frame shows the actual seam, mesh junction, binding, zipper, and stress-point reinforcement.
 - [ ] Pair with the matching Pace short — never the kanji patch short.
 
 ### Shopee title
 
-`Corenation Pace [Tee|Tank|Shorts] — [Vent Map|Stride Panel|Cloud Yoke|Swift Map|Aero Racer|Curve Pace]`
+`Corenation Pace [Tee|Tank|Shorts] — [Air Grid|Stride Panel|Cloud Yoke|Back Draft|Relay Rib|Axis Split|Swift Map|Aero Racer|Curve Pace|Crossflow|Rib Trace|Tempo Pleat]`
 
 ### Store VM
 
@@ -458,4 +462,4 @@ Path locked: **drop hex and coin → readable wordmark → new mark later.** Spe
 
 ---
 
-*Playbook v2.4 — Corenation Active. Adds Pace (construction running kit). Next review when a new hero motif is approved, or when logo Phase 3 starts.*
+*Playbook v2.5 — Corenation Active. Pace now has 12 standard-sewn stories with no laser or bonded construction. Next review when a new hero motif is approved, or when logo Phase 3 starts.*

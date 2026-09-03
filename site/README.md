@@ -6,7 +6,7 @@ Brand direction, staff checklists, and design files for **Corenation Active** (S
 
 | Deliverable | Path |
 |-------------|------|
-| Pace running kit (no print) | [`docs/pace-collection.md`](docs/pace-collection.md) |
+| Pace running kit (36 standard-sewn pieces, no print) | [`docs/pace-collection.md`](docs/pace-collection.md) |
 | Padel pastel court kit | [`docs/padel-collection.md`](docs/padel-collection.md) |
 | Kanji design collection (16 concepts) | [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) |
 | Staff branding checklist | [`docs/branding-checklist.md`](docs/branding-checklist.md) |
