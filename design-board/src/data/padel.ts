@@ -6,9 +6,10 @@ const piece = (gender: 'men' | 'women', story: string, file: string) =>
 
 export const padelRules = [
   { lock: 'No marks', flower: 'No kanji, no hex C, no CORENATION wordmark, no club badge' },
+  { lock: 'v5 texture', flower: 'Watercolor wash or irregular vertical columns — dye-sub, not a sewn panel. Pastel only' },
   { lock: 'Directional color', flower: 'Use diagonal, curved, side-swept, or radial fields—not another stacked fade' },
   { lock: 'Stitch models', flower: 'v4 panels are sewn. Contrast flatlock, coverstitch, or double-needle is the hero — not a printed fake seam' },
-  { lock: 'Split the court', flower: 'Women stay warm pastels. Men v4 is earth (terracotta / moss). Men v1–v3 stay cool mint / teal / periwinkle. Never mix on one SKU' },
+  { lock: 'Split the court', flower: 'Women stay warm pastels. Men v5 is cool pastel (aqua / powder blue). Men v4 is earth. Never mix on one SKU' },
   { lock: 'Women extras', flower: 'Skirt / skort is women-only. Men stay polo, tee, tank, shorts' },
 ]
 
@@ -64,6 +65,24 @@ export const padelWomenDirectionalPalette = [
   { hex: '#C7B5DF', name: 'Halo lilac #C7B5DF' },
 ]
 
+export const padelWomenTexturePalette = [
+  { hex: '#F6D4BC', name: 'Sherbet apricot #F6D4BC' },
+  { hex: '#F4D0D4', name: 'Sherbet blush #F4D0D4' },
+  { hex: '#FAF6F0', name: 'Sherbet cream #FAF6F0' },
+  { hex: '#F2C8CC', name: 'Petal blush #F2C8CC' },
+  { hex: '#E8B8C0', name: 'Petal rose #E8B8C0' },
+  { hex: '#FAF4EC', name: 'Petal cream #FAF4EC' },
+]
+
+export const padelMenPastelTexturePalette = [
+  { hex: '#C8E4E4', name: 'Reef aqua #C8E4E4' },
+  { hex: '#C4E8D4', name: 'Reef seafoam #C4E8D4' },
+  { hex: '#E8F0F2', name: 'Reef mist #E8F0F2' },
+  { hex: '#C8D8E8', name: 'Sky powder #C8D8E8' },
+  { hex: '#D4E0C8', name: 'Sky sage #D4E0C8' },
+  { hex: '#E4ECF2', name: 'Sky mist #E4ECF2' },
+]
+
 export const padelWomenStitchPalette = [
   { hex: '#F4C4C8', name: 'Petal blush #F4C4C8' },
   { hex: '#FAF4EC', name: 'Petal cream #FAF4EC' },
@@ -83,6 +102,34 @@ export const padelMenEarthPalette = [
 ]
 
 export const padelStories = [
+  {
+    id: 'sherbet-wash',
+    gender: 'women' as const,
+    name: 'Sherbet Wash',
+    fade: 'v5 · pastel watercolor · apricot / blush / cream',
+    note: 'Layered wet-on-wet pigment. No marks. Skirt is women-only.',
+  },
+  {
+    id: 'petal-columns',
+    gender: 'women' as const,
+    name: 'Petal Columns',
+    fade: 'v5 · pastel verticals · blush / rose / cream',
+    note: 'Irregular watercolor columns — not a pinstripe. Skirt is women-only.',
+  },
+  {
+    id: 'powder-reef',
+    gender: 'men' as const,
+    name: 'Powder Reef',
+    fade: 'v5 · pastel watercolor · aqua / seafoam / mist',
+    note: 'Cool pastel wash. Lighter than Culture Run reef / indigo.',
+  },
+  {
+    id: 'sky-columns',
+    gender: 'men' as const,
+    name: 'Sky Columns',
+    fade: 'v5 · pastel verticals · powder blue / sage / mist',
+    note: 'Irregular columns — not ink, not a barcode.',
+  },
   {
     id: 'petal-seam',
     gender: 'women' as const,
@@ -254,6 +301,30 @@ export const padelMenDirectionalMockups: Mockup[] = [
   { src: piece('men', 'orbit-serve', 'tee.png'), title: 'Orbit Serve tee', type: 'Men tee · off-center halo + pinlines', line: 'padel' },
   { src: piece('men', 'orbit-serve', 'tank.png'), title: 'Orbit Serve tank', type: 'Men tank · off-center halo + pinlines', line: 'padel' },
   { src: piece('men', 'orbit-serve', 'shorts.png'), title: 'Orbit Serve shorts', type: 'Men shorts · off-center halo + pinlines', line: 'padel' },
+]
+
+export const padelWomenTextureMockups: Mockup[] = [
+  { src: piece('women', 'sherbet-wash', 'polo.png'), title: 'Sherbet Wash polo', type: 'Women polo · pastel watercolor', line: 'padel' },
+  { src: piece('women', 'sherbet-wash', 'tee.png'), title: 'Sherbet Wash tee', type: 'Women tee · pastel watercolor', line: 'padel' },
+  { src: piece('women', 'sherbet-wash', 'tank.png'), title: 'Sherbet Wash tank', type: 'Women tank · pastel watercolor', line: 'padel' },
+  { src: piece('women', 'sherbet-wash', 'shorts.png'), title: 'Sherbet Wash shorts', type: 'Women shorts · pastel watercolor', line: 'padel' },
+  { src: piece('women', 'sherbet-wash', 'skirt.png'), title: 'Sherbet Wash skirt', type: 'Women skirt · pastel watercolor', line: 'padel' },
+  { src: piece('women', 'petal-columns', 'polo.png'), title: 'Petal Columns polo', type: 'Women polo · pastel verticals', line: 'padel' },
+  { src: piece('women', 'petal-columns', 'tee.png'), title: 'Petal Columns tee', type: 'Women tee · pastel verticals', line: 'padel' },
+  { src: piece('women', 'petal-columns', 'tank.png'), title: 'Petal Columns tank', type: 'Women tank · pastel verticals', line: 'padel' },
+  { src: piece('women', 'petal-columns', 'shorts.png'), title: 'Petal Columns shorts', type: 'Women shorts · pastel verticals', line: 'padel' },
+  { src: piece('women', 'petal-columns', 'skirt.png'), title: 'Petal Columns skirt', type: 'Women skirt · pastel verticals', line: 'padel' },
+]
+
+export const padelMenPastelTextureMockups: Mockup[] = [
+  { src: piece('men', 'powder-reef', 'polo.png'), title: 'Powder Reef polo', type: 'Men polo · pastel watercolor', line: 'padel' },
+  { src: piece('men', 'powder-reef', 'tee.png'), title: 'Powder Reef tee', type: 'Men tee · pastel watercolor', line: 'padel' },
+  { src: piece('men', 'powder-reef', 'tank.png'), title: 'Powder Reef tank', type: 'Men tank · pastel watercolor', line: 'padel' },
+  { src: piece('men', 'powder-reef', 'shorts.png'), title: 'Powder Reef shorts', type: 'Men shorts · pastel watercolor', line: 'padel' },
+  { src: piece('men', 'sky-columns', 'polo.png'), title: 'Sky Columns polo', type: 'Men polo · pastel verticals', line: 'padel' },
+  { src: piece('men', 'sky-columns', 'tee.png'), title: 'Sky Columns tee', type: 'Men tee · pastel verticals', line: 'padel' },
+  { src: piece('men', 'sky-columns', 'tank.png'), title: 'Sky Columns tank', type: 'Men tank · pastel verticals', line: 'padel' },
+  { src: piece('men', 'sky-columns', 'shorts.png'), title: 'Sky Columns shorts', type: 'Men shorts · pastel verticals', line: 'padel' },
 ]
 
 export const padelWomenStitchMockups: Mockup[] = [

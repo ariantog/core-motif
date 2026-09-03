@@ -9,12 +9,13 @@
 
 ## Art direction (locked)
 
-v4 leads with **sewn panels and contrast stitch**. Women stay warm pastels. Men v4 moves to earth court colors. v3 directional dye-sub fades stay in the line.
+v5 leads with **pastel watercolor washes and irregular vertical columns**. Women stay warm apricot / blush. Men v5 is cool pastel aqua / powder blue — lighter than Culture Run indigo or ink. v4 sewn stitch and v3 directional fades stay in the line.
 
 | Rule | Do | Do not |
 |------|----|--------|
 | Marks | Blank chest, back, collar, waistband, hem | Kanji, hex C, CORENATION, club badge |
-| Color geometry | Diagonal, S-curve, raglan, yoke, or side panels | Another horizontal top / middle / bottom stack |
+| Color geometry | Watercolor blooms, irregular columns, diagonal, S-curve, raglan, yoke, or side panels | Another horizontal top / middle / bottom stack |
+| v5 texture | Layered translucent pigment or hand-drawn vertical columns, all pastel | Deep indigo / ink / earth on v5. Suit pinstripe, barcode, batik |
 | v4 stitch | Real sewn seams: flatlock, coverstitch, or double-needle in a tonal contrast thread | Printed fake seams, black structure panels |
 | Transition pattern (v3) | Tonal dots, mesh, dashes, or pinlines inside one narrow transition | All-over repeat, large illustration |
 | Hue count | 2 or 3 readable hues | White / ice / cream as the only top color |
@@ -33,6 +34,10 @@ Each story folder holds garment mockups only (front + back ghost mannequin).
 
 | Folder | Who | Fade | Pieces |
 |--------|-----|------|--------|
+| `women/sherbet-wash` | Women | **v5 watercolor** apricot `#F6D4BC` / blush `#F4D0D4` / cream `#FAF6F0` | polo, tee, tank, shorts, skirt |
+| `women/petal-columns` | Women | **v5 verticals** blush `#F2C8CC` / rose `#E8B8C0` / cream `#FAF4EC` | polo, tee, tank, shorts, skirt |
+| `men/powder-reef` | Men | **v5 watercolor** aqua `#C8E4E4` / seafoam `#C4E8D4` / mist `#E8F0F2` | polo, tee, tank, shorts |
+| `men/sky-columns` | Men | **v5 verticals** powder blue `#C8D8E8` / sage `#D4E0C8` / mist `#E4ECF2` | polo, tee, tank, shorts |
 | `women/petal-seam` | Women | **v4 princess panels** blush `#F4C4C8` / cream `#FAF4EC` / pistachio `#D4E8A8`; cream flatlock | polo, tee, tank, shorts, skirt |
 | `women/citrus-stitch` | Women | **v4 raglan + yoke** lemon `#F0E8A8` / apricot `#F0C4A0` / honeydew `#E4F0C8`; apricot overlock | polo, tee, tank, shorts, skirt |
 | `men/clay-court` | Men | **v4 angular panels** terracotta `#C47854` / sandstone `#D7B98E` / soil `#6B5344`; sandstone topstitch | polo, tee, tank, shorts |
@@ -60,7 +65,14 @@ Each story folder holds garment mockups only (front + back ghost mannequin).
 - **Shorts:** men ~7" padel short with zip pockets. Women 3–4" fitted short. Tonal waistband — no logo patch.
 - **Skirt:** women skort only (A-line + built-in short). Mid-thigh.
 
-Binding, collar, and waistband stay **inside the same color family** (pastel for women, earth for men v4). No black structure panels. Contrast stitch may be one step lighter or darker than a body hue.
+Binding, collar, and waistband stay **inside the same color family** (warm pastel for women, cool pastel for men v5, earth for men v4). No black structure panels. Contrast stitch may be one step lighter or darker than a body hue.
+
+### Texture rules (v5)
+
+- Watercolor is layered translucent pigment — not paper texture, not oil paint, not a washed-out white shirt.
+- Verticals are irregular hand-drawn columns. Not a suit pinstripe, not a barcode, not batik.
+- Men v5 stays cool pastel. Do not reuse Culture Run indigo `#3A4A8A` or ink `#2A2E3A`.
+- Still no marks on the garment face.
 
 ### Stitch-model rules (v4)
 
@@ -80,12 +92,12 @@ Binding, collar, and waistband stay **inside the same color family** (pastel for
 
 ## Shopee & floor
 
-Title: `Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Petal Seam|Citrus Stitch|Clay Court|Moss Baseline|Crosscourt Mesh|Orbit Serve|Rally Ribbon|Halo Serve]`
+Title: `Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Sherbet Wash|Petal Columns|Powder Reef|Sky Columns|Petal Seam|Citrus Stitch|Clay Court|Moss Baseline]`
 
-- Lead with v4 (Petal Seam, Citrus Stitch, Clay Court, Moss Baseline).
-- Men's bay: earth stitch stories first; cool v3 fades behind. Women's bay: pastel stitch stories + skirts.
+- Lead with v5 (Sherbet Wash, Petal Columns, Powder Reef, Sky Columns).
+- Men's bay: cool pastel texture first; earth stitch and cool v3 fades behind. Women's bay: pastel wash + columns, then stitch stories + skirts.
 - Do not merch next to 龍 lifting shorts or sakura belts without a fixture break.
 
 ---
 
-*Document version: 1.3 — v4 adds sewn stitch models: women pastels, men earth. No kanji, no logo.*
+*Document version: 1.4 — v5 adds pastel watercolor and vertical-column stories for both genders. No kanji, no logo.*

@@ -336,7 +336,7 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 Owner: Brand lead + Design · Social: Active and/or Men
 
-**What this line is:** consumer padel polo, tee, tank, shorts, and women skirt. No kanji. No hex C. No floral. v4 is sewn panels + contrast stitch. Women stay pastel. Men v4 is earth.
+**What this line is:** consumer padel polo, tee, tank, shorts, and women skirt. No kanji. No hex C. No floral. v5 is pastel watercolor + vertical columns. Women stay warm pastel. Men v5 is cool pastel. v4 stitch stays earth for men.
 
 **What it is not:** HQ club-custom kits (those still keep hex C — see §3C). Not Culture Run. Not sakura / lavender.
 
@@ -344,6 +344,8 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 - [ ] Copy is court, pair, session. Use: *play the glass, stay light, club night.* Not warrior kanji, not luxury clubhouse.
 - [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only.
+- [ ] Women v5: **Sherbet Wash** (apricot / blush watercolor) and **Petal Columns** (blush verticals). Skirt is women-only.
+- [ ] Men v5: **Powder Reef** (aqua / seafoam watercolor) and **Sky Columns** (powder blue / sage verticals). Cool pastel only — not indigo, not ink, not earth.
 - [ ] Women v4: **Petal Seam** (princess panels + cream flatlock) and **Citrus Stitch** (raglan / yoke + apricot overlock). Skirt is women-only.
 - [ ] Men v4: **Clay Court** (angular panels + sandstone topstitch) and **Moss Baseline** (raglan / side panels + sand flatlock). Earth tones only — not mint / periwinkle.
 - [ ] Men v3: **Crosscourt Mesh** (diagonal + net dissolve) and **Orbit Serve** (off-center halo + pinlines).
@@ -351,17 +353,17 @@ Owner: Brand lead + Design · Social: Active and/or Men
 - [ ] Transition pattern is tonal, follows one color boundary, and covers no more than 12% of the garment face.
 - [ ] Men v2: **Reef Trio** (3 color · seafoam → sky → periwinkle) and **Dual Glass** (2 color · teal → periwinkle).
 - [ ] Women v2: **Clay Bloom** (3 color · peach → rose → lilac) and **Dual Sherbet** (2 color · apricot → pistachio). Skirt is women-only.
-- [ ] v1 one-hue washes (Glass Court, Harbor Haze, Sunrise Clay, Lemon Sherbet) stay in the archive bay. New women samples must show 2 or 3 distinct pastels. New men v4 samples must show 2 or 3 distinct earth hues.
+- [ ] v1 one-hue washes (Glass Court, Harbor Haze, Sunrise Clay, Lemon Sherbet) stay in the archive bay. New women samples must show 2 or 3 distinct pastels. New men v5 samples must show 2 or 3 distinct cool pastels. New men v4 samples must show 2 or 3 distinct earth hues.
 - [ ] Do not put a men's fade on a women's cut or the reverse.
 - [ ] Binding / collar / waistband stay inside the same color family. Contrast stitch is tonal. No black logo patch.
 
 ### Shopee title
 
-`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Petal Seam|Citrus Stitch|Clay Court|Moss Baseline]`
+`Corenation Padel [Polo|Tee|Tank|Shorts|Skirt] — [Sherbet Wash|Petal Columns|Powder Reef|Sky Columns]`
 
 ### Store VM
 
-- [ ] Own padel fixture or endcap. Men earth stitch left, women pastel stitch + skirts right.
+- [ ] Own padel fixture or endcap. Men cool-pastel texture left, women warm-pastel wash + columns + skirts right. Earth stitch behind.
 - [ ] Do not hang next to 龍 shorts or sakura belts without a break.
 
 ---
