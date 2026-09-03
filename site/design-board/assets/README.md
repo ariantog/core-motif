@@ -38,8 +38,9 @@ assets/
     02-brushed/               summit + home soil dawn
     03-marble/                bloom / dusk / heatmap / ink
     04-earth/                 bumi / moss / sandstone / cacao
-    05-watercolor/            earth-tone wash capsule
+    05-watercolor/            earth + cool + peach wash capsule
     06-pastel/                women's pastel run wall
+    07-vertical/              vertical ink / reed / blush columns
       <drop>/
         background-clean.png  texture only — no logo, kanji, slogans, flowers, or artifacts
         print.png             locked composite (do not overwrite)
@@ -96,3 +97,9 @@ Culture Run drops (v2 — print + gradient, no embroidery patch):
 | `06-pastel` | `mint-marble` | Mint / pistachio liquid marble | Women tank |
 | `06-pastel` | `blush-watercolor` | Sakura path on blush watercolor | Women tank |
 | `06-pastel` | `lilac-watercolor` | Lilac watercolor wash | Women tee |
+| `05-watercolor` | `indigo-watercolor` | Indigo / ink pigment wash | Men singlet |
+| `05-watercolor` | `reef-watercolor` | Seafoam / cyan reef wash | Men tank |
+| `05-watercolor` | `peach-watercolor` | Peach / apricot pigment wash | Women tee |
+| `07-vertical` | `ink-columns` | Vertical sumi columns | Men tee |
+| `07-vertical` | `reed-lines` | Vertical earth reed strokes | Men tank |
+| `07-vertical` | `blush-columns` | Vertical blush watercolor bars | Women singlet |

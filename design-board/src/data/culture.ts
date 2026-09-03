@@ -26,6 +26,12 @@ export const cultureMockups: Mockup[] = [
   { src: drop('06-pastel', 'mint-marble', 'tank.png'), title: 'Mint Marble', type: 'Women tank · pastel marble', line: 'culture' },
   { src: drop('06-pastel', 'blush-watercolor', 'tank.png'), title: 'Blush Watercolor', type: 'Women tank · sakura wash', line: 'culture' },
   { src: drop('06-pastel', 'lilac-watercolor', 'tee.png'), title: 'Lilac Watercolor', type: 'Women tee · lilac wash', line: 'culture' },
+  { src: drop('05-watercolor', 'indigo-watercolor', 'singlet.png'), title: 'Indigo Watercolor', type: 'Men singlet · indigo wash', line: 'culture' },
+  { src: drop('05-watercolor', 'reef-watercolor', 'tank.png'), title: 'Reef Watercolor', type: 'Men tank · reef wash', line: 'culture' },
+  { src: drop('05-watercolor', 'peach-watercolor', 'tee.png'), title: 'Peach Watercolor', type: 'Women tee · peach wash', line: 'culture' },
+  { src: drop('07-vertical', 'ink-columns', 'tee.png'), title: 'Ink Columns', type: 'Men tee · vertical sumi', line: 'culture' },
+  { src: drop('07-vertical', 'reed-lines', 'tank.png'), title: 'Reed Lines', type: 'Men tank · vertical reed', line: 'culture' },
+  { src: drop('07-vertical', 'blush-columns', 'singlet.png'), title: 'Blush Columns', type: 'Women singlet · vertical wash', line: 'culture' },
 ]
 
 export const cultureBackgrounds = [
@@ -50,6 +56,12 @@ export const cultureBackgrounds = [
   { src: drop('06-pastel', 'mint-marble', 'background-clean.png'), title: 'Clean — Mint Marble' },
   { src: drop('06-pastel', 'blush-watercolor', 'background-clean.png'), title: 'Clean — Blush Watercolor' },
   { src: drop('06-pastel', 'lilac-watercolor', 'background-clean.png'), title: 'Clean — Lilac Watercolor' },
+  { src: drop('05-watercolor', 'indigo-watercolor', 'background-clean.png'), title: 'Clean — Indigo Watercolor' },
+  { src: drop('05-watercolor', 'reef-watercolor', 'background-clean.png'), title: 'Clean — Reef Watercolor' },
+  { src: drop('05-watercolor', 'peach-watercolor', 'background-clean.png'), title: 'Clean — Peach Watercolor' },
+  { src: drop('07-vertical', 'ink-columns', 'background-clean.png'), title: 'Clean — Ink Columns' },
+  { src: drop('07-vertical', 'reed-lines', 'background-clean.png'), title: 'Clean — Reed Lines' },
+  { src: drop('07-vertical', 'blush-columns', 'background-clean.png'), title: 'Clean — Blush Columns' },
 ]
 
 export const cultureLayers = [
@@ -94,4 +106,10 @@ export const culturePrints = [
   { src: drop('06-pastel', 'mint-marble', 'print.png'), title: 'Print — Mint Marble' },
   { src: drop('06-pastel', 'blush-watercolor', 'print.png'), title: 'Print — Blush Watercolor' },
   { src: drop('06-pastel', 'lilac-watercolor', 'print.png'), title: 'Print — Lilac Watercolor' },
+  { src: drop('05-watercolor', 'indigo-watercolor', 'print.png'), title: 'Print — Indigo Watercolor' },
+  { src: drop('05-watercolor', 'reef-watercolor', 'print.png'), title: 'Print — Reef Watercolor' },
+  { src: drop('05-watercolor', 'peach-watercolor', 'print.png'), title: 'Print — Peach Watercolor' },
+  { src: drop('07-vertical', 'ink-columns', 'print.png'), title: 'Print — Ink Columns' },
+  { src: drop('07-vertical', 'reed-lines', 'print.png'), title: 'Print — Reed Lines' },
+  { src: drop('07-vertical', 'blush-columns', 'print.png'), title: 'Print — Blush Columns' },
 ]

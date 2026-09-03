@@ -29,6 +29,11 @@ All-over dye-sub. No sewn embroidery patches. Hex C is flat print. 走 (if used)
 | Pastel brush | Apricot / cream wet-brush tide | Women Apricot Brush |
 | Pastel marble | Mint / pistachio liquid marble | Women Mint Marble |
 | Pastel watercolor | Blush sakura wash or lilac wash | Women Blush / Lilac |
+| Cool watercolor | Indigo ink wash or reef current | Men Indigo / Reef |
+| Peach watercolor | Apricot / cream pigment wash | Women Peach Watercolor |
+| Vertical ink | Tall sumi columns on cream | Men Ink Columns |
+| Vertical reed | Earth reed / bamboo-screen strokes | Men Reed Lines |
+| Vertical wash | Soft blush watercolor columns | Women Blush Columns |
 
 ---
 
@@ -36,7 +41,7 @@ All-over dye-sub. No sewn embroidery patches. Hex C is flat print. 走 (if used)
 
 Drops are grouped by texture so the file browser is easier to scan:
 
-`assets/culture-run/01-wave/` · `02-brushed/` · `03-marble/` · `04-earth/` · `05-watercolor/` · `06-pastel/`
+`assets/culture-run/01-wave/` · `02-brushed/` · `03-marble/` · `04-earth/` · `05-watercolor/` · `06-pastel/` · `07-vertical/`
 
 Each drop folder has garment mockup + `print.png` (locked) + `background-clean.png` (texture only).
 
@@ -76,8 +81,14 @@ Place a layer on `background-clean.png` in any editor. Do not overwrite `print.p
 | `06-pastel` | `mint-marble` | Mint / pistachio liquid marble | Women tank | No |
 | `06-pastel` | `blush-watercolor` | Sakura path on blush watercolor | Women tank | No |
 | `06-pastel` | `lilac-watercolor` | Lilac watercolor wash | Women tee | No |
+| `05-watercolor` | `indigo-watercolor` | Indigo / ink pigment wash | Men singlet | 走 |
+| `05-watercolor` | `reef-watercolor` | Seafoam / cyan reef wash | Men tank | 走 |
+| `05-watercolor` | `peach-watercolor` | Peach / apricot pigment wash | Women tee | No |
+| `07-vertical` | `ink-columns` | Vertical sumi columns on cream | Men tee | 走 |
+| `07-vertical` | `reed-lines` | Vertical earth reed strokes | Men tank | 走 |
+| `07-vertical` | `blush-columns` | Vertical blush watercolor bars | Women singlet | No |
 
-`06-pastel` is the women's pastel run wall. Clean plates stay texture-only — no lavender sprigs, no sakura, no runners.
+`06-pastel` is the women's pastel run wall. `07-vertical` is the column / reed wall. Clean plates stay texture-only — no lavender sprigs, no sakura, no runners.
 
 `_archive-v1/` = flat charcoal pieces. Do not send those to factory.
 
@@ -110,15 +121,21 @@ Not batik costume, not a temple tourist print, not a flag.
 - **Mint Marble:** jade cream `#E8F0E4` + mint `#C8E4D4` + pistachio `#B4D4A8`
 - **Blush Watercolor:** blossom cream `#FFF7F8` + blush `#F2C8C8` + sakura `#E8A4B4` + rose `#C45B78` (sakura path on the garment / print only)
 - **Lilac Watercolor:** mist `#F3EEF6` + lilac `#C5B4D8` + lavender `#8B6FA8` (lavender spikes on the garment only — never on `background-clean.png`)
+- **Indigo Watercolor:** indigo `#1E3A5F` + ink `#243044` + slate `#4A6A88` + cream `#E5D7BC`
+- **Reef Watercolor:** seafoam `#6FB8A8` + cyan `#3EC6D9` + tide `#1E6FB8`
+- **Peach Watercolor:** peach `#F0C4B0` + apricot `#E8A888` + cream `#F8EDE4` (no sakura — apricot is not pink lock)
+- **Ink Columns:** ink `#1A1E26` + charcoal `#3A3A3A` + cream `#D6CFB5`
+- **Reed Lines:** umber `#6D4234` + sandstone `#CCAA75` + espresso `#2C2420` + cream `#E5D7BC`
+- **Blush Columns:** blush `#F2C8C8` + sakura `#E8A4B4` + cream `#FFF7F8` (vertical wash only — no blossoms on the clean plate)
 
 ---
 
 ## Shopee & floor
 
-Title: `Corenation Culture Run [Tee|Tank|Singlet] — [Blue Hour Wave|Brushed Tide|Summit Brushed|Bloom Marble|Dusk Marble|Home Soil Dawn|Heatmap Marble|Ink Marble|Bumi Strata|Moss Current|Sandstone Sumi|Cacao Route|Bumi Watercolor|Moss Watercolor|Sand Wave Watercolor|Cacao Watercolor Route|Mist Wave|Apricot Brush|Mint Marble|Blush Watercolor|Lilac Watercolor]`
+Title: `Corenation Culture Run [Tee|Tank|Singlet] — [Blue Hour Wave|Brushed Tide|Summit Brushed|Bloom Marble|Dusk Marble|Home Soil Dawn|Heatmap Marble|Ink Marble|Bumi Strata|Moss Current|Sandstone Sumi|Cacao Route|Bumi Watercolor|Moss Watercolor|Sand Wave Watercolor|Cacao Watercolor Route|Mist Wave|Apricot Brush|Mint Marble|Blush Watercolor|Lilac Watercolor|Indigo Watercolor|Reef Watercolor|Peach Watercolor|Ink Columns|Reed Lines|Blush Columns]`
 
 Hang so the **back** shows. Do not merch next to the 龍 lifting short without a fixture break.
 
 ---
 
-*Document version: 3.5 — Women's pastel capsule in `06-pastel`. Clean plates stay texture-only (no flowers or figurative artifacts). Loose marks live in `layers/kanji` and `layers/logos`.*
+*Document version: 3.6 — Added indigo / reef / peach watercolor and `07-vertical` (ink columns, reed lines, blush columns). Clean plates stay texture-only.*

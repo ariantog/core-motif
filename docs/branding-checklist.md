@@ -307,7 +307,7 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 - [ ] Copy is pace, session, community run. Use: *run the city, keep the line, dawn club.* Not *conquer nations*, not luxury marathon.
 - [ ] Fabric looks **light** in photos (mesh, singlet, split hem). If it photographs like a lifting tee, recut or relight.
-- [ ] Graphic is one idea: Wave (走), Summit, Bloom Path (women), Dusk Lilac (women), Home Soil, or one pastel story (Mist Wave / Apricot Brush / Mint Marble / Blush / Lilac).
+- [ ] Graphic is one idea: Wave (走), Summit, Bloom Path (women), Dusk Lilac (women), Home Soil, one pastel story, one watercolor wash, or one vertical-column story.
 - [ ] **No embroidery patches** on running SKUs. Hex C + 走 + waves are **print / dye-sub** only (raised heat-transfer is OK if it looks printed, not a sewn badge).
 - [ ] **Gradation required** on v2 pieces (Nedao Vortex / Aurora / Blue Hour energy). Do not ship a solid charcoal tee with a sticker graphic.
 - [ ] Placement: all-over color; 走 or the culture graphic lives in the dye on the back. Front stays quiet (printed hex C + wordmark).
@@ -323,7 +323,7 @@ Owner: Brand lead + Design · Social: Active and/or Men (see drop)
 
 ### Shopee title
 
-`Corenation Culture Run [Tee|Tank|Singlet] — [Wave|Summit|Bloom Path|Dusk|Home Soil|Mist Wave|Apricot Brush|Mint Marble|Blush Watercolor|Lilac Watercolor]`
+`Corenation Culture Run [Tee|Tank|Singlet] — [Wave|Summit|Bloom Path|Dusk|Home Soil|Mist Wave|Apricot Brush|Mint Marble|Blush Watercolor|Lilac Watercolor|Indigo Watercolor|Reef Watercolor|Peach Watercolor|Ink Columns|Reed Lines|Blush Columns]`
 
 ### Store VM
 

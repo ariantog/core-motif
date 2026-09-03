@@ -729,9 +729,10 @@ function App() {
             <h2>Running shirts &amp; tanks</h2>
             <p className="lede">
               v2: all-over dye-sub, no embroidery patches. Textures: smooth gradient, brushed gradation, liquid marble,
-              heatmap, suminagashi, watercolor wash. Women&apos;s pastel capsule lives in{' '}
-              <code>06-pastel</code>. Drops live under{' '}
-              <code>assets/culture-run/01-wave</code> … <code>06-pastel</code>. Use{' '}
+              heatmap, suminagashi, watercolor wash, vertical ink columns. Women&apos;s pastel
+              capsule lives in <code>06-pastel</code>. Vertical-line drops live in{' '}
+              <code>07-vertical</code>. Drops live under{' '}
+              <code>assets/culture-run/01-wave</code> … <code>07-vertical</code>. Use{' '}
               <code>background-clean.png</code> when you need to move kanji or logos; keep{' '}
               <code>print.png</code> as the locked composite.
             </p>
