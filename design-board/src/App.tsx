@@ -28,15 +28,17 @@ import {
   padelWomenTextureMockups,
   padelWomenTexturePalette,
 } from './data/padel'
+import { paceMenMockups, paceMenPalette, paceRules, paceStories, paceWomenMockups, paceWomenPalette } from './data/pace'
 import { asset } from './lib/assets'
 
-type Tab = 'brand' | 'men' | 'women' | 'culture' | 'padel' | 'marks'
+type Tab = 'brand' | 'men' | 'women' | 'culture' | 'pace' | 'padel' | 'marks'
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'brand', label: 'Brand' },
   { id: 'men', label: 'Men kanji' },
   { id: 'women', label: 'Women floral' },
   { id: 'culture', label: 'Culture run' },
+  { id: 'pace', label: 'Pace' },
   { id: 'padel', label: 'Padel' },
   { id: 'marks', label: 'Marks' },
 ]
@@ -608,7 +610,7 @@ function App() {
               </div>
               <div>
                 <h3>Brand</h3>
-                <p>Corenation Active · Surabaya · men / women / hijab / Culture Run / padel</p>
+                <p>Corenation Active · Surabaya · men / women / hijab / Culture Run / Pace / padel</p>
               </div>
             </div>
           </section>
@@ -635,6 +637,7 @@ function App() {
             <p className="lede">
               v1.0 was men-kanji only. v2.0 adds brand direction, owners, women / hijab / Culture Run / padel, and
               channel playbooks. v2.2 adds the consumer padel pastel kit (no kanji, no logo) on the Padel tab.
+              v2.4 adds Pace — construction-led running tees, tanks, and shorts with no printed graphics.
               Full ticks live in <code>docs/branding-checklist.md</code>.
             </p>
           </section>
@@ -763,6 +766,53 @@ function App() {
         </>
       )}
 
+      {tab === 'pace' && (
+        <>
+          <section>
+            <h2>Theme lock</h2>
+            <p className="lede">
+              Construction-led running kit — no kanji, no logo, no dye-sub graphic. Design is cut,
+              seam, mesh, bonded edge, and laser-cut ventilation. Lululemon / Nike AeroSwift / On
+              Cloud energy. Files: <code>assets/pace/men/</code> · <code>assets/pace/women/</code>.
+              Spec: <code>docs/pace-collection.md</code>.
+            </p>
+            <div className="rule-grid">
+              {paceRules.map((rule) => (
+                <article key={rule.lock}>
+                  <h3>{rule.lock}</h3>
+                  <p>{rule.flower}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Drops</h2>
+            <div className="rule-grid">
+              {paceStories.map((story) => (
+                <article key={story.id}>
+                  <h3>
+                    {story.gender === 'men' ? 'Men' : 'Women'} · {story.name}
+                  </h3>
+                  <p>
+                    {story.fade}. {story.note}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Men — Vent Map + Stride Panel + Cloud Yoke</h2>
+            <Swatches items={paceMenPalette} />
+            <MockGrid items={paceMenMockups} />
+          </section>
+          <section>
+            <h2>Women — Swift Map + Aero Racer + Curve Pace</h2>
+            <Swatches items={paceWomenPalette} />
+            <MockGrid items={paceWomenMockups} />
+          </section>
+        </>
+      )}
+
       {tab === 'padel' && (
         <>
           <section>
@@ -879,7 +929,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.3 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.4 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )

@@ -45,6 +45,11 @@ body {
   --gold: #d4af37;
 }
 
+.app.theme-pace {
+  --accent: #c45c38;
+  --gold: #c5cdd1;
+}
+
 .app.theme-padel {
   --accent: #8fb8b8;
   --gold: #f0c4a8;
