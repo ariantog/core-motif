@@ -36,6 +36,7 @@ const designFilters = [
   { id: 'men-kanji', label: 'Men kanji' },
   { id: 'women-floral', label: 'Women floral' },
   { id: 'culture-run', label: 'Culture run' },
+  { id: 'pace', label: 'Pace' },
   { id: 'padel', label: 'Padel' },
   { id: 'references', label: 'References' },
 ]
@@ -45,6 +46,7 @@ const docs = [
   { title: 'Split wordmark', path: 'docs/split-wordmark.md' },
   { title: 'Logo transition', path: 'docs/logo-transition.md' },
   { title: 'Padel collection', path: 'docs/padel-collection.md' },
+  { title: 'Pace collection', path: 'docs/pace-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
   { title: 'Branding checklist', path: 'docs/branding-checklist.md' },

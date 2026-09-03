@@ -1,6 +1,6 @@
 # Corenation Brand Playbook — Staff Checklists
 
-**Version:** 2.0 (revised)  
+**Version:** 2.4 (Pace running kit)  
 **Use:** Print or duplicate per drop. Tick boxes as completed. One owner per section.  
 **Brand:** Corenation Active — Surabaya, est. 2014  
 **Channels:** @corenationactive · @corenationmen · @corenationhijab · shopee.co.id/corenation  
@@ -80,7 +80,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 - [ ] Logo mark on **new** work is the readable `CORENATION` wordmark ([`readable-wordmark.md`](readable-wordmark.md)). Do not reprint the hex or coin. White/cream on dark; charcoal on light pink/lilac.
 - [ ] Max **one hero motif** per visible panel (one kanji, or one flower cluster, or one culture graphic).
 - [ ] No competing line motifs on the same SKU (no sakura + 龍, no lavender + kanji patch).
-- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN / PDL). Wrong line code = reject.
+- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN / PAC / PDL). Wrong line code = reject.
 
 ### Palette lock (do not invent seasonal "premium" golds)
 
@@ -104,12 +104,14 @@ Corenation is the training brand you actually wear to train — same class of fa
 | Women floral | @corenationactive | Sakura on pink, lavender on lilac | Apparel + matching accs | Kanji patches, olive tactical as hero |
 | Hijab / modest | @corenationhijab | Floral **or** clean modest | Sports hijab, long tunics, modest sets | Body-con crop-only hero, kanji warrior copy |
 | Culture Run | Active + Men (tag both if unisex) | Graphic print (wave, summit, bloom path) | Running tee, tank, singlet | Lifting-belt patch language, heavy olive tactical |
+| Pace | Active + Men (tag both if unisex) | Construction (mesh, laser-cut, mapped seam, panel) | Running tee, tank, shorts | Printed graphic, kanji, floral, padel polo/skirt |
 | Padel court | Active + Men | Pastel (women) or earth stitch (men), **no marks** | Polo, tee, tank, shorts, women skirt | Kanji, hex C, floral, Culture Run wave |
 | HQ padel | not a consumer drop | Club color **from approved palette** | Club kits, still Corenation branded | Club logo replacing hex C; unapproved neon |
 
 - [ ] Men's kanji SKUs never use sakura, lavender, pink, or lilac as a hero color.
 - [ ] Women's floral SKUs never carry a kanji patch or 龍 / 力 / 走 as a hero mark.
 - [ ] Culture Run may use **走** (run) or a flower **as part of a running graphic** — still one hero idea per panel.
+- [ ] Pace never uses a printed graphic, kanji, floral, or padel watercolor. Construction is the only design.
 - [ ] Hijab listings never steal men's warrior captions (*破*, *闘*, "break your PR").
 - [ ] Bundle deals that mix lines must say so in the title (e.g. *Couple set — Men's 力 belt + Women's sakura gloves*).
 
@@ -368,6 +370,42 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 ---
 
+## 8c. Pace — construction running kit
+
+Owner: Brand lead + Design · Social: Active and/or Men
+
+**What this line is:** lightweight running tees, tanks, and shorts whose design is **cut, seam, mesh, bonded edge, and laser-cut ventilation**. Lululemon / Nike AeroSwift / Adidas Adizero / On Cloud energy.
+
+**What it is not:** Culture Run (no dye-sub graphic). Not padel (no polo, no skirt, no court watercolor). Not a lifting tee. No kanji. No floral.
+
+### Voice & visual
+
+- [ ] Copy is pace, split, heat map, keep the line. Use: *run the city, stay light, match the short.* Not *conquer nations*, not luxury marathon, not court night.
+- [ ] Fabric looks **light** in photos (mesh, pin-dot jersey, split hem). If it photographs like a lifting tee, recut or relight.
+- [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only. Line code **PAC**.
+- [ ] One construction per SKU: Vent Map (laser-cut), Stride Panel (angular rust block), Cloud Yoke (mesh cape), Swift Map (mapped seams), Aero Racer (mesh spine), or Curve Pace (hip-to-shoulder curve).
+- [ ] Men stay ink / rust / bone-gray. Women stay sand / clay / apricot. Do not share one panel map across genders.
+- [ ] Tee is a running tee (split hem, drop-tail OK). Tank is a race tank (men) or racerback (women). Shorts are 5–7" men / 3–4" women with liner. No polo. No skirt.
+- [ ] Laser-cut holes go through the fabric. Seams are real flatlock, coverstitch, or bonded. Do not print fake stitch.
+
+### Shot list
+
+- [ ] Ghost mannequin, front + back in one frame.
+- [ ] Side or back so the construction is obvious (mesh cape, laser map, curve panel).
+- [ ] Pair with the matching Pace short — never the kanji patch short.
+
+### Shopee title
+
+`Corenation Pace [Tee|Tank|Shorts] — [Vent Map|Stride Panel|Cloud Yoke|Swift Map|Aero Racer|Curve Pace]`
+
+### Store VM
+
+- [ ] Own run-kit bay or a break from the Culture Run print wall.
+- [ ] Hang so a **side or back construction** is visible.
+- [ ] Do not hang next to 龍 shorts or sakura belts without a fixture break.
+
+---
+
 ## 9. Photography, stories, UGC (all accounts)
 
 - [ ] Filters: no luxury gold grade, no heavy pink-glow spa grade. Skin and fabric stay honest.
@@ -401,7 +439,7 @@ Do not launch three line stories in the same week on the same account.
 | Cadence | What ships |
 |---------|------------|
 | Marketplace always-on | Accs restock (belts, gloves, straps, knee, bags) in the **current** motif |
-| Monthly | One apparel story (men kanji **or** women floral **or** Culture Run) |
+| Monthly | One apparel story (men kanji **or** women floral **or** Culture Run **or** Pace) |
 | Store | Apparel floor-set follows the monthly story; accs table matches |
 | HQ | Club kits on their calendar — never steal the consumer drop week |
 
@@ -420,4 +458,4 @@ Path locked: **drop hex and coin → readable wordmark → new mark later.** Spe
 
 ---
 
-*Playbook v2.0 — Corenation Active. Next review when a new hero motif (new kanji, new flower, new Culture graphic) is approved, or when logo Phase 3 starts.*
+*Playbook v2.4 — Corenation Active. Adds Pace (construction running kit). Next review when a new hero motif is approved, or when logo Phase 3 starts.*

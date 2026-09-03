@@ -52,4 +52,4 @@ These still work (copies of the current files):
 - `/assets/designs/shorts-kanji-sho-victory.png`
 - `/assets/designs/tee-kanji-bu-warrior.png`
 
-Current files also live under `/assets/men-kanji/`, `/assets/women-floral/`, `/assets/culture-run/`, `/assets/padel/`, and `/assets/logo/`.
+Current files also live under `/assets/men-kanji/`, `/assets/women-floral/`, `/assets/culture-run/`, `/assets/pace/`, `/assets/padel/`, and `/assets/logo/`.

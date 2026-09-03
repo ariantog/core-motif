@@ -14,6 +14,15 @@ assets/
     sakura/                   pink SKUs
     lavender/                 lilac SKUs
     marks/                    flower sheets
+  pace/
+    men/
+      vent-map/               laser-cut heat map · ink / slate / mist
+      stride-panel/           angular side block · black / slate / rust
+      cloud-yoke/             mesh shoulder cape · bone / cool gray / ink
+    women/
+      swift-map/              mapped seams · sand / blush / fog
+      aero-racer/             mesh spine · rose clay / pearl / slate
+      curve-pace/             hip-to-shoulder curve · bone / apricot / charcoal
   padel/
     men/
       powder-reef/            v5 pastel watercolor · aqua / seafoam / mist
@@ -54,6 +63,17 @@ assets/
       logos/                  transparent hex C + CN Core Cut
     _archive-v1/              flat charcoal pieces (superseded)
 ```
+
+Pace running kit (no kanji, no logo, no dye-sub graphic). Construction is the design:
+
+| Folder | Who | Construction | Pieces |
+|--------|-----|--------------|--------|
+| `men/vent-map` | Men | Laser-cut heat map · ink / slate / mist | tee, tank, shorts |
+| `men/stride-panel` | Men | Angular side block · black / slate / rust | tee, tank, shorts |
+| `men/cloud-yoke` | Men | Mesh shoulder cape · bone / cool gray / ink | tee, tank, shorts |
+| `women/swift-map` | Women | Mapped seams · sand / blush / fog | tee, tank, shorts |
+| `women/aero-racer` | Women | Mesh spine · rose clay / pearl / slate | tee, tank, shorts |
+| `women/curve-pace` | Women | Hip-to-shoulder curve · bone / apricot / charcoal | tee, tank, shorts |
 
 Padel consumer kit (no kanji, no logo). v5 is pastel watercolor + vertical columns. v4 is sewn stitch models:
 

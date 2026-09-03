@@ -1,11 +1,12 @@
 # Corenation Design Studio
 
-Brand direction, staff checklists, and design files for **Corenation Active** (Surabaya) — men kanji, women floral, Culture Run, padel, hijab, and HQ / club kits.
+Brand direction, staff checklists, and design files for **Corenation Active** (Surabaya) — men kanji, women floral, Culture Run, Pace, padel, hijab, and HQ / club kits.
 
 ## Positioning
 
 | Deliverable | Path |
 |-------------|------|
+| Pace running kit (no print) | [`docs/pace-collection.md`](docs/pace-collection.md) |
 | Padel pastel court kit | [`docs/padel-collection.md`](docs/padel-collection.md) |
 | Kanji design collection (16 concepts) | [`docs/kanji-design-collection.md`](docs/kanji-design-collection.md) |
 | Staff branding checklist | [`docs/branding-checklist.md`](docs/branding-checklist.md) |
@@ -34,7 +35,7 @@ Point your web server at the **`site/`** folder (not the repo root) and open you
 cd design-board && npm install && npm run dev
 ```
 
-Open **http://localhost:5177** — tabs: Brand · Men Kanji · Women Floral · Culture Run · Padel · Production marks.
+Open **http://localhost:5177** — tabs: Brand · Men Kanji · Women Floral · Culture Run · Pace · Padel · Production marks.
 
 ## Channels
 
