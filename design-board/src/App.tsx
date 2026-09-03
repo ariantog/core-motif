@@ -657,7 +657,7 @@ function App() {
             <p className="section-lead">
               Closed-fist bag / sparring gloves — not the fingerless lifting pair. One hero kanji on
               the black backhand. Cream <strong>CORENATION</strong> on the olive cuff. Hex off (new
-              PO path). Gold for 拳 / 魂 / 雷; red for 闘 / 武. Spec:{' '}
+              PO path). Gold for 拳 / 魂 / 雷 / 力 / 勝; red for 闘 / 武 / 剛 / 火 / 破 / 龍. Spec:{' '}
               <code>docs/kanji-design-collection.md</code>.
             </p>
             <MockGrid items={boxingGloves} />

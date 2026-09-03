@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T07:24:48Z",
+  "generatedAt": "2026-09-03T01:30:36Z",
   "root": [
     {
       "type": "dir",
@@ -1385,6 +1385,26 @@
                 },
                 {
                   "type": "image",
+                  "name": "boxing-gloves-kanji-chikara-power.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-chikara-power.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-go-strength.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-go-strength.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-ha-breakthrough.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-ha-breakthrough.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-ka-fire.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-ka-fire.png"
+                },
+                {
+                  "type": "image",
                   "name": "boxing-gloves-kanji-ken-fist.png",
                   "path": "assets/men-kanji/accessories/boxing-gloves-kanji-ken-fist.png"
                 },
@@ -1392,6 +1412,16 @@
                   "type": "image",
                   "name": "boxing-gloves-kanji-rai-thunder.png",
                   "path": "assets/men-kanji/accessories/boxing-gloves-kanji-rai-thunder.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-ryu-dragon.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-ryu-dragon.png"
+                },
+                {
+                  "type": "image",
+                  "name": "boxing-gloves-kanji-sho-victory.png",
+                  "path": "assets/men-kanji/accessories/boxing-gloves-kanji-sho-victory.png"
                 },
                 {
                   "type": "image",
@@ -3772,6 +3802,26 @@
                         },
                         {
                           "type": "image",
+                          "name": "boxing-gloves-kanji-chikara-power.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-chikara-power.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-go-strength.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-go-strength.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-ha-breakthrough.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-ha-breakthrough.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-ka-fire.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-ka-fire.png"
+                        },
+                        {
+                          "type": "image",
                           "name": "boxing-gloves-kanji-ken-fist.png",
                           "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-ken-fist.png"
                         },
@@ -3779,6 +3829,16 @@
                           "type": "image",
                           "name": "boxing-gloves-kanji-rai-thunder.png",
                           "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-rai-thunder.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-ryu-dragon.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-ryu-dragon.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "boxing-gloves-kanji-sho-victory.png",
+                          "path": "design-board/public/assets/men-kanji/accessories/boxing-gloves-kanji-sho-victory.png"
                         },
                         {
                           "type": "image",

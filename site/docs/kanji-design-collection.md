@@ -69,7 +69,7 @@
 | **Meaning** | Raw power, force, physical strength |
 | **Why Corenation** | Universal gym symbol — instantly reads "strength training" without explanation. Aligns with lifting belts, straps, and power-focused drops. |
 | **Accent color** | **Red** `#C41E3A` on black patch (apparel); **Gold** `#D4AF37` on belt overlay |
-| **Applications** | Lifting belt (hero), wrist wraps, training tee chest patch, gym bag front panel |
+| **Applications** | Lifting belt (hero), wrist wraps, training tee chest patch, boxing gloves |
 | **Pairings** | 鉄 (iron), 剛 (strength), 龍 (dragon — existing hero) |
 
 #### 剛 — Strength / Firmness
@@ -80,7 +80,7 @@
 | **Meaning** | Rigidity, firmness, unyielding strength |
 | **Why Corenation** | Speaks to mental and physical toughness — ideal for powerlifting accessories and structured training shorts. |
 | **Accent color** | **Red** on black patch; **Charcoal** secondary panel text |
-| **Applications** | Knee sleeves, compression shorts patch, deadlift straps |
+| **Applications** | Knee sleeves, compression shorts patch, boxing gloves |
 | **Pairings** | 力, 鉄, 武 |
 
 #### 武 — Warrior / Martial
@@ -169,7 +169,7 @@
 | **Meaning** | Victory, win, triumph |
 | **Why Corenation** | Competition and PR language — natural for meet-day belts, meet tees, and social campaign hooks. |
 | **Accent color** | **Gold** on belt; **Red** on black shorts patch |
-| **Applications** | Competition belt, PR tee back print, snapback under-visor patch |
+| **Applications** | Competition belt, PR tee back print, boxing gloves |
 | **Pairings** | 龍, 力, 破 |
 
 #### 疾 — Swift / Fast
@@ -202,7 +202,7 @@
 | **Meaning** | Break, destroy, break through barriers |
 | **Why Corenation** | Plateaus, limits, "break your PR" — aggressive marketing fit for younger gym demographic. |
 | **Accent color** | **Red** `#C41E3A` (primary); black patch mandatory |
-| **Applications** | Impact short patch, deadlift tee, wrist wrap exterior |
+| **Applications** | Impact short patch, deadlift tee, boxing gloves |
 | **Pairings** | 勝, 力, 雷 |
 
 ---
@@ -219,7 +219,7 @@
 | **Meaning** | Fire, intensity, burning drive |
 | **Why Corenation** | High-intensity training metaphor — HIIT, fat burn, pre-workout energy. Strong single-stroke graphic. |
 | **Accent color** | **Red** on black; **Gold** flame-adjacent accent on belt only |
-| **Applications** | HIIT tee, burner short, lifting strap |
+| **Applications** | HIIT tee, burner short, boxing gloves |
 | **Pairings** | 雷, 風, 破 |
 
 #### 風 — Wind
@@ -379,10 +379,10 @@
 
 | Drop name | Hero kanji | Supporting kanji | Product focus |
 |-----------|------------|------------------|---------------|
-| **Dragon Legacy** (existing) | 龍 | 流, 勝 | Shorts, belt |
-| **Iron Path** | 鉄 | 道, 力 | Belts, straps, tees |
+| **Dragon Legacy** (existing) | 龍 | 流, 勝 | Shorts, belt, boxing gloves |
+| **Iron Path** | 鉄 | 道, 力 | Belts, straps, tees, boxing gloves |
 | **Warrior Discipline** | 武 | 忍, 剛 | Fight shorts, wraps, boxing gloves |
-| **Breakthrough** | 破 | 勝, 雷 | PR tee, belt, knee sleeve |
+| **Breakthrough** | 破 | 勝, 雷 | PR tee, belt, boxing gloves |
 | **Elemental Force** | 雷 | 火, 風 | HIIT apparel, boxing gloves |
 | **Still Power** | 静 | 心, 山 | Recovery/lifestyle crossover |
 | **Forge Week** | 鍛 | 鉄, 鋼 | Shorts, straps, tee |
@@ -401,7 +401,7 @@
 | Training shorts | Red `#C41E3A` | Black rectangular leg patch |
 | Performance tee | Cream or red | Olive body or black chest block |
 | Gloves / straps | Gold embroidery | Black knuckle/cuff zone |
-| Boxing gloves | Gold (拳 魂 雷) or red (闘 武) | Black backhand, olive cuff |
+| Boxing gloves | Gold (拳 魂 雷 力 勝) or red (闘 武 剛 火 破 龍) | Black backhand, olive cuff |
 | Knee support | Red or gold | Black sleeve with olive trim |
 | Gym / Hyrox bag | Cream or red | Olive or black front panel |
 | Running tee (走 only) | Cream / red | Charcoal body — see Culture Run spec |
@@ -433,10 +433,16 @@ Fingerless lifting gloves stay in `gloves-kanji-*.png`. Boxing is a **separate S
 | `boxing-gloves-kanji-bu-warrior.png` | 武 *Bu* — warrior | Red | Warrior Discipline |
 | `boxing-gloves-kanji-tamashii-soul.png` | 魂 *Tamashii* — soul | Gold | Spirit Belt |
 | `boxing-gloves-kanji-rai-thunder.png` | 雷 *Rai* — thunder | Gold | Elemental Force |
+| `boxing-gloves-kanji-chikara-power.png` | 力 *Chikara* — power | Gold | Iron Path |
+| `boxing-gloves-kanji-go-strength.png` | 剛 *Gō* — strength | Red | Warrior Discipline |
+| `boxing-gloves-kanji-sho-victory.png` | 勝 *Shō* — victory | Gold | Breakthrough |
+| `boxing-gloves-kanji-ka-fire.png` | 火 *Ka* — fire | Red | Elemental Force |
+| `boxing-gloves-kanji-ha-breakthrough.png` | 破 *Ha* — break through | Red | Breakthrough |
+| `boxing-gloves-kanji-ryu-dragon.png` | 龍 *Ryū* — dragon | Red | Dragon Legacy |
 
-Do **not** put 走 on a boxing glove. 力 stays the belt hero unless brand lead adds a sixth boxing SKU.
+Do **not** put 走 on a boxing glove. Use Japanese 龍, never simplified 龙.
 
-Factory marks: `assets/men-kanji/marks/card-` and `patch-` for the same five characters.
+Factory marks: `assets/men-kanji/marks/card-` and `patch-` for the same characters.
 
 ---
 
@@ -453,4 +459,4 @@ Product mockups: `assets/men-kanji/belts/` · `apparel/` · `accessories/`
 
 ---
 
-*Document version: 2.1 — Boxing glove SKUs (拳 闘 武 魂 雷). Internal design/production use.*
+*Document version: 2.2 — Boxing glove SKUs expanded (11 pairs). Internal design/production use.*
