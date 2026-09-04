@@ -57,6 +57,12 @@ Every story has a tee, tank, and matching short. Each mockup shows front, back, 
 | `women/crossflow` | Women | Crossed overlap vents + mesh | plum `#5B4B57` / mauve `#B79AA4` / shell `#E9DFDB` |
 | `women/rib-trace` | Women | Contour rib panels + piping | cocoa `#574741` / rose taupe `#AE8E86` / oat `#DED2C5` |
 | `women/tempo-pleat` | Women | Expandable mesh-backed pleat | sage `#7E8C82` / fog `#D5D5CC` / apricot `#D7A184` |
+| `men/cadence-zip` | Men | Quarter zip + garage | graphite `#25282C` / storm `#536674` / ice `#C3CFD2` |
+| `men/trail-stow` | Men | Power-mesh stash pockets | pine `#263A35` / sage `#72877B` / sand `#D7CBB9` |
+| `men/motion-gusset` | Men | Articulated underarm / crotch gusset | ink `#20242A` / steel `#51606B` / ember `#B66A4A` |
+| `women/halo-vent` | Women | Crescent overlap vent + mesh | aubergine `#51434F` / mauve `#A38F9D` / pearl `#E5DEE3` |
+| `women/loop-back` | Women | Mesh-filled teardrop + bridge | dusty blue `#6E7E8B` / shell `#DDD8D2` / rose taupe `#B68987` |
+| `women/layer-hem` | Women | Curved outer hem + mesh underlayer | terracotta `#B36F59` / cream `#EFE4DC` / cocoa `#594841` |
 
 ---
 
@@ -71,7 +77,7 @@ Binding, waistband, and stitch stay inside the story's color family. Contrast st
 
 ### Construction rules
 
-- One construction idea per story. Do not mix color block + cape vent + pleat on one SKU.
+- One construction idea per story. Do not mix zip stand + stash pocket + gusset + layer hem on one SKU.
 - Panels and mesh wrap front to back. Do not reset the idea at a side seam.
 - Ventilation comes from a **separate purchased mesh pattern piece** or an open overlap backed by mesh.
 - Seams are real: overlock + coverstitch, lockstitch, or piping.
@@ -94,6 +100,8 @@ Binding, waistband, and stitch stay inside the story's color family. Contrast st
 | E1 | Knitted elastic | 35 mm | Shorts waistband |
 | Z1 | Nylon coil zipper | #3, 12-14 cm | Rear security pocket |
 | P1 | Filled piping cord | 2 mm finished | Selected panel seams |
+| M3 | Stretch power-mesh | 140-170 gsm | Trail Stow gel / stash pockets |
+| Z2 | Reverse-coil nylon zipper | #3, 15-18 cm | Cadence Zip quarter zip and hip zip |
 
 Approve stretch recovery, shrinkage, colorfastness, and mesh snag resistance before bulk cutting. Match stretch direction across jersey, rib, and mesh.
 
@@ -110,6 +118,8 @@ Approve stretch recovery, shrinkage, colorfastness, and mesh snag resistance bef
 | Stress point | Bartack or narrow zigzag substitute | 8-10 mm |
 | Shorts pocket | #3 coil zipper, lockstitch + bartacks | 12-14 cm opening |
 | Waistband | 35 mm elastic fully encased | Mark and match four quarters |
+| Quarter zip | Reverse-coil #3, lockstitch tape, chin guard, folded garage | 15-18 cm opening |
+| Stash pocket | Power-mesh panel, 10 mm folded elastic top, bartacked divisions | Bottom caught into hem or waistband |
 
 No exposed overlock should touch the underarm or inner thigh. Run a 10 km wear test before approving bulk.
 
@@ -160,6 +170,27 @@ No exposed overlock should touch the underarm or inner thigh. Run a 10 km wear t
 - Match the diagonal at shoulder and side seams within 3 mm.
 - Shorts carry the diagonal from front waist into the opposite rear yoke.
 
+#### Cadence Zip
+
+- **Tee:** 18 cm #3 reverse-coil quarter zip, chin guard, folded garage, storm saddle with ice piping.
+- **Tank:** 15 cm zip into a 25 mm stand collar; fold-over armhole binding; wide male straps.
+- **Shorts:** 16 cm diagonal hip zip with garage plus 12 cm rear coil pocket; storm saddle + ice piping.
+- Zipper tape is lockstitched. Do not leave raw tape against skin. Bartack both zipper ends.
+
+#### Trail Stow
+
+- **Tee / tank:** M3 sand power-mesh lower-back panel, 17-18 cm tall, three compartments, 10 mm folded elastic top.
+- Catch pocket sides into side seams and the pocket bottom into the hem. Do not float the pocket on the body.
+- **Shorts:** three 9 cm rear-waist gel pockets plus one #3 coil security zip above the center pocket.
+- This is a running stash, not a cycling jersey pocket wall and not a hydration vest.
+
+#### Motion Gusset
+
+- **Tee:** two-piece articulated raglan; M2 ember mesh underarm gusset continues down the side rib to hem.
+- **Tank:** two-piece steel shoulder saddle; ember mesh side gusset from armhole to hem.
+- **Shorts:** ember four-way jersey diamond crotch gusset under the brief liner; steel outer-thigh panels.
+- Keep bulky stitch off the inner thigh. Ember coverstitch is for outer seams only.
+
 ### Women
 
 #### Swift Map
@@ -199,6 +230,25 @@ No exposed overlock should touch the underarm or inner thigh. Run a 10 km wear t
 - Bartack the top and stop point, never across the airflow opening.
 - Shorts side kick pleat opens 30 mm; L1 liner stays independent.
 
+#### Halo Vent
+
+- Mauve yoke ends in a crescent free edge overlapping M2 pearl mesh by 30 mm on tops and 22 mm on shorts.
+- Turn and topstitch the free edge. Three bartacks hold the arc; do not stitch the vent closed.
+- Mesh must cover skin through full shoulder movement. Shorts keep L1 liner under the rear vent.
+
+#### Loop Back
+
+- Cut a teardrop or oval opening, then sew M2 shell mesh into the hole so no skin is exposed.
+- Finish the opening with rose-taupe fold-over binding. Add a 16-20 mm fabric bridge and bartack both ends.
+- Shorts repeat the oval on each outer hip and keep L1 liner behind the mesh.
+
+#### Layer Hem
+
+- Outer J1 / W1 hem curves up 25 mm at each side. M2 cream underlayer is a separate pattern piece.
+- Join both layers only at the side seam. Hem each layer on its own machine pass.
+- Underlayer extends 12-18 mm below the outer curve at the sides. Bartack only the split tops.
+- No glue, fusing, or bonded hem. Shorts keep L1 liner independent of the mesh underlayer.
+
 ---
 
 ## Sample approval
@@ -218,13 +268,13 @@ No exposed overlock should touch the underarm or inner thigh. Run a 10 km wear t
 
 ## Shopee and floor
 
-Title: `Corenation Pace [Tee|Tank|Shorts] - [Air Grid|Stride Panel|Cloud Yoke|Back Draft|Relay Rib|Axis Split|Swift Map|Aero Racer|Curve Pace|Crossflow|Rib Trace|Tempo Pleat]`
+Title: `Corenation Pace [Tee|Tank|Shorts] - [Air Grid|Stride Panel|Cloud Yoke|Back Draft|Relay Rib|Axis Split|Cadence Zip|Trail Stow|Motion Gusset|Swift Map|Aero Racer|Curve Pace|Crossflow|Rib Trace|Tempo Pleat|Halo Vent|Loop Back|Layer Hem]`
 
-- Hang so a **side or back construction** is visible: mesh panel, cape vent, rib channel, curve, cross flap, or pleat.
+- Hang so a **side or back construction** is visible: mesh panel, cape vent, zip stand, stash pocket, gusset, halo vent, loop inset, or layer hem.
 - Pair tee + matching short from the same story.
 - Keep a fixture break from Culture Run graphics, kanji lifting shorts, and floral accessories.
 - Line code on care label: **PAC**.
 
 ---
 
-*Document version: 2.0 - Standard-sewing capability lock, six additional stories, and factory build details. No marks.*
+*Document version: 2.1 - Adds Cadence Zip, Trail Stow, Motion Gusset, Halo Vent, Loop Back, and Layer Hem. Standard sewing only. No marks.*

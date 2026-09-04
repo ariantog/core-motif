@@ -22,6 +22,9 @@ assets/
       back-draft/             overlap cape + mesh · storm / mineral / bone
       relay-rib/              rib channels + piping · espresso / moss / sand
       axis-split/             offset saddle + gusset · charcoal / teal / mist
+      cadence-zip/            quarter zip + garage · graphite / storm / ice
+      trail-stow/             power-mesh stash · pine / sage / sand
+      motion-gusset/          articulated gusset · ink / steel / ember
     women/
       swift-map/              mapped seams · sand / blush / fog
       aero-racer/             mesh spine · rose clay / pearl / slate
@@ -29,6 +32,9 @@ assets/
       crossflow/              crossed overlap vents · plum / mauve / shell
       rib-trace/              contour rib + piping · cocoa / rose taupe / oat
       tempo-pleat/            mesh-backed pleat · sage / fog / apricot
+      halo-vent/              crescent overlap vent · aubergine / mauve / pearl
+      loop-back/              mesh-filled teardrop + bridge · dusty blue / shell / rose taupe
+      layer-hem/              curved hem + mesh underlayer · terracotta / cream / cocoa
   padel/
     men/
       powder-reef/            v5 pastel watercolor · aqua / seafoam / mist
@@ -86,6 +92,12 @@ Pace running kit (no kanji, no logo, no dye-sub graphic). Standard-sewn construc
 | `women/crossflow` | Women | Crossed overlap vents · plum / mauve / shell | tee, tank, shorts |
 | `women/rib-trace` | Women | Contour rib + piping · cocoa / rose taupe / oat | tee, tank, shorts |
 | `women/tempo-pleat` | Women | Mesh-backed pleat · sage / fog / apricot | tee, tank, shorts |
+| `men/cadence-zip` | Men | Quarter zip + garage · graphite / storm / ice | tee, tank, shorts |
+| `men/trail-stow` | Men | Power-mesh stash · pine / sage / sand | tee, tank, shorts |
+| `men/motion-gusset` | Men | Articulated gusset · ink / steel / ember | tee, tank, shorts |
+| `women/halo-vent` | Women | Crescent overlap vent · aubergine / mauve / pearl | tee, tank, shorts |
+| `women/loop-back` | Women | Mesh-filled teardrop + bridge · dusty blue / shell / rose taupe | tee, tank, shorts |
+| `women/layer-hem` | Women | Curved hem + mesh underlayer · terracotta / cream / cocoa | tee, tank, shorts |
 
 Padel consumer kit (no kanji, no logo). v5 is pastel watercolor + vertical columns. v4 is sewn stitch models:
 
