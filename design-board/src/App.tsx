@@ -645,8 +645,8 @@ function App() {
             <p className="lede">
               v1.0 was men-kanji only. v2.0 adds brand direction, owners, women / hijab / Culture Run / padel, and
               channel playbooks. v2.2 adds the consumer padel pastel kit (no kanji, no logo) on the Padel tab.
-              v2.5 expands Pace to 12 standard-sewn stories / 36 pieces, removes laser-cut and
-              bonded construction, and adds factory-level build details.
+              v2.6 expands Pace to 18 standard-sewn stories / 54 pieces, including zip, stash,
+              gusset, halo vent, loop inset, and layered-hem construction.
               Full ticks live in <code>docs/branding-checklist.md</code>.
             </p>
           </section>
@@ -826,12 +826,12 @@ function App() {
             </div>
           </section>
           <section>
-            <h2>Men — 6 stories · 18 pieces</h2>
+            <h2>Men — 9 stories · 27 pieces</h2>
             <Swatches items={paceMenPalette} />
             <MockGrid items={paceMenMockups} />
           </section>
           <section>
-            <h2>Women — 6 stories · 18 pieces</h2>
+            <h2>Women — 9 stories · 27 pieces</h2>
             <Swatches items={paceWomenPalette} />
             <MockGrid items={paceWomenMockups} />
           </section>
@@ -954,7 +954,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.5 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.6 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )
