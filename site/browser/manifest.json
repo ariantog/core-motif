@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T08:56:13Z",
+  "generatedAt": "2026-09-04T06:48:44Z",
   "root": [
     {
       "type": "dir",
@@ -2000,6 +2000,28 @@
                 },
                 {
                   "type": "dir",
+                  "name": "cadence-zip",
+                  "path": "assets/pace/men/cadence-zip",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/pace/men/cadence-zip/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/pace/men/cadence-zip/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/pace/men/cadence-zip/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "cloud-yoke",
                   "path": "assets/pace/men/cloud-yoke",
                   "children": [
@@ -2017,6 +2039,28 @@
                       "type": "image",
                       "name": "tee.png",
                       "path": "assets/pace/men/cloud-yoke/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "motion-gusset",
+                  "path": "assets/pace/men/motion-gusset",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/pace/men/motion-gusset/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/pace/men/motion-gusset/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/pace/men/motion-gusset/tee.png"
                     }
                   ]
                 },
@@ -2061,6 +2105,28 @@
                       "type": "image",
                       "name": "tee.png",
                       "path": "assets/pace/men/stride-panel/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "trail-stow",
+                  "path": "assets/pace/men/trail-stow",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/pace/men/trail-stow/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/pace/men/trail-stow/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/pace/men/trail-stow/tee.png"
                     }
                   ]
                 }
@@ -2134,6 +2200,72 @@
                       "type": "image",
                       "name": "tee.png",
                       "path": "assets/pace/women/curve-pace/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "halo-vent",
+                  "path": "assets/pace/women/halo-vent",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/pace/women/halo-vent/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/pace/women/halo-vent/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/pace/women/halo-vent/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "layer-hem",
+                  "path": "assets/pace/women/layer-hem",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/pace/women/layer-hem/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/pace/women/layer-hem/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/pace/women/layer-hem/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "loop-back",
+                  "path": "assets/pace/women/loop-back",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/pace/women/loop-back/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/pace/women/loop-back/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/pace/women/loop-back/tee.png"
                     }
                   ]
                 },
@@ -4959,6 +5091,28 @@
                         },
                         {
                           "type": "dir",
+                          "name": "cadence-zip",
+                          "path": "design-board/public/assets/pace/men/cadence-zip",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/pace/men/cadence-zip/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/pace/men/cadence-zip/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/pace/men/cadence-zip/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
                           "name": "cloud-yoke",
                           "path": "design-board/public/assets/pace/men/cloud-yoke",
                           "children": [
@@ -4976,6 +5130,28 @@
                               "type": "image",
                               "name": "tee.png",
                               "path": "design-board/public/assets/pace/men/cloud-yoke/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "motion-gusset",
+                          "path": "design-board/public/assets/pace/men/motion-gusset",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/pace/men/motion-gusset/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/pace/men/motion-gusset/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/pace/men/motion-gusset/tee.png"
                             }
                           ]
                         },
@@ -5020,6 +5196,28 @@
                               "type": "image",
                               "name": "tee.png",
                               "path": "design-board/public/assets/pace/men/stride-panel/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "trail-stow",
+                          "path": "design-board/public/assets/pace/men/trail-stow",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/pace/men/trail-stow/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/pace/men/trail-stow/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/pace/men/trail-stow/tee.png"
                             }
                           ]
                         }
@@ -5093,6 +5291,72 @@
                               "type": "image",
                               "name": "tee.png",
                               "path": "design-board/public/assets/pace/women/curve-pace/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "halo-vent",
+                          "path": "design-board/public/assets/pace/women/halo-vent",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/pace/women/halo-vent/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/pace/women/halo-vent/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/pace/women/halo-vent/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "layer-hem",
+                          "path": "design-board/public/assets/pace/women/layer-hem",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/pace/women/layer-hem/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/pace/women/layer-hem/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/pace/women/layer-hem/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "loop-back",
+                          "path": "design-board/public/assets/pace/women/loop-back",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/pace/women/loop-back/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/pace/women/loop-back/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/pace/women/loop-back/tee.png"
                             }
                           ]
                         },

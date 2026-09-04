@@ -1,6 +1,6 @@
 # Corenation Brand Playbook — Staff Checklists
 
-**Version:** 2.5 (standard-sewn Pace expansion)  
+**Version:** 2.6 (Pace zip / stash / gusset / layer expansion)  
 **Use:** Print or duplicate per drop. Tick boxes as completed. One owner per section.  
 **Brand:** Corenation Active — Surabaya, est. 2014  
 **Channels:** @corenationactive · @corenationmen · @corenationhijab · shopee.co.id/corenation  
@@ -383,7 +383,7 @@ Owner: Brand lead + Design · Social: Active and/or Men
 - [ ] Copy is pace, split, airflow, keep the line. Use: *run the city, stay light, match the short.* Not *conquer nations*, not luxury marathon, not court night.
 - [ ] Fabric looks **light** in photos (mesh, pin-dot jersey, split hem). If it photographs like a lifting tee, recut or relight.
 - [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only. Line code **PAC**.
-- [ ] One construction per SKU. Men: Air Grid, Stride Panel, Cloud Yoke, Back Draft, Relay Rib, Axis Split. Women: Swift Map, Aero Racer, Curve Pace, Crossflow, Rib Trace, Tempo Pleat.
+- [ ] One construction per SKU. Men: Air Grid, Stride Panel, Cloud Yoke, Back Draft, Relay Rib, Axis Split, Cadence Zip, Trail Stow, Motion Gusset. Women: Swift Map, Aero Racer, Curve Pace, Crossflow, Rib Trace, Tempo Pleat, Halo Vent, Loop Back, Layer Hem.
 - [ ] Air Grid ventilation is **supplier-made eyelet mesh yardage sewn as panels**. The factory does not cut holes into the body fabric.
 - [ ] Men stay technical dark / mineral / bone. Women stay warm neutral / plum / sage. Do not share one panel map across genders.
 - [ ] Tee is a running tee (split hem, drop-tail OK). Tank is a race tank (men) or racerback (women). Shorts are 5–7" men / 3–4" women with liner. No polo. No skirt.
@@ -394,13 +394,13 @@ Owner: Brand lead + Design · Social: Active and/or Men
 ### Shot list
 
 - [ ] Ghost mannequin, front + back in one frame.
-- [ ] Side or back so the construction is obvious (mesh panel, cape vent, rib channel, cross flap, curve panel, or pleat).
+- [ ] Side or back so the construction is obvious (mesh panel, zip stand, stash pocket, gusset, halo vent, loop inset, or layer hem).
 - [ ] Detail frame shows the actual seam, mesh junction, binding, zipper, and stress-point reinforcement.
 - [ ] Pair with the matching Pace short — never the kanji patch short.
 
 ### Shopee title
 
-`Corenation Pace [Tee|Tank|Shorts] — [Air Grid|Stride Panel|Cloud Yoke|Back Draft|Relay Rib|Axis Split|Swift Map|Aero Racer|Curve Pace|Crossflow|Rib Trace|Tempo Pleat]`
+`Corenation Pace [Tee|Tank|Shorts] — [Air Grid|Stride Panel|Cloud Yoke|Back Draft|Relay Rib|Axis Split|Cadence Zip|Trail Stow|Motion Gusset|Swift Map|Aero Racer|Curve Pace|Crossflow|Rib Trace|Tempo Pleat|Halo Vent|Loop Back|Layer Hem]`
 
 ### Store VM
 
@@ -462,4 +462,4 @@ Path locked: **drop hex and coin → readable wordmark → new mark later.** Spe
 
 ---
 
-*Playbook v2.5 — Corenation Active. Pace now has 12 standard-sewn stories with no laser or bonded construction. Next review when a new hero motif is approved, or when logo Phase 3 starts.*
+*Playbook v2.6 — Corenation Active. Pace now has 18 standard-sewn stories / 54 pieces. Next review when a new hero motif is approved, or when logo Phase 3 starts.*
