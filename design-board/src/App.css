@@ -50,6 +50,11 @@ body {
   --gold: #c5cdd1;
 }
 
+.app.theme-forge {
+  --accent: #c45c38;
+  --gold: #4a5240;
+}
+
 .app.theme-padel {
   --accent: #8fb8b8;
   --gold: #f0c4a8;

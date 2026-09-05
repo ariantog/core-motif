@@ -37,9 +37,18 @@ import {
   paceWomenMockups,
   paceWomenPalette,
 } from './data/pace'
+import {
+  forgeMenMockups,
+  forgeMenPalette,
+  forgeProductionDetails,
+  forgeRules,
+  forgeStories,
+  forgeWomenMockups,
+  forgeWomenPalette,
+} from './data/forge'
 import { asset } from './lib/assets'
 
-type Tab = 'brand' | 'men' | 'women' | 'culture' | 'pace' | 'padel' | 'marks'
+type Tab = 'brand' | 'men' | 'women' | 'culture' | 'pace' | 'forge' | 'padel' | 'marks'
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'brand', label: 'Brand' },
@@ -47,6 +56,7 @@ const TABS: { id: Tab; label: string }[] = [
   { id: 'women', label: 'Women floral' },
   { id: 'culture', label: 'Culture run' },
   { id: 'pace', label: 'Pace' },
+  { id: 'forge', label: 'Forge' },
   { id: 'padel', label: 'Padel' },
   { id: 'marks', label: 'Marks' },
 ]
@@ -618,7 +628,7 @@ function App() {
               </div>
               <div>
                 <h3>Brand</h3>
-                <p>Corenation Active · Surabaya · men / women / hijab / Culture Run / Pace / padel</p>
+                <p>Corenation Active · Surabaya · men / women / hijab / Culture Run / Pace / Forge / padel</p>
               </div>
             </div>
           </section>
@@ -647,6 +657,8 @@ function App() {
               channel playbooks. v2.2 adds the consumer padel pastel kit (no kanji, no logo) on the Padel tab.
               v2.6 expands Pace to 18 standard-sewn stories / 54 pieces, including zip, stash,
               gusset, halo vent, loop inset, and layered-hem construction.
+              v2.7 adds Forge, the industrial gymwear wall: 6 stories / 18 pieces, heavier
+              fabric, webbing, and welt pockets — not Pace race kit.
               Full ticks live in <code>docs/branding-checklist.md</code>.
             </p>
           </section>
@@ -838,6 +850,70 @@ function App() {
         </>
       )}
 
+      {tab === 'forge' && (
+        <>
+          <section>
+            <h2>Theme lock</h2>
+            <p className="lede">
+              Construction-led gymwear — no kanji, no logo, no dye-sub graphic, no race mesh.
+              Design is cut, webbing, welt pocket, and heavier fabric. Every piece uses
+              standard lockstitch, overlock, coverstitch, webbing, eyelet, #5 coil zip, and
+              bartack — no laser cutter or seam bonding. Files:{' '}
+              <code>assets/forge/men/</code> · <code>assets/forge/women/</code>. Spec:{' '}
+              <code>docs/forge-collection.md</code>.
+            </p>
+            <div className="rule-grid">
+              {forgeRules.map((rule) => (
+                <article key={rule.lock}>
+                  <h3>{rule.lock}</h3>
+                  <p>{rule.flower}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Drops</h2>
+            <div className="rule-grid">
+              {forgeStories.map((story) => (
+                <article key={story.id}>
+                  <h3>
+                    {story.gender === 'men' ? 'Men' : 'Women'} · {story.name}
+                  </h3>
+                  <p>
+                    {story.fade}. {story.note}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Factory build details</h2>
+            <p className="section-lead">
+              Production baseline for every story. The spec adds the full bill of materials,
+              seam allowances, pocket sit, and squat / bench wear checks.
+            </p>
+            <div className="rule-grid">
+              {forgeProductionDetails.map((detail) => (
+                <article key={detail.lock}>
+                  <h3>{detail.lock}</h3>
+                  <p>{detail.flower}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Men — 3 stories · 9 pieces</h2>
+            <Swatches items={forgeMenPalette} />
+            <MockGrid items={forgeMenMockups} />
+          </section>
+          <section>
+            <h2>Women — 3 stories · 9 pieces</h2>
+            <Swatches items={forgeWomenPalette} />
+            <MockGrid items={forgeWomenMockups} />
+          </section>
+        </>
+      )}
+
       {tab === 'padel' && (
         <>
           <section>
@@ -954,7 +1030,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.6 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.7 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )
