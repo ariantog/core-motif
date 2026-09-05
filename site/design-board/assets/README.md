@@ -35,6 +35,15 @@ assets/
       halo-vent/              crescent overlap vent · aubergine / mauve / pearl
       loop-back/              mesh-filled teardrop + bridge · dusty blue / shell / rose taupe
       layer-hem/              curved hem + mesh underlayer · terracotta / cream / cocoa
+  forge/
+    men/
+      cinder-block/           angular rust block · charcoal / concrete / rust
+      rack-web/               25 mm webbing + eyelets · black / olive / cream
+      plate-pocket/           welt / bellows phone pocket · ink / slate / steel
+    women/
+      kiln-seam/              mapped industrial seams · clay / concrete / pewter
+      anvil-strap/            webbing bind + back strap · charcoal / rust / bone
+      slab-pocket/            hip welt + rust sides · concrete / rust / ink
   padel/
     men/
       powder-reef/            v5 pastel watercolor · aqua / seafoam / mist
@@ -98,6 +107,17 @@ Pace running kit (no kanji, no logo, no dye-sub graphic). Standard-sewn construc
 | `women/halo-vent` | Women | Crescent overlap vent · aubergine / mauve / pearl | tee, tank, shorts |
 | `women/loop-back` | Women | Mesh-filled teardrop + bridge · dusty blue / shell / rose taupe | tee, tank, shorts |
 | `women/layer-hem` | Women | Curved hem + mesh underlayer · terracotta / cream / cocoa | tee, tank, shorts |
+
+Forge industrial gymwear (no kanji, no floral, no race mesh, no print). Heavier gym construction is the design. It requires no laser cutter or seam-bonding equipment:
+
+| Folder | Who | Construction | Pieces |
+|--------|-----|--------------|--------|
+| `men/cinder-block` | Men | Angular rust block · charcoal / concrete / rust | tee, tank, shorts |
+| `men/rack-web` | Men | 25 mm webbing + eyelets · black / olive / cream | tee, tank, shorts |
+| `men/plate-pocket` | Men | Welt / bellows phone pocket · ink / slate / steel | tee, tank, shorts |
+| `women/kiln-seam` | Women | Mapped industrial seams · clay / concrete / pewter | tee, tank, shorts |
+| `women/anvil-strap` | Women | Webbing bind + back strap · charcoal / rust / bone | tee, tank, shorts |
+| `women/slab-pocket` | Women | Hip welt + rust sides · concrete / rust / ink | tee, tank, shorts |
 
 Padel consumer kit (no kanji, no logo). v5 is pastel watercolor + vertical columns. v4 is sewn stitch models:
 
