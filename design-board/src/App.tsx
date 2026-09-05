@@ -37,9 +37,16 @@ import {
   paceWomenMockups,
   paceWomenPalette,
 } from './data/pace'
+import {
+  chalkPalette,
+  chalkPrints,
+  chalkRules,
+  chalkStories,
+  chalkTees,
+} from './data/chalk'
 import { asset } from './lib/assets'
 
-type Tab = 'brand' | 'men' | 'women' | 'culture' | 'pace' | 'padel' | 'marks'
+type Tab = 'brand' | 'men' | 'women' | 'culture' | 'pace' | 'chalk' | 'padel' | 'marks'
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'brand', label: 'Brand' },
@@ -47,6 +54,7 @@ const TABS: { id: Tab; label: string }[] = [
   { id: 'women', label: 'Women floral' },
   { id: 'culture', label: 'Culture run' },
   { id: 'pace', label: 'Pace' },
+  { id: 'chalk', label: 'Chalk' },
   { id: 'padel', label: 'Padel' },
   { id: 'marks', label: 'Marks' },
 ]
@@ -618,7 +626,7 @@ function App() {
               </div>
               <div>
                 <h3>Brand</h3>
-                <p>Corenation Active · Surabaya · men / women / hijab / Culture Run / Pace / padel</p>
+                <p>Corenation Active · Surabaya · men / women / hijab / Culture Run / Pace / Chalk / padel</p>
               </div>
             </div>
           </section>
@@ -647,6 +655,8 @@ function App() {
               channel playbooks. v2.2 adds the consumer padel pastel kit (no kanji, no logo) on the Padel tab.
               v2.6 expands Pace to 18 standard-sewn stories / 54 pieces, including zip, stash,
               gusset, halo vent, loop inset, and layered-hem construction.
+              v2.7 adds Chalk: 2-color powerlifting screen prints (cartoon animals + gym
+              quotes) for blank gym tees.
               Full ticks live in <code>docs/branding-checklist.md</code>.
             </p>
           </section>
@@ -838,6 +848,58 @@ function App() {
         </>
       )}
 
+      {tab === 'chalk' && (
+        <>
+          <section>
+            <h2>Theme lock</h2>
+            <p className="lede">
+              Two-color screen prints for blank gym tees — cartoon animals on the bar, plus short
+              powerlifting lines. Cream and rust plastisol. Charcoal or olive is the shirt. Files:{' '}
+              <code>assets/chalk/prints/</code> · <code>assets/chalk/tees/</code>. Spec:{' '}
+              <code>docs/chalk-collection.md</code>.
+            </p>
+            <div className="rule-grid">
+              {chalkRules.map((rule) => (
+                <article key={rule.lock}>
+                  <h3>{rule.lock}</h3>
+                  <p>{rule.flower}</p>
+                </article>
+              ))}
+            </div>
+            <Swatches items={chalkPalette} />
+          </section>
+          <section>
+            <h2>Stamps</h2>
+            <div className="rule-grid">
+              {chalkStories.map((story) => (
+                <article key={story.id}>
+                  <h3>
+                    {story.kind === 'animal' ? 'Animal' : 'Quote'} · {story.name}
+                  </h3>
+                  <p>
+                    {story.fade}. {story.note}
+                  </p>
+                </article>
+              ))}
+            </div>
+          </section>
+          <section>
+            <h2>Print plates — burn these</h2>
+            <p className="section-lead">
+              Square art for the screens. Charcoal is the shirt knockout, not a third ink.
+            </p>
+            <MockGrid items={chalkPrints} />
+          </section>
+          <section>
+            <h2>On a gym tee — placement</h2>
+            <p className="section-lead">
+              Chest stamp on a blank charcoal or olive gym tee. About 28 cm wide.
+            </p>
+            <MockGrid items={chalkTees} />
+          </section>
+        </>
+      )}
+
       {tab === 'padel' && (
         <>
           <section>
@@ -954,7 +1016,7 @@ function App() {
       )}
 
       <footer>
-        Corenation Active · Design studio v2.6 · Playbook in /docs · Surabaya
+        Corenation Active · Design studio v2.7 · Playbook in /docs · Surabaya
       </footer>
     </div>
   )
