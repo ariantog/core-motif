@@ -35,6 +35,9 @@ assets/
       halo-vent/              crescent overlap vent · aubergine / mauve / pearl
       loop-back/              mesh-filled teardrop + bridge · dusty blue / shell / rose taupe
       layer-hem/              curved hem + mesh underlayer · terracotta / cream / cocoa
+  chalk/
+    prints/                   2-color screen plates (animals + quotes)
+    tees/                     chest-stamp placement on blank gym tees
   padel/
     men/
       powder-reef/            v5 pastel watercolor · aqua / seafoam / mist
@@ -98,6 +101,22 @@ Pace running kit (no kanji, no logo, no dye-sub graphic). Standard-sewn construc
 | `women/halo-vent` | Women | Crescent overlap vent · aubergine / mauve / pearl | tee, tank, shorts |
 | `women/loop-back` | Women | Mesh-filled teardrop + bridge · dusty blue / shell / rose taupe | tee, tank, shorts |
 | `women/layer-hem` | Women | Curved hem + mesh underlayer · terracotta / cream / cocoa | tee, tank, shorts |
+
+Chalk powerlifting screen prints (2 inks: cream + rust). Burn `prints/`. `tees/` is placement only:
+
+| File | Kind | Stamp |
+|------|------|-------|
+| `prints/gorilla-pull.png` | Animal | Gorilla deadlift lockout |
+| `prints/bear-squat.png` | Animal | Bear squat in the hole |
+| `prints/bull-press.png` | Animal | Bull bench press |
+| `prints/wolf-load.png` | Animal | Wolf loading a plate |
+| `prints/tiger-chalk.png` | Animal | Tiger chalking hands |
+| `prints/rhino-lockout.png` | Animal | Rhino deadlift lockout |
+| `prints/quote-lock-it-out.png` | Quote | LOCK IT OUT |
+| `prints/quote-bar-does-not-care.png` | Quote | THE BAR DOES NOT CARE |
+| `prints/quote-stay-in-the-hole.png` | Quote | STAY IN THE HOLE |
+| `prints/quote-chalk-then-pull.png` | Quote | CHALK. THEN PULL. |
+| `prints/quote-last-rep-is-the-set.png` | Quote | LAST REP IS THE SET |
 
 Padel consumer kit (no kanji, no logo). v5 is pastel watercolor + vertical columns. v4 is sewn stitch models:
 
