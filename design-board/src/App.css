@@ -55,6 +55,11 @@ body {
   --gold: #4a5240;
 }
 
+.app.theme-chalk {
+  --accent: #c45c38;
+  --gold: #d6cfb5;
+}
+
 .app.theme-padel {
   --accent: #8fb8b8;
   --gold: #f0c4a8;

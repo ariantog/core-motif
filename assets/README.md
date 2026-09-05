@@ -44,6 +44,9 @@ assets/
       kiln-seam/              mapped industrial seams · clay / concrete / pewter
       anvil-strap/            webbing bind + back strap · charcoal / rust / bone
       slab-pocket/            hip welt + rust sides · concrete / rust / ink
+  chalk/
+    prints/                   2-color screen plates (animals + quotes)
+    tees/                     chest-stamp placement on blank gym tees
   padel/
     men/
       powder-reef/            v5 pastel watercolor · aqua / seafoam / mist
@@ -118,6 +121,22 @@ Forge industrial gymwear (no kanji, no floral, no race mesh, no print). Heavier 
 | `women/kiln-seam` | Women | Mapped industrial seams · clay / concrete / pewter | tee, tank, shorts |
 | `women/anvil-strap` | Women | Webbing bind + back strap · charcoal / rust / bone | tee, tank, shorts |
 | `women/slab-pocket` | Women | Hip welt + rust sides · concrete / rust / ink | tee, tank, shorts |
+
+Chalk powerlifting screen prints (2 inks: cream + rust). Burn `prints/`. `tees/` is placement only:
+
+| File | Kind | Stamp |
+|------|------|-------|
+| `prints/gorilla-pull.png` | Animal | Gorilla deadlift lockout |
+| `prints/bear-squat.png` | Animal | Bear squat in the hole |
+| `prints/bull-press.png` | Animal | Bull bench press |
+| `prints/wolf-load.png` | Animal | Wolf loading a plate |
+| `prints/tiger-chalk.png` | Animal | Tiger chalking hands |
+| `prints/rhino-lockout.png` | Animal | Rhino deadlift lockout |
+| `prints/quote-lock-it-out.png` | Quote | LOCK IT OUT |
+| `prints/quote-bar-does-not-care.png` | Quote | THE BAR DOES NOT CARE |
+| `prints/quote-stay-in-the-hole.png` | Quote | STAY IN THE HOLE |
+| `prints/quote-chalk-then-pull.png` | Quote | CHALK. THEN PULL. |
+| `prints/quote-last-rep-is-the-set.png` | Quote | LAST REP IS THE SET |
 
 Padel consumer kit (no kanji, no logo). v5 is pastel watercolor + vertical columns. v4 is sewn stitch models:
 

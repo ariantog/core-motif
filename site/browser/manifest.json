@@ -1,11 +1,152 @@
 {
-  "generatedAt": "2026-09-05T03:35:21Z",
+  "generatedAt": "2026-09-05T04:02:17Z",
   "root": [
     {
       "type": "dir",
       "name": "assets",
       "path": "assets",
       "children": [
+        {
+          "type": "dir",
+          "name": "chalk",
+          "path": "assets/chalk",
+          "children": [
+            {
+              "type": "dir",
+              "name": "prints",
+              "path": "assets/chalk/prints",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "bear-squat.png",
+                  "path": "assets/chalk/prints/bear-squat.png"
+                },
+                {
+                  "type": "image",
+                  "name": "bull-press.png",
+                  "path": "assets/chalk/prints/bull-press.png"
+                },
+                {
+                  "type": "image",
+                  "name": "gorilla-pull.png",
+                  "path": "assets/chalk/prints/gorilla-pull.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-bar-does-not-care.png",
+                  "path": "assets/chalk/prints/quote-bar-does-not-care.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-chalk-then-pull.png",
+                  "path": "assets/chalk/prints/quote-chalk-then-pull.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-last-rep-is-the-set.png",
+                  "path": "assets/chalk/prints/quote-last-rep-is-the-set.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-lock-it-out.png",
+                  "path": "assets/chalk/prints/quote-lock-it-out.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-stay-in-the-hole.png",
+                  "path": "assets/chalk/prints/quote-stay-in-the-hole.png"
+                },
+                {
+                  "type": "image",
+                  "name": "rhino-lockout.png",
+                  "path": "assets/chalk/prints/rhino-lockout.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tiger-chalk.png",
+                  "path": "assets/chalk/prints/tiger-chalk.png"
+                },
+                {
+                  "type": "image",
+                  "name": "wolf-load.png",
+                  "path": "assets/chalk/prints/wolf-load.png"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "tees",
+              "path": "assets/chalk/tees",
+              "children": [
+                {
+                  "type": "image",
+                  "name": "bear-squat.png",
+                  "path": "assets/chalk/tees/bear-squat.png"
+                },
+                {
+                  "type": "image",
+                  "name": "bull-press.png",
+                  "path": "assets/chalk/tees/bull-press.png"
+                },
+                {
+                  "type": "image",
+                  "name": "gorilla-pull-olive.png",
+                  "path": "assets/chalk/tees/gorilla-pull-olive.png"
+                },
+                {
+                  "type": "image",
+                  "name": "gorilla-pull.png",
+                  "path": "assets/chalk/tees/gorilla-pull.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-bar-does-not-care.png",
+                  "path": "assets/chalk/tees/quote-bar-does-not-care.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-chalk-then-pull.png",
+                  "path": "assets/chalk/tees/quote-chalk-then-pull.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-last-rep-is-the-set.png",
+                  "path": "assets/chalk/tees/quote-last-rep-is-the-set.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-lock-it-out-olive.png",
+                  "path": "assets/chalk/tees/quote-lock-it-out-olive.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-lock-it-out.png",
+                  "path": "assets/chalk/tees/quote-lock-it-out.png"
+                },
+                {
+                  "type": "image",
+                  "name": "quote-stay-in-the-hole.png",
+                  "path": "assets/chalk/tees/quote-stay-in-the-hole.png"
+                },
+                {
+                  "type": "image",
+                  "name": "rhino-lockout.png",
+                  "path": "assets/chalk/tees/rhino-lockout.png"
+                },
+                {
+                  "type": "image",
+                  "name": "tiger-chalk.png",
+                  "path": "assets/chalk/tees/tiger-chalk.png"
+                },
+                {
+                  "type": "image",
+                  "name": "wolf-load.png",
+                  "path": "assets/chalk/tees/wolf-load.png"
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "dir",
           "name": "culture-run",
@@ -3250,6 +3391,147 @@
               "name": "assets",
               "path": "design-board/public/assets",
               "children": [
+                {
+                  "type": "dir",
+                  "name": "chalk",
+                  "path": "design-board/public/assets/chalk",
+                  "children": [
+                    {
+                      "type": "dir",
+                      "name": "prints",
+                      "path": "design-board/public/assets/chalk/prints",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "bear-squat.png",
+                          "path": "design-board/public/assets/chalk/prints/bear-squat.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "bull-press.png",
+                          "path": "design-board/public/assets/chalk/prints/bull-press.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "gorilla-pull.png",
+                          "path": "design-board/public/assets/chalk/prints/gorilla-pull.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-bar-does-not-care.png",
+                          "path": "design-board/public/assets/chalk/prints/quote-bar-does-not-care.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-chalk-then-pull.png",
+                          "path": "design-board/public/assets/chalk/prints/quote-chalk-then-pull.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-last-rep-is-the-set.png",
+                          "path": "design-board/public/assets/chalk/prints/quote-last-rep-is-the-set.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-lock-it-out.png",
+                          "path": "design-board/public/assets/chalk/prints/quote-lock-it-out.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-stay-in-the-hole.png",
+                          "path": "design-board/public/assets/chalk/prints/quote-stay-in-the-hole.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "rhino-lockout.png",
+                          "path": "design-board/public/assets/chalk/prints/rhino-lockout.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tiger-chalk.png",
+                          "path": "design-board/public/assets/chalk/prints/tiger-chalk.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "wolf-load.png",
+                          "path": "design-board/public/assets/chalk/prints/wolf-load.png"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "tees",
+                      "path": "design-board/public/assets/chalk/tees",
+                      "children": [
+                        {
+                          "type": "image",
+                          "name": "bear-squat.png",
+                          "path": "design-board/public/assets/chalk/tees/bear-squat.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "bull-press.png",
+                          "path": "design-board/public/assets/chalk/tees/bull-press.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "gorilla-pull-olive.png",
+                          "path": "design-board/public/assets/chalk/tees/gorilla-pull-olive.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "gorilla-pull.png",
+                          "path": "design-board/public/assets/chalk/tees/gorilla-pull.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-bar-does-not-care.png",
+                          "path": "design-board/public/assets/chalk/tees/quote-bar-does-not-care.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-chalk-then-pull.png",
+                          "path": "design-board/public/assets/chalk/tees/quote-chalk-then-pull.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-last-rep-is-the-set.png",
+                          "path": "design-board/public/assets/chalk/tees/quote-last-rep-is-the-set.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-lock-it-out-olive.png",
+                          "path": "design-board/public/assets/chalk/tees/quote-lock-it-out-olive.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-lock-it-out.png",
+                          "path": "design-board/public/assets/chalk/tees/quote-lock-it-out.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "quote-stay-in-the-hole.png",
+                          "path": "design-board/public/assets/chalk/tees/quote-stay-in-the-hole.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "rhino-lockout.png",
+                          "path": "design-board/public/assets/chalk/tees/rhino-lockout.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "tiger-chalk.png",
+                          "path": "design-board/public/assets/chalk/tees/tiger-chalk.png"
+                        },
+                        {
+                          "type": "image",
+                          "name": "wolf-load.png",
+                          "path": "design-board/public/assets/chalk/tees/wolf-load.png"
+                        }
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "dir",
                   "name": "culture-run",
@@ -6547,6 +6829,11 @@
               "children": [
                 {
                   "type": "file",
+                  "name": "chalk.ts",
+                  "path": "design-board/src/data/chalk.ts"
+                },
+                {
+                  "type": "file",
                   "name": "culture.ts",
                   "path": "design-board/src/data/culture.ts"
                 },
@@ -6665,6 +6952,11 @@
         },
         {
           "type": "markdown",
+          "name": "chalk-collection.md",
+          "path": "docs/chalk-collection.md"
+        },
+        {
+          "type": "markdown",
           "name": "cn-logo-spec.md",
           "path": "docs/cn-logo-spec.md"
         },
@@ -6732,6 +7024,11 @@
         },
         {
           "type": "file",
+          "name": "build_chalk_quotes.py",
+          "path": "scripts/build_chalk_quotes.py"
+        },
+        {
+          "type": "file",
           "name": "build_readable_wordmarks.py",
           "path": "scripts/build_readable_wordmarks.py"
         },
@@ -6739,6 +7036,11 @@
           "type": "file",
           "name": "build_split_wordmarks.py",
           "path": "scripts/build_split_wordmarks.py"
+        },
+        {
+          "type": "file",
+          "name": "compose_chalk_tees.py",
+          "path": "scripts/compose_chalk_tees.py"
         },
         {
           "type": "file",

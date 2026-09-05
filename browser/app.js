@@ -38,6 +38,7 @@ const designFilters = [
   { id: 'culture-run', label: 'Culture run' },
   { id: 'pace', label: 'Pace' },
   { id: 'forge', label: 'Forge' },
+  { id: 'chalk', label: 'Chalk' },
   { id: 'padel', label: 'Padel' },
   { id: 'references', label: 'References' },
 ]
@@ -49,6 +50,7 @@ const docs = [
   { title: 'Padel collection', path: 'docs/padel-collection.md' },
   { title: 'Pace collection', path: 'docs/pace-collection.md' },
   { title: 'Forge collection', path: 'docs/forge-collection.md' },
+  { title: 'Chalk collection', path: 'docs/chalk-collection.md' },
   { title: 'Culture run collection', path: 'docs/culture-run-collection.md' },
   { title: 'Kanji design collection', path: 'docs/kanji-design-collection.md' },
   { title: 'Branding checklist', path: 'docs/branding-checklist.md' },
