@@ -1,6 +1,6 @@
 # Corenation Brand Playbook — Staff Checklists
 
-**Version:** 2.7 (Chalk powerlifting screen prints)  
+**Version:** 2.8 (Chalk powerlifting screen prints)  
 **Use:** Print or duplicate per drop. Tick boxes as completed. One owner per section.  
 **Brand:** Corenation Active — Surabaya, est. 2014  
 **Channels:** @corenationactive · @corenationmen · @corenationhijab · shopee.co.id/corenation  
@@ -80,7 +80,7 @@ Corenation is the training brand you actually wear to train — same class of fa
 - [ ] Logo mark on **new** work is the readable `CORENATION` wordmark ([`readable-wordmark.md`](readable-wordmark.md)). Do not reprint the hex or coin. White/cream on dark; charcoal on light pink/lilac.
 - [ ] Max **one hero motif** per visible panel (one kanji, or one flower cluster, or one culture graphic).
 - [ ] No competing line motifs on the same SKU (no sakura + 龍, no lavender + kanji patch).
-- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN / PAC / CHK / PDL). Wrong line code = reject.
+- [ ] Hangtag / care label: Corenation, composition, care, **line code** (MEN / WMN / HJB / RUN / PAC / FRG / CHK / PDL). Wrong line code = reject.
 
 ### Palette lock (do not invent seasonal "premium" golds)
 
@@ -105,7 +105,8 @@ Corenation is the training brand you actually wear to train — same class of fa
 | Hijab / modest | @corenationhijab | Floral **or** clean modest | Sports hijab, long tunics, modest sets | Body-con crop-only hero, kanji warrior copy |
 | Culture Run | Active + Men (tag both if unisex) | Graphic print (wave, summit, bloom path) | Running tee, tank, singlet | Lifting-belt patch language, heavy olive tactical |
 | Pace | Active + Men (tag both if unisex) | Construction (bought mesh, seam, piping, vent, rib, pleat) | Running tee, tank, shorts | Laser cutting, bonding, printed graphic, kanji, floral |
-| Chalk | Active + Men (tag both if unisex) | 2-color screen print (animal or quote) | Blank gym tee | Pace mesh, Culture Run dye-sub, kanji patch, floral |
+| Forge | Active + Men (tag both if unisex) | Construction (webbing, welt pocket, rust block, industrial seam) | Gym tee, tank, training shorts | Race mesh, laser, bonding, kanji patch, floral, Pace run short |
+| Chalk | Active + Men (tag both if unisex) | 2-color screen print (animal or quote) | Blank gym tee | Pace mesh, Culture Run dye-sub, kanji patch, floral, Forge construction face |
 | Padel court | Active + Men | Pastel (women) or earth stitch (men), **no marks** | Polo, tee, tank, shorts, women skirt | Kanji, hex C, floral, Culture Run wave |
 | HQ padel | not a consumer drop | Club color **from approved palette** | Club kits, still Corenation branded | Club logo replacing hex C; unapproved neon |
 
@@ -113,7 +114,8 @@ Corenation is the training brand you actually wear to train — same class of fa
 - [ ] Women's floral SKUs never carry a kanji patch or 龍 / 力 / 走 as a hero mark.
 - [ ] Culture Run may use **走** (run) or a flower **as part of a running graphic** — still one hero idea per panel.
 - [ ] Pace never uses a printed graphic, kanji, floral, or padel watercolor. Construction is the only design.
-- [ ] Chalk is one stamp per tee — one animal or one quote. Cream + rust only. Print on a blank gym tee.
+- [ ] Forge never uses race mesh, a Pace run short, a kanji patch, floral, or a printed graphic. Heavier gym construction is the only design.
+- [ ] Chalk is one stamp per tee — one animal or one quote. Cream + rust only. Print on a blank gym tee, not on a Forge construction face.
 - [ ] Hijab listings never steal men's warrior captions (*破*, *闘*, "break your PR").
 - [ ] Bundle deals that mix lines must say so in the title (e.g. *Couple set — Men's 力 belt + Women's sakura gloves*).
 
@@ -412,13 +414,53 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 ---
 
-## 8d. Chalk — powerlifting screen prints
+## 8d. Forge — industrial gymwear
+
+Owner: Brand lead + Design · Social: Active and/or Men
+
+**What this line is:** heavier gym tees, drop-arm / scoop tanks, and training shorts whose design is **cut, webbing, welt / bellows pocket, mapped seam, and bartack**. Nike training / Adidas Designed for Training / Lululemon License to Train energy, produced on standard sewing machines.
+
+**What it is not:** Pace (no race mesh, no 3–5 inch run split, no drop-tail). Not Culture Run. Not padel. Not men-kanji (olive on Rack Web is a saddle, not a 龍 patch). No floral. No laser cutting. No bonded or glued seam.
+
+### Voice & visual
+
+- [ ] Copy is gym floor, rack, squat, bench, warehouse kit. Use: *train in it, hold the plate, match the short.* Not *run the city*, not *conquer nations*, not court night.
+- [ ] Fabric photographs **heavier** than Pace (interlock / pique, stretch-woven short). If it looks like race mesh, recut or relight.
+- [ ] **No marks on the garment face.** Factory may keep Corenation on the care label only. Line code **FRG**.
+- [ ] One construction per SKU. Men: Cinder Block, Rack Web, Plate Pocket. Women: Kiln Seam, Anvil Strap, Slab Pocket.
+- [ ] Men stay charcoal / olive / rust / steel. Women stay clay / concrete / rust / charcoal. Do not share one panel map across genders.
+- [ ] Tee is a gym tee (regular/boxy men, fitted hip-length women). Tank is drop-arm (men, 50–60 mm straps) or scoop (women, 35–40 mm). Shorts are 8 inch men / 5 inch high-rise women. No polo. No crop. No race split.
+- [ ] Webbing is woven nylon tape sewn as a channel, bind, or bartacked tab. Pockets sit at hip / thigh, never on the bust.
+- [ ] Capability lock: straight stitch, 4-thread overlock, 2-needle coverstitch, webbing, eyelet, #5 coil zip, and bartack / narrow zigzag.
+- [ ] Use sewn binding, turned hems, coverstitch, and bartacks. No laser cutter, perforation service, bonding, glue, or heat-sealed edge.
+- [ ] Reinforce splits, webbing ends, welt corners, and zipper ends with 8–10 mm bartacks.
+
+### Shot list
+
+- [ ] Ghost mannequin, front + back in one frame.
+- [ ] Side so the construction is obvious (rust block, webbing channel, or welt pocket).
+- [ ] Detail frame shows the actual seam, webbing, eyelet, zipper, and stress-point reinforcement.
+- [ ] Pair with the matching Forge short — never the Pace run short or the kanji patch short.
+
+### Shopee title
+
+`Corenation Forge [Tee|Tank|Shorts] — [Cinder Block|Rack Web|Plate Pocket|Kiln Seam|Anvil Strap|Slab Pocket]`
+
+### Store VM
+
+- [ ] Own gym-floor bay or a break from the Pace run wall and the Culture Run print wall.
+- [ ] Hang so a **side construction** is visible.
+- [ ] Do not hang next to 龍 shorts or sakura belts without a fixture break.
+
+---
+
+## 8e. Chalk — powerlifting screen prints
 
 Owner: Brand lead + Design · Social: Active and/or Men
 
 **What this line is:** 2-color plastisol stamps for blank gym tees. Cartoon animals on squat / bench / deadlift, plus short powerlifting lines set in Inter Bold.
 
-**What it is not:** Pace (no race mesh). Not Culture Run (no dye-sub). Not men-kanji. Not floral. Not a construction story.
+**What it is not:** Forge (Forge stays blank construction). Not Pace. Not Culture Run. Not men-kanji. Not floral.
 
 ### Voice & visual
 
@@ -434,7 +476,7 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 - [ ] Ghost mannequin, chest stamp facing camera.
 - [ ] Square print plate next to the tee so the factory sees the burn file.
-- [ ] Pair with a plain charcoal or olive short — never the Pace run short or the kanji patch short.
+- [ ] Pair with a plain charcoal or olive short — never the Pace run short, the Forge construction short, or the kanji patch short.
 
 ### Shopee title
 
@@ -442,7 +484,7 @@ Owner: Brand lead + Design · Social: Active and/or Men
 
 ### Store VM
 
-- [ ] Own stamp bay or a break from Pace and the Culture Run print wall.
+- [ ] Own stamp bay or a break from Forge, Pace, and the Culture Run print wall.
 - [ ] Hang so the **chest stamp** faces out.
 - [ ] Do not hang next to 龍 shorts or sakura belts without a fixture break.
 
@@ -481,7 +523,7 @@ Do not launch three line stories in the same week on the same account.
 | Cadence | What ships |
 |---------|------------|
 | Marketplace always-on | Accs restock (belts, gloves, straps, knee, bags) in the **current** motif |
-| Monthly | One apparel story (men kanji **or** women floral **or** Culture Run **or** Pace **or** Chalk) |
+| Monthly | One apparel story (men kanji **or** women floral **or** Culture Run **or** Pace **or** Forge **or** Chalk) |
 | Store | Apparel floor-set follows the monthly story; accs table matches |
 | HQ | Club kits on their calendar — never steal the consumer drop week |
 
@@ -500,4 +542,4 @@ Path locked: **drop hex and coin → readable wordmark → new mark later.** Spe
 
 ---
 
-*Playbook v2.7 — Corenation Active. Chalk is the powerlifting screen-print wall: 11 stamps on blank gym tees. Next review when a new hero motif is approved, or when logo Phase 3 starts.*
+*Playbook v2.8 — Corenation Active. Chalk is the powerlifting screen-print wall: 11 stamps on blank gym tees. Forge stays the no-print gym-floor wall. Next review when a new hero motif is approved, or when logo Phase 3 starts.*

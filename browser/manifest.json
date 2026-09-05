@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T03:58:35Z",
+  "generatedAt": "2026-09-05T04:02:17Z",
   "root": [
     {
       "type": "dir",
@@ -1009,6 +1009,159 @@
               "type": "image",
               "name": "tee-kanji-bu-warrior.png",
               "path": "assets/designs/tee-kanji-bu-warrior.png"
+            }
+          ]
+        },
+        {
+          "type": "dir",
+          "name": "forge",
+          "path": "assets/forge",
+          "children": [
+            {
+              "type": "dir",
+              "name": "men",
+              "path": "assets/forge/men",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "cinder-block",
+                  "path": "assets/forge/men/cinder-block",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/forge/men/cinder-block/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/forge/men/cinder-block/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/forge/men/cinder-block/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "plate-pocket",
+                  "path": "assets/forge/men/plate-pocket",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/forge/men/plate-pocket/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/forge/men/plate-pocket/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/forge/men/plate-pocket/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "rack-web",
+                  "path": "assets/forge/men/rack-web",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/forge/men/rack-web/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/forge/men/rack-web/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/forge/men/rack-web/tee.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "women",
+              "path": "assets/forge/women",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "anvil-strap",
+                  "path": "assets/forge/women/anvil-strap",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/forge/women/anvil-strap/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/forge/women/anvil-strap/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/forge/women/anvil-strap/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "kiln-seam",
+                  "path": "assets/forge/women/kiln-seam",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/forge/women/kiln-seam/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/forge/women/kiln-seam/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/forge/women/kiln-seam/tee.png"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "slab-pocket",
+                  "path": "assets/forge/women/slab-pocket",
+                  "children": [
+                    {
+                      "type": "image",
+                      "name": "shorts.png",
+                      "path": "assets/forge/women/slab-pocket/shorts.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tank.png",
+                      "path": "assets/forge/women/slab-pocket/tank.png"
+                    },
+                    {
+                      "type": "image",
+                      "name": "tee.png",
+                      "path": "assets/forge/women/slab-pocket/tee.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4246,6 +4399,159 @@
                 },
                 {
                   "type": "dir",
+                  "name": "forge",
+                  "path": "design-board/public/assets/forge",
+                  "children": [
+                    {
+                      "type": "dir",
+                      "name": "men",
+                      "path": "design-board/public/assets/forge/men",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "cinder-block",
+                          "path": "design-board/public/assets/forge/men/cinder-block",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/forge/men/cinder-block/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/forge/men/cinder-block/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/forge/men/cinder-block/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "plate-pocket",
+                          "path": "design-board/public/assets/forge/men/plate-pocket",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/forge/men/plate-pocket/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/forge/men/plate-pocket/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/forge/men/plate-pocket/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "rack-web",
+                          "path": "design-board/public/assets/forge/men/rack-web",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/forge/men/rack-web/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/forge/men/rack-web/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/forge/men/rack-web/tee.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "dir",
+                      "name": "women",
+                      "path": "design-board/public/assets/forge/women",
+                      "children": [
+                        {
+                          "type": "dir",
+                          "name": "anvil-strap",
+                          "path": "design-board/public/assets/forge/women/anvil-strap",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/forge/women/anvil-strap/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/forge/women/anvil-strap/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/forge/women/anvil-strap/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "kiln-seam",
+                          "path": "design-board/public/assets/forge/women/kiln-seam",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/forge/women/kiln-seam/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/forge/women/kiln-seam/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/forge/women/kiln-seam/tee.png"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "dir",
+                          "name": "slab-pocket",
+                          "path": "design-board/public/assets/forge/women/slab-pocket",
+                          "children": [
+                            {
+                              "type": "image",
+                              "name": "shorts.png",
+                              "path": "design-board/public/assets/forge/women/slab-pocket/shorts.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tank.png",
+                              "path": "design-board/public/assets/forge/women/slab-pocket/tank.png"
+                            },
+                            {
+                              "type": "image",
+                              "name": "tee.png",
+                              "path": "design-board/public/assets/forge/women/slab-pocket/tee.png"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
                   "name": "logo",
                   "path": "design-board/public/assets/logo",
                   "children": [
@@ -6538,6 +6844,11 @@
                 },
                 {
                   "type": "file",
+                  "name": "forge.ts",
+                  "path": "design-board/src/data/forge.ts"
+                },
+                {
+                  "type": "file",
                   "name": "kanji.ts",
                   "path": "design-board/src/data/kanji.ts"
                 },
@@ -6663,6 +6974,11 @@
           "type": "markdown",
           "name": "floral-design-collection.md",
           "path": "docs/floral-design-collection.md"
+        },
+        {
+          "type": "markdown",
+          "name": "forge-collection.md",
+          "path": "docs/forge-collection.md"
         },
         {
           "type": "markdown",
